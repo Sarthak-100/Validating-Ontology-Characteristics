@@ -1,0 +1,112 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://dbpedia.org/resource/Cabrini_Medical_Center> a <http://dbpedia.org/class/yago/Artifact100021939>,
+        <http://dbpedia.org/class/yago/Building102913152>,
+        <http://dbpedia.org/class/yago/Hospital103540595>,
+        <http://dbpedia.org/class/yago/MedicalBuilding103739518>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Structure104341686>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatDefunctHospitalsInNewYorkCity>,
+        <http://dbpedia.org/class/yago/WikicatHospitalBuildingsCompletedIn1896>,
+        <http://dbpedia.org/class/yago/WikicatHospitalsDisestablishedIn2008>,
+        <http://dbpedia.org/class/yago/WikicatHospitalsEstablishedIn1973>,
+        <http://dbpedia.org/class/yago/YagoGeoEntity>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        <http://dbpedia.org/ontology/Hospital>,
+        <http://dbpedia.org/ontology/building>,
+        <http://umbel.org/umbel/rc/HospitalBuilding>,
+        owl:Thing,
+        <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+<http://dbpedia.org/resource/Caerphilly_District_Miners_Hospital> a <http://dbpedia.org/class/yago/Artifact100021939>,
+        <http://dbpedia.org/class/yago/Building102913152>,
+        <http://dbpedia.org/class/yago/Hospital103540595>,
+        <http://dbpedia.org/class/yago/MedicalBuilding103739518>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Structure104341686>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatDefunctHospitalsInWales>,
+        <http://dbpedia.org/class/yago/WikicatHospitalsEstablishedIn1923>,
+        <http://dbpedia.org/class/yago/WikicatNHSWalesHospitals>,
+        <http://dbpedia.org/class/yago/YagoGeoEntity>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        <http://dbpedia.org/ontology/Hospital>,
+        <http://dbpedia.org/ontology/building>,
+        owl:Thing,
+        <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+<http://dbpedia.org/resource/Cagayan_Valley_Medical_Center> a <http://dbpedia.org/ontology/Hospital>,
+        <http://dbpedia.org/ontology/building>,
+        <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+<http://dbpedia.org/resource/Cairns_Hospital> a <http://dbpedia.org/ontology/Hospital>,
+        <http://dbpedia.org/ontology/building>,
+        owl:Thing,
+        <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+<http://dbpedia.org/resource/Caithness_General_Hospital> a <http://dbpedia.org/class/yago/Artifact100021939>,
+        <http://dbpedia.org/class/yago/Building102913152>,
+        <http://dbpedia.org/class/yago/Hospital103540595>,
+        <http://dbpedia.org/class/yago/MedicalBuilding103739518>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Structure104341686>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatHospitalsInHighland(councilArea)>,
+        <http://dbpedia.org/class/yago/WikicatNHSScotlandHospitals>,
+        <http://dbpedia.org/class/yago/YagoGeoEntity>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        <http://dbpedia.org/ontology/Hospital>,
+        <http://dbpedia.org/ontology/building>,
+        owl:Thing,
+        <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+<http://dbpedia.org/resource/Cala_Provincial_Hospital> a <http://dbpedia.org/class/yago/Artifact100021939>,
+        <http://dbpedia.org/class/yago/Building102913152>,
+        <http://dbpedia.org/class/yago/Hospital103540595>,
+        <http://dbpedia.org/class/yago/MedicalBuilding103739518>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Structure104341686>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatHospitalsInSouthAfrica>,
+        <http://dbpedia.org/class/yago/YagoGeoEntity>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        <http://dbpedia.org/ontology/Hospital>,
+        <http://dbpedia.org/ontology/Organisation>,
+        <http://dbpedia.org/ontology/building>,
+        <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+<http://dbpedia.org/resource/Calamba_Medical_Center> a <http://dbpedia.org/ontology/Hospital>,
+        <http://dbpedia.org/ontology/building>,
+        <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+<http://dbpedia.org/resource/Calderdale_Royal_Hospital> a <http://dbpedia.org/class/yago/Artifact100021939>,
+        <http://dbpedia.org/class/yago/Building102913152>,
+        <http://dbpedia.org/class/yago/Hospital103540595>,
+        <http://dbpedia.org/class/yago/MedicalBuilding103739518>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Structure104341686>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatBuildingsAndStructuresInHalifax,WestYorkshire>,
+        <http://dbpedia.org/class/yago/WikicatHospitalsInWestYorkshire>,
+        <http://dbpedia.org/class/yago/WikicatNHSHospitalsInEngland>,
+        <http://dbpedia.org/class/yago/YagoGeoEntity>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        <http://dbpedia.org/ontology/Hospital>,
+        <http://dbpedia.org/ontology/building>,
+        owl:Thing,
+        <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+<http://dbpedia.org/resource/Calderstones_Hospital> a <http://dbpedia.org/ontology/Hospital>,
+        <http://dbpedia.org/ontology/building>,
+        owl:Thing,
+        <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+<http://dbpedia.org/resource/California_Pacific_Medical_Center> a <http://dbpedia.org/ontology/building>,
+        owl:Thing .
+

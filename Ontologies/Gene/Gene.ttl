@@ -1,0 +1,112 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://dbpedia.org/resource/AVPI1> a <http://dbpedia.org/ontology/Biomolecule>,
+        <http://dbpedia.org/ontology/Gene>,
+        <http://dbpedia.org/ontology/HumanGene>,
+        <http://dbpedia.org/ontology/Protein>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q206229>,
+        <http://www.wikidata.org/entity/Q7187> .
+
+<http://dbpedia.org/resource/AXIN1> a <http://dbpedia.org/ontology/Biomolecule>,
+        <http://dbpedia.org/ontology/Gene>,
+        <http://dbpedia.org/ontology/HumanGene>,
+        <http://dbpedia.org/ontology/Protein>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q206229>,
+        <http://www.wikidata.org/entity/Q7187> .
+
+<http://dbpedia.org/resource/AXIN2> a <http://dbpedia.org/ontology/Biomolecule>,
+        <http://dbpedia.org/ontology/Gene>,
+        <http://dbpedia.org/ontology/HumanGene>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q206229>,
+        <http://www.wikidata.org/entity/Q7187> .
+
+<http://dbpedia.org/resource/Ameloblastin> a <http://dbpedia.org/ontology/Biomolecule>,
+        <http://dbpedia.org/ontology/Gene>,
+        <http://dbpedia.org/ontology/HumanGene>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q206229>,
+        <http://www.wikidata.org/entity/Q7187> .
+
+<http://dbpedia.org/resource/Amidophosphoribosyltransferase> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Arrangement107938773>,
+        <http://dbpedia.org/class/yago/Chemical114806838>,
+        <http://dbpedia.org/class/yago/Compound114818238>,
+        <http://dbpedia.org/class/yago/Gene105436752>,
+        <http://dbpedia.org/class/yago/Group100031264>,
+        <http://dbpedia.org/class/yago/Macromolecule114944888>,
+        <http://dbpedia.org/class/yago/Material114580897>,
+        <http://dbpedia.org/class/yago/Matter100020827>,
+        <http://dbpedia.org/class/yago/Molecule114682133>,
+        <http://dbpedia.org/class/yago/Ordering108456993>,
+        <http://dbpedia.org/class/yago/OrganicCompound114727670>,
+        <http://dbpedia.org/class/yago/Part113809207>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Protein114728724>,
+        <http://dbpedia.org/class/yago/Relation100031921>,
+        <http://dbpedia.org/class/yago/Sequence108459252>,
+        <http://dbpedia.org/class/yago/Series108457976>,
+        <http://dbpedia.org/class/yago/Substance100019613>,
+        <http://dbpedia.org/class/yago/Thing100002452>,
+        <http://dbpedia.org/class/yago/Unit109465459>,
+        <http://dbpedia.org/class/yago/WikicatGenesOnChromosome4>,
+        <http://dbpedia.org/ontology/Biomolecule>,
+        <http://dbpedia.org/ontology/Gene>,
+        <http://dbpedia.org/ontology/HumanGene>,
+        <http://dbpedia.org/ontology/Protein>,
+        <http://umbel.org/umbel/rc/ProteinMolecule>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q206229>,
+        <http://www.wikidata.org/entity/Q7187> .
+
+<http://dbpedia.org/resource/Aminomethyltransferase> a <http://dbpedia.org/ontology/Biomolecule>,
+        <http://dbpedia.org/ontology/Gene>,
+        <http://dbpedia.org/ontology/HumanGene>,
+        <http://dbpedia.org/ontology/Protein>,
+        <http://umbel.org/umbel/rc/ProteinMolecule>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q206229>,
+        <http://www.wikidata.org/entity/Q7187> .
+
+<http://dbpedia.org/resource/Amphiphysin> a <http://dbpedia.org/ontology/Biomolecule>,
+        <http://dbpedia.org/ontology/Gene>,
+        <http://dbpedia.org/ontology/HumanGene>,
+        <http://dbpedia.org/ontology/Protein>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q206229>,
+        <http://www.wikidata.org/entity/Q7187> .
+
+<http://dbpedia.org/resource/Amphiregulin> a <http://dbpedia.org/ontology/Biomolecule>,
+        <http://dbpedia.org/ontology/Gene>,
+        <http://dbpedia.org/ontology/HumanGene>,
+        <http://dbpedia.org/ontology/Protein>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q206229>,
+        <http://www.wikidata.org/entity/Q7187> .
+
+<http://dbpedia.org/resource/Calcium-activated_potassium_channel_subunit_alpha-1> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Family108078020>,
+        <http://dbpedia.org/class/yago/Group100031264>,
+        <http://dbpedia.org/class/yago/Organization108008335>,
+        <http://dbpedia.org/class/yago/SocialGroup107950920>,
+        <http://dbpedia.org/class/yago/Unit108189659>,
+        <http://dbpedia.org/class/yago/YagoLegalActor>,
+        <http://dbpedia.org/class/yago/YagoLegalActorGeo>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        <http://dbpedia.org/ontology/Biomolecule>,
+        <http://dbpedia.org/ontology/Gene>,
+        <http://dbpedia.org/ontology/HumanGene>,
+        <http://dbpedia.org/ontology/TelevisionStation>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q206229>,
+        <http://www.wikidata.org/entity/Q7187> .
+
+<http://dbpedia.org/resource/Carbonic_anhydrase_12> a <http://dbpedia.org/ontology/Biomolecule>,
+        <http://dbpedia.org/ontology/Gene>,
+        <http://dbpedia.org/ontology/HumanGene>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q206229>,
+        <http://www.wikidata.org/entity/Q7187> .
+

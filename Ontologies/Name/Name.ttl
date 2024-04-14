@@ -1,0 +1,118 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://dbpedia.org/resource/Aagje> a <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+
+<http://dbpedia.org/resource/Amerasekera> a <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+
+<http://dbpedia.org/resource/Amerasinghe> a <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+
+<http://dbpedia.org/resource/Bayraktar_(surname)> a <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+
+<http://dbpedia.org/resource/Beat_(name)> a <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+
+<http://dbpedia.org/resource/Beatrice_(given_name)> a owl:Thing .
+
+<http://dbpedia.org/resource/Caesar_(title)> a <http://dbpedia.org/class/yago/CausalAgent100007347>,
+        <http://dbpedia.org/class/yago/Communicator109610660>,
+        <http://dbpedia.org/class/yago/Emperor110053004>,
+        <http://dbpedia.org/class/yago/HeadOfState110164747>,
+        <http://dbpedia.org/class/yago/LivingThing100004258>,
+        <http://dbpedia.org/class/yago/Negotiator110351874>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/Organism100004475>,
+        <http://dbpedia.org/class/yago/Person100007846>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Representative110522035>,
+        <http://dbpedia.org/class/yago/Ruler110541229>,
+        <http://dbpedia.org/class/yago/Sovereign110628644>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatRomanEmperors>,
+        <http://dbpedia.org/class/yago/YagoLegalActor>,
+        <http://dbpedia.org/class/yago/YagoLegalActorGeo>,
+        <http://dbpedia.org/ontology/FictionalCharacter>,
+        <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+
+<http://dbpedia.org/resource/Caetano> a <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+
+<http://dbpedia.org/resource/Cajetan> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/FirstName106337307>,
+        <http://dbpedia.org/class/yago/LanguageUnit106284225>,
+        <http://dbpedia.org/class/yago/Name106333653>,
+        <http://dbpedia.org/class/yago/Part113809207>,
+        <http://dbpedia.org/class/yago/Relation100031921>,
+        <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+
+<http://dbpedia.org/resource/Calvin_(given_name)> a <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+
+<http://dbpedia.org/resource/Camilla_(given_name)> a <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+
+<http://dbpedia.org/resource/Carl_(name)> a <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+
+<http://dbpedia.org/resource/Carlson_(name)> a <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+
+<http://dbpedia.org/resource/Carmelo> a <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+
+<http://dbpedia.org/resource/Carolina_(name)> a <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+
+<http://dbpedia.org/resource/Carwyn> a <http://dbpedia.org/ontology/GivenName>,
+        <http://dbpedia.org/ontology/Name>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q202444>,
+        <http://www.wikidata.org/entity/Q82799> .
+

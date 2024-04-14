@@ -1,0 +1,116 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://dbpedia.org/resource/1000_Plant_Genomes_Project> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Act100030358>,
+        <http://dbpedia.org/class/yago/Activity100407535>,
+        <http://dbpedia.org/class/yago/Event100029378>,
+        <http://dbpedia.org/class/yago/PsychologicalFeature100023100>,
+        <http://dbpedia.org/class/yago/Undertaking100795720>,
+        <http://dbpedia.org/class/yago/WikicatGenomeProjects>,
+        <http://dbpedia.org/class/yago/Work100575741>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        <http://dbpedia.org/ontology/Project>,
+        <http://dbpedia.org/ontology/ResearchProject>,
+        <http://dbpedia.org/ontology/UnitOfWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1298668> .
+
+<http://dbpedia.org/resource/Chevert_expedition> a <http://dbpedia.org/ontology/Project>,
+        <http://dbpedia.org/ontology/ResearchProject>,
+        <http://dbpedia.org/ontology/UnitOfWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1298668> .
+
+<http://dbpedia.org/resource/Clover_2030_Engineering> a <http://dbpedia.org/ontology/Project>,
+        <http://dbpedia.org/ontology/ResearchProject>,
+        <http://dbpedia.org/ontology/UnitOfWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1298668> .
+
+<http://dbpedia.org/resource/Compat.egov> a <http://dbpedia.org/ontology/Band>,
+        <http://dbpedia.org/ontology/Project>,
+        <http://dbpedia.org/ontology/ResearchProject>,
+        <http://dbpedia.org/ontology/UnitOfWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1298668> .
+
+<http://dbpedia.org/resource/Earth_BioGenome_Project> a <http://dbpedia.org/ontology/Project>,
+        <http://dbpedia.org/ontology/ResearchProject>,
+        <http://dbpedia.org/ontology/UnitOfWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1298668> .
+
+<http://dbpedia.org/resource/Elephant_Research_Foundation> a <http://dbpedia.org/ontology/Project>,
+        <http://dbpedia.org/ontology/ResearchProject>,
+        <http://dbpedia.org/ontology/UnitOfWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1298668> .
+
+<http://dbpedia.org/resource/Innovative_Medicines_Initiative> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Company108058098>,
+        <http://dbpedia.org/class/yago/DrugCompany108002578>,
+        <http://dbpedia.org/class/yago/Group100031264>,
+        <http://dbpedia.org/class/yago/Institution108053576>,
+        <http://dbpedia.org/class/yago/Organization108008335>,
+        <http://dbpedia.org/class/yago/SocialGroup107950920>,
+        <http://dbpedia.org/class/yago/WikicatPharmaceuticalCompanies>,
+        <http://dbpedia.org/class/yago/YagoLegalActor>,
+        <http://dbpedia.org/class/yago/YagoLegalActorGeo>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        <http://dbpedia.org/ontology/Organisation>,
+        <http://dbpedia.org/ontology/Project>,
+        <http://dbpedia.org/ontology/ResearchProject>,
+        <http://dbpedia.org/ontology/UnitOfWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1298668> .
+
+<http://dbpedia.org/resource/North_Korea_Uncovered> a <http://dbpedia.org/ontology/Project>,
+        <http://dbpedia.org/ontology/ResearchProject>,
+        <http://dbpedia.org/ontology/UnitOfWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1298668> .
+
+<http://dbpedia.org/resource/ProbOnto> a <http://dbpedia.org/ontology/Project>,
+        <http://dbpedia.org/ontology/ResearchProject>,
+        <http://dbpedia.org/ontology/UnitOfWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1298668> .
+
+<http://dbpedia.org/resource/Project_SAINT> a <http://dbpedia.org/ontology/Project>,
+        <http://dbpedia.org/ontology/ResearchProject>,
+        <http://dbpedia.org/ontology/UnitOfWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1298668> .
+
+<http://dbpedia.org/resource/Project_Vista> a <http://dbpedia.org/ontology/Project>,
+        <http://dbpedia.org/ontology/ResearchProject>,
+        <http://dbpedia.org/ontology/UnitOfWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1298668> .
+
+<http://dbpedia.org/resource/Research_Domain_Criteria> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Arrangement105726596>,
+        <http://dbpedia.org/class/yago/ClassificationSystem105727220>,
+        <http://dbpedia.org/class/yago/Cognition100023271>,
+        <http://dbpedia.org/class/yago/PsychologicalFeature100023100>,
+        <http://dbpedia.org/class/yago/Structure105726345>,
+        <http://dbpedia.org/class/yago/WikicatPsychiatricClassificationSystems>,
+        <http://dbpedia.org/ontology/Organisation>,
+        <http://dbpedia.org/ontology/Project>,
+        <http://dbpedia.org/ontology/ResearchProject>,
+        <http://dbpedia.org/ontology/UnitOfWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1298668> .
+
+<http://dbpedia.org/resource/Stardust_project> a <http://dbpedia.org/ontology/Project>,
+        <http://dbpedia.org/ontology/UnitOfWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1298668> .
+
+<http://dbpedia.org/resource/VOA3R> a <http://dbpedia.org/ontology/Band>,
+        <http://dbpedia.org/ontology/Project>,
+        <http://dbpedia.org/ontology/ResearchProject>,
+        <http://dbpedia.org/ontology/UnitOfWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1298668> .
+

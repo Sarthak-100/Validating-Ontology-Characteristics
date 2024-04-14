@@ -1,0 +1,113 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://dbpedia.org/resource/Card-Pitt> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Association108049401>,
+        <http://dbpedia.org/class/yago/Club108227214>,
+        <http://dbpedia.org/class/yago/FootballTeam108080025>,
+        <http://dbpedia.org/class/yago/Group100031264>,
+        <http://dbpedia.org/class/yago/Organization108008335>,
+        <http://dbpedia.org/class/yago/SocialGroup107950920>,
+        <http://dbpedia.org/class/yago/Team108208560>,
+        <http://dbpedia.org/class/yago/Unit108189659>,
+        <http://dbpedia.org/class/yago/WikicatDefunctAmericanFootballTeamsInPennsylvania>,
+        <http://dbpedia.org/class/yago/WikicatDefunctNationalFootballLeagueTeams>,
+        <http://dbpedia.org/class/yago/WikicatDefunctPittsburghSportsTeams>,
+        <http://dbpedia.org/class/yago/WikicatDefunctSportsTeamsInPennsylvania>,
+        <http://dbpedia.org/class/yago/WikicatSportsClubsDisestablishedIn1944>,
+        <http://dbpedia.org/class/yago/WikicatSportsClubsEstablishedIn1944>,
+        <http://dbpedia.org/class/yago/YagoLegalActor>,
+        <http://dbpedia.org/class/yago/YagoLegalActorGeo>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        <http://dbpedia.org/ontology/FootballLeagueSeason>,
+        <http://dbpedia.org/ontology/NationalFootballLeagueSeason>,
+        <http://dbpedia.org/ontology/SoccerClub>,
+        <http://dbpedia.org/ontology/SportsSeason>,
+        <http://dbpedia.org/ontology/SportsTeamSeason>,
+        owl:Thing .
+
+<http://dbpedia.org/resource/Primera_División_A_Clausura_2008> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Association108049401>,
+        <http://dbpedia.org/class/yago/FootballLeague108232496>,
+        <http://dbpedia.org/class/yago/Group100031264>,
+        <http://dbpedia.org/class/yago/League108231184>,
+        <http://dbpedia.org/class/yago/Organization108008335>,
+        <http://dbpedia.org/class/yago/SocialGroup107950920>,
+        <http://dbpedia.org/class/yago/Wikicat2008DomesticAssociationFootballLeagues>,
+        <http://dbpedia.org/class/yago/YagoLegalActor>,
+        <http://dbpedia.org/class/yago/YagoLegalActorGeo>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        <http://dbpedia.org/ontology/FootballLeagueSeason>,
+        <http://dbpedia.org/ontology/SportsSeason>,
+        <http://dbpedia.org/ontology/SportsTeamSeason>,
+        owl:Thing .
+
+<http://dbpedia.org/resource/Primera_División_de_Fútbol_Profesional_1993–94> a <http://dbpedia.org/ontology/FootballLeagueSeason>,
+        <http://dbpedia.org/ontology/SportsSeason>,
+        <http://dbpedia.org/ontology/SportsTeamSeason>,
+        owl:Thing .
+
+<http://dbpedia.org/resource/Primera_División_de_Fútbol_Profesional_1994–95> a <http://dbpedia.org/ontology/FootballLeagueSeason>,
+        <http://dbpedia.org/ontology/SportsSeason>,
+        <http://dbpedia.org/ontology/SportsTeamSeason>,
+        owl:Thing .
+
+<http://dbpedia.org/resource/Primera_División_de_Fútbol_Profesional_1995–96> a <http://dbpedia.org/ontology/FootballLeagueSeason>,
+        <http://dbpedia.org/ontology/SportsSeason>,
+        <http://dbpedia.org/ontology/SportsTeamSeason>,
+        owl:Thing .
+
+<http://dbpedia.org/resource/Primera_División_de_Fútbol_Profesional_1996–97> a <http://dbpedia.org/ontology/FootballLeagueSeason>,
+        <http://dbpedia.org/ontology/SportsSeason>,
+        <http://dbpedia.org/ontology/SportsTeamSeason>,
+        owl:Thing .
+
+<http://dbpedia.org/resource/Primera_División_de_Fútbol_Profesional_Apertura_2001> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/FundamentalQuantity113575869>,
+        <http://dbpedia.org/class/yago/Measure100033615>,
+        <http://dbpedia.org/class/yago/Season115239579>,
+        <http://dbpedia.org/class/yago/TimePeriod115113229>,
+        <http://dbpedia.org/class/yago/WikicatPrimeraDivisiónDeFútbolProfesionalAperturaSeasons>,
+        <http://dbpedia.org/ontology/FootballLeagueSeason>,
+        <http://dbpedia.org/ontology/SportsSeason>,
+        <http://dbpedia.org/ontology/SportsTeamSeason>,
+        owl:Thing .
+
+<http://dbpedia.org/resource/Primera_División_de_Fútbol_Profesional_Apertura_2002> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/FundamentalQuantity113575869>,
+        <http://dbpedia.org/class/yago/Measure100033615>,
+        <http://dbpedia.org/class/yago/Season115239579>,
+        <http://dbpedia.org/class/yago/TimePeriod115113229>,
+        <http://dbpedia.org/class/yago/WikicatPrimeraDivisiónDeFútbolProfesionalAperturaSeasons>,
+        <http://dbpedia.org/ontology/FootballLeagueSeason>,
+        <http://dbpedia.org/ontology/SportsSeason>,
+        <http://dbpedia.org/ontology/SportsTeamSeason>,
+        owl:Thing .
+
+<http://dbpedia.org/resource/Primera_División_de_Fútbol_Profesional_Apertura_2003> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/FundamentalQuantity113575869>,
+        <http://dbpedia.org/class/yago/Measure100033615>,
+        <http://dbpedia.org/class/yago/Season115239579>,
+        <http://dbpedia.org/class/yago/TimePeriod115113229>,
+        <http://dbpedia.org/class/yago/WikicatPrimeraDivisiónDeFútbolProfesionalAperturaSeasons>,
+        <http://dbpedia.org/ontology/FootballLeagueSeason>,
+        <http://dbpedia.org/ontology/SportsSeason>,
+        <http://dbpedia.org/ontology/SportsTeamSeason>,
+        owl:Thing .
+
+<http://dbpedia.org/resource/Primera_División_de_Fútbol_Profesional_Apertura_2004> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/FundamentalQuantity113575869>,
+        <http://dbpedia.org/class/yago/Measure100033615>,
+        <http://dbpedia.org/class/yago/Season115239579>,
+        <http://dbpedia.org/class/yago/TimePeriod115113229>,
+        <http://dbpedia.org/class/yago/WikicatPrimeraDivisiónDeFútbolProfesionalAperturaSeasons>,
+        <http://dbpedia.org/ontology/FootballLeagueSeason>,
+        <http://dbpedia.org/ontology/SportsSeason>,
+        <http://dbpedia.org/ontology/SportsTeamSeason>,
+        owl:Thing .
+
+<http://dbpedia.org/resource/Primera_División_de_Fútbol_Profesional_Apertura_2005> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/FundamentalQuantity113575869>,
+        <http://dbpedia.org/class/yago/Measure100033615>,
+        <http://dbpedia.org/ontology/SportsTeamSeason>,
+        owl:Thing .
+

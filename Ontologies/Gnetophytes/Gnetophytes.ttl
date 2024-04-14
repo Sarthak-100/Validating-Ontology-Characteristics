@@ -1,0 +1,124 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://dbpedia.org/resource/Drewria> a <http://dbpedia.org/class/yago/LivingThing100004258>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/ontology/Eukaryote>,
+        <http://dbpedia.org/ontology/Gnetophytes>,
+        <http://dbpedia.org/ontology/Person>,
+        <http://dbpedia.org/ontology/Species>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q19088>,
+        <http://www.wikidata.org/entity/Q756> .
+
+<http://dbpedia.org/resource/Ephedra_alata> a <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_altissima> a <http://dbpedia.org/class/yago/GardenPlant113083306>,
+        <http://dbpedia.org/class/yago/LivingThing100004258>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/Organism100004475>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Plant100017222>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatGardenPlantsOfAfrica>,
+        <http://dbpedia.org/class/yago/WikicatGardenPlantsOfEurope>,
+        <http://dbpedia.org/class/yago/WikicatPlantsDescribedIn1799>,
+        <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_aspera> a <http://dbpedia.org/ontology/Gnetophytes>,
+        <http://umbel.org/umbel/rc/Plant> .
+
+<http://dbpedia.org/resource/Ephedra_boelckei> a <http://dbpedia.org/class/yago/LivingThing100004258>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/Organism100004475>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Plant100017222>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatPlantsDescribedIn1984>,
+        <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_breana> a <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_californica> a <http://dbpedia.org/class/yago/LivingThing100004258>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/Organism100004475>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Plant100017222>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatPlantsUsedInTraditionalNativeAmericanMedicine>,
+        <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_cutleri> a <http://dbpedia.org/class/yago/LivingThing100004258>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/Organism100004475>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Plant100017222>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatPlantsDescribedIn1940>,
+        <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_foliata> a <http://dbpedia.org/class/yago/LivingThing100004258>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/Organism100004475>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Plant100017222>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatPlantsDescribedIn1846>,
+        <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_fragilis> a <http://dbpedia.org/class/yago/LivingThing100004258>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/Organism100004475>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Plant100017222>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatLeastConcernPlants>,
+        <http://dbpedia.org/class/yago/WikicatMedicinalPlants>,
+        <http://dbpedia.org/class/yago/WikicatPlantsDescribedIn1799>,
+        <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_funerea> a <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_gerardiana> a <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_holoptera> a <http://dbpedia.org/class/yago/LivingThing100004258>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/Organism100004475>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Plant100017222>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatPlantsDescribedIn1963>,
+        <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_intermedia> a <http://dbpedia.org/class/yago/LivingThing100004258>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/Organism100004475>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Plant100017222>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatPlantsDescribedIn1846>,
+        <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_lomatolepis> a <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_multiflora> a <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_nevadensis> a <http://dbpedia.org/class/yago/LivingThing100004258>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/Organism100004475>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Plant100017222>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatPlantsUsedInNativeAmericanCuisine>,
+        <http://dbpedia.org/class/yago/WikicatPlantsUsedInTraditionalNativeAmericanMedicine>,
+        <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_przewalskii> a <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_strobilacea> a <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_torreyana> a <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_trifurca> a <http://dbpedia.org/ontology/Gnetophytes> .
+
+<http://dbpedia.org/resource/Ephedra_viridis> a <http://dbpedia.org/ontology/Gnetophytes> .
+

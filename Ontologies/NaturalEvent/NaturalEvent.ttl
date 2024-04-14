@@ -1,0 +1,113 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://dbpedia.org/resource/Solar_eclipse_of_August_20,_1906> a <http://dbpedia.org/ontology/Event>,
+        <http://dbpedia.org/ontology/NaturalEvent>,
+        <http://dbpedia.org/ontology/SolarEclipse>,
+        <http://schema.org/Event>,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1656682>,
+        <http://www.wikidata.org/entity/Q3887> .
+
+<http://dbpedia.org/resource/Solar_eclipse_of_December_5,_2048> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Eclipse107368646>,
+        <http://dbpedia.org/class/yago/Event100029378>,
+        <http://dbpedia.org/class/yago/Happening107283608>,
+        <http://dbpedia.org/class/yago/Interruption107367812>,
+        <http://dbpedia.org/class/yago/PsychologicalFeature100023100>,
+        <http://dbpedia.org/class/yago/SolarEclipse107368877>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        <http://dbpedia.org/ontology/Event>,
+        <http://dbpedia.org/ontology/NaturalEvent>,
+        <http://dbpedia.org/ontology/SolarEclipse>,
+        <http://schema.org/Event>,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1656682>,
+        <http://www.wikidata.org/entity/Q3887> .
+
+<http://dbpedia.org/resource/Solar_eclipse_of_January_14,_1945> a <http://dbpedia.org/ontology/Event>,
+        <http://dbpedia.org/ontology/NaturalEvent>,
+        <http://dbpedia.org/ontology/SolarEclipse>,
+        <http://schema.org/Event>,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1656682>,
+        <http://www.wikidata.org/entity/Q3887> .
+
+<http://dbpedia.org/resource/Solar_eclipse_of_January_26,_1990> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Eclipse107368646>,
+        <http://dbpedia.org/class/yago/Event100029378>,
+        <http://dbpedia.org/class/yago/Happening107283608>,
+        <http://dbpedia.org/class/yago/Interruption107367812>,
+        <http://dbpedia.org/class/yago/PsychologicalFeature100023100>,
+        <http://dbpedia.org/class/yago/SolarEclipse107368877>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        <http://dbpedia.org/ontology/Event>,
+        <http://dbpedia.org/ontology/NaturalEvent>,
+        <http://dbpedia.org/ontology/SolarEclipse>,
+        <http://schema.org/Event>,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1656682>,
+        <http://www.wikidata.org/entity/Q3887> .
+
+<http://dbpedia.org/resource/Solar_eclipse_of_March_30,_2052> a <http://dbpedia.org/ontology/Event>,
+        <http://dbpedia.org/ontology/NaturalEvent>,
+        <http://dbpedia.org/ontology/SolarEclipse>,
+        <http://schema.org/Event>,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1656682>,
+        <http://www.wikidata.org/entity/Q3887> .
+
+<http://dbpedia.org/resource/Solar_eclipse_of_March_31,_2090> a <http://dbpedia.org/ontology/Event>,
+        <http://dbpedia.org/ontology/NaturalEvent>,
+        <http://dbpedia.org/ontology/SolarEclipse>,
+        <http://schema.org/Event>,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1656682>,
+        <http://www.wikidata.org/entity/Q3887> .
+
+<http://dbpedia.org/resource/Solar_eclipse_of_May_18,_1920> a <http://schema.org/Event>,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q3887> .
+
+<http://dbpedia.org/resource/Solar_eclipse_of_May_2,_2087> a <http://dbpedia.org/ontology/Event>,
+        <http://dbpedia.org/ontology/NaturalEvent>,
+        <http://dbpedia.org/ontology/SolarEclipse>,
+        <http://schema.org/Event>,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1656682>,
+        <http://www.wikidata.org/entity/Q3887> .
+
+<http://dbpedia.org/resource/Solar_eclipse_of_November_10,_1920> a <http://dbpedia.org/ontology/Event>,
+        <http://dbpedia.org/ontology/NaturalEvent>,
+        <http://dbpedia.org/ontology/SolarEclipse>,
+        <http://schema.org/Event>,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1656682>,
+        <http://www.wikidata.org/entity/Q3887> .
+
+<http://dbpedia.org/resource/Solar_eclipse_of_November_16,_2058> a <http://dbpedia.org/ontology/Event>,
+        <http://dbpedia.org/ontology/NaturalEvent>,
+        <http://dbpedia.org/ontology/SolarEclipse>,
+        <http://schema.org/Event>,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1656682>,
+        <http://www.wikidata.org/entity/Q3887> .
+
+<http://dbpedia.org/resource/Solar_eclipse_of_October_14,_2042> a <http://dbpedia.org/ontology/Event>,
+        <http://dbpedia.org/ontology/NaturalEvent>,
+        <http://dbpedia.org/ontology/SolarEclipse>,
+        <http://schema.org/Event>,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q1656682>,
+        <http://www.wikidata.org/entity/Q3887> .
+

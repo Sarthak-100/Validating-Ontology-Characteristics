@@ -1,0 +1,112 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://dbpedia.org/resource/.NGO_and_.ONG> a <http://dbpedia.org/ontology/Identifier>,
+        <http://dbpedia.org/ontology/TopLevelDomain>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q14296>,
+        <http://www.wikidata.org/entity/Q6545185> .
+
+<http://dbpedia.org/resource/.OOO> a <http://dbpedia.org/ontology/Identifier>,
+        <http://dbpedia.org/ontology/Protein>,
+        <http://dbpedia.org/ontology/TopLevelDomain>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q14296>,
+        <http://www.wikidata.org/entity/Q6545185> .
+
+<http://dbpedia.org/resource/.ac> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Attribute100024264>,
+        <http://dbpedia.org/class/yago/Environment113934596>,
+        <http://dbpedia.org/class/yago/Situation113927383>,
+        <http://dbpedia.org/class/yago/Sphere114514039>,
+        <http://dbpedia.org/class/yago/State100024720>,
+        <http://dbpedia.org/class/yago/WikicatCountryCodeTop-levelDomains>,
+        <http://dbpedia.org/ontology/Identifier>,
+        <http://dbpedia.org/ontology/Protein>,
+        <http://dbpedia.org/ontology/TopLevelDomain>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q14296>,
+        <http://www.wikidata.org/entity/Q6545185> .
+
+<http://dbpedia.org/resource/.accountants> a <http://dbpedia.org/ontology/Identifier>,
+        <http://dbpedia.org/ontology/TopLevelDomain>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q14296>,
+        <http://www.wikidata.org/entity/Q6545185> .
+
+<http://dbpedia.org/resource/.ad> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Attribute100024264>,
+        <http://dbpedia.org/class/yago/Environment113934596>,
+        <http://dbpedia.org/class/yago/Situation113927383>,
+        <http://dbpedia.org/class/yago/Sphere114514039>,
+        <http://dbpedia.org/class/yago/State100024720>,
+        <http://dbpedia.org/class/yago/WikicatCountryCodeTop-levelDomains>,
+        <http://dbpedia.org/ontology/Identifier>,
+        <http://dbpedia.org/ontology/Protein>,
+        <http://dbpedia.org/ontology/TopLevelDomain>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q14296>,
+        <http://www.wikidata.org/entity/Q6545185> .
+
+<http://dbpedia.org/resource/.ae> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Attribute100024264>,
+        <http://dbpedia.org/class/yago/Environment113934596>,
+        <http://dbpedia.org/class/yago/Situation113927383>,
+        <http://dbpedia.org/class/yago/Sphere114514039>,
+        <http://dbpedia.org/class/yago/State100024720>,
+        <http://dbpedia.org/class/yago/WikicatCountryCodeTop-levelDomains>,
+        <http://dbpedia.org/ontology/Identifier>,
+        <http://dbpedia.org/ontology/Protein>,
+        <http://dbpedia.org/ontology/TopLevelDomain>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q14296>,
+        <http://www.wikidata.org/entity/Q6545185> .
+
+<http://dbpedia.org/resource/.aero> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Attribute100024264>,
+        <http://dbpedia.org/class/yago/Environment113934596>,
+        <http://dbpedia.org/class/yago/Situation113927383>,
+        <http://dbpedia.org/class/yago/Sphere114514039>,
+        <http://dbpedia.org/class/yago/State100024720>,
+        <http://dbpedia.org/class/yago/WikicatGenericTop-levelDomains>,
+        <http://dbpedia.org/class/yago/WikicatSponsoredTop-levelDomains>,
+        <http://dbpedia.org/ontology/Identifier>,
+        <http://dbpedia.org/ontology/Protein>,
+        <http://dbpedia.org/ontology/TopLevelDomain>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q14296>,
+        <http://www.wikidata.org/entity/Q6545185> .
+
+<http://dbpedia.org/resource/.af> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Attribute100024264>,
+        <http://dbpedia.org/class/yago/Environment113934596>,
+        <http://dbpedia.org/class/yago/Situation113927383>,
+        <http://dbpedia.org/class/yago/Sphere114514039>,
+        <http://dbpedia.org/class/yago/State100024720>,
+        <http://dbpedia.org/class/yago/WikicatCountryCodeTop-levelDomains>,
+        <http://dbpedia.org/ontology/Identifier>,
+        <http://dbpedia.org/ontology/Protein>,
+        <http://dbpedia.org/ontology/TopLevelDomain>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q14296>,
+        <http://www.wikidata.org/entity/Q6545185> .
+
+<http://dbpedia.org/resource/.africa> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Attribute100024264>,
+        <http://dbpedia.org/class/yago/Environment113934596>,
+        <http://dbpedia.org/class/yago/Situation113927383>,
+        <http://dbpedia.org/class/yago/Sphere114514039>,
+        <http://dbpedia.org/class/yago/State100024720>,
+        <http://dbpedia.org/class/yago/WikicatTop-levelDomains>,
+        <http://dbpedia.org/ontology/Identifier>,
+        <http://dbpedia.org/ontology/TopLevelDomain>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q14296>,
+        <http://www.wikidata.org/entity/Q6545185> .
+
+<http://dbpedia.org/resource/.ag> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/WikicatCountryCodeTop-levelDomains>,
+        <http://dbpedia.org/ontology/Identifier>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q14296>,
+        <http://www.wikidata.org/entity/Q6545185> .
+

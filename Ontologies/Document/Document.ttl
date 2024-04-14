@@ -1,0 +1,118 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://dbpedia.org/resource/Kaleidoscope_Dream__Sound__1> a <http://dbpedia.org/ontology/Document>,
+        <http://dbpedia.org/ontology/Sound>,
+        <http://dbpedia.org/ontology/Work>,
+        <http://schema.org/CreativeWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q386724>,
+        foaf:Document .
+
+<http://dbpedia.org/resource/Kalevala__Sound__1> a <http://dbpedia.org/ontology/Document>,
+        <http://dbpedia.org/ontology/Sound>,
+        <http://dbpedia.org/ontology/Work>,
+        <http://schema.org/CreativeWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q386724>,
+        foaf:Document .
+
+<http://dbpedia.org/resource/Kamancheh__Sound__1> a <http://dbpedia.org/ontology/Document>,
+        <http://dbpedia.org/ontology/Sound>,
+        <http://dbpedia.org/ontology/Work>,
+        <http://schema.org/CreativeWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q386724>,
+        foaf:Document .
+
+<http://dbpedia.org/resource/Kameko_Tarnez__Sound__1> a <http://dbpedia.org/ontology/Document>,
+        <http://dbpedia.org/ontology/Sound>,
+        <http://dbpedia.org/ontology/Work>,
+        <http://schema.org/CreativeWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q386724>,
+        foaf:Document .
+
+<http://dbpedia.org/resource/Kammermusik_(Hindemith)__Sound__1> a <http://dbpedia.org/ontology/Document>,
+        <http://dbpedia.org/ontology/Sound>,
+        <http://dbpedia.org/ontology/Work>,
+        <http://schema.org/CreativeWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q386724>,
+        foaf:Document .
+
+<http://dbpedia.org/resource/Kanan_Devi__Sound__1> a <http://dbpedia.org/ontology/Document>,
+        <http://dbpedia.org/ontology/Sound>,
+        <http://dbpedia.org/ontology/Work>,
+        <http://schema.org/CreativeWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q386724>,
+        foaf:Document .
+
+<http://dbpedia.org/resource/Kang_Seung-yoon__Sound__1> a <http://dbpedia.org/ontology/Document>,
+        <http://dbpedia.org/ontology/Sound>,
+        <http://dbpedia.org/ontology/Work>,
+        <http://schema.org/CreativeWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q386724>,
+        foaf:Document .
+
+<http://dbpedia.org/resource/Kantele__Sound__1> a <http://dbpedia.org/ontology/Document>,
+        <http://dbpedia.org/ontology/Sound>,
+        <http://dbpedia.org/ontology/Work>,
+        <http://schema.org/CreativeWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q386724>,
+        foaf:Document .
+
+<http://dbpedia.org/resource/Kaos_Theory__Sound__1> a <http://dbpedia.org/ontology/Document>,
+        <http://dbpedia.org/ontology/Sound>,
+        <http://dbpedia.org/ontology/Work>,
+        <http://schema.org/CreativeWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q386724>,
+        foaf:Document .
+
+<http://dbpedia.org/resource/Karel_Gott__Sound__1> a <http://dbpedia.org/ontology/Document>,
+        <http://dbpedia.org/ontology/Sound>,
+        <http://dbpedia.org/ontology/Work>,
+        <http://schema.org/CreativeWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q386724>,
+        foaf:Document .
+
+<http://dbpedia.org/resource/Karel_Hašler__Sound__1> a <http://dbpedia.org/ontology/Document>,
+        <http://dbpedia.org/ontology/Sound>,
+        <http://dbpedia.org/ontology/Work>,
+        <http://schema.org/CreativeWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q386724>,
+        foaf:Document .
+
+<http://dbpedia.org/resource/Karl_King__Sound__1> a <http://dbpedia.org/ontology/Document>,
+        <http://dbpedia.org/ontology/Sound>,
+        <http://dbpedia.org/ontology/Work>,
+        <http://schema.org/CreativeWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q386724>,
+        foaf:Document .
+
+<http://dbpedia.org/resource/Karl_Tausig__Sound__1> a <http://dbpedia.org/ontology/Document>,
+        <http://dbpedia.org/ontology/Sound>,
+        <http://dbpedia.org/ontology/Work>,
+        <http://schema.org/CreativeWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q386724>,
+        foaf:Document .
+
+<http://dbpedia.org/resource/Karma_(Kokia_song)__Sound__1> a <http://dbpedia.org/ontology/Document>,
+        <http://dbpedia.org/ontology/Sound>,
+        <http://dbpedia.org/ontology/Work>,
+        <http://schema.org/CreativeWork>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q386724>,
+        foaf:Document .
+
+<http://dbpedia.org/resource/Karma_(Kokia_song)__Sound__2> a owl:Thing,
+        foaf:Document .
+
