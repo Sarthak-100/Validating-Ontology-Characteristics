@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-To exttract the ontology from DBPedia for validation, use the following command:
+To extract the ontology from DBPedia for validation, use the following command:
 
 ```bash
 python extract_ontologies.py
