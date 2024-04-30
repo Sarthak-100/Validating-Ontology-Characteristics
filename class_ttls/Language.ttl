@@ -1,899 +1,800 @@
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.w3.org/2000/01/rdf-schema#comment
-http://www.w3.org/2000/01/rdf-schema#seeAlso
-http://xmlns.com/foaf/0.1/name
-http://xmlns.com/foaf/0.1/homepage
-http://dbpedia.org/property/name
-http://xmlns.com/foaf/0.1/depiction
-http://dbpedia.org/ontology/location
-http://purl.org/dc/terms/subject
-http://dbpedia.org/ontology/wikiPageID
-http://dbpedia.org/ontology/wikiPageRevisionID
-http://dbpedia.org/ontology/wikiPageWikiLink
-http://www.w3.org/2002/07/owl#sameAs
-http://dbpedia.org/ontology/wikiPageExternalLink
-http://dbpedia.org/ontology/wikiPageRedirects
-http://dbpedia.org/property/showflag
-http://dbpedia.org/property/wikiPageUsesTemplate
-http://dbpedia.org/ontology/thumbnail
-http://dbpedia.org/property/ld
-http://dbpedia.org/property/map
-http://dbpedia.org/property/script
-http://dbpedia.org/property/agency
-http://dbpedia.org/property/altname
-http://dbpedia.org/property/auto
-http://dbpedia.org/property/bg
-http://dbpedia.org/property/bot
-http://dbpedia.org/property/c
-http://dbpedia.org/property/d
-http://dbpedia.org/property/date
-http://dbpedia.org/property/designer
-http://dbpedia.org/property/ethnicity
-http://dbpedia.org/property/extinct
-http://dbpedia.org/property/fam
-http://dbpedia.org/property/family
-http://dbpedia.org/property/first
-http://dbpedia.org/property/fixAttempted
-http://dbpedia.org/property/group
-http://dbpedia.org/property/headquarters
-http://dbpedia.org/property/imageSize
-http://dbpedia.org/property/imagealt
-http://dbpedia.org/property/imagecaption
-http://dbpedia.org/property/influenced
-http://dbpedia.org/property/influencedBy
-http://dbpedia.org/property/j
-http://dbpedia.org/property/labels
-http://dbpedia.org/property/latestReleaseDate
-http://dbpedia.org/property/latestReleaseVersion
-http://dbpedia.org/property/lc
-http://dbpedia.org/property/logo
-http://dbpedia.org/property/logoCaption
-http://dbpedia.org/property/logoWidth
-http://dbpedia.org/property/operatingSystem
-http://dbpedia.org/property/p
-http://dbpedia.org/property/paradigm
-http://dbpedia.org/property/project
-http://dbpedia.org/property/reason
-http://dbpedia.org/property/ref
-http://dbpedia.org/property/region
-http://dbpedia.org/property/s
-http://dbpedia.org/property/state
-http://dbpedia.org/property/states
-http://dbpedia.org/property/t
-http://dbpedia.org/property/text
-http://dbpedia.org/property/title
-http://dbpedia.org/property/titlestyle
-http://dbpedia.org/property/typing
-http://dbpedia.org/property/voy
-http://dbpedia.org/property/website
-http://dbpedia.org/property/y
-http://dbpedia.org/property/year
-http://dbpedia.org/property/agencyName
-http://dbpedia.org/property/speakers
-http://dbpedia.org/property/nation
-http://dbpedia.org/property/mapcaption
-http://dbpedia.org/ontology/abstract
-http://dbpedia.org/ontology/iso6391Code
-http://dbpedia.org/ontology/iso6392Code
-http://dbpedia.org/ontology/spokenIn
-http://dbpedia.org/ontology/formationYear
-http://dbpedia.org/ontology/latestReleaseDate
-http://dbpedia.org/ontology/latestReleaseVersion
-http://dbpedia.org/ontology/iso6393Code
-http://dbpedia.org/ontology/headquarter
-http://dbpedia.org/property/ancestor
-http://dbpedia.org/property/chief1Name
-http://dbpedia.org/property/chief1Position
-http://dbpedia.org/property/child
-http://dbpedia.org/property/cy
-http://dbpedia.org/property/dia
-http://dbpedia.org/property/dialects
-http://dbpedia.org/property/elp
-http://dbpedia.org/property/elpname
-http://dbpedia.org/property/familycolor
-http://dbpedia.org/property/glotto
-http://dbpedia.org/property/glottoname
-http://dbpedia.org/property/glottorefname
-http://dbpedia.org/property/ietf
-http://dbpedia.org/property/iso
-http://dbpedia.org/property/iso3comment
-http://dbpedia.org/property/isoexception
-http://dbpedia.org/property/iw
-http://dbpedia.org/property/lingua
-http://dbpedia.org/property/minority
-http://dbpedia.org/property/nativename
-http://dbpedia.org/property/notice
-http://dbpedia.org/property/pronunciation
-http://dbpedia.org/ontology/languageFamily
-http://purl.org/linguistics/gold/hypernym
-http://dbpedia.org/property/wordnet_type
-http://www.w3.org/2004/02/skos/core#closeMatch
-http://dbpedia.org/ontology/languageRegulator
-http://www.w3.org/ns/prov#wasDerivedFrom
-http://dbpedia.org/ontology/wikiPageLength
-http://dbpedia.org/ontology/designer
-http://dbpedia.org/ontology/influenced
-http://dbpedia.org/ontology/influencedBy
-http://dbpedia.org/ontology/leader
-http://xmlns.com/foaf/0.1/isPrimaryTopicOf
-http://www.w3.org/2002/07/owl#differentFrom
-http://www.w3.org/2004/02/skos/core#exactMatch
-http://www.w3.org/2003/01/geo/wgs84_pos#lat
-http://www.w3.org/2003/01/geo/wgs84_pos#long
-http://dbpedia.org/property/snomedCt
-http://dbpedia.org/property/stand
-http://dbpedia.org/ontology/icd9
-http://dbpedia.org/ontology/meshId
-http://dbpedia.org/ontology/Work/runtime
-http://dbpedia.org/ontology/diseasesDB
-http://dbpedia.org/ontology/icd10
-http://dbpedia.org/ontology/runtime
-http://dbpedia.org/ontology/cinematography
-http://dbpedia.org/ontology/director
-http://dbpedia.org/ontology/musicComposer
-http://dbpedia.org/ontology/politicalLeader
-http://dbpedia.org/ontology/producer
-http://dbpedia.org/ontology/productionCompany
-http://dbpedia.org/ontology/starring
-http://dbpedia.org/ontology/writer
-http://dbpedia.org/ontology/wikiPageInterLanguageLink
-http://dbpedia.org/property/diseasesdb
-http://dbpedia.org/property/icd
-http://dbpedia.org/property/mapsize
-http://dbpedia.org/property/meshid
-http://dbpedia.org/property/align
-http://dbpedia.org/property/b
-http://dbpedia.org/property/caption
-http://dbpedia.org/property/centre
-http://dbpedia.org/property/cinematography
-http://dbpedia.org/property/country
-http://dbpedia.org/property/director
-http://dbpedia.org/property/distributors
-http://dbpedia.org/property/east
-http://dbpedia.org/property/editing
-http://dbpedia.org/property/era
-http://dbpedia.org/property/field
-http://dbpedia.org/property/gross
-http://dbpedia.org/property/id
-http://dbpedia.org/property/imageMap
-http://dbpedia.org/property/l
-http://dbpedia.org/property/language
-http://dbpedia.org/property/leaderName
-http://dbpedia.org/property/leaderTitle
-http://dbpedia.org/property/mapCaption
-http://dbpedia.org/property/medlineplus
-http://dbpedia.org/property/music
-http://dbpedia.org/property/north
-http://dbpedia.org/property/postalCode
-http://dbpedia.org/property/producer
-http://dbpedia.org/property/pushpinMap
-http://dbpedia.org/property/quote
-http://dbpedia.org/property/runtime
-http://dbpedia.org/property/scale
-http://dbpedia.org/property/settlementType
-http://dbpedia.org/property/sign
-http://dbpedia.org/property/source
-http://dbpedia.org/property/south
-http://dbpedia.org/property/southwest
-http://dbpedia.org/property/starring
-http://dbpedia.org/property/studio
-http://dbpedia.org/property/subdivisionName
-http://dbpedia.org/property/subdivisionType
-http://dbpedia.org/property/unitPref
-http://dbpedia.org/property/url
-http://dbpedia.org/property/w
-http://dbpedia.org/property/west
-http://dbpedia.org/property/width
-http://dbpedia.org/property/wikt
-http://dbpedia.org/property/writer
-http://dbpedia.org/property/x
-http://www.georss.org/georss/point
-http://dbpedia.org/property/linglist
-http://dbpedia.org/property/mapalt
-http://schema.org/sameAs
-http://dbpedia.org/ontology/imdbId
-http://dbpedia.org/ontology/medlinePlus
-http://dbpedia.org/ontology/postalCode
-http://dbpedia.org/ontology/country
-http://dbpedia.org/ontology/subdivision
-http://dbpedia.org/ontology/type
-http://www.w3.org/2003/01/geo/wgs84_pos#geometry
-http://dbpedia.org/property/sizeV
-http://dbpedia.org/property/3loc
-http://dbpedia.org/property/constellation
-http://dbpedia.org/property/distLy
-http://dbpedia.org/property/1a
-http://dbpedia.org/property/1loc
-http://dbpedia.org/property/1p
-http://dbpedia.org/property/1pp
-http://dbpedia.org/property/1y
-http://dbpedia.org/property/2a
-http://dbpedia.org/property/2p
-http://dbpedia.org/property/2y
-http://dbpedia.org/property/3a
-http://dbpedia.org/property/3y
-http://dbpedia.org/property/age
-http://dbpedia.org/property/appmagV
-http://dbpedia.org/property/class
-http://dbpedia.org/property/distPc
-http://dbpedia.org/property/epoch
-http://dbpedia.org/property/names
-http://dbpedia.org/property/2loc
-http://dbpedia.org/property/ps
-http://dbpedia.org/property/aiatsis
-http://dbpedia.org/property/dec
-http://dbpedia.org/property/guthrie
-http://dbpedia.org/property/massMsol
-http://dbpedia.org/property/ra
-http://dbpedia.org/property/radiusPc
-http://dbpedia.org/ontology/birthPlace
-http://dbpedia.org/ontology/birthDate
-http://xmlns.com/foaf/0.1/page
-http://dbpedia.org/property/birthPlace
-http://dbpedia.org/property/authors
-http://dbpedia.org/property/abbreviation
-http://dbpedia.org/property/accessDate
-http://dbpedia.org/property/artist
-http://dbpedia.org/property/author
-http://dbpedia.org/property/award
-http://dbpedia.org/property/baseStandards
-http://dbpedia.org/property/birthDate
-http://dbpedia.org/property/category
-http://dbpedia.org/property/certyear
-http://dbpedia.org/property/cover
-http://dbpedia.org/property/creator
-http://dbpedia.org/property/designers
-http://dbpedia.org/property/developer
-http://dbpedia.org/property/domain
-http://dbpedia.org/property/domestic
-http://dbpedia.org/property/extra
-http://dbpedia.org/property/extraColumn
-http://dbpedia.org/property/genre
-http://dbpedia.org/property/headline
-http://dbpedia.org/property/label
-http://dbpedia.org/property/length
-http://dbpedia.org/property/license
-http://dbpedia.org/property/logoAlt
-http://dbpedia.org/property/longName
-http://dbpedia.org/property/lyrics
-http://dbpedia.org/property/misc
-http://dbpedia.org/property/mother
-http://dbpedia.org/property/nationality
-http://dbpedia.org/property/nextTitle
-http://dbpedia.org/property/nextYear
-http://dbpedia.org/property/nocert
-http://dbpedia.org/property/note
-http://dbpedia.org/property/occupation
-http://dbpedia.org/property/organization
-http://dbpedia.org/property/people
-http://dbpedia.org/property/platform
-http://dbpedia.org/property/prevTitle
-http://dbpedia.org/property/prevYear
-http://dbpedia.org/property/programmingLanguage
-http://dbpedia.org/property/recorded
-http://dbpedia.org/property/released
-http://dbpedia.org/property/relyear
-http://dbpedia.org/property/rev
-http://dbpedia.org/property/salesamount
-http://dbpedia.org/property/screenshot
-http://dbpedia.org/property/screenshotSize
-http://dbpedia.org/property/setting
-http://dbpedia.org/property/status
-http://dbpedia.org/property/type
-http://dbpedia.org/property/yearsactive
-http://dbpedia.org/ontology/stateOfOrigin
-http://dbpedia.org/ontology/birthYear
-http://dbpedia.org/ontology/nationality
-http://dbpedia.org/property/fileExt
-http://dbpedia.org/property/fileExtensions
-http://dbpedia.org/property/firstPublished
-http://dbpedia.org/property/latestPreviewDate
-http://dbpedia.org/property/latestPreviewVersion
-http://dbpedia.org/property/root
-http://dbpedia.org/property/screenshotCaption
-http://dbpedia.org/ontology/activeYearsEndYear
-http://dbpedia.org/ontology/activeYearsStartYear
-http://dbpedia.org/ontology/releaseDate
-http://dbpedia.org/ontology/developer
-http://dbpedia.org/ontology/license
-http://dbpedia.org/ontology/occupation
-http://dbpedia.org/property/wikibooks
-http://dbpedia.org/property/revision
-http://dbpedia.org/property/sourcepath
-http://dbpedia.org/property/imagesize
-http://dbpedia.org/property/implementations
-http://dbpedia.org/property/r
-http://dbpedia.org/property/target
-http://dbpedia.org/ontology/author
-http://dbpedia.org/property/acceptance
-http://dbpedia.org/property/boxOfficeYear
-http://dbpedia.org/property/created
-http://dbpedia.org/property/latestTestVersion
-http://dbpedia.org/property/lingname
-http://dbpedia.org/property/producedTotal
-http://dbpedia.org/property/producedYear
-http://dbpedia.org/property/screens
-http://dbpedia.org/ontology/genre
-http://dbpedia.org/ontology/programmingLanguage
-http://dbpedia.org/property/turingComplete
-http://dbpedia.org/property/code
-http://dbpedia.org/property/commons
-http://dbpedia.org/property/description
-http://dbpedia.org/property/discontinued
-http://dbpedia.org/property/extension
-http://dbpedia.org/property/filename
-http://dbpedia.org/property/format
-http://dbpedia.org/property/lang
-http://dbpedia.org/property/logoSize
-http://dbpedia.org/property/n
-http://dbpedia.org/property/poj
-http://dbpedia.org/property/species
-http://dbpedia.org/property/toggle
-http://dbpedia.org/property/display
-http://dbpedia.org/property/glottofoot
-http://dbpedia.org/property/hhbuc
-http://dbpedia.org/ontology/operatingSystem
-http://dbpedia.org/ontology/soundRecording
-http://dbpedia.org/property/titlebar
-http://dbpedia.org/property/characters
-http://dbpedia.org/property/float
-http://dbpedia.org/property/scope
-http://dbpedia.org/property/size
-http://dbpedia.org/property/v
-http://dbpedia.org/property/special
-http://dbpedia.org/ontology/Software/fileSize
-http://dbpedia.org/ontology/fileSize
-http://dbpedia.org/property/fix
-http://dbpedia.org/property/iso2b
-http://dbpedia.org/property/iso2t
-http://dbpedia.org/property/screenshotAlt
-http://dbpedia.org/ontology/computingPlatform
-http://dbpedia.org/ontology/language
-http://dbpedia.org/property/springSource
-http://dbpedia.org/property/bgcolor
-http://dbpedia.org/property/city
-http://dbpedia.org/property/commonscat
-http://dbpedia.org/property/direction
-http://dbpedia.org/property/elevation
-http://dbpedia.org/property/established
-http://dbpedia.org/property/footer
-http://dbpedia.org/property/image
-http://dbpedia.org/property/imageCaption
-http://dbpedia.org/property/imageName
-http://dbpedia.org/property/location
-http://dbpedia.org/property/magnitude
-http://dbpedia.org/property/perrow
-http://dbpedia.org/property/pos
-http://dbpedia.org/property/q
-http://dbpedia.org/property/style
-http://dbpedia.org/property/totalWidth
-http://dbpedia.org/property/discharge
-http://dbpedia.org/property/provides
-http://dbpedia.org/property/revived
-http://dbpedia.org/ontology/city
-http://dbpedia.org/property/with
-http://dbpedia.org/property/added
-http://dbpedia.org/property/after
-http://dbpedia.org/property/architect
-http://dbpedia.org/property/area
-http://dbpedia.org/property/before
-http://dbpedia.org/property/built
-http://dbpedia.org/property/designatedOther
-http://dbpedia.org/property/designatedOther1Date
-http://dbpedia.org/property/nocat
-http://dbpedia.org/property/nrhpType
-http://dbpedia.org/property/paradigms
-http://dbpedia.org/property/partof
-http://dbpedia.org/property/partofRefnum
-http://dbpedia.org/property/photo
-http://dbpedia.org/property/photoCaption
-http://dbpedia.org/property/relief
-http://dbpedia.org/property/small
-http://dbpedia.org/property/standard
-http://dbpedia.org/property/years
-http://dbpedia.org/ontology/yearOfConstruction
-http://dbpedia.org/ontology/architect
-http://dbpedia.org/property/developers
-http://dbpedia.org/property/pushpinImage
-http://dbpedia.org/property/last
-http://dbpedia.org/property/no
-http://dbpedia.org/property/in
-http://dbpedia.org/ontology/wikiPageDisambiguates
-http://dbpedia.org/property/collapsible
-http://dbpedia.org/property/languages
-http://dbpedia.org/property/population
-http://dbpedia.org/property/refname
-http://dbpedia.org/property/related
-http://dbpedia.org/property/rels
-http://dbpedia.org/property/person
-http://dbpedia.org/property/protoname
-http://dbpedia.org/ontology/totalPopulation
-http://dbpedia.org/ontology/populationPlace
-http://dbpedia.org/ontology/related
-http://dbpedia.org/ontology/religion
-http://dbpedia.org/property/distance
-http://dbpedia.org/property/wstitle
-http://dbpedia.org/property/posteriori
-http://dbpedia.org/property/redshift
-http://dbpedia.org/property/storage
-http://dbpedia.org/property/memory
-http://dbpedia.org/property/architecture
-http://dbpedia.org/property/dates
-http://dbpedia.org/property/extendedFrom
-http://dbpedia.org/property/m
-http://dbpedia.org/property/owner
-http://dbpedia.org/property/purpose
-http://dbpedia.org/property/ngc
-http://dbpedia.org/property/collinder
-http://dbpedia.org/property/os
-http://dbpedia.org/property/children
-http://dbpedia.org/property/by
-http://dbpedia.org/property/onlinebooks
-http://dbpedia.org/property/radiusLy
-http://dbpedia.org/property/cs1Dates
-http://dbpedia.org/property/header
-http://dbpedia.org/property/mapImage
-http://dbpedia.org/property/nativeName
-http://dbpedia.org/property/pushpinMapCaption
-http://dbpedia.org/property/archipelago
-http://dbpedia.org/property/countryAdminDivisions
-http://dbpedia.org/property/countryAdminDivisionsTitle
-http://dbpedia.org/ontology/archipelago
-http://dbpedia.org/property/demographics1Info
-http://dbpedia.org/property/demographics1Title
-http://dbpedia.org/property/demographicsType
-http://dbpedia.org/property/populationAsOf
-http://dbpedia.org/property/populationDensityKm
-http://dbpedia.org/property/pushpinLabelPosition
-http://dbpedia.org/property/timezone
-http://dbpedia.org/property/utcOffset
-http://dbpedia.org/ontology/utcOffset
-http://dbpedia.org/property/currentVersion
-http://dbpedia.org/ontology/timeZone
-http://dbpedia.org/property/speakersLabel
-http://dbpedia.org/property/color
-http://dbpedia.org/property/value
-http://dbpedia.org/property/video
-http://dbpedia.org/property/standards
-http://dbpedia.org/property/templeQuantity
-http://dbpedia.org/property/alias
-http://dbpedia.org/property/alt
-http://dbpedia.org/property/classification
-http://dbpedia.org/property/distributor
-http://dbpedia.org/property/governingBody
-http://dbpedia.org/property/mapAlt
-http://dbpedia.org/property/mapSize
-http://dbpedia.org/property/mapType
-http://dbpedia.org/property/mime
-http://dbpedia.org/property/screenplay
-http://dbpedia.org/property/yearsActive
-http://dbpedia.org/property/about
-http://dbpedia.org/property/architectureStyle
-http://dbpedia.org/property/deity
-http://dbpedia.org/property/extends
-http://dbpedia.org/property/extensions
-http://dbpedia.org/property/otherrelated
-http://dbpedia.org/property/religiousAffiliation
-http://dbpedia.org/property/volcanicArc
-http://dbpedia.org/property/volcanicArc/belt
-http://dbpedia.org/property/langs
-http://dbpedia.org/property/topo
-http://dbpedia.org/property/album
-http://dbpedia.org/property/areaServed
-http://dbpedia.org/property/based
-http://dbpedia.org/property/commercial
-http://dbpedia.org/property/countryOfOrigin
-http://dbpedia.org/property/currentStatus
-http://dbpedia.org/property/elevationFt
-http://dbpedia.org/property/firstdate
-http://dbpedia.org/property/founder
-http://dbpedia.org/property/frequency
-http://dbpedia.org/property/launchDate
-http://dbpedia.org/property/publisher
-http://dbpedia.org/property/range
-http://dbpedia.org/ontology/eruptionYear
-http://dbpedia.org/ontology/elevation
-http://dbpedia.org/ontology/nationalTopographicSystemMapNumber
-http://dbpedia.org/ontology/artist
-http://dbpedia.org/ontology/locatedInArea
-http://dbpedia.org/ontology/mountainRange
-http://dbpedia.org/ontology/subsequentWork
-http://dbpedia.org/property/registration
-http://dbpedia.org/property/pop
-http://dbpedia.org/property/easiestRoute
-http://dbpedia.org/property/lastEruption
-http://dbpedia.org/ontology/date
-http://dbpedia.org/ontology/album
-http://dbpedia.org/ontology/owner
-http://dbpedia.org/ontology/recordLabel
-http://dbpedia.org/property/awards
-http://dbpedia.org/property/education
-http://dbpedia.org/ontology/award
-http://dbpedia.org/ontology/education
-http://dbpedia.org/property/sisters
-http://dbpedia.org/property/indic
-http://dbpedia.org/property/trans
-http://dbpedia.org/property/footnotes
-http://dbpedia.org/property/langcode
-http://dbpedia.org/property/otherarticle
-http://dbpedia.org/property/time
-http://dbpedia.org/property/unicode
-http://dbpedia.org/property/nome
-http://dbpedia.org/property/sample
-http://dbpedia.org/ontology/frequencyOfPublication
-http://dbpedia.org/ontology/issn
-http://dbpedia.org/ontology/oclc
-http://dbpedia.org/ontology/publisher
-http://dbpedia.org/property/discipline
-http://dbpedia.org/property/issn
-http://dbpedia.org/property/oclc
-http://dbpedia.org/property/eissn
-http://dbpedia.org/ontology/abbreviation
-http://dbpedia.org/property/tl
-http://dbpedia.org/property/wuu
-http://dbpedia.org/property/bpmf
-http://dbpedia.org/property/elevationM
-http://dbpedia.org/property/foundation
-http://dbpedia.org/property/g
-http://dbpedia.org/property/gr
-http://dbpedia.org/property/h
-http://dbpedia.org/property/imageSkyline
-http://dbpedia.org/property/link
-http://dbpedia.org/property/links
-http://dbpedia.org/property/postalCodeType
-http://dbpedia.org/property/buc
-http://dbpedia.org/property/credit
-http://dbpedia.org/property/dateprefix
-http://dbpedia.org/property/error
-http://dbpedia.org/property/hex
-http://dbpedia.org/property/iso2comment
-http://dbpedia.org/ontology/foundingDate
-http://dbpedia.org/property/sepHumidity
-http://dbpedia.org/ontology/PopulatedPlace/areaTotal
-http://dbpedia.org/ontology/areaTotal
-http://dbpedia.org/property/aprHighC
-http://dbpedia.org/property/aprLowC
-http://dbpedia.org/property/aprMeanC
-http://dbpedia.org/property/aprPrecipitationMm
-http://dbpedia.org/property/aprRecordHighC
-http://dbpedia.org/property/aprRecordLowC
-http://dbpedia.org/property/areaTotalKm
-http://dbpedia.org/property/augHighC
-http://dbpedia.org/property/augLowC
-http://dbpedia.org/property/augMeanC
-http://dbpedia.org/property/augPrecipitationMm
-http://dbpedia.org/property/augRecordHighC
-http://dbpedia.org/property/augRecordLowC
-http://dbpedia.org/property/collapsed
-http://dbpedia.org/property/decHighC
-http://dbpedia.org/property/decLowC
-http://dbpedia.org/property/decMeanC
-http://dbpedia.org/property/decPrecipitationMm
-http://dbpedia.org/property/decRecordHighC
-http://dbpedia.org/property/decRecordLowC
-http://dbpedia.org/property/febHighC
-http://dbpedia.org/property/febLowC
-http://dbpedia.org/property/febMeanC
-http://dbpedia.org/property/febPrecipitationMm
-http://dbpedia.org/property/febRecordHighC
-http://dbpedia.org/property/febRecordLowC
-http://dbpedia.org/property/formation
-http://dbpedia.org/property/janHighC
-http://dbpedia.org/property/janLowC
-http://dbpedia.org/property/janMeanC
-http://dbpedia.org/property/janPrecipitationMm
-http://dbpedia.org/property/janRecordHighC
-http://dbpedia.org/property/janRecordLowC
-http://dbpedia.org/property/julHighC
-http://dbpedia.org/property/julLowC
-http://dbpedia.org/property/julMeanC
-http://dbpedia.org/property/julPrecipitationMm
-http://dbpedia.org/property/julRecordHighC
-http://dbpedia.org/property/julRecordLowC
-http://dbpedia.org/property/junHighC
-http://dbpedia.org/property/junLowC
-http://dbpedia.org/property/junMeanC
-http://dbpedia.org/property/junPrecipitationMm
-http://dbpedia.org/property/junRecordHighC
-http://dbpedia.org/property/junRecordLowC
-http://dbpedia.org/property/marHighC
-http://dbpedia.org/property/marLowC
-http://dbpedia.org/property/marMeanC
-http://dbpedia.org/property/marPrecipitationMm
-http://dbpedia.org/property/marRecordHighC
-http://dbpedia.org/property/marRecordLowC
-http://dbpedia.org/property/mayHighC
-http://dbpedia.org/property/mayLowC
-http://dbpedia.org/property/mayMeanC
-http://dbpedia.org/property/mayPrecipitationMm
-http://dbpedia.org/property/mayRecordHighC
-http://dbpedia.org/property/mayRecordLowC
-http://dbpedia.org/property/metricFirst
-http://dbpedia.org/property/novHighC
-http://dbpedia.org/property/novLowC
-http://dbpedia.org/property/novMeanC
-http://dbpedia.org/property/novPrecipitationMm
-http://dbpedia.org/property/novRecordHighC
-http://dbpedia.org/property/novRecordLowC
-http://dbpedia.org/property/octHighC
-http://dbpedia.org/property/octLowC
-http://dbpedia.org/property/octMeanC
-http://dbpedia.org/property/octPrecipitationMm
-http://dbpedia.org/property/octRecordHighC
-http://dbpedia.org/property/octRecordLowC
-http://dbpedia.org/property/precipitationColour
-http://dbpedia.org/property/pushpinLabel
-http://dbpedia.org/property/regionServed
-http://dbpedia.org/property/sepHighC
-http://dbpedia.org/property/sepLowC
-http://dbpedia.org/property/sepMeanC
-http://dbpedia.org/property/sepPrecipitationMm
-http://dbpedia.org/property/sepRecordHighC
-http://dbpedia.org/property/sepRecordLowC
-http://dbpedia.org/property/singleLine
-http://dbpedia.org/property/aprHumidity
-http://dbpedia.org/property/augHumidity
-http://dbpedia.org/property/decHumidity
-http://dbpedia.org/property/febHumidity
-http://dbpedia.org/property/janHumidity
-http://dbpedia.org/property/julHumidity
-http://dbpedia.org/property/junHumidity
-http://dbpedia.org/property/marHumidity
-http://dbpedia.org/property/mayHumidity
-http://dbpedia.org/property/novHumidity
-http://dbpedia.org/property/octHumidity
-http://dbpedia.org/property/psp
-http://dbpedia.org/property/students
-http://dbpedia.org/property/xej
-http://dbpedia.org/property/z
-http://dbpedia.org/property/committee
-http://dbpedia.org/property/listclass
-http://dbpedia.org/property/nativeNameLang
-http://dbpedia.org/property/notes
-http://dbpedia.org/property/order
-http://dbpedia.org/property/otherNames
-http://dbpedia.org/property/relatedStandards
-http://dbpedia.org/property/version
-http://dbpedia.org/ontology/numberOfStudents
-http://dbpedia.org/ontology/latestPreviewVersion
-http://dbpedia.org/property/ageRange
-http://dbpedia.org/property/bmtype
-http://dbpedia.org/property/boxsize
-http://dbpedia.org/property/flux
-http://dbpedia.org/property/memberNo
-http://dbpedia.org/property/principal
-http://dbpedia.org/property/richness
-http://dbpedia.org/ontology/foundingYear
-http://dbpedia.org/property/suffix
-http://dbpedia.org/property/footerAlign
-http://dbpedia.org/property/headerAlign
-http://dbpedia.org/property/page
-http://dbpedia.org/property/pre
-http://dbpedia.org/property/center
-http://dbpedia.org/property/custom
-http://dbpedia.org/property/letters
-http://dbpedia.org/property/prebreak
-http://dbpedia.org/property/chapter
-http://dbpedia.org/property/company
-http://dbpedia.org/property/pages
-http://dbpedia.org/property/volume
-http://dbpedia.org/property/fascicle
-http://dbpedia.org/property/sobriquet
-http://dbpedia.org/property/totalIslands
-http://dbpedia.org/property/waterbody
-http://dbpedia.org/property/areaCode
-http://dbpedia.org/property/areaCodeType
-http://dbpedia.org/property/isoCode
-http://dbpedia.org/property/areaKm
-http://dbpedia.org/property/countryLargestCity
-http://dbpedia.org/property/densityKm
-http://dbpedia.org/property/dialectOf
-http://dbpedia.org/property/ethnicGroups
-http://dbpedia.org/property/highestMount
-http://dbpedia.org/property/isoCodeType
-http://dbpedia.org/property/latin
-http://dbpedia.org/property/majorIslands
-http://dbpedia.org/ontology/populationTotal
-http://dbpedia.org/ontology/latinName
-http://dbpedia.org/property/Noextcode
-http://dbpedia.org/property/Nomimecode
-http://dbpedia.org/property/chiefeditor
-http://dbpedia.org/property/open
-http://dbpedia.org/property/owners
-http://dbpedia.org/property/political
-http://dbpedia.org/property/prev
-http://dbpedia.org/property/encodes
-http://dbpedia.org/ontology/format
-http://dbpedia.org/property/article
-http://dbpedia.org/property/aiatsisname
-http://dbpedia.org/property/onlineChan
-http://dbpedia.org/property/onlineServ
-http://dbpedia.org/property/pictureFormat
-http://dbpedia.org/property/officialName
-http://dbpedia.org/property/prefix
-http://dbpedia.org/property/seat
-http://dbpedia.org/property/seatType
-http://dbpedia.org/property/iso1comment
-http://dbpedia.org/property/others
-http://dbpedia.org/property/postscript
-http://dbpedia.org/property/airdate
-http://dbpedia.org/property/branding
-http://dbpedia.org/property/mass
-http://dbpedia.org/property/parent
-http://dbpedia.org/property/brightestMember
-http://dbpedia.org/ontology/alias
-http://dbpedia.org/ontology/frequency
-http://dbpedia.org/ontology/status
-http://dbpedia.org/ontology/precursor
-http://dbpedia.org/property/precursor
-http://dbpedia.org/property/textAlign
-http://dbpedia.org/property/background
-http://dbpedia.org/property/radius
-http://dbpedia.org/property/borderSize
-http://dbpedia.org/property/majorImplementations
-http://dbpedia.org/property/animalcell
-http://dbpedia.org/property/nucleus
-http://dbpedia.org/property/lgcode
-http://dbpedia.org/property/free
-http://dbpedia.org/property/publishingCity
-http://dbpedia.org/property/publishingCountry
-http://dbpedia.org/property/shinjitai
-http://dbpedia.org/property/hiragana
-http://dbpedia.org/property/katakana
-http://dbpedia.org/property/kyujitai
-http://dbpedia.org/property/romaji
-http://dbpedia.org/ontology/deathPlace
-http://dbpedia.org/property/deathPlace
-http://dbpedia.org/property/almaMater
-http://dbpedia.org/property/certain
-http://dbpedia.org/property/deathDate
-http://dbpedia.org/property/honorificPrefix
-http://dbpedia.org/property/honorificSuffix
-http://dbpedia.org/property/knownFor
-http://dbpedia.org/property/num
-http://dbpedia.org/property/side
-http://dbpedia.org/ontology/deathYear
-http://dbpedia.org/ontology/almaMater
-http://dbpedia.org/property/top
-http://dbpedia.org/property/dwgs
-http://dbpedia.org/property/photos
-http://dbpedia.org/property/survey
-http://dbpedia.org/property/border
-http://dbpedia.org/property/data
-http://dbpedia.org/property/cap
-http://dbpedia.org/ontology/address
-http://dbpedia.org/property/address
-http://dbpedia.org/property/opened
-http://dbpedia.org/property/vHb
-http://dbpedia.org/property/velocityDispersion
-http://dbpedia.org/property/temperature
-http://dbpedia.org/property/massKg
-http://dbpedia.org/property/standardReference
-http://dbpedia.org/property/partial
-http://dbpedia.org/property/generation
-http://dbpedia.org/property/chronology
-http://dbpedia.org/property/focus
-http://dbpedia.org/property/foundedDate
-http://dbpedia.org/property/operator
-http://dbpedia.org/property/product
-http://dbpedia.org/property/areaAcre
-http://dbpedia.org/property/namespaceStyle
-http://dbpedia.org/ontology/foundedBy
-http://dbpedia.org/property/editor
-http://dbpedia.org/property/editorTitle
-http://dbpedia.org/property/imageAlt
-http://dbpedia.org/property/imageFile
-http://dbpedia.org/property/membership
-http://dbpedia.org/property/relaunched
-http://dbpedia.org/ontology/editorTitle
-http://dbpedia.org/ontology/membership
-http://dbpedia.org/ontology/depictionDescription
-http://dbpedia.org/ontology/imageSize
-http://dbpedia.org/ontology/logo
-http://dbpedia.org/property/verLayout
-http://dbpedia.org/property/designatedOther1Abbr
-http://dbpedia.org/property/designatedOther1Color
-http://dbpedia.org/property/designatedOther1Name
-http://dbpedia.org/property/editors
-http://dbpedia.org/property/builder
-http://dbpedia.org/property/designatedOther1NumPosition
-http://dbpedia.org/property/designatedOther1Number
-http://dbpedia.org/ontology/nrhpReferenceNumber
-http://dbpedia.org/property/locmapin
-http://dbpedia.org/property/refnum
-http://dbpedia.org/property/repo
-http://dbpedia.org/property/versionDate
-http://dbpedia.org/ontology/area
-http://dbpedia.org/ontology/highest
-http://dbpedia.org/ontology/district
-http://dbpedia.org/property/district
-http://dbpedia.org/property/districtType
-http://dbpedia.org/property/establishedDate
-http://dbpedia.org/property/establishedTitle
-http://dbpedia.org/property/populationTotal
-http://dbpedia.org/property/developmentBody
-http://dbpedia.org/property/highest
-http://dbpedia.org/ontology/musicType
-http://dbpedia.org/property/absmagV
-http://dbpedia.org/property/founders
-http://dbpedia.org/property/locationCountry
-http://dbpedia.org/property/part
-http://dbpedia.org/property/yearbook
-http://dbpedia.org/property/classes
-http://dbpedia.org/property/houses
-http://dbpedia.org/property/schooltype
-http://dbpedia.org/property/epochs
-http://dbpedia.org/property/formerName
-http://dbpedia.org/property/motto
-http://dbpedia.org/property/otherName
-http://dbpedia.org/property/picture
-http://dbpedia.org/property/postcode
-http://dbpedia.org/property/staff
-http://dbpedia.org/property/yearStarted
-http://dbpedia.org/ontology/classes
-http://dbpedia.org/ontology/offeredClasses
-http://dbpedia.org/ontology/schoolCode
-http://dbpedia.org/ontology/staff
-http://dbpedia.org/property/classesOffered
-http://dbpedia.org/property/enrolment
-http://dbpedia.org/property/enrolmentAsOf
-http://dbpedia.org/property/grades
-http://dbpedia.org/property/mottoTranslation
-http://dbpedia.org/property/pictureCaption
-http://dbpedia.org/property/schoolCode
-http://dbpedia.org/ontology/state
-http://dbpedia.org/ontology/motto
-http://dbpedia.org/ontology/originalName
-http://dbpedia.org/property/pushpinMapAlt
-http://xmlns.com/foaf/0.1/nick
-http://dbpedia.org/property/hide
-http://dbpedia.org/property/nickname
-http://dbpedia.org/property/sex
-http://dbpedia.org/property/mode
-http://dbpedia.org/property/meaning
-http://dbpedia.org/property/relatedNames
-http://dbpedia.org/ontology/meaning
-http://dbpedia.org/property/fileFormat
-http://dbpedia.org/property/regions
-http://dbpedia.org/property/religions
-http://dbpedia.org/property/context
-http://dbpedia.org/property/hanja
-http://dbpedia.org/property/mr
-http://dbpedia.org/property/hangul
-http://dbpedia.org/property/mw
-http://dbpedia.org/property/webcast
-http://dbpedia.org/property/extendedfrom
-http://dbpedia.org/ontology/firstAirDate
-http://dbpedia.org/ontology/broadcastArea
-http://dbpedia.org/ontology/webcast
-http://dbpedia.org/property/admissionsNational
-http://dbpedia.org/property/admissionsPerCapita
-http://dbpedia.org/property/admissionsTotal
-http://dbpedia.org/property/admissionsYear
-http://dbpedia.org/property/boxOfficeNational
-http://dbpedia.org/property/boxOfficeTotal
-http://dbpedia.org/property/producedAnimated
-http://dbpedia.org/property/producedDocumentary
-http://dbpedia.org/property/producedFiction
-http://dbpedia.org/property/producedFictional
-http://dbpedia.org/property/screensPerCapita
-http://dbpedia.org/property/vie
-http://dbpedia.org/property/quoted
-http://dbpedia.org/property/designation
-http://dbpedia.org/property/fontsize
-http://dbpedia.org/property/nearestCity
-http://dbpedia.org/property/rr
-http://dbpedia.org/ontology/nearestCity
-http://dbpedia.org/property/chuhan
-http://dbpedia.org/property/gan
-http://dbpedia.org/property/imageStyle
-http://dbpedia.org/property/kanji
-http://dbpedia.org/property/ocBs
-http://dbpedia.org/property/treatySystem
-http://dbpedia.org/property/colour
-http://dbpedia.org/property/manufacturer
-http://dbpedia.org/property/number
-http://dbpedia.org/property/origin
-http://dbpedia.org/property/cc
-http://dbpedia.org/property/flavour
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/iso6391Code> rdfs:domain <http://dbpedia.org/ontology/Language> .
+<http://dbpedia.org/ontology/iso6391Code> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/iso6391Code> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/iso6391Code> rdfs:domain <http://dbpedia.org/ontology/Language> .
+<http://dbpedia.org/ontology/iso6391Code> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/iso6391Code> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/iso6392Code> rdfs:domain <http://dbpedia.org/ontology/Language> .
+<http://dbpedia.org/ontology/iso6392Code> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/iso6392Code> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/iso6392Code> rdfs:domain <http://dbpedia.org/ontology/Language> .
+<http://dbpedia.org/ontology/iso6392Code> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/iso6392Code> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/spokenIn> rdfs:domain <http://dbpedia.org/ontology/Language> .
+<http://dbpedia.org/ontology/spokenIn> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/spokenIn> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/spokenIn> rdfs:domain <http://dbpedia.org/ontology/Language> .
+<http://dbpedia.org/ontology/spokenIn> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/spokenIn> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/formationYear> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/formationYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/formationYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/formationYear> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/formationYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/formationYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/latestReleaseVersion> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/latestReleaseVersion> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/latestReleaseVersion> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/latestReleaseVersion> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/latestReleaseVersion> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/latestReleaseVersion> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/iso6393Code> rdfs:domain <http://dbpedia.org/ontology/Language> .
+<http://dbpedia.org/ontology/iso6393Code> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/iso6393Code> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/iso6393Code> rdfs:domain <http://dbpedia.org/ontology/Language> .
+<http://dbpedia.org/ontology/iso6393Code> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/iso6393Code> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/headquarter> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/headquarter> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/headquarter> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/headquarter> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/headquarter> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/headquarter> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/icd9> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/icd9> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/icd9> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/icd9> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/icd9> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/icd9> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/meshId> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/meshId> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/meshId> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/meshId> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/meshId> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/meshId> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/Work/runtime> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/Work/runtime> rdfs:range <http://dbpedia.org/datatype/minute> .
+<http://dbpedia.org/ontology/Work/runtime> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/diseasesDB> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/diseasesDB> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/diseasesDB> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/diseasesDB> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/diseasesDB> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/diseasesDB> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/icd10> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/icd10> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/icd10> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/icd10> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/icd10> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/icd10> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/runtime> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/runtime> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/runtime> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/runtime> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/runtime> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/runtime> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/cinematography> rdfs:domain <http://dbpedia.org/ontology/Film> .
+<http://dbpedia.org/ontology/cinematography> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/cinematography> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/cinematography> rdfs:domain <http://dbpedia.org/ontology/Film> .
+<http://dbpedia.org/ontology/cinematography> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/cinematography> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/director> rdfs:domain <http://dbpedia.org/ontology/Film> .
+<http://dbpedia.org/ontology/director> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/director> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/director> rdfs:domain <http://dbpedia.org/ontology/Film> .
+<http://dbpedia.org/ontology/director> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/director> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/musicComposer> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/musicComposer> rdfs:range <http://dbpedia.org/ontology/MusicalArtist> .
+<http://dbpedia.org/ontology/musicComposer> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/musicComposer> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/musicComposer> rdfs:range <http://dbpedia.org/ontology/MusicalArtist> .
+<http://dbpedia.org/ontology/musicComposer> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/politicalLeader> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/politicalLeader> rdfs:range <http://dbpedia.org/ontology/PersonFunction> .
+<http://dbpedia.org/ontology/politicalLeader> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/politicalLeader> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/politicalLeader> rdfs:range <http://dbpedia.org/ontology/PersonFunction> .
+<http://dbpedia.org/ontology/politicalLeader> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/producer> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/producer> rdfs:range <http://dbpedia.org/ontology/Agent> .
+<http://dbpedia.org/ontology/producer> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/producer> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/producer> rdfs:range <http://dbpedia.org/ontology/Agent> .
+<http://dbpedia.org/ontology/producer> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/productionCompany> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/productionCompany> rdfs:range <http://dbpedia.org/ontology/Company> .
+<http://dbpedia.org/ontology/productionCompany> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/productionCompany> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/productionCompany> rdfs:range <http://dbpedia.org/ontology/Company> .
+<http://dbpedia.org/ontology/productionCompany> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/starring> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/starring> rdfs:range <http://dbpedia.org/ontology/Actor> .
+<http://dbpedia.org/ontology/starring> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/starring> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/starring> rdfs:range <http://dbpedia.org/ontology/Actor> .
+<http://dbpedia.org/ontology/starring> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/writer> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/writer> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/writer> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/writer> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/writer> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/writer> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/birthPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/birthPlace> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/birthPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/birthPlace> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/birthDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/birthDate> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/birthDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/birthDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/birthDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/birthDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdfs:range <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdfs:range <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/birthYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/birthYear> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/birthYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/birthYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/birthYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/birthYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/nationality> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/nationality> rdfs:range <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/nationality> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/nationality> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/nationality> rdfs:range <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/nationality> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/author> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/author> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/author> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/author> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/author> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/author> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Software/fileSize> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/Software/fileSize> rdfs:range <http://dbpedia.org/datatype/megabyte> .
+<http://dbpedia.org/ontology/Software/fileSize> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/fileSize> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/fileSize> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/fileSize> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/fileSize> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/fileSize> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/fileSize> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/yearOfConstruction> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/yearOfConstruction> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/yearOfConstruction> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/yearOfConstruction> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/yearOfConstruction> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/yearOfConstruction> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/architect> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/architect> rdfs:range <http://dbpedia.org/ontology/Architect> .
+<http://dbpedia.org/ontology/architect> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/architect> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/architect> rdfs:range <http://dbpedia.org/ontology/Architect> .
+<http://dbpedia.org/ontology/architect> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/totalPopulation> rdfs:domain <http://dbpedia.org/ontology/EthnicGroup> .
+<http://dbpedia.org/ontology/totalPopulation> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/totalPopulation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/totalPopulation> rdfs:domain <http://dbpedia.org/ontology/EthnicGroup> .
+<http://dbpedia.org/ontology/totalPopulation> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/totalPopulation> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/populationPlace> rdfs:domain <http://dbpedia.org/ontology/EthnicGroup> .
+<http://dbpedia.org/ontology/populationPlace> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/populationPlace> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/populationPlace> rdfs:domain <http://dbpedia.org/ontology/EthnicGroup> .
+<http://dbpedia.org/ontology/populationPlace> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/populationPlace> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/utcOffset> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/utcOffset> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/utcOffset> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/utcOffset> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/utcOffset> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/utcOffset> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/eruptionYear> rdfs:domain <http://dbpedia.org/ontology/Volcano> .
+<http://dbpedia.org/ontology/eruptionYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/eruptionYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/eruptionYear> rdfs:domain <http://dbpedia.org/ontology/Volcano> .
+<http://dbpedia.org/ontology/eruptionYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/eruptionYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/elevation> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/elevation> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/elevation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/elevation> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/elevation> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/elevation> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/nationalTopographicSystemMapNumber> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/nationalTopographicSystemMapNumber> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/nationalTopographicSystemMapNumber> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/nationalTopographicSystemMapNumber> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/nationalTopographicSystemMapNumber> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/nationalTopographicSystemMapNumber> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/artist> rdfs:domain <http://dbpedia.org/ontology/MusicalWork> .
+<http://dbpedia.org/ontology/artist> rdfs:range <http://dbpedia.org/ontology/Agent> .
+<http://dbpedia.org/ontology/artist> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/artist> rdfs:domain <http://dbpedia.org/ontology/MusicalWork> .
+<http://dbpedia.org/ontology/artist> rdfs:range <http://dbpedia.org/ontology/Agent> .
+<http://dbpedia.org/ontology/artist> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/locatedInArea> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/locatedInArea> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/locatedInArea> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/locatedInArea> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/locatedInArea> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/locatedInArea> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/mountainRange> rdfs:domain <http://dbpedia.org/ontology/Mountain> .
+<http://dbpedia.org/ontology/mountainRange> rdfs:range <http://dbpedia.org/ontology/MountainRange> .
+<http://dbpedia.org/ontology/mountainRange> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/mountainRange> rdfs:domain <http://dbpedia.org/ontology/Mountain> .
+<http://dbpedia.org/ontology/mountainRange> rdfs:range <http://dbpedia.org/ontology/MountainRange> .
+<http://dbpedia.org/ontology/mountainRange> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/subsequentWork> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/subsequentWork> rdfs:range <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/subsequentWork> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/subsequentWork> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/subsequentWork> rdfs:range <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/subsequentWork> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/frequencyOfPublication> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/frequencyOfPublication> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/frequencyOfPublication> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/frequencyOfPublication> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/frequencyOfPublication> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/frequencyOfPublication> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/issn> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/issn> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/issn> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/issn> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/issn> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/issn> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/oclc> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/oclc> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/oclc> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/oclc> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/oclc> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/oclc> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/publisher> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/publisher> rdfs:range <http://dbpedia.org/ontology/Agent> .
+<http://dbpedia.org/ontology/publisher> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/publisher> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/publisher> rdfs:range <http://dbpedia.org/ontology/Agent> .
+<http://dbpedia.org/ontology/publisher> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/PopulatedPlace/areaTotal> rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/PopulatedPlace/areaTotal> rdfs:range <http://dbpedia.org/datatype/squareKilometre> .
+<http://dbpedia.org/ontology/PopulatedPlace/areaTotal> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/areaTotal> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/areaTotal> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/areaTotal> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/areaTotal> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/areaTotal> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/areaTotal> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/numberOfStudents> rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/numberOfStudents> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfStudents> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfStudents> rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/numberOfStudents> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfStudents> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/latestPreviewVersion> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/latestPreviewVersion> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/latestPreviewVersion> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/latestPreviewVersion> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/latestPreviewVersion> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/latestPreviewVersion> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/precursor> rdfs:domain <http://dbpedia.org/ontology/AnatomicalStructure> .
+<http://dbpedia.org/ontology/precursor> rdfs:range <http://dbpedia.org/ontology/Embryology> .
+<http://dbpedia.org/ontology/precursor> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/precursor> rdfs:domain <http://dbpedia.org/ontology/AnatomicalStructure> .
+<http://dbpedia.org/ontology/precursor> rdfs:range <http://dbpedia.org/ontology/Embryology> .
+<http://dbpedia.org/ontology/precursor> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/deathPlace> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/deathPlace> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/deathYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/deathYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/deathYear> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/deathYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/deathYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/deathYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/deathYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/deathYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/deathYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/almaMater> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/almaMater> rdfs:range <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/almaMater> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/almaMater> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/almaMater> rdfs:range <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/almaMater> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/address> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/address> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/address> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/address> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/address> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/address> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/editorTitle> rdfs:domain <http://dbpedia.org/ontology/Magazine> .
+<http://dbpedia.org/ontology/editorTitle> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/editorTitle> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/editorTitle> rdfs:domain <http://dbpedia.org/ontology/Magazine> .
+<http://dbpedia.org/ontology/editorTitle> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/editorTitle> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/membership> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/membership> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/membership> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/membership> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/membership> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/membership> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/nrhpReferenceNumber> rdfs:domain <http://dbpedia.org/ontology/HistoricPlace> .
+<http://dbpedia.org/ontology/nrhpReferenceNumber> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/nrhpReferenceNumber> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/nrhpReferenceNumber> rdfs:domain <http://dbpedia.org/ontology/HistoricPlace> .
+<http://dbpedia.org/ontology/nrhpReferenceNumber> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/nrhpReferenceNumber> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/highest> rdfs:domain <http://dbpedia.org/ontology/MountainRange> .
+<http://dbpedia.org/ontology/highest> rdfs:range <http://dbpedia.org/ontology/Mountain> .
+<http://dbpedia.org/ontology/highest> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/highest> rdfs:domain <http://dbpedia.org/ontology/MountainRange> .
+<http://dbpedia.org/ontology/highest> rdfs:range <http://dbpedia.org/ontology/Mountain> .
+<http://dbpedia.org/ontology/highest> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/district> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/district> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/district> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/district> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/district> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/district> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/classes> rdfs:domain <http://dbpedia.org/ontology/School> .
+<http://dbpedia.org/ontology/classes> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/classes> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/classes> rdfs:domain <http://dbpedia.org/ontology/School> .
+<http://dbpedia.org/ontology/classes> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/classes> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/offeredClasses> rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/offeredClasses> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/offeredClasses> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/offeredClasses> rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/offeredClasses> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/offeredClasses> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/schoolCode> rdfs:domain <http://dbpedia.org/ontology/School> .
+<http://dbpedia.org/ontology/schoolCode> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/schoolCode> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/schoolCode> rdfs:domain <http://dbpedia.org/ontology/School> .
+<http://dbpedia.org/ontology/schoolCode> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/schoolCode> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/staff> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/staff> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/staff> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/staff> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/staff> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/staff> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/firstAirDate> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/firstAirDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/firstAirDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/firstAirDate> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/firstAirDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/firstAirDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/broadcastArea> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/broadcastArea> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/broadcastArea> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/broadcastArea> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/broadcastArea> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/broadcastArea> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/nearestCity> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/nearestCity> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/nearestCity> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/nearestCity> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/nearestCity> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/nearestCity> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/deathDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/deathDate> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/deathDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/deathDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/deathDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/deathDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/birthName> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthName> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/birthName> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/birthName> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthName> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/birthName> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/completionDate> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/completionDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/completionDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/completionDate> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/completionDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/completionDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/numberOfEpisodes> rdfs:domain <http://dbpedia.org/ontology/TelevisionShow> .
+<http://dbpedia.org/ontology/numberOfEpisodes> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfEpisodes> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfEpisodes> rdfs:domain <http://dbpedia.org/ontology/TelevisionShow> .
+<http://dbpedia.org/ontology/numberOfEpisodes> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfEpisodes> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/numberOfSeasons> rdfs:domain <http://dbpedia.org/ontology/TelevisionShow> .
+<http://dbpedia.org/ontology/numberOfSeasons> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfSeasons> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfSeasons> rdfs:domain <http://dbpedia.org/ontology/TelevisionShow> .
+<http://dbpedia.org/ontology/numberOfSeasons> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfSeasons> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/network> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/network> rdfs:range <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/network> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/network> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/network> rdfs:range <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/network> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/PopulatedPlace/populationDensity> rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/PopulatedPlace/populationDensity> rdfs:range <http://dbpedia.org/datatype/inhabitantsPerSquareKilometre> .
+<http://dbpedia.org/ontology/PopulatedPlace/populationDensity> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/populationDensity> rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/populationDensity> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/populationDensity> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/populationDensity> rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/populationDensity> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/populationDensity> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/gross> rdfs:domain <http://dbpedia.org/ontology/Film> .
+<http://dbpedia.org/ontology/gross> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/gross> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/gross> rdfs:domain <http://dbpedia.org/ontology/Film> .
+<http://dbpedia.org/ontology/gross> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/gross> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/editing> rdfs:domain <http://dbpedia.org/ontology/Film> .
+<http://dbpedia.org/ontology/editing> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/editing> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/editing> rdfs:domain <http://dbpedia.org/ontology/Film> .
+<http://dbpedia.org/ontology/editing> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/editing> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/id> rdfs:domain <http://dbpedia.org/ontology/WorldHeritageSite> .
+<http://dbpedia.org/ontology/id> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/id> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/id> rdfs:domain <http://dbpedia.org/ontology/WorldHeritageSite> .
+<http://dbpedia.org/ontology/id> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/id> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/circulation> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/circulation> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/circulation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/circulation> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/circulation> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/circulation> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/sisterNewspaper> rdfs:domain <http://dbpedia.org/ontology/Newspaper> .
+<http://dbpedia.org/ontology/sisterNewspaper> rdfs:range <http://dbpedia.org/ontology/Newspaper> .
+<http://dbpedia.org/ontology/sisterNewspaper> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/sisterNewspaper> rdfs:domain <http://dbpedia.org/ontology/Newspaper> .
+<http://dbpedia.org/ontology/sisterNewspaper> rdfs:range <http://dbpedia.org/ontology/Newspaper> .
+<http://dbpedia.org/ontology/sisterNewspaper> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/chiefEditor> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/chiefEditor> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/chiefEditor> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/chiefEditor> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/chiefEditor> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/chiefEditor> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/officialSchoolColour> rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/officialSchoolColour> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/officialSchoolColour> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/officialSchoolColour> rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/officialSchoolColour> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/officialSchoolColour> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/teamName> rdfs:domain <http://dbpedia.org/ontology/School> .
+<http://dbpedia.org/ontology/teamName> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/teamName> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/teamName> rdfs:domain <http://dbpedia.org/ontology/School> .
+<http://dbpedia.org/ontology/teamName> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/teamName> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/child> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/child> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/child> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/child> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/child> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/child> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/previousWork> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/previousWork> rdfs:range <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/previousWork> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/previousWork> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/previousWork> rdfs:range <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/previousWork> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/locationCity> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/locationCity> rdfs:range <http://dbpedia.org/ontology/City> .
+<http://dbpedia.org/ontology/locationCity> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/locationCity> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/locationCity> rdfs:range <http://dbpedia.org/ontology/City> .
+<http://dbpedia.org/ontology/locationCity> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/artery> rdfs:domain <http://dbpedia.org/ontology/AnatomicalStructure> .
+<http://dbpedia.org/ontology/artery> rdfs:range <http://dbpedia.org/ontology/Artery> .
+<http://dbpedia.org/ontology/artery> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/artery> rdfs:domain <http://dbpedia.org/ontology/AnatomicalStructure> .
+<http://dbpedia.org/ontology/artery> rdfs:range <http://dbpedia.org/ontology/Artery> .
+<http://dbpedia.org/ontology/artery> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/isPartOfAnatomicalStructure> rdfs:domain <http://dbpedia.org/ontology/Brain> .
+<http://dbpedia.org/ontology/isPartOfAnatomicalStructure> rdfs:range <http://dbpedia.org/ontology/AnatomicalStructure> .
+<http://dbpedia.org/ontology/isPartOfAnatomicalStructure> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/isPartOfAnatomicalStructure> rdfs:domain <http://dbpedia.org/ontology/Brain> .
+<http://dbpedia.org/ontology/isPartOfAnatomicalStructure> rdfs:range <http://dbpedia.org/ontology/AnatomicalStructure> .
+<http://dbpedia.org/ontology/isPartOfAnatomicalStructure> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/province> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/province> rdfs:range <http://dbpedia.org/ontology/Province> .
+<http://dbpedia.org/ontology/province> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/province> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/province> rdfs:range <http://dbpedia.org/ontology/Province> .
+<http://dbpedia.org/ontology/province> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/broadcastStationClass> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/broadcastStationClass> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/broadcastStationClass> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/broadcastStationClass> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/broadcastStationClass> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/broadcastStationClass> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/heightAboveAverageTerrain> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/heightAboveAverageTerrain> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/heightAboveAverageTerrain> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/heightAboveAverageTerrain> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/heightAboveAverageTerrain> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/heightAboveAverageTerrain> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/elevatorCount> rdfs:domain <http://dbpedia.org/ontology/Building> .
+<http://dbpedia.org/ontology/elevatorCount> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/elevatorCount> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/elevatorCount> rdfs:domain <http://dbpedia.org/ontology/Building> .
+<http://dbpedia.org/ontology/elevatorCount> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/elevatorCount> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/floorCount> rdfs:domain <http://dbpedia.org/ontology/Building> .
+<http://dbpedia.org/ontology/floorCount> rdfs:range <http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://dbpedia.org/ontology/floorCount> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/floorCount> rdfs:domain <http://dbpedia.org/ontology/Building> .
+<http://dbpedia.org/ontology/floorCount> rdfs:range <http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://dbpedia.org/ontology/floorCount> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/broadcastRepeater> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/broadcastRepeater> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/broadcastRepeater> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/broadcastRepeater> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/broadcastRepeater> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/broadcastRepeater> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/formerCallsign> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/formerCallsign> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/formerCallsign> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/formerCallsign> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/formerCallsign> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/formerCallsign> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/sisterStation> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/sisterStation> rdfs:range <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/sisterStation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/sisterStation> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/sisterStation> rdfs:range <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/sisterStation> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/species> rdfs:domain <http://dbpedia.org/ontology/Species> .
+<http://dbpedia.org/ontology/species> rdfs:range <http://dbpedia.org/ontology/Species> .
+<http://dbpedia.org/ontology/species> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/species> rdfs:domain <http://dbpedia.org/ontology/Species> .
+<http://dbpedia.org/ontology/species> rdfs:range <http://dbpedia.org/ontology/Species> .
+<http://dbpedia.org/ontology/species> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/wineRegion> rdfs:domain <http://dbpedia.org/ontology/Grape> .
+<http://dbpedia.org/ontology/wineRegion> rdfs:range <http://dbpedia.org/ontology/WineRegion> .
+<http://dbpedia.org/ontology/wineRegion> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/wineRegion> rdfs:domain <http://dbpedia.org/ontology/Grape> .
+<http://dbpedia.org/ontology/wineRegion> rdfs:range <http://dbpedia.org/ontology/WineRegion> .
+<http://dbpedia.org/ontology/wineRegion> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/latestPreviewDate> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/latestPreviewDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/latestPreviewDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/latestPreviewDate> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/latestPreviewDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/latestPreviewDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/distanceToCharingCross> rdfs:domain <http://dbpedia.org/ontology/Settlement> .
+<http://dbpedia.org/ontology/distanceToCharingCross> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/distanceToCharingCross> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/distanceToCharingCross> rdfs:domain <http://dbpedia.org/ontology/Settlement> .
+<http://dbpedia.org/ontology/distanceToCharingCross> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/distanceToCharingCross> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/areaCode> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/areaCode> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/areaCode> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/areaCode> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/areaCode> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/areaCode> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/gridReference> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/gridReference> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/gridReference> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/gridReference> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/gridReference> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/gridReference> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/relative> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/relative> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/relative> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/relative> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/relative> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/relative> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/leaderFunction> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/leaderFunction> rdfs:range <http://dbpedia.org/ontology/PersonFunction> .
+<http://dbpedia.org/ontology/leaderFunction> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/leaderFunction> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/leaderFunction> rdfs:range <http://dbpedia.org/ontology/PersonFunction> .
+<http://dbpedia.org/ontology/leaderFunction> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/regionServed> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/regionServed> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/regionServed> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/regionServed> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/regionServed> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/regionServed> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/provost> rdfs:domain <http://dbpedia.org/ontology/University> .
+<http://dbpedia.org/ontology/provost> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/provost> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/provost> rdfs:domain <http://dbpedia.org/ontology/University> .
+<http://dbpedia.org/ontology/provost> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/provost> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/endowment> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/endowment> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/endowment> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/endowment> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/endowment> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/endowment> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/isoCodeRegion> rdfs:domain <http://dbpedia.org/ontology/Settlement> .
+<http://dbpedia.org/ontology/isoCodeRegion> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/isoCodeRegion> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/isoCodeRegion> rdfs:domain <http://dbpedia.org/ontology/Settlement> .
+<http://dbpedia.org/ontology/isoCodeRegion> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/isoCodeRegion> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/metropolitanBorough> rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/metropolitanBorough> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/metropolitanBorough> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/metropolitanBorough> rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/metropolitanBorough> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/metropolitanBorough> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/iupacName> rdfs:domain <http://dbpedia.org/ontology/Drug> .
+<http://dbpedia.org/ontology/iupacName> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/iupacName> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/iupacName> rdfs:domain <http://dbpedia.org/ontology/Drug> .
+<http://dbpedia.org/ontology/iupacName> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/iupacName> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/facultySize> rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/facultySize> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/facultySize> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/facultySize> rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/facultySize> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/facultySize> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/School/campusSize> rdfs:domain <http://dbpedia.org/ontology/School> .
+<http://dbpedia.org/ontology/School/campusSize> rdfs:range <http://dbpedia.org/datatype/squareKilometre> .
+<http://dbpedia.org/ontology/School/campusSize> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/campusSize> rdfs:domain <http://dbpedia.org/ontology/School> .
+<http://dbpedia.org/ontology/campusSize> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/campusSize> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/campusSize> rdfs:domain <http://dbpedia.org/ontology/School> .
+<http://dbpedia.org/ontology/campusSize> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/campusSize> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/tuition> rdfs:domain <http://dbpedia.org/ontology/School> .
+<http://dbpedia.org/ontology/tuition> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/tuition> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/tuition> rdfs:domain <http://dbpedia.org/ontology/School> .
+<http://dbpedia.org/ontology/tuition> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/tuition> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/hometown> rdfs:domain <http://dbpedia.org/ontology/Agent> .
+<http://dbpedia.org/ontology/hometown> rdfs:range <http://dbpedia.org/ontology/Settlement> .
+<http://dbpedia.org/ontology/hometown> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/hometown> rdfs:domain <http://dbpedia.org/ontology/Agent> .
+<http://dbpedia.org/ontology/hometown> rdfs:range <http://dbpedia.org/ontology/Settlement> .
+<http://dbpedia.org/ontology/hometown> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/dissolutionDate> rdfs:domain <http://dbpedia.org/ontology/Organisation,_PopulatedPlace> .
+<http://dbpedia.org/ontology/dissolutionDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/dissolutionDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/dissolutionDate> rdfs:domain <http://dbpedia.org/ontology/Organisation,_PopulatedPlace> .
+<http://dbpedia.org/ontology/dissolutionDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/dissolutionDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/fate> rdfs:domain <http://dbpedia.org/ontology/Company> .
+<http://dbpedia.org/ontology/fate> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/fate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/fate> rdfs:domain <http://dbpedia.org/ontology/Company> .
+<http://dbpedia.org/ontology/fate> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/fate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/narrator> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/narrator> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/narrator> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/narrator> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/narrator> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/narrator> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/lastAirDate> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/lastAirDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/lastAirDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/lastAirDate> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/lastAirDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/lastAirDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/firstAscentYear> rdfs:domain <http://dbpedia.org/ontology/Mountain> .
+<http://dbpedia.org/ontology/firstAscentYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/firstAscentYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/firstAscentYear> rdfs:domain <http://dbpedia.org/ontology/Mountain> .
+<http://dbpedia.org/ontology/firstAscentYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/firstAscentYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/presenter> rdfs:domain <http://dbpedia.org/ontology/TelevisionShow> .
+<http://dbpedia.org/ontology/presenter> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/presenter> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/presenter> rdfs:domain <http://dbpedia.org/ontology/TelevisionShow> .
+<http://dbpedia.org/ontology/presenter> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/presenter> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Building/floorArea> rdfs:domain <http://dbpedia.org/ontology/Building> .
+<http://dbpedia.org/ontology/Building/floorArea> rdfs:range <http://dbpedia.org/datatype/squareMetre> .
+<http://dbpedia.org/ontology/Building/floorArea> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/floorArea> rdfs:domain <http://dbpedia.org/ontology/Building> .
+<http://dbpedia.org/ontology/floorArea> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/floorArea> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/floorArea> rdfs:domain <http://dbpedia.org/ontology/Building> .
+<http://dbpedia.org/ontology/floorArea> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/floorArea> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/dissolutionYear> rdfs:domain <http://dbpedia.org/ontology/Organisation,_PopulatedPlace> .
+<http://dbpedia.org/ontology/dissolutionYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/dissolutionYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/dissolutionYear> rdfs:domain <http://dbpedia.org/ontology/Organisation,_PopulatedPlace> .
+<http://dbpedia.org/ontology/dissolutionYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/dissolutionYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/formationDate> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/formationDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/formationDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/formationDate> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/formationDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/formationDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/numberOfDoctoralStudents> rdfs:domain <http://dbpedia.org/ontology/University> .
+<http://dbpedia.org/ontology/numberOfDoctoralStudents> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfDoctoralStudents> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfDoctoralStudents> rdfs:domain <http://dbpedia.org/ontology/University> .
+<http://dbpedia.org/ontology/numberOfDoctoralStudents> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfDoctoralStudents> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/parentOrganisation> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/parentOrganisation> rdfs:range <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/parentOrganisation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/parentOrganisation> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/parentOrganisation> rdfs:range <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/parentOrganisation> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/nerve> rdfs:domain <http://dbpedia.org/ontology/AnatomicalStructure> .
+<http://dbpedia.org/ontology/nerve> rdfs:range <http://dbpedia.org/ontology/Nerve> .
+<http://dbpedia.org/ontology/nerve> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/nerve> rdfs:domain <http://dbpedia.org/ontology/AnatomicalStructure> .
+<http://dbpedia.org/ontology/nerve> rdfs:range <http://dbpedia.org/ontology/Nerve> .
+<http://dbpedia.org/ontology/nerve> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/combatant> rdfs:domain <http://dbpedia.org/ontology/MilitaryConflict> .
+<http://dbpedia.org/ontology/combatant> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/combatant> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/combatant> rdfs:domain <http://dbpedia.org/ontology/MilitaryConflict> .
+<http://dbpedia.org/ontology/combatant> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/combatant> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/result> rdfs:domain <http://dbpedia.org/ontology/MilitaryConflict> .
+<http://dbpedia.org/ontology/result> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/result> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/result> rdfs:domain <http://dbpedia.org/ontology/MilitaryConflict> .
+<http://dbpedia.org/ontology/result> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/result> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/isPartOfMilitaryConflict> rdfs:domain <http://dbpedia.org/ontology/MilitaryConflict> .
+<http://dbpedia.org/ontology/isPartOfMilitaryConflict> rdfs:range <http://dbpedia.org/ontology/MilitaryConflict> .
+<http://dbpedia.org/ontology/isPartOfMilitaryConflict> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/isPartOfMilitaryConflict> rdfs:domain <http://dbpedia.org/ontology/MilitaryConflict> .
+<http://dbpedia.org/ontology/isPartOfMilitaryConflict> rdfs:range <http://dbpedia.org/ontology/MilitaryConflict> .
+<http://dbpedia.org/ontology/isPartOfMilitaryConflict> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/callsignMeaning> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/callsignMeaning> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/callsignMeaning> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/callsignMeaning> rdfs:domain <http://dbpedia.org/ontology/Broadcaster> .
+<http://dbpedia.org/ontology/callsignMeaning> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/callsignMeaning> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .

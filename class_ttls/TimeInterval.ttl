@@ -1,24 +1,11 @@
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.w3.org/2000/01/rdf-schema#comment
-http://www.w3.org/2002/07/owl#differentFrom
-http://www.w3.org/2000/01/rdf-schema#seeAlso
-http://xmlns.com/foaf/0.1/name
-http://xmlns.com/foaf/0.1/nick
-http://xmlns.com/foaf/0.1/homepage
-http://www.w3.org/2004/02/skos/core#exactMatch
-http://www.w3.org/2003/01/geo/wgs84_pos#lat
-http://www.w3.org/2003/01/geo/wgs84_pos#long
-http://xmlns.com/foaf/0.1/depiction
-http://purl.org/dc/terms/subject
-http://dbpedia.org/ontology/wikiPageID
-http://dbpedia.org/ontology/wikiPageRevisionID
-http://dbpedia.org/ontology/wikiPageWikiLink
-http://www.w3.org/2002/07/owl#sameAs
-http://dbpedia.org/ontology/wikiPageExternalLink
-http://dbpedia.org/property/reference
-http://dbpedia.org/property/startedby
-http://dbpedia.org/property/suz
-http://dbpedia.org/property/tl
-http://dbpedia.org/property/weekOrdinal
-http://dbpedia.org/property/weekday
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .

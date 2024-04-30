@@ -1,742 +1,269 @@
-http://dbpedia.org/ontology/birthPlace
-http://dbpedia.org/ontology/deathPlace
-http://dbpedia.org/ontology/deathDate
-http://dbpedia.org/ontology/birthDate
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.w3.org/2000/01/rdf-schema#comment
-http://www.w3.org/2000/01/rdf-schema#seeAlso
-http://xmlns.com/foaf/0.1/name
-http://dbpedia.org/property/name
-http://xmlns.com/foaf/0.1/depiction
-http://dbpedia.org/property/deathPlace
-http://dbpedia.org/property/birthPlace
-http://purl.org/dc/terms/subject
-http://dbpedia.org/ontology/wikiPageID
-http://dbpedia.org/ontology/wikiPageRevisionID
-http://dbpedia.org/ontology/wikiPageWikiLink
-http://www.w3.org/2002/07/owl#sameAs
-http://dbpedia.org/ontology/wikiPageExternalLink
-http://dbpedia.org/property/shuttle
-http://dbpedia.org/property/startyear
-http://dbpedia.org/property/statlabel
-http://dbpedia.org/property/statleague
-http://dbpedia.org/property/statseason
-http://dbpedia.org/property/statvalue
-http://dbpedia.org/property/statweek
-http://dbpedia.org/property/tenSplit
-http://dbpedia.org/property/twentySplit
-http://dbpedia.org/property/undraftedyear
-http://dbpedia.org/property/vertical
-http://dbpedia.org/property/weightLb
-http://dbpedia.org/property/wikiPageUsesTemplate
-http://dbpedia.org/ontology/thumbnail
-http://dbpedia.org/property/hof
-http://dbpedia.org/property/yahoo
-http://dbpedia.org/property/accessdate
-http://dbpedia.org/property/birthDate
-http://dbpedia.org/property/caption
-http://dbpedia.org/property/class
-http://dbpedia.org/property/college
-http://dbpedia.org/property/conference
-http://dbpedia.org/property/deathDate
-http://dbpedia.org/property/draftpick
-http://dbpedia.org/property/draftround
-http://dbpedia.org/property/draftyear
-http://dbpedia.org/property/heightFt
-http://dbpedia.org/property/heightIn
-http://dbpedia.org/property/imageSize
-http://dbpedia.org/property/nflnew
-http://dbpedia.org/property/note
-http://dbpedia.org/property/number
-http://dbpedia.org/property/overall
-http://dbpedia.org/property/pastteams
-http://dbpedia.org/property/position
-http://dbpedia.org/property/school
-http://dbpedia.org/property/status
-http://dbpedia.org/property/teams
-http://dbpedia.org/property/title
-http://dbpedia.org/property/type
-http://dbpedia.org/property/url
-http://dbpedia.org/property/weight
-http://dbpedia.org/property/weightLbs
-http://dbpedia.org/property/year
-http://dbpedia.org/property/bowl
-http://dbpedia.org/property/confrecord
-http://dbpedia.org/property/conf
-http://dbpedia.org/property/highSchool
-http://dbpedia.org/property/hometown
-http://dbpedia.org/property/poll
-http://dbpedia.org/ontology/abstract
-http://dbpedia.org/property/afl
-http://dbpedia.org/property/aflstatlabel
-http://dbpedia.org/property/aflstatvalue
-http://dbpedia.org/property/armSpan
-http://dbpedia.org/property/bench
-http://dbpedia.org/property/bowls
-http://dbpedia.org/property/broadFt
-http://dbpedia.org/property/broadIn
-http://dbpedia.org/property/cbs
-http://dbpedia.org/property/cflArchive
-http://dbpedia.org/property/collegehof
-http://dbpedia.org/property/commitdate
-http://dbpedia.org/property/coneDrill
-http://dbpedia.org/ontology/school
-http://dbpedia.org/ontology/Person/weight
-http://dbpedia.org/ontology/draftPick
-http://dbpedia.org/ontology/draftRound
-http://dbpedia.org/ontology/espnId
-http://dbpedia.org/ontology/undraftedYear
-http://dbpedia.org/ontology/formerTeam
-http://dbpedia.org/property/confstanding
-http://dbpedia.org/property/currentTeam
-http://dbpedia.org/property/currentnumber
-http://dbpedia.org/property/currentposition
-http://dbpedia.org/property/currentteam
-http://dbpedia.org/property/dash
-http://dbpedia.org/property/endyear
-http://dbpedia.org/property/espn
-http://dbpedia.org/property/feet
-http://dbpedia.org/property/handSpan
-http://dbpedia.org/property/heightft
-http://dbpedia.org/property/heightin
-http://dbpedia.org/property/highlights
-http://dbpedia.org/property/highschool
-http://dbpedia.org/property/inches
-http://dbpedia.org/property/legend
-http://dbpedia.org/property/nfl
-http://dbpedia.org/property/pastcoaching
-http://dbpedia.org/property/pastschools
-http://dbpedia.org/property/pastteamsnote
-http://dbpedia.org/property/pfr
-http://dbpedia.org/property/ranking
-http://dbpedia.org/property/recruit
-http://dbpedia.org/property/rivalsOverall
-http://dbpedia.org/property/rivalsRefTitle
-http://dbpedia.org/property/rivalsSchool
-http://dbpedia.org/property/rivalsStars
-http://dbpedia.org/property/scoutOverall
-http://dbpedia.org/property/scoutRefTitle
-http://dbpedia.org/property/scoutS
-http://dbpedia.org/property/scoutStars
-http://dbpedia.org/ontology/highschool
-http://purl.org/linguistics/gold/hypernym
-http://schema.org/sameAs
-http://dbpedia.org/property/wordnet_type
-http://www.w3.org/ns/prov#wasDerivedFrom
-http://dbpedia.org/ontology/wikiPageLength
-http://dbpedia.org/ontology/draftYear
-http://dbpedia.org/ontology/height
-http://dbpedia.org/ontology/number
-http://dbpedia.org/ontology/status
-http://dbpedia.org/ontology/weight
-http://dbpedia.org/ontology/position
-http://dbpedia.org/ontology/team
-http://xmlns.com/foaf/0.1/isPrimaryTopicOf
-http://dbpedia.org/property/bot
-http://dbpedia.org/property/date
-http://dbpedia.org/property/fixAttempted
-http://dbpedia.org/property/247Overall
-http://dbpedia.org/property/247Stars
-http://dbpedia.org/property/bowlgames
-http://dbpedia.org/property/cfl
-http://dbpedia.org/property/cflstatlabel
-http://dbpedia.org/property/cflstatus
-http://dbpedia.org/property/cflstatvalue
-http://dbpedia.org/property/espnGrade
-http://dbpedia.org/property/espnOverall
-http://dbpedia.org/property/espnRefTitle
-http://dbpedia.org/property/espnSchoolid
-http://dbpedia.org/property/wonderlic
-http://dbpedia.org/property/accessDate
-http://dbpedia.org/property/after
-http://dbpedia.org/property/before
-http://dbpedia.org/property/years
-http://dbpedia.org/property/careerFootnotes
-http://dbpedia.org/property/careerHighlights
-http://dbpedia.org/property/cflwestallstar
-http://dbpedia.org/property/dbf
-http://dbpedia.org/property/import
-http://dbpedia.org/property/nfldraftedpick
-http://dbpedia.org/property/nfldraftedround
-http://dbpedia.org/property/nfldraftedteam
-http://dbpedia.org/property/nfldraftedyear
-http://dbpedia.org/property/playingTeam
-http://dbpedia.org/property/playingYears
-http://dbpedia.org/property/rotoworld
-http://dbpedia.org/property/reason
-http://dbpedia.org/property/small
-http://dbpedia.org/property/video
-http://dbpedia.org/property/cflstatseason
-http://dbpedia.org/property/espnStars
-http://dbpedia.org/property/major
-http://dbpedia.org/property/cfldraftpick
-http://dbpedia.org/property/cfldraftround
-http://dbpedia.org/property/cfldraftyear
-http://dbpedia.org/property/align
-http://dbpedia.org/property/quote
-http://dbpedia.org/property/source
-http://dbpedia.org/property/width
-http://dbpedia.org/property/blp
-http://dbpedia.org/property/cfldraftedpick
-http://dbpedia.org/property/cfldraftedround
-http://dbpedia.org/property/cfldraftedteam
-http://dbpedia.org/property/cfldraftedyear
-http://dbpedia.org/property/cis
-http://dbpedia.org/property/pfrcoach
-http://dbpedia.org/property/serviceyears
-http://dbpedia.org/property/allegiance
-http://dbpedia.org/property/battles
-http://dbpedia.org/property/branch
-http://dbpedia.org/property/unit
-http://xmlns.com/foaf/0.1/homepage
-http://dbpedia.org/property/alt
-http://dbpedia.org/property/id
-http://dbpedia.org/property/team
-http://dbpedia.org/property/cfleastallstar
-http://dbpedia.org/property/expdraftedround
-http://dbpedia.org/property/expdraftedteam
-http://dbpedia.org/property/expdraftedyear
-http://dbpedia.org/property/coachrecord
-http://dbpedia.org/property/pastexecutive
-http://dbpedia.org/property/ft
-http://dbpedia.org/property/in
-http://dbpedia.org/property/afldraftpick
-http://dbpedia.org/property/afldraftround
-http://dbpedia.org/property/afldraftyear
-http://dbpedia.org/property/cfbhofId
-http://dbpedia.org/property/cfbhofYear
-http://dbpedia.org/property/si
-http://dbpedia.org/property/stateChampionships
-http://dbpedia.org/property/subLosses
-http://dbpedia.org/property/subWins
-http://dbpedia.org/property/databasefootball
-http://dbpedia.org/property/decLosses
-http://dbpedia.org/property/decWins
-http://dbpedia.org/property/dqLosses
-http://dbpedia.org/property/dqWins
-http://dbpedia.org/property/draws
-http://dbpedia.org/property/fox
-http://dbpedia.org/property/koLosses
-http://dbpedia.org/property/koWins
-http://dbpedia.org/property/nc
-http://dbpedia.org/property/ncaaChampionships
-http://dbpedia.org/property/otherLosses
-http://dbpedia.org/property/otherWins
-http://dbpedia.org/property/probowls
-http://dbpedia.org/property/direction
-http://dbpedia.org/property/footer
-http://dbpedia.org/property/image
-http://dbpedia.org/property/perrow
-http://dbpedia.org/property/totalWidth
-http://dbpedia.org/property/pastadmin
-http://dbpedia.org/property/draftedround
-http://dbpedia.org/property/draftedyear
-http://dbpedia.org/property/%3C/nowiki%3Enfl
-http://dbpedia.org/property/%3C/nowiki%3Estatlabel
-http://dbpedia.org/property/%3C/nowiki%3Estatvalue
-http://dbpedia.org/property/nflNew
-http://dbpedia.org/property/author
-http://dbpedia.org/property/text
-http://dbpedia.org/property/bowloutcome
-http://dbpedia.org/property/hiddencols
-http://dbpedia.org/ontology/careerStation
-http://dbpedia.org/ontology/college
-http://dbpedia.org/property/suppdraftround
-http://dbpedia.org/property/suppdraftyear
-http://dbpedia.org/ontology/supplementalDraftRound
-http://dbpedia.org/ontology/supplementalDraftYear
-http://dbpedia.org/property/colwidth
-http://dbpedia.org/property/championship
-http://dbpedia.org/property/cfhof
-http://dbpedia.org/property/cfhofyear
-http://dbpedia.org/property/cflallstar
-http://dbpedia.org/property/honors
-http://dbpedia.org/property/records
-http://dbpedia.org/property/amateurTeam
-http://dbpedia.org/property/amateurTitle
-http://dbpedia.org/property/retired%23s
-http://dbpedia.org/property/almaMater
-http://dbpedia.org/property/fullname
-http://dbpedia.org/ontology/Person/height
-http://dbpedia.org/ontology/residence
-http://dbpedia.org/property/residence
-http://dbpedia.org/property/updated
-http://dbpedia.org/ontology/imdbId
-http://dbpedia.org/property/draftedpick
-http://dbpedia.org/property/embed
-http://dbpedia.org/property/bowlname
-http://dbpedia.org/property/coachplayoffrecord
-http://dbpedia.org/property/coachregrecord
-http://dbpedia.org/property/yearend
-http://dbpedia.org/property/yearstart
-http://dbpedia.org/property/bcsbowl
-http://dbpedia.org/property/overallRecord
-http://dbpedia.org/property/coachingTeam
-http://dbpedia.org/property/coachingYears
-http://dbpedia.org/ontology/wikiPageRedirects
-http://dbpedia.org/property/awards
-http://dbpedia.org/property/afldraftedpick
-http://dbpedia.org/property/afldraftedround
-http://dbpedia.org/property/afldraftedyear
-http://dbpedia.org/property/ruAmateurclubs
-http://dbpedia.org/property/ruAmateuryears
-http://dbpedia.org/property/ruClubyears
-http://dbpedia.org/property/ruPosition
-http://dbpedia.org/property/ruProclubs
-http://dbpedia.org/property/247RefTitle
-http://dbpedia.org/ontology/honours
-http://dbpedia.org/property/showMedals
-http://dbpedia.org/property/club
-http://dbpedia.org/property/country
-http://dbpedia.org/property/sport
-http://dbpedia.org/property/administratingTeam
-http://dbpedia.org/property/administratingYears
-http://dbpedia.org/property/pfrexec
-http://dbpedia.org/ontology/award
-http://www.w3.org/2002/07/owl#differentFrom
-http://dbpedia.org/property/expansiondraftpick
-http://dbpedia.org/property/expansiondraftround
-http://dbpedia.org/property/expansiondraftyear
-http://dbpedia.org/property/playoffRecord
-http://dbpedia.org/property/regularRecord
-http://dbpedia.org/property/extrafootnotes
-http://dbpedia.org/property/polltype
-http://dbpedia.org/property/imageUpright
-http://dbpedia.org/property/honours
-http://dbpedia.org/property/float
-http://dbpedia.org/property/header
-http://dbpedia.org/property/birthName
-http://dbpedia.org/property/genre
-http://dbpedia.org/property/label
-http://dbpedia.org/property/occupation
-http://dbpedia.org/property/origin
-http://dbpedia.org/property/yearsActive
-http://dbpedia.org/property/247School
-http://dbpedia.org/property/designation
-http://dbpedia.org/property/designation1Date
-http://dbpedia.org/property/designation1Free1name
-http://dbpedia.org/property/designation1Free1value
-http://dbpedia.org/property/designation1Free2name
-http://dbpedia.org/property/designation1Free2value
-http://dbpedia.org/property/designation1Offname
-http://dbpedia.org/property/designation1Type
-http://dbpedia.org/property/brm
-http://dbpedia.org/property/titlestyle
-http://dbpedia.org/property/dare
-http://dbpedia.org/property/afldraftedteam
-http://dbpedia.org/property/children
-http://dbpedia.org/property/show
-http://dbpedia.org/property/spouse
-http://dbpedia.org/property/station
-http://dbpedia.org/property/style
-http://dbpedia.org/property/timeslot
-http://dbpedia.org/property/website
-http://dbpedia.org/property/event
-http://dbpedia.org/property/pb
-http://dbpedia.org/property/clubs
-http://dbpedia.org/property/imagewidth
-http://dbpedia.org/property/managerclubs
-http://dbpedia.org/property/manageryears
-http://dbpedia.org/property/season
-http://dbpedia.org/property/restingPlace
-http://dbpedia.org/property/nationality
-http://dbpedia.org/property/disability
-http://xmlns.com/foaf/0.1/givenName
-http://dbpedia.org/property/instruments
-http://dbpedia.org/property/occupations
-http://dbpedia.org/ontology/activeYearsEndYear
-http://dbpedia.org/ontology/activeYearsStartYear
-http://dbpedia.org/ontology/genre
-http://dbpedia.org/ontology/recordLabel
-http://dbpedia.org/property/archivedate
-http://dbpedia.org/property/rivalsArchiveurl
-http://dbpedia.org/property/game
-http://dbpedia.org/property/league
-http://dbpedia.org/property/careerStart
-http://dbpedia.org/property/footerAlign
-http://dbpedia.org/property/headerAlign
-http://dbpedia.org/property/throws
-http://dbpedia.org/property/bats
-http://dbpedia.org/property/aflstatseason
-http://dbpedia.org/property/cs1Dates
-http://dbpedia.org/property/fangraphs
-http://dbpedia.org/property/polls
-http://dbpedia.org/property/otherTitle
-http://dbpedia.org/property/mlb
-http://dbpedia.org/property/rivals
-http://dbpedia.org/ontology/club
-http://dbpedia.org/ontology/country
-http://dbpedia.org/property/collapse
-http://dbpedia.org/ontology/wikiPageInterLanguageLink
-http://dbpedia.org/property/trainer
-http://dbpedia.org/property/debut
-http://dbpedia.org/property/height
-http://dbpedia.org/property/names
-http://dbpedia.org/property/br
-http://dbpedia.org/property/retro
-http://dbpedia.org/property/247Archivedate
-http://dbpedia.org/property/247Archiveurl
-http://dbpedia.org/property/stat1label
-http://dbpedia.org/property/stat1value
-http://dbpedia.org/property/stat2label
-http://dbpedia.org/property/stat2value
-http://dbpedia.org/property/stat3label
-http://dbpedia.org/property/stat3value
-http://dbpedia.org/property/stat4label
-http://dbpedia.org/property/stat4value
-http://dbpedia.org/property/finaldate
-http://dbpedia.org/property/debutdate
-http://dbpedia.org/property/debutleague
-http://dbpedia.org/property/debutteam
-http://dbpedia.org/property/debutyear
-http://dbpedia.org/property/epsnArchivedate
-http://dbpedia.org/property/finalleague
-http://dbpedia.org/property/finalteam
-http://dbpedia.org/property/finalyear
-http://dbpedia.org/property/rivalsArchivedate
-http://dbpedia.org/property/scoutArchivedate
-http://dbpedia.org/property/scoutArchiveurl
-http://dbpedia.org/property/bball
-http://dbpedia.org/ontology/allegiance
-http://dbpedia.org/ontology/serviceEndYear
-http://dbpedia.org/ontology/serviceStartYear
-http://dbpedia.org/ontology/militaryUnit
-http://dbpedia.org/ontology/militaryBranch
-http://dbpedia.org/ontology/battle
-http://dbpedia.org/property/nickname
-http://xmlns.com/foaf/0.1/nick
-http://dbpedia.org/property/abbr
-http://dbpedia.org/property/gap
-http://dbpedia.org/property/scouts
-http://dbpedia.org/property/youthclubs
-http://dbpedia.org/property/youthyears
-http://dbpedia.org/property/goals
-http://dbpedia.org/property/caps
-http://dbpedia.org/property/nationalcaps
-http://dbpedia.org/property/nationalgoals
-http://dbpedia.org/property/nationalteam
-http://dbpedia.org/property/nationalyears
-http://dbpedia.org/property/espnRank
-http://dbpedia.org/property/regent
-http://dbpedia.org/property/bowlopp
-http://dbpedia.org/property/verticalNote
-http://dbpedia.org/property/b
-http://dbpedia.org/property/c
-http://dbpedia.org/property/d
-http://dbpedia.org/property/m
-http://dbpedia.org/property/mw
-http://dbpedia.org/property/n
-http://dbpedia.org/property/s
-http://dbpedia.org/property/species
-http://dbpedia.org/property/v
-http://dbpedia.org/property/voy
-http://dbpedia.org/property/wikt
-http://dbpedia.org/property/wptFinalTables
-http://dbpedia.org/property/wptMoneyFinishes
-http://dbpedia.org/property/wptTitles
-http://dbpedia.org/property/wsopBraceletCount
-http://dbpedia.org/property/wsopMainEventBestFinishRank
-http://dbpedia.org/property/wsopMoneyFinishes
-http://dbpedia.org/property/sign
-http://dbpedia.org/property/overallconfrecord
-http://dbpedia.org/property/personalLife
-http://dbpedia.org/ontology/wikiPageDisambiguates
-http://dbpedia.org/ontology/firstAppearance
-http://dbpedia.org/ontology/portrayer
-http://dbpedia.org/property/loser
-http://dbpedia.org/property/candidate
-http://dbpedia.org/property/district
-http://dbpedia.org/property/education
-http://dbpedia.org/property/party
-http://dbpedia.org/property/percentage
-http://dbpedia.org/property/preceded
-http://dbpedia.org/property/stateSenate
-http://dbpedia.org/property/termStart
-http://dbpedia.org/property/votes
-http://dbpedia.org/property/winner
-http://dbpedia.org/property/arenafan
-http://dbpedia.org/property/totalcaps
-http://dbpedia.org/property/totalgoals
-http://dbpedia.org/property/collegeyears
-http://dbpedia.org/property/salary
-http://dbpedia.org/property/espnRating
-http://dbpedia.org/ontology/birthYear
-http://dbpedia.org/ontology/spouse
-http://dbpedia.org/property/statsend
-http://dbpedia.org/property/debutopponent
-http://dbpedia.org/property/debutstadium
-http://dbpedia.org/property/gamesGoals
-http://dbpedia.org/property/gamesGoalstotal
-http://dbpedia.org/property/originalteam
-http://dbpedia.org/property/playerTeam
-http://dbpedia.org/property/playerYears
-http://dbpedia.org/property/sportsillustrated
-http://dbpedia.org/property/stats
-http://dbpedia.org/property/find
-http://dbpedia.org/property/sherdog
-http://dbpedia.org/property/weightClass
-http://dbpedia.org/property/amDecwin
-http://dbpedia.org/property/amKowin
-http://dbpedia.org/property/amSubwin
-http://dbpedia.org/property/amWin
-http://dbpedia.org/property/tournamentRecord
-http://dbpedia.org/property/championships
-http://dbpedia.org/property/coachTeam
-http://dbpedia.org/property/coachYears
-http://dbpedia.org/property/rank
-http://dbpedia.org/property/imageCaption
-http://dbpedia.org/property/triesa
-http://dbpedia.org/property/triesb
-http://dbpedia.org/property/year1end
-http://dbpedia.org/property/yearaend
-http://dbpedia.org/property/yearastart
-http://dbpedia.org/property/yearbend
-http://dbpedia.org/property/yearbstart
-http://dbpedia.org/property/appearances
-http://dbpedia.org/property/fieldgoals
-http://dbpedia.org/property/imagesize
-http://dbpedia.org/property/points
-http://dbpedia.org/property/tries
-http://dbpedia.org/property/year1start
-http://dbpedia.org/property/teama
-http://dbpedia.org/property/teamb
-http://dbpedia.org/property/new
-http://dbpedia.org/property/appearancesa
-http://dbpedia.org/property/appearancesb
-http://dbpedia.org/property/coachdraws
-http://dbpedia.org/property/coachgames
-http://dbpedia.org/property/coachlosses
-http://dbpedia.org/property/coachteam
-http://dbpedia.org/property/coachwins
-http://dbpedia.org/property/coachyear1end
-http://dbpedia.org/property/coachyear1start
-http://dbpedia.org/property/fieldgoalsa
-http://dbpedia.org/property/fieldgoalsb
-http://dbpedia.org/property/goalsa
-http://dbpedia.org/property/goalsb
-http://dbpedia.org/property/pointsa
-http://dbpedia.org/property/pointsb
-http://dbpedia.org/property/module
-http://dbpedia.org/property/certain
-http://dbpedia.org/property/background
-http://dbpedia.org/property/currentMembers
-http://dbpedia.org/property/landscape
-http://dbpedia.org/property/pastMembers
-http://dbpedia.org/ontology/formerBandMember
-http://dbpedia.org/ontology/background
-http://dbpedia.org/property/commons
-http://dbpedia.org/property/q
-http://dbpedia.org/property/coachpfr
-http://dbpedia.org/property/startDate
-http://dbpedia.org/property/calledBy
-http://dbpedia.org/property/portals
-http://dbpedia.org/property/positionOrQuorum
-http://dbpedia.org/property/fball
-http://dbpedia.org/property/year2end
-http://dbpedia.org/property/year2start
-http://dbpedia.org/property/year3start
-http://dbpedia.org/property/retired
-http://dbpedia.org/property/sire
-http://dbpedia.org/property/colour
-http://dbpedia.org/property/f
-http://dbpedia.org/property/imageName
-http://dbpedia.org/property/owner
-http://dbpedia.org/property/sex
-http://dbpedia.org/property/fm
-http://dbpedia.org/property/race
-http://dbpedia.org/property/record
-http://dbpedia.org/property/breeder
-http://dbpedia.org/ontology/breeder
-http://dbpedia.org/ontology/damsire
-http://dbpedia.org/ontology/grandsire
-http://dbpedia.org/ontology/sire
-http://dbpedia.org/ontology/trainer
-http://dbpedia.org/ontology/sex
-http://dbpedia.org/property/dam
-http://dbpedia.org/property/damsire
-http://dbpedia.org/property/earnings
-http://dbpedia.org/property/ff
-http://dbpedia.org/property/fff
-http://dbpedia.org/property/ffff
-http://dbpedia.org/property/fffm
-http://dbpedia.org/property/ffm
-http://dbpedia.org/property/ffmf
-http://dbpedia.org/property/ffmm
-http://dbpedia.org/property/fmf
-http://dbpedia.org/property/fmff
-http://dbpedia.org/property/fmfm
-http://dbpedia.org/property/fmm
-http://dbpedia.org/property/fmmf
-http://dbpedia.org/property/fmmm
-http://dbpedia.org/property/foaled
-http://dbpedia.org/property/grandsire
-http://dbpedia.org/property/horsename
-http://dbpedia.org/property/mf
-http://dbpedia.org/property/mff
-http://dbpedia.org/property/mfff
-http://dbpedia.org/property/mffm
-http://dbpedia.org/property/mfm
-http://dbpedia.org/property/mfmf
-http://dbpedia.org/property/mfmm
-http://dbpedia.org/property/mm
-http://dbpedia.org/property/mmf
-http://dbpedia.org/property/mmff
-http://dbpedia.org/property/mmfm
-http://dbpedia.org/property/mmm
-http://dbpedia.org/property/mmmf
-http://dbpedia.org/property/mmmm
-http://dbpedia.org/ontology/race
-http://dbpedia.org/ontology/colour
-http://dbpedia.org/ontology/owner
-http://dbpedia.org/ontology/birthName
-http://dbpedia.org/ontology/almaMater
-http://dbpedia.org/ontology/occupation
-http://dbpedia.org/property/nonscore
-http://dbpedia.org/property/playerSport
-http://dbpedia.org/ontology/overallRecord
-http://dbpedia.org/property/247Grade
-http://dbpedia.org/property/summary
-http://dbpedia.org/property/ruClubupdate
-http://dbpedia.org/property/nflwd
-http://dbpedia.org/property/currentConference
-http://dbpedia.org/property/currentTitle
-http://dbpedia.org/property/playerPositions
-http://dbpedia.org/property/debut3year
-http://dbpedia.org/property/fightingOutOf
-http://dbpedia.org/property/mmaKoloss
-http://dbpedia.org/property/mmaKowin
-http://dbpedia.org/property/mmaSubwin
-http://dbpedia.org/property/homeStation
-http://dbpedia.org/property/showName
-http://dbpedia.org/property/creator
-http://dbpedia.org/property/firstAired
-http://dbpedia.org/property/format
-http://dbpedia.org/property/producer
-http://dbpedia.org/property/runtime
-http://dbpedia.org/property/starring
-http://dbpedia.org/property/weightKg
-http://dbpedia.org/property/heightM
-http://dbpedia.org/property/espnArchiveurl
-http://dbpedia.org/property/grayshirt
-http://dbpedia.org/property/countryCode
-http://dbpedia.org/property/apps
-http://dbpedia.org/property/clubupdate
-http://dbpedia.org/property/currentclub
-http://dbpedia.org/property/ruSevensnationalcomp
-http://dbpedia.org/property/ruSevensnationalteam
-http://dbpedia.org/property/ruSevensnationalyears
-http://www.w3.org/2003/01/geo/wgs84_pos#lat
-http://www.w3.org/2003/01/geo/wgs84_pos#long
-http://www.georss.org/georss/point
-http://www.w3.org/2003/01/geo/wgs84_pos#geometry
-http://dbpedia.org/property/ribbon
-http://dbpedia.org/property/collegeteam
-http://dbpedia.org/property/workplaces
-http://dbpedia.org/ontology/doctoralAdvisor
-http://dbpedia.org/property/fields
-http://dbpedia.org/property/knownFor
-http://dbpedia.org/property/doctoralAdvisor
-http://dbpedia.org/ontology/institution
-http://dbpedia.org/ontology/academicDiscipline
-http://dbpedia.org/ontology/knownFor
-http://dbpedia.org/property/office
-http://dbpedia.org/property/amatteam
-http://dbpedia.org/property/list
-http://dbpedia.org/property/notableworks
-http://dbpedia.org/property/quoted
-http://dbpedia.org/property/expdraftedpick
-http://dbpedia.org/property/predecessor
-http://dbpedia.org/property/university
-http://dbpedia.org/property/amatapps
-http://dbpedia.org/property/amatpoints
-http://dbpedia.org/property/amatyears
-http://dbpedia.org/property/repteam
-http://dbpedia.org/property/siArchive
-http://dbpedia.org/property/ref
-http://dbpedia.org/property/careerEnd
-http://dbpedia.org/property/draftYear
-http://dbpedia.org/property/day
-http://dbpedia.org/property/month
-http://dbpedia.org/property/page
-http://dbpedia.org/property/substed
-http://dbpedia.org/property/timestamp
-http://dbpedia.org/property/p
-http://dbpedia.org/property/t
-http://dbpedia.org/property/currentAbrahamLincolnHighSchoolFootballCoachNumber
-http://dbpedia.org/property/postseason
-http://dbpedia.org/property/247sportsRefTitle
-http://dbpedia.org/property/group
-http://dbpedia.org/property/family
-http://dbpedia.org/property/father
-http://dbpedia.org/property/mother
-http://dbpedia.org/property/compositeStars
-http://dbpedia.org/property/content
-http://dbpedia.org/property/billed
-http://dbpedia.org/property/otherNames
-http://dbpedia.org/property/mmaDecloss
-http://dbpedia.org/property/mmaDecwin
-http://dbpedia.org/property/mmaDqloss
-http://dbpedia.org/property/mmaNc
-http://dbpedia.org/property/reachIn
-http://dbpedia.org/property/change
-http://dbpedia.org/property/mr
-http://dbpedia.org/property/hangul
-http://dbpedia.org/property/rr
-http://dbpedia.org/property/yearsactive
-http://dbpedia.org/property/restingplace
-http://dbpedia.org/ontology/deathYear
-http://dbpedia.org/ontology/nationality
-http://dbpedia.org/property/associatedActs
-http://dbpedia.org/property/instrument
-http://dbpedia.org/property/parents
-http://dbpedia.org/ontology/instrument
-http://dbpedia.org/ontology/associatedBand
-http://dbpedia.org/ontology/associatedMusicalArtist
-http://dbpedia.org/property/mmaSubloss
-http://dbpedia.org/property/frac
-http://dbpedia.org/property/247sportsStars
-http://dbpedia.org/ontology/education
-http://dbpedia.org/property/section
-http://dbpedia.org/property/titleFnt
-http://dbpedia.org/property/titleBg
-http://dbpedia.org/property/bgcolor
-http://dbpedia.org/property/salign
-http://dbpedia.org/property/captionAlign
-http://www.w3.org/2004/02/skos/core#exactMatch
-http://dbpedia.org/property/workInstitution
-http://dbpedia.org/property/field
-http://dbpedia.org/property/influenced
-http://dbpedia.org/property/influences
-http://dbpedia.org/ontology/influenced
-http://dbpedia.org/ontology/influencedBy
-http://dbpedia.org/property/ruClubcaps
-http://dbpedia.org/property/ruClubpoints
-http://dbpedia.org/property/hanja
-http://dbpedia.org/property/j
-http://dbpedia.org/property/collapsible
-http://dbpedia.org/property/state
-http://dbpedia.org/property/succeeded
-http://dbpedia.org/property/term
-http://dbpedia.org/ontology/party
-http://dbpedia.org/ontology/termPeriod
-http://dbpedia.org/property/expiry
-http://dbpedia.org/property/databasefootballArchive
-http://dbpedia.org/property/repsevenscomp
-http://dbpedia.org/property/repsevensteam
-http://dbpedia.org/property/repsevensyears
-http://dbpedia.org/property/ruNationalcaps
-http://dbpedia.org/property/ruNationalpoints
-http://dbpedia.org/property/ruNationalteam
-http://dbpedia.org/property/ruNationalyears
-http://dbpedia.org/property/ruSevensupdate
-http://dbpedia.org/property/birthname
-http://dbpedia.org/property/ko
-http://dbpedia.org/property/total
-http://dbpedia.org/property/wins
-http://dbpedia.org/property/losses
-http://dbpedia.org/property/realname
-http://dbpedia.org/ontology/stateOfOrigin
-http://dbpedia.org/property/citizenship
-http://dbpedia.org/property/fontsize
-http://dbpedia.org/ontology/debutTeam
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/ontology/birthPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/birthPlace> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/birthPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/birthPlace> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/deathPlace> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/deathPlace> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/deathDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/deathDate> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/deathDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/deathDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/deathDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/deathDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/birthDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/birthDate> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/birthDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/birthDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/birthDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/birthDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/school> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/school> rdfs:range <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/school> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/school> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/school> rdfs:range <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/school> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Person/weight> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/Person/weight> rdfs:range <http://dbpedia.org/datatype/kilogram> .
+<http://dbpedia.org/ontology/Person/weight> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/draftPick> rdfs:domain <http://dbpedia.org/ontology/GridironFootballPlayer> .
+<http://dbpedia.org/ontology/draftPick> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/draftPick> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/draftPick> rdfs:domain <http://dbpedia.org/ontology/GridironFootballPlayer> .
+<http://dbpedia.org/ontology/draftPick> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/draftPick> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/draftRound> rdfs:domain <http://dbpedia.org/ontology/GridironFootballPlayer> .
+<http://dbpedia.org/ontology/draftRound> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/draftRound> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/draftRound> rdfs:domain <http://dbpedia.org/ontology/GridironFootballPlayer> .
+<http://dbpedia.org/ontology/draftRound> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/draftRound> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/espnId> rdfs:domain <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/espnId> rdfs:range <http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/espnId> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/espnId> rdfs:domain <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/espnId> rdfs:range <http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/espnId> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/undraftedYear> rdfs:domain <http://dbpedia.org/ontology/GridironFootballPlayer> .
+<http://dbpedia.org/ontology/undraftedYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/undraftedYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/undraftedYear> rdfs:domain <http://dbpedia.org/ontology/GridironFootballPlayer> .
+<http://dbpedia.org/ontology/undraftedYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/undraftedYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/formerTeam> rdfs:domain <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/formerTeam> rdfs:range <http://dbpedia.org/ontology/SportsTeam> .
+<http://dbpedia.org/ontology/formerTeam> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/formerTeam> rdfs:domain <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/formerTeam> rdfs:range <http://dbpedia.org/ontology/SportsTeam> .
+<http://dbpedia.org/ontology/formerTeam> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/careerStation> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/careerStation> rdfs:range <http://dbpedia.org/ontology/CareerStation> .
+<http://dbpedia.org/ontology/careerStation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/careerStation> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/careerStation> rdfs:range <http://dbpedia.org/ontology/CareerStation> .
+<http://dbpedia.org/ontology/careerStation> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/college> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/college> rdfs:range <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/college> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/college> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/college> rdfs:range <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/college> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/supplementalDraftRound> rdfs:domain <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/supplementalDraftRound> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/supplementalDraftRound> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/supplementalDraftRound> rdfs:domain <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/supplementalDraftRound> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/supplementalDraftRound> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/supplementalDraftYear> rdfs:domain <http://dbpedia.org/ontology/GridironFootballPlayer> .
+<http://dbpedia.org/ontology/supplementalDraftYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/supplementalDraftYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/supplementalDraftYear> rdfs:domain <http://dbpedia.org/ontology/GridironFootballPlayer> .
+<http://dbpedia.org/ontology/supplementalDraftYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/supplementalDraftYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/Person/height> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/Person/height> rdfs:range <http://dbpedia.org/datatype/centimetre> .
+<http://dbpedia.org/ontology/Person/height> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/residence> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/residence> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/residence> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/residence> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/residence> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/residence> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/club> rdfs:domain <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/club> rdfs:range <http://dbpedia.org/ontology/SportsTeam> .
+<http://dbpedia.org/ontology/club> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/club> rdfs:domain <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/club> rdfs:range <http://dbpedia.org/ontology/SportsTeam> .
+<http://dbpedia.org/ontology/club> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/allegiance> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/allegiance> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/allegiance> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/allegiance> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/allegiance> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/allegiance> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/serviceEndYear> rdfs:domain <http://dbpedia.org/ontology/MilitaryPerson> .
+<http://dbpedia.org/ontology/serviceEndYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/serviceEndYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/serviceEndYear> rdfs:domain <http://dbpedia.org/ontology/MilitaryPerson> .
+<http://dbpedia.org/ontology/serviceEndYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/serviceEndYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/serviceStartYear> rdfs:domain <http://dbpedia.org/ontology/MilitaryPerson> .
+<http://dbpedia.org/ontology/serviceStartYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/serviceStartYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/serviceStartYear> rdfs:domain <http://dbpedia.org/ontology/MilitaryPerson> .
+<http://dbpedia.org/ontology/serviceStartYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/serviceStartYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/militaryUnit> rdfs:domain <http://dbpedia.org/ontology/MilitaryPerson> .
+<http://dbpedia.org/ontology/militaryUnit> rdfs:range <http://dbpedia.org/ontology/MilitaryUnit> .
+<http://dbpedia.org/ontology/militaryUnit> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/militaryUnit> rdfs:domain <http://dbpedia.org/ontology/MilitaryPerson> .
+<http://dbpedia.org/ontology/militaryUnit> rdfs:range <http://dbpedia.org/ontology/MilitaryUnit> .
+<http://dbpedia.org/ontology/militaryUnit> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/militaryBranch> rdfs:domain <http://dbpedia.org/ontology/MilitaryPerson> .
+<http://dbpedia.org/ontology/militaryBranch> rdfs:range <http://dbpedia.org/ontology/MilitaryUnit> .
+<http://dbpedia.org/ontology/militaryBranch> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/militaryBranch> rdfs:domain <http://dbpedia.org/ontology/MilitaryPerson> .
+<http://dbpedia.org/ontology/militaryBranch> rdfs:range <http://dbpedia.org/ontology/MilitaryUnit> .
+<http://dbpedia.org/ontology/militaryBranch> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/firstAppearance> rdfs:domain <http://dbpedia.org/ontology/FictionalCharacter> .
+<http://dbpedia.org/ontology/firstAppearance> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/firstAppearance> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/firstAppearance> rdfs:domain <http://dbpedia.org/ontology/FictionalCharacter> .
+<http://dbpedia.org/ontology/firstAppearance> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/firstAppearance> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/birthYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/birthYear> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/birthYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/birthYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/birthYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/birthYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/spouse> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/spouse> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/spouse> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/spouse> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/spouse> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/spouse> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/formerBandMember> rdfs:domain <http://dbpedia.org/ontology/Band> .
+<http://dbpedia.org/ontology/formerBandMember> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/formerBandMember> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/formerBandMember> rdfs:domain <http://dbpedia.org/ontology/Band> .
+<http://dbpedia.org/ontology/formerBandMember> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/formerBandMember> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/breeder> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/breeder> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/breeder> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/breeder> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/breeder> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/breeder> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/damsire> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/damsire> rdfs:range <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/damsire> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/damsire> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/damsire> rdfs:range <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/damsire> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/grandsire> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/grandsire> rdfs:range <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/grandsire> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/grandsire> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/grandsire> rdfs:range <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/grandsire> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/sire> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/sire> rdfs:range <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/sire> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/sire> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/sire> rdfs:range <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/sire> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/trainer> rdfs:domain <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/trainer> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/trainer> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/trainer> rdfs:domain <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/trainer> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/trainer> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/sex> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/sex> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/sex> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/sex> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/sex> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/sex> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/birthName> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthName> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/birthName> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/birthName> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthName> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/birthName> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/almaMater> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/almaMater> rdfs:range <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/almaMater> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/almaMater> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/almaMater> rdfs:range <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/almaMater> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/overallRecord> rdfs:domain <http://dbpedia.org/ontology/CollegeCoach> .
+<http://dbpedia.org/ontology/overallRecord> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/overallRecord> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/overallRecord> rdfs:domain <http://dbpedia.org/ontology/CollegeCoach> .
+<http://dbpedia.org/ontology/overallRecord> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/overallRecord> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/doctoralAdvisor> rdfs:domain <http://dbpedia.org/ontology/Scientist> .
+<http://dbpedia.org/ontology/doctoralAdvisor> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/doctoralAdvisor> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/doctoralAdvisor> rdfs:domain <http://dbpedia.org/ontology/Scientist> .
+<http://dbpedia.org/ontology/doctoralAdvisor> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/doctoralAdvisor> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/deathYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/deathYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/deathYear> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/deathYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/deathYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/deathYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/deathYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/deathYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/deathYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/nationality> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/nationality> rdfs:range <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/nationality> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/nationality> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/nationality> rdfs:range <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/nationality> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/instrument> rdfs:domain <http://dbpedia.org/ontology/Artist> .
+<http://dbpedia.org/ontology/instrument> rdfs:range <http://dbpedia.org/ontology/Instrument> .
+<http://dbpedia.org/ontology/instrument> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/instrument> rdfs:domain <http://dbpedia.org/ontology/Artist> .
+<http://dbpedia.org/ontology/instrument> rdfs:range <http://dbpedia.org/ontology/Instrument> .
+<http://dbpedia.org/ontology/instrument> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdfs:range <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdfs:range <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/debutTeam> rdfs:domain <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/debutTeam> rdfs:range <http://dbpedia.org/ontology/SportsTeam> .
+<http://dbpedia.org/ontology/debutTeam> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/debutTeam> rdfs:domain <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/debutTeam> rdfs:range <http://dbpedia.org/ontology/SportsTeam> .
+<http://dbpedia.org/ontology/debutTeam> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .

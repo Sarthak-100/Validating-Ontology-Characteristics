@@ -1,110 +1,14 @@
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.w3.org/2000/01/rdf-schema#comment
-http://www.w3.org/2000/01/rdf-schema#seeAlso
-http://xmlns.com/foaf/0.1/name
-http://xmlns.com/foaf/0.1/homepage
-http://dbpedia.org/property/name
-http://www.w3.org/2003/01/geo/wgs84_pos#lat
-http://www.w3.org/2003/01/geo/wgs84_pos#long
-http://xmlns.com/foaf/0.1/depiction
-http://dbpedia.org/ontology/location
-http://purl.org/dc/terms/subject
-http://dbpedia.org/ontology/wikiPageID
-http://dbpedia.org/ontology/wikiPageRevisionID
-http://dbpedia.org/ontology/wikiPageWikiLink
-http://www.w3.org/2002/07/owl#sameAs
-http://dbpedia.org/ontology/wikiPageExternalLink
-http://dbpedia.org/ontology/wikiPageRedirects
-http://dbpedia.org/property/status2System
-http://dbpedia.org/property/wikiPageUsesTemplate
-http://dbpedia.org/ontology/thumbnail
-http://dbpedia.org/ontology/family
-http://dbpedia.org/property/align
-http://dbpedia.org/property/alt
-http://dbpedia.org/property/article
-http://dbpedia.org/property/authority
-http://dbpedia.org/property/authorlink
-http://dbpedia.org/property/binomial
-http://dbpedia.org/property/binomialAuthority
-http://dbpedia.org/property/bot
-http://dbpedia.org/property/c
-http://dbpedia.org/property/certain
-http://dbpedia.org/property/classis
-http://dbpedia.org/property/date
-http://dbpedia.org/property/displayParents
-http://dbpedia.org/property/familia
-http://dbpedia.org/property/family
-http://dbpedia.org/property/first
-http://dbpedia.org/property/fixAttempted
-http://dbpedia.org/property/footer
-http://dbpedia.org/property/fossilRange
-http://dbpedia.org/property/from
-http://dbpedia.org/property/genus
-http://dbpedia.org/property/genusAuthority
-http://dbpedia.org/property/grandparentAuthority
-http://dbpedia.org/property/group
-http://dbpedia.org/property/id
-http://dbpedia.org/property/image
-http://dbpedia.org/property/imageAlt
-http://dbpedia.org/property/imageCaption
-http://dbpedia.org/property/imageUpright
-http://dbpedia.org/property/inaccurate
-http://dbpedia.org/property/l
-http://dbpedia.org/property/label
-http://dbpedia.org/property/last
-http://dbpedia.org/property/link
-http://dbpedia.org/property/location
-http://dbpedia.org/property/no
-http://dbpedia.org/property/ordo
-http://dbpedia.org/property/p
-http://dbpedia.org/property/parent
-http://dbpedia.org/property/parentAuthority
-http://dbpedia.org/property/pushpinMap
-http://dbpedia.org/property/pushpinMapAlt
-http://dbpedia.org/property/rangeMap
-http://dbpedia.org/property/rangeMapCaption
-http://dbpedia.org/property/reason
-http://dbpedia.org/property/regnum
-http://dbpedia.org/property/s
-http://dbpedia.org/property/species
-http://dbpedia.org/property/status
-http://dbpedia.org/property/statusSystem
-http://dbpedia.org/property/subdivision
-http://dbpedia.org/property/subdivisionRanks
-http://dbpedia.org/property/synonyms
-http://dbpedia.org/property/t
-http://dbpedia.org/property/talk
-http://dbpedia.org/property/taxon
-http://dbpedia.org/property/totalWidth
-http://dbpedia.org/property/type
-http://dbpedia.org/property/typeSpecies
-http://dbpedia.org/property/typeSpeciesAuthority
-http://dbpedia.org/property/url
-http://dbpedia.org/property/volume
-http://dbpedia.org/property/width
-http://dbpedia.org/property/year
-http://www.georss.org/georss/point
-http://dbpedia.org/property/about
-http://dbpedia.org/ontology/abstract
-http://dbpedia.org/property/by
-http://dbpedia.org/property/divisio
-http://dbpedia.org/property/image2Caption
-http://dbpedia.org/property/oldestFossil
-http://dbpedia.org/property/onlinebooks
-http://dbpedia.org/property/others
-http://dbpedia.org/property/rangeMap2Caption
-http://dbpedia.org/property/rangeMapAlt
-http://purl.org/linguistics/gold/hypernym
-http://www.w3.org/ns/prov#wasDerivedFrom
-http://dbpedia.org/ontology/wikiPageLength
-http://dbpedia.org/ontology/synonym
-http://dbpedia.org/ontology/binomialAuthority
-http://dbpedia.org/ontology/class
-http://dbpedia.org/ontology/division
-http://dbpedia.org/ontology/genus
-http://dbpedia.org/ontology/kingdom
-http://dbpedia.org/ontology/order
-http://dbpedia.org/ontology/type
-http://xmlns.com/foaf/0.1/isPrimaryTopicOf
-http://www.w3.org/2003/01/geo/wgs84_pos#geometry
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/family> rdfs:domain <http://dbpedia.org/ontology/Species> .
+<http://dbpedia.org/ontology/family> rdfs:range <http://dbpedia.org/ontology/Species> .
+<http://dbpedia.org/ontology/family> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/family> rdfs:domain <http://dbpedia.org/ontology/Species> .
+<http://dbpedia.org/ontology/family> rdfs:range <http://dbpedia.org/ontology/Species> .
+<http://dbpedia.org/ontology/family> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .

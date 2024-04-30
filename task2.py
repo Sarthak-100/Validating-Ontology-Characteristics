@@ -1,6 +1,6 @@
 from utils.loader import load_ontology, load_model
 
-g = load_ontology("Ontologies/Cartoon/Cartoon.ttl")
+g = load_ontology("class_ttls/SportsTeam.ttl")
 model = load_model()
 
 intro = "Our project aims to develop a system that validates ontologies using Language Models (LMs) and publicly available Knowledge Graphs (KGs)"

@@ -1,842 +1,185 @@
-http://dbpedia.org/ontology/birthPlace
-http://dbpedia.org/ontology/birthDate
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.w3.org/2000/01/rdf-schema#comment
-http://xmlns.com/foaf/0.1/name
-http://xmlns.com/foaf/0.1/homepage
-http://dbpedia.org/property/name
-http://xmlns.com/foaf/0.1/depiction
-http://dbpedia.org/property/birthPlace
-http://purl.org/dc/terms/subject
-http://dbpedia.org/ontology/wikiPageID
-http://dbpedia.org/ontology/wikiPageRevisionID
-http://dbpedia.org/ontology/wikiPageWikiLink
-http://www.w3.org/2002/07/owl#sameAs
-http://dbpedia.org/ontology/wikiPageExternalLink
-http://dbpedia.org/property/ssActiveYears
-http://dbpedia.org/property/ssChampionships
-http://dbpedia.org/property/ssFastestLaps
-http://dbpedia.org/property/ssLastPosition
-http://dbpedia.org/property/ssLastSeason
-http://dbpedia.org/property/ssManufacturers
-http://dbpedia.org/property/ssPodiums
-http://dbpedia.org/property/ssPoles
-http://dbpedia.org/property/ssRaceStarts
-http://dbpedia.org/property/ssRaceWins
-http://dbpedia.org/property/ssTotalPoints
-http://dbpedia.org/property/starts
-http://dbpedia.org/property/suffix
-http://dbpedia.org/property/totalArcaEastRaces
-http://dbpedia.org/property/totalBuschRaces
-http://dbpedia.org/property/totalCanadaRaces
-http://dbpedia.org/property/totalCupRaces
-http://dbpedia.org/property/totalGneastRaces
-http://dbpedia.org/property/totalTruckRaces
-http://dbpedia.org/property/truckPoles
-http://dbpedia.org/property/truckTopTens
-http://dbpedia.org/property/truckWins
-http://dbpedia.org/property/ttContested
-http://dbpedia.org/property/ttFirstWin
-http://dbpedia.org/property/ttLastWin
-http://dbpedia.org/property/ttPodiums
-http://dbpedia.org/property/ttWins
-http://dbpedia.org/property/yearsInArcaEast
-http://dbpedia.org/property/yearsInBusch
-http://dbpedia.org/property/yearsInCanada
-http://dbpedia.org/property/yearsInCup
-http://dbpedia.org/property/yearsInGneast
-http://dbpedia.org/property/yearsInTruck
-http://dbpedia.org/property/wikiPageUsesTemplate
-http://dbpedia.org/ontology/thumbnail
-http://dbpedia.org/property/firstYear
-http://dbpedia.org/property/nicknames
-http://dbpedia.org/property/after
-http://dbpedia.org/property/awards
-http://dbpedia.org/property/before
-http://dbpedia.org/property/birthDate
-http://dbpedia.org/property/birthName
-http://dbpedia.org/property/bot
-http://dbpedia.org/property/caption
-http://dbpedia.org/property/championships
-http://dbpedia.org/property/date
-http://dbpedia.org/property/deathDate
-http://dbpedia.org/property/firstRace
-http://dbpedia.org/property/fixAttempted
-http://dbpedia.org/property/fullName
-http://dbpedia.org/property/imageSize
-http://dbpedia.org/property/lastRace
-http://dbpedia.org/property/lastSeries
-http://dbpedia.org/property/nationality
-http://dbpedia.org/property/points
-http://dbpedia.org/property/prevSeries
-http://dbpedia.org/ontology/firstRace
-http://dbpedia.org/ontology/lastRace
-http://dbpedia.org/ontology/championships
-http://dbpedia.org/ontology/fastestLap
-http://dbpedia.org/ontology/podiums
-http://dbpedia.org/ontology/poles
-http://dbpedia.org/ontology/races
-http://dbpedia.org/ontology/nationality
-http://dbpedia.org/property/prevSeriesYears
-http://dbpedia.org/property/residence
-http://dbpedia.org/property/second
-http://dbpedia.org/property/teams
-http://dbpedia.org/property/title
-http://dbpedia.org/property/titleYears
-http://dbpedia.org/property/titles
-http://dbpedia.org/property/updated
-http://dbpedia.org/property/url
-http://dbpedia.org/property/website
-http://dbpedia.org/property/wins
-http://dbpedia.org/property/year
-http://dbpedia.org/property/years
-http://dbpedia.org/property/yearsActive
-http://dbpedia.org/property/cupWins
-http://dbpedia.org/property/races
-http://dbpedia.org/property/team(s)_
-http://dbpedia.org/ontology/abstract
-http://dbpedia.org/property/125Championships
-http://dbpedia.org/property/125FastestLaps
-http://dbpedia.org/property/125LastPosition
-http://dbpedia.org/property/125LastSeason
-http://dbpedia.org/property/125Manufacturers
-http://dbpedia.org/property/125Podiums
-http://dbpedia.org/property/125Poles
-http://dbpedia.org/property/125RaceStarts
-http://dbpedia.org/property/125RaceWins
-http://dbpedia.org/property/125TotalPoints
-http://dbpedia.org/property/achievements
-http://dbpedia.org/property/arcaEastCarTeam
-http://dbpedia.org/property/arcaEastPoles
-http://dbpedia.org/property/arcaEastTopTens
-http://dbpedia.org/property/arcaEastWins
-http://dbpedia.org/property/bestBuschPos
-http://dbpedia.org/property/bestCanadaPos
-http://dbpedia.org/property/bestCupPos
-http://dbpedia.org/property/bestFinish
-http://dbpedia.org/property/bestGneastPos
-http://dbpedia.org/property/bestTruckPos
-http://dbpedia.org/property/bikeNumber
-http://dbpedia.org/property/buschCarTeam
-http://dbpedia.org/property/buschPoles
-http://dbpedia.org/property/buschTopTens
-http://dbpedia.org/property/buschWins
-http://dbpedia.org/property/canadaPoles
-http://dbpedia.org/property/canadaTopTens
-http://dbpedia.org/property/canadaWins
-http://dbpedia.org/property/carNumber
-http://dbpedia.org/property/cupPoles
-http://dbpedia.org/property/cupTopTens
-http://dbpedia.org/property/currentSeries
-http://dbpedia.org/property/currentTeam
-http://dbpedia.org/property/fastestLaps
-http://dbpedia.org/property/firstArcaEastRace
-http://dbpedia.org/property/firstBuschRace
-http://dbpedia.org/property/firstCanadaRace
-http://dbpedia.org/property/firstCupRace
-http://dbpedia.org/property/firstCupWin
-http://dbpedia.org/property/firstGneastRace
-http://dbpedia.org/property/firstTruckRace
-http://dbpedia.org/property/firstTruckWin
-http://dbpedia.org/property/formerTeams
-http://dbpedia.org/property/gneastPoles
-http://dbpedia.org/property/gneastTopTens
-http://dbpedia.org/property/gneastWins
-http://dbpedia.org/property/lastBuschRace
-http://dbpedia.org/property/lastCanadaRace
-http://dbpedia.org/property/lastCupRace
-http://dbpedia.org/property/lastCupWin
-http://dbpedia.org/property/lastGneastRace
-http://dbpedia.org/property/lastTruckRace
-http://dbpedia.org/property/moto2ActiveYears
-http://dbpedia.org/property/moto2Championships
-http://dbpedia.org/property/moto2FastestLaps
-http://dbpedia.org/property/moto2LastPosition
-http://dbpedia.org/property/moto2LastSeason
-http://dbpedia.org/property/moto2Manufacturers
-http://dbpedia.org/property/moto2Podiums
-http://dbpedia.org/property/moto2Poles
-http://dbpedia.org/property/moto2RaceStarts
-http://dbpedia.org/property/moto2RaceWins
-http://dbpedia.org/property/moto2TotalPoints
-http://dbpedia.org/property/moto3Championships
-http://dbpedia.org/property/moto3FastestLaps
-http://dbpedia.org/property/moto3LastPosition
-http://dbpedia.org/property/moto3LastSeason
-http://dbpedia.org/property/moto3Manufacturers
-http://dbpedia.org/property/moto3Podiums
-http://dbpedia.org/property/moto3Poles
-http://dbpedia.org/property/moto3RaceStarts
-http://dbpedia.org/property/moto3RaceWins
-http://dbpedia.org/property/moto3TotalPoints
-http://dbpedia.org/property/motogpActiveYears
-http://dbpedia.org/property/motogpChampionships
-http://dbpedia.org/property/motogpFastestLaps
-http://dbpedia.org/property/motogpLastPosition
-http://dbpedia.org/property/motogpLastSeason
-http://dbpedia.org/property/motogpManufacturers
-http://dbpedia.org/property/motogpPodiums
-http://dbpedia.org/property/motogpPoles
-http://dbpedia.org/property/motogpRaceStarts
-http://dbpedia.org/property/motogpRaceWins
-http://dbpedia.org/property/motogpTotalPoints
-http://dbpedia.org/property/podiums
-http://dbpedia.org/property/poles
-http://dbpedia.org/property/prevBuschPos
-http://dbpedia.org/property/prevBuschYear
-http://dbpedia.org/property/prevTruckPos
-http://dbpedia.org/property/prevTruckYear
-http://dbpedia.org/property/relatedTo
-http://dbpedia.org/property/sbkActiveYears
-http://dbpedia.org/property/sbkChampionships
-http://dbpedia.org/property/sbkFastestLaps
-http://dbpedia.org/property/sbkLastPosition
-http://dbpedia.org/property/sbkLastSeason
-http://dbpedia.org/property/sbkManufacturers
-http://dbpedia.org/property/sbkPodiums
-http://dbpedia.org/property/sbkPoles
-http://dbpedia.org/property/sbkRaceStarts
-http://dbpedia.org/property/sbkRaceWins
-http://dbpedia.org/property/sbkTotalPoints
-http://purl.org/linguistics/gold/hypernym
-http://schema.org/sameAs
-http://dbpedia.org/property/wordnet_type
-http://dbpedia.org/ontology/wins
-http://www.w3.org/ns/prov#wasDerivedFrom
-http://dbpedia.org/ontology/wikiPageLength
-http://dbpedia.org/ontology/team
-http://xmlns.com/foaf/0.1/isPrimaryTopicOf
-http://dbpedia.org/ontology/deathPlace
-http://dbpedia.org/ontology/deathDate
-http://dbpedia.org/property/deathPlace
-http://dbpedia.org/property/spotter
-http://dbpedia.org/property/teamhonour
-http://dbpedia.org/property/teamyear
-http://dbpedia.org/property/module
-http://dbpedia.org/property/engine
-http://dbpedia.org/property/id
-http://dbpedia.org/property/imagesize
-http://dbpedia.org/property/previousYear
-http://dbpedia.org/property/retired
-http://dbpedia.org/property/awardYears
-http://dbpedia.org/property/britishleague
-http://dbpedia.org/property/career
-http://dbpedia.org/property/classWins
-http://dbpedia.org/property/deathCause
-http://dbpedia.org/property/firstBuschWin
-http://dbpedia.org/property/indivhonour
-http://dbpedia.org/property/indivyear
-http://dbpedia.org/property/lastBuschWin
-http://dbpedia.org/property/lastFinish
-http://dbpedia.org/property/lastTruckWin
-http://dbpedia.org/property/moto3ActiveYears
-http://dbpedia.org/property/prevCupPos
-http://dbpedia.org/property/prevCupYear
-http://dbpedia.org/ontology/imdbId
-http://dbpedia.org/property/totalCoronaRaces
-http://dbpedia.org/property/totalIrlRaces
-http://dbpedia.org/property/yearsInCorona
-http://dbpedia.org/property/yearsInIrl
-http://dbpedia.org/property/signature
-http://dbpedia.org/property/with
-http://dbpedia.org/property/nickname
-http://dbpedia.org/property/reason
-http://dbpedia.org/ontology/firstWin
-http://dbpedia.org/ontology/lastWin
-http://dbpedia.org/ontology/lastPosition
-http://dbpedia.org/property/2022Team
-http://dbpedia.org/property/2023Team
-http://dbpedia.org/property/250ActiveYears
-http://dbpedia.org/property/250Championships
-http://dbpedia.org/property/250FastestLaps
-http://dbpedia.org/property/250LastPosition
-http://dbpedia.org/property/250LastSeason
-http://dbpedia.org/property/250Manufacturers
-http://dbpedia.org/property/250Podiums
-http://dbpedia.org/property/250Poles
-http://dbpedia.org/property/250RaceStarts
-http://dbpedia.org/property/250RaceWins
-http://dbpedia.org/property/250TotalPoints
-http://dbpedia.org/property/bestCoronaPos
-http://dbpedia.org/property/bestIrlPos
-http://dbpedia.org/property/coronaPoles
-http://dbpedia.org/property/coronaTopTens
-http://dbpedia.org/property/coronaWins
-http://dbpedia.org/property/firstCoronaRace
-http://dbpedia.org/property/firstIrlRace
-http://dbpedia.org/property/firstIrlWin
-http://dbpedia.org/property/firstManxGpWin
-http://dbpedia.org/property/firstWin
-http://dbpedia.org/property/gpActiveYears
-http://dbpedia.org/property/gpChampionships
-http://dbpedia.org/property/gpFastestLaps
-http://dbpedia.org/property/gpFirstRace
-http://dbpedia.org/property/gpFirstWin
-http://dbpedia.org/property/gpLastRace
-http://dbpedia.org/property/gpLastWin
-http://dbpedia.org/property/gpPodiums
-http://dbpedia.org/property/gpPoles
-http://dbpedia.org/property/gpRaceStarts
-http://dbpedia.org/property/gpRaceWins
-http://dbpedia.org/property/gpTeams
-http://dbpedia.org/property/gpTotalPoints
-http://dbpedia.org/property/irlPodiums
-http://dbpedia.org/property/irlPoles
-http://dbpedia.org/property/irlWins
-http://dbpedia.org/property/lastCoronaRace
-http://dbpedia.org/property/lastIrlRace
-http://dbpedia.org/property/lastIrlWin
-http://dbpedia.org/property/lastManxGpWin
-http://dbpedia.org/property/lastPosition
-http://dbpedia.org/property/lastSeason
-http://dbpedia.org/property/lastWin
-http://dbpedia.org/property/manxGpActiveYears
-http://dbpedia.org/property/manxGpContested
-http://dbpedia.org/property/manxGpWins
-http://dbpedia.org/property/otherChampionships
-http://dbpedia.org/property/prevIrlPos
-http://dbpedia.org/property/sgpFinals
-http://dbpedia.org/property/sgpPodium
-http://dbpedia.org/property/sgpStarts
-http://dbpedia.org/property/sgpWin
-http://dbpedia.org/property/swedishleague
-http://dbpedia.org/property/truckCarTeam
-http://dbpedia.org/property/c
-http://dbpedia.org/property/family
-http://dbpedia.org/property/occupation
-http://dbpedia.org/property/p
-http://dbpedia.org/property/parents
-http://dbpedia.org/property/125ActiveYears
-http://dbpedia.org/ontology/birthYear
-http://dbpedia.org/ontology/parent
-http://dbpedia.org/property/polishleague
-http://dbpedia.org/ontology/occupation
-http://dbpedia.org/property/irlCarTeam
-http://dbpedia.org/property/totalArcaWestRaces
-http://dbpedia.org/property/yearsInArcaWest
-http://dbpedia.org/property/arcaWestCarTeam
-http://dbpedia.org/property/arcaWestPoles
-http://dbpedia.org/property/arcaWestTopTens
-http://dbpedia.org/property/arcaWestWins
-http://dbpedia.org/property/bestArcaWestPos
-http://dbpedia.org/property/crewChief
-http://dbpedia.org/property/firstArcaWestRace
-http://dbpedia.org/property/lastArcaWestRace
-http://dbpedia.org/property/align
-http://dbpedia.org/property/almaMater
-http://dbpedia.org/property/width
-http://dbpedia.org/property/bestChampPos
-http://dbpedia.org/property/champCarTeam
-http://dbpedia.org/property/champPodiums
-http://dbpedia.org/property/champPoles
-http://dbpedia.org/property/champWins
-http://dbpedia.org/property/firstChampRace
-http://dbpedia.org/property/firstCoronaWin
-http://dbpedia.org/property/lastChampRace
-http://dbpedia.org/property/lastCoronaWin
-http://dbpedia.org/property/manager
-http://dbpedia.org/property/rows
-http://dbpedia.org/property/russianleague
-http://dbpedia.org/property/totalArcaRaces
-http://dbpedia.org/property/yearsInArca
-http://dbpedia.org/property/birthname
-http://dbpedia.org/property/arcaCarTeam
-http://dbpedia.org/property/arcaPoles
-http://dbpedia.org/property/arcaTopTens
-http://dbpedia.org/property/arcaWins
-http://dbpedia.org/property/bestArcaEastPos
-http://dbpedia.org/property/bestArcaPos
-http://dbpedia.org/property/firstArcaRace
-http://dbpedia.org/property/lastArcaEastRace
-http://dbpedia.org/property/lastArcaRace
-http://dbpedia.org/ontology/country
-http://www.w3.org/2003/01/geo/wgs84_pos#lat
-http://www.w3.org/2003/01/geo/wgs84_pos#long
-http://dbpedia.org/ontology/deathYear
-http://dbpedia.org/property/quote
-http://dbpedia.org/property/source
-http://www.georss.org/georss/point
-http://dbpedia.org/property/bsbActiveYears
-http://dbpedia.org/property/bsbChampionships
-http://dbpedia.org/property/bsbFastestLaps
-http://dbpedia.org/property/bsbLastPosition
-http://dbpedia.org/property/bsbLastSeason
-http://dbpedia.org/property/bsbManufacturers
-http://dbpedia.org/property/bsbPodiums
-http://dbpedia.org/property/bsbPoles
-http://dbpedia.org/property/bsbRaceStarts
-http://dbpedia.org/property/bsbRaceWins
-http://dbpedia.org/property/bsbTotalPoints
-http://dbpedia.org/property/bssActiveYears
-http://dbpedia.org/property/bssChampionships
-http://dbpedia.org/property/bssFastestLaps
-http://dbpedia.org/property/bssLastPosition
-http://dbpedia.org/property/bssLastSeason
-http://dbpedia.org/property/bssManufacturers
-http://dbpedia.org/property/bssPodiums
-http://dbpedia.org/property/bssPoles
-http://dbpedia.org/property/bssRaceStarts
-http://dbpedia.org/property/bssRaceWins
-http://dbpedia.org/property/bssTotalPoints
-http://dbpedia.org/property/cupCarTeam
-http://dbpedia.org/ontology/deathCause
-http://www.w3.org/2003/01/geo/wgs84_pos#geometry
-http://dbpedia.org/property/codriver
-http://dbpedia.org/property/prevCoronaPos
-http://dbpedia.org/property/prevCoronaYear
-http://dbpedia.org/property/bestTruckYear
-http://dbpedia.org/property/ft
-http://dbpedia.org/property/in
-http://dbpedia.org/property/engines
-http://dbpedia.org/property/silverButton
-http://dbpedia.org/property/silverYear
-http://dbpedia.org/property/subscriberDate
-http://dbpedia.org/property/subscribers
-http://dbpedia.org/property/totalChampRaces
-http://dbpedia.org/property/viewDate
-http://dbpedia.org/property/views
-http://dbpedia.org/property/yearsInChamp
-http://dbpedia.org/property/restingPlace
-http://dbpedia.org/property/genre
-http://dbpedia.org/property/500FastestLaps
-http://dbpedia.org/property/500Manufacturers
-http://dbpedia.org/property/500Podiums
-http://dbpedia.org/property/500Poles
-http://dbpedia.org/property/500RaceStarts
-http://dbpedia.org/property/500RaceWins
-http://dbpedia.org/property/500TotalPoints
-http://dbpedia.org/property/channelDisplayName
-http://dbpedia.org/property/channelUrl
-http://dbpedia.org/property/firstChampWin
-http://dbpedia.org/property/lastChampWin
-http://dbpedia.org/property/nickName
-http://dbpedia.org/property/sgpNo
-http://dbpedia.org/property/canadaCarTeam
-http://dbpedia.org/property/firstCanadaWin
-http://dbpedia.org/property/lastCanadaWin
-http://dbpedia.org/property/medalsExpand
-http://dbpedia.org/property/prevCanadaPos
-http://dbpedia.org/property/prevCanadaYear
-http://dbpedia.org/property/recordTemplate
-http://www.w3.org/2004/02/skos/core#exactMatch
-http://dbpedia.org/property/amaSuperbikeChampionships
-http://dbpedia.org/property/saActiveYears
-http://dbpedia.org/property/saChampionships
-http://dbpedia.org/property/saLastPoints
-http://dbpedia.org/property/saLastPosition
-http://dbpedia.org/property/saLastSeason
-http://dbpedia.org/property/saManufacturers
-http://dbpedia.org/property/saPodiums
-http://dbpedia.org/property/saRaceStarts
-http://dbpedia.org/property/saRaceWins
-http://dbpedia.org/property/saTotalPoints
-http://www.w3.org/2000/01/rdf-schema#seeAlso
-http://dbpedia.org/property/speciesAuthor
-http://dbpedia.org/ontology/personFunction
-http://dbpedia.org/property/author
-http://dbpedia.org/property/b
-http://dbpedia.org/property/children
-http://dbpedia.org/property/commonscat
-http://dbpedia.org/property/d
-http://dbpedia.org/property/m
-http://dbpedia.org/property/mw
-http://dbpedia.org/property/n
-http://dbpedia.org/property/q
-http://dbpedia.org/property/s
-http://dbpedia.org/property/species
-http://dbpedia.org/property/spouse
-http://dbpedia.org/property/team
-http://dbpedia.org/property/v
-http://dbpedia.org/property/voy
-http://dbpedia.org/property/wikt
-http://dbpedia.org/property/collapsible
-http://dbpedia.org/ontology/birthName
-http://dbpedia.org/ontology/child
-http://dbpedia.org/ontology/spouse
-http://dbpedia.org/property/height
-http://dbpedia.org/property/weight
-http://dbpedia.org/property/50ActiveYears
-http://dbpedia.org/property/50FastestLaps
-http://dbpedia.org/property/50Manufacturers
-http://dbpedia.org/property/50Podiums
-http://dbpedia.org/property/50Poles
-http://dbpedia.org/property/50RaceStarts
-http://dbpedia.org/property/50RaceWins
-http://dbpedia.org/property/50TotalPoints
-http://dbpedia.org/ontology/activeYearsStartYear
-http://dbpedia.org/ontology/title
-http://dbpedia.org/property/relatives
-http://dbpedia.org/property/danishleague
-http://dbpedia.org/property/firstArcaWin
-http://dbpedia.org/ontology/relative
-http://dbpedia.org/property/education
-http://dbpedia.org/property/firstArcaWestWin
-http://dbpedia.org/property/lastArcaWestWin
-http://dbpedia.org/property/totalConvRaces
-http://dbpedia.org/property/yearsInConv
-http://dbpedia.org/property/organization
-http://dbpedia.org/property/predecessor
-http://dbpedia.org/property/successor
-http://dbpedia.org/property/term
-http://dbpedia.org/property/convPoles
-http://dbpedia.org/property/convTopTens
-http://dbpedia.org/property/convWins
-http://dbpedia.org/property/firstConvRace
-http://dbpedia.org/ontology/predecessor
-http://dbpedia.org/ontology/successor
-http://dbpedia.org/property/bestConvPos
-http://dbpedia.org/property/causeOfDeath
-http://dbpedia.org/property/firstConvWin
-http://dbpedia.org/property/firstGneastWin
-http://dbpedia.org/property/lastArcaWin
-http://dbpedia.org/property/lastConvRace
-http://dbpedia.org/property/lastConvWin
-http://dbpedia.org/property/lastGneastWin
-http://dbpedia.org/property/description
-http://dbpedia.org/property/filename
-http://dbpedia.org/property/format
-http://dbpedia.org/property/pos
-http://dbpedia.org/property/state
-http://dbpedia.org/property/motoeActiveYears
-http://dbpedia.org/property/motoeChampionships
-http://dbpedia.org/property/motoeFastestLaps
-http://dbpedia.org/property/motoeLastPosition
-http://dbpedia.org/property/motoeLastSeason
-http://dbpedia.org/property/motoeManufacturers
-http://dbpedia.org/property/motoePodiums
-http://dbpedia.org/property/motoePoles
-http://dbpedia.org/property/motoeRaceStarts
-http://dbpedia.org/property/motoeRaceWins
-http://dbpedia.org/property/motoeTotalPoints
-http://dbpedia.org/ontology/soundRecording
-http://dbpedia.org/property/firstArcaEastWin
-http://dbpedia.org/property/lastArcaEastWin
-http://dbpedia.org/property/hometown
-http://dbpedia.org/property/stageWins
-http://dbpedia.org/property/500ActiveYears
-http://dbpedia.org/property/careerPoints
-http://dbpedia.org/property/coDriver
-http://dbpedia.org/property/chassis
-http://dbpedia.org/property/ss300Championships
-http://dbpedia.org/property/ss300FastestLaps
-http://dbpedia.org/property/ss300LastPosition
-http://dbpedia.org/property/ss300LastSeason
-http://dbpedia.org/property/ss300Manufacturers
-http://dbpedia.org/property/ss300Podiums
-http://dbpedia.org/property/ss300Poles
-http://dbpedia.org/property/ss300RaceStarts
-http://dbpedia.org/property/ss300RaceWins
-http://dbpedia.org/property/ss300TotalPoints
-http://dbpedia.org/property/burialPlace
-http://dbpedia.org/property/bf1Championships
-http://dbpedia.org/property/bf1FastestLaps
-http://dbpedia.org/property/bf1Podiums
-http://dbpedia.org/property/bf1Points
-http://dbpedia.org/property/bf1Poles
-http://dbpedia.org/property/bf1Races
-http://dbpedia.org/property/bf1Wins
-http://dbpedia.org/property/bf1Years
-http://www.w3.org/2002/07/owl#differentFrom
-http://dbpedia.org/property/showflag
-http://dbpedia.org/property/gr
-http://dbpedia.org/property/otherNames
-http://dbpedia.org/property/t
-http://dbpedia.org/property/text
-http://dbpedia.org/property/w
-http://dbpedia.org/property/hp
-http://dbpedia.org/ontology/award
-http://dbpedia.org/property/totalLightsRaces
-http://dbpedia.org/property/yearsInLights
-http://dbpedia.org/ontology/stateOfOrigin
-http://dbpedia.org/property/firstLightsRace
-http://dbpedia.org/property/firstLightsWin
-http://dbpedia.org/property/hideStatistics
-http://dbpedia.org/property/lastLightsWin
-http://dbpedia.org/property/lightsCarTeam
-http://dbpedia.org/property/lightsPodiums
-http://dbpedia.org/property/lightsPoles
-http://dbpedia.org/property/lightsWins
-http://dbpedia.org/property/knownFor
-http://dbpedia.org/ontology/knownFor
-http://dbpedia.org/property/death
-http://dbpedia.org/property/keywords
-http://dbpedia.org/property/religion
-http://dbpedia.org/property/langcode
-http://dbpedia.org/property/otherarticle
-http://dbpedia.org/property/2006CaribbeanRotaxMaxSr.ChampeonUpdated
-http://dbpedia.org/property/carTeam
-http://dbpedia.org/property/coronoWins
-http://dbpedia.org/property/win
-http://dbpedia.org/property/amaActiveYears
-http://dbpedia.org/property/amaChampionships
-http://dbpedia.org/property/amaManufacturers
-http://dbpedia.org/property/amaProRaceStarts
-http://dbpedia.org/property/amasbActiveYears
-http://dbpedia.org/property/amasbChampionships
-http://dbpedia.org/property/amasbManufacturers
-http://dbpedia.org/property/amasbPoles
-http://dbpedia.org/property/amasbRaceStarts
-http://dbpedia.org/property/amasbRaceWins
-http://dbpedia.org/property/currentTeam.
-http://dbpedia.org/property/500LastPosition
-http://dbpedia.org/property/500LastSeason
-http://dbpedia.org/property/list
-http://dbpedia.org/property/maritalStatus
-http://dbpedia.org/property/signatureSize
-http://dbpedia.org/property/czechleague
-http://dbpedia.org/property/polePositions
-http://dbpedia.org/property/stagewins
-http://dbpedia.org/property/oldAgeBestCupPos
-http://dbpedia.org/property/ttLapRecords
-http://dbpedia.org/property/fmt
-http://dbpedia.org/property/index
-http://dbpedia.org/property/startYear
-http://dbpedia.org/property/value
-http://dbpedia.org/property/outrightRecord
-http://dbpedia.org/property/activeYears
-http://dbpedia.org/property/germanleague
-http://dbpedia.org/property/bestBuschPointsPos
-http://dbpedia.org/property/bestCupPointPos
-http://dbpedia.org/property/finals
-http://dbpedia.org/property/direction
-http://dbpedia.org/property/footer
-http://dbpedia.org/property/image
-http://dbpedia.org/property/ss300ActiveYears
-http://dbpedia.org/property/alt
-http://dbpedia.org/property/project
-http://dbpedia.org/property/girlfriend
-http://dbpedia.org/property/gpLastSeason
-http://dbpedia.org/property/500Championships
-http://dbpedia.org/property/fullname
-http://dbpedia.org/property/imageCaption
-http://dbpedia.org/property/promoter
-http://dbpedia.org/ontology/wikiPageInterLanguageLink
-http://dbpedia.org/property/norwegianleague
-http://dbpedia.org/ontology/education
-http://dbpedia.org/property/bestLightsPos
-http://dbpedia.org/property/lastLightsRace
-http://dbpedia.org/property/hungarianleague
-http://dbpedia.org/property/grid
-http://dbpedia.org/property/embed
-http://dbpedia.org/property/talk
-http://dbpedia.org/property/birthplace
-http://dbpedia.org/property/mgpContested
-http://dbpedia.org/property/italianleague
-http://dbpedia.org/property/marriageDate
-http://dbpedia.org/property/child
-http://dbpedia.org/property/lastCupArace
-http://dbpedia.org/property/founders
-http://dbpedia.org/property/formerSeries
-http://dbpedia.org/property/principal
-http://dbpedia.org/property/assembly
-http://dbpedia.org/property/bodyStyle
-http://dbpedia.org/property/platform
-http://dbpedia.org/property/production
-http://dbpedia.org/property/sp
-http://dbpedia.org/property/transmission
-http://dbpedia.org/property/formerTeam
-http://dbpedia.org/property/group
-http://dbpedia.org/property/liststyle
-http://dbpedia.org/ontology/employer
-http://dbpedia.org/property/employer
-http://dbpedia.org/property/isdtAwards
-http://dbpedia.org/property/coach
-http://dbpedia.org/property/for
-http://dbpedia.org/ontology/alias
-http://dbpedia.org/property/inaccurate
-http://dbpedia.org/property/gpLastPosition
-http://dbpedia.org/property/careerTemplate
-http://dbpedia.org/property/ewcChampionships
-http://dbpedia.org/property/ewcFastestLaps
-http://dbpedia.org/property/ewcPodiums
-http://dbpedia.org/property/ewcPoles
-http://dbpedia.org/property/ewcRaceStarts
-http://dbpedia.org/property/ewcRaceWins
-http://dbpedia.org/property/gpManufacturers
-http://dbpedia.org/property/quoted
-http://dbpedia.org/property/number
-http://dbpedia.org/property/bodyclass
-http://dbpedia.org/property/below
-http://dbpedia.org/property/basestyle
-http://dbpedia.org/property/ulsterGrandPrixContested
-http://dbpedia.org/property/ulsterGrandPrixFirstWin
-http://dbpedia.org/property/ulsterGrandPrixLastWin
-http://dbpedia.org/property/ulsterGrandPrixWins
-http://dbpedia.org/property/northWest200Contested
-http://dbpedia.org/property/northWest200FirstWin
-http://dbpedia.org/property/northWest200LastWin
-http://dbpedia.org/property/northWest200Wins
-http://dbpedia.org/property/australianSuperbikeChampionships
-http://dbpedia.org/property/bestTruckPosition
-http://dbpedia.org/property/currentTeams
-http://dbpedia.org/property/spaz.
-http://dbpedia.org/property/internationalSuperbikeWins
-http://dbpedia.org/property/internationalSupersportWins
-http://dbpedia.org/property/irishRaceWins
-http://dbpedia.org/property/coronaCarTeam
-http://dbpedia.org/property/80ActiveYears
-http://dbpedia.org/property/80Championships
-http://dbpedia.org/property/80FastestLaps
-http://dbpedia.org/property/80LastPosition
-http://dbpedia.org/property/80LastSeason
-http://dbpedia.org/property/80Manufacturers
-http://dbpedia.org/property/80Podiums
-http://dbpedia.org/property/80Poles
-http://dbpedia.org/property/80RaceStarts
-http://dbpedia.org/property/80RaceWins
-http://dbpedia.org/property/80TotalPoints
-http://dbpedia.org/property/blp
-http://dbpedia.org/property/father
-http://dbpedia.org/property/firstGpWin
-http://dbpedia.org/property/gpDebut
-http://dbpedia.org/property/candidate
-http://dbpedia.org/property/party
-http://dbpedia.org/property/percentage
-http://dbpedia.org/property/votes
-http://dbpedia.org/property/birthdate
-http://dbpedia.org/property/asbkActiveYears
-http://dbpedia.org/property/asbkChampionships
-http://dbpedia.org/property/asbkFastestLaps
-http://dbpedia.org/property/asbkPodiums
-http://dbpedia.org/property/asbkPoles
-http://dbpedia.org/property/asbkRaceStarts
-http://dbpedia.org/property/asbkRaceWins
-http://dbpedia.org/property/asbkTotalPoints
-http://dbpedia.org/property/assActiveYears
-http://dbpedia.org/property/assChampionships
-http://dbpedia.org/property/assFastestLaps
-http://dbpedia.org/property/assLastSeason
-http://dbpedia.org/property/assManufacturers
-http://dbpedia.org/property/assPodiums
-http://dbpedia.org/property/assPoles
-http://dbpedia.org/property/assRaceStarts
-http://dbpedia.org/property/assRaceWins
-http://dbpedia.org/property/assTotalPoints
-http://dbpedia.org/property/motoamericaActiveYears
-http://dbpedia.org/property/motoamericaFastestLaps
-http://dbpedia.org/property/motoamericaManufaturer
-http://dbpedia.org/property/motoamericaPodiums
-http://dbpedia.org/property/motoamericaPoles
-http://dbpedia.org/property/motoamericaRaceWins
-http://dbpedia.org/property/motoamericaStarts
-http://dbpedia.org/property/j
-http://dbpedia.org/property/raceWins
-http://dbpedia.org/property/bestBuschPosition
-http://dbpedia.org/property/disappearedPlace
-http://dbpedia.org/property/top10’s
-http://dbpedia.org/property/top5’s
-http://dbpedia.org/property/sport
-http://dbpedia.org/property/countryCode
-http://dbpedia.org/property/weightLb
-http://dbpedia.org/property/auto
-http://dbpedia.org/property/commons
-http://dbpedia.org/property/heightFt
-http://dbpedia.org/property/heightIn
-http://dbpedia.org/property/portal
-http://dbpedia.org/property/laps
-http://dbpedia.org/property/car
-http://dbpedia.org/property/totalWidth
-http://dbpedia.org/property/channelName
-http://dbpedia.org/property/diamondButton
-http://dbpedia.org/property/goldButton
-http://dbpedia.org/property/pseudonym
-http://dbpedia.org/property/rubyButton
-http://dbpedia.org/property/conviction
-http://dbpedia.org/property/convictionPenalty
-http://dbpedia.org/property/convictionStatus
-http://dbpedia.org/property/motive
-http://dbpedia.org/property/discipline
-http://dbpedia.org/property/role
-http://dbpedia.org/property/currentteam
-http://dbpedia.org/property/proteam
-http://dbpedia.org/property/proyears
-http://dbpedia.org/property/ridertype
-http://dbpedia.org/property/section
-http://dbpedia.org/property/base
-http://dbpedia.org/property/debut
-http://dbpedia.org/property/longName
-http://dbpedia.org/property/staff
-http://dbpedia.org/property/constructors
-http://dbpedia.org/property/drivers
-http://dbpedia.org/property/driversChamp
-http://dbpedia.org/property/alias
-http://dbpedia.org/property/associatedActs
-http://dbpedia.org/property/background
-http://dbpedia.org/property/instrument
-http://dbpedia.org/property/label
-http://dbpedia.org/property/origin
-http://dbpedia.org/property/lastUpdated
-http://dbpedia.org/property/position
-http://dbpedia.org/property/display
-http://dbpedia.org/property/marriedTo
-http://dbpedia.org/property/resides
-http://dbpedia.org/property/onlyWin
-http://dbpedia.org/property/commonsSearch
-http://dbpedia.org/property/nSearch
-http://dbpedia.org/property/dSearch
-http://dbpedia.org/property/finnishleague
-http://dbpedia.org/property/totalGoody'sDashRaces
-http://dbpedia.org/property/yearsInGoody'sDash
-http://dbpedia.org/property/bestGoody'sDashPos
-http://dbpedia.org/property/firstDashWin
-http://dbpedia.org/property/goody'sDashTopTens
-http://dbpedia.org/property/goody'sDashWins
-http://dbpedia.org/property/1a
-http://dbpedia.org/property/1pp
-http://dbpedia.org/property/1y
-http://dbpedia.org/property/2a
-http://dbpedia.org/property/2pp
-http://dbpedia.org/property/2y
-http://dbpedia.org/property/nativeName
-http://dbpedia.org/property/small
-http://dbpedia.org/property/nativeNameLanguage
-http://dbpedia.org/ontology/restingPlace
-http://dbpedia.org/property/brands
-http://dbpedia.org/property/areaServed
-http://dbpedia.org/property/founder
-http://dbpedia.org/property/homepage
-http://dbpedia.org/property/industry
-http://dbpedia.org/property/keyPeople
-http://dbpedia.org/property/locationCity
-http://dbpedia.org/property/services
-http://dbpedia.org/property/mr
-http://dbpedia.org/property/rr
-http://dbpedia.org/property/sbkBestPosition
-http://dbpedia.org/property/bg
-http://dbpedia.org/property/founded
-http://dbpedia.org/property/currentDrivers
-http://dbpedia.org/property/motoGpraceWins
-http://dbpedia.org/property/wpcaWorldChampionships
-http://dbpedia.org/property/calgaryStampede
-http://dbpedia.org/property/fg
-http://dbpedia.org/property/motoeTeams
-http://dbpedia.org/property/day
-http://dbpedia.org/property/help
-http://dbpedia.org/property/month
-http://dbpedia.org/property/page
-http://dbpedia.org/property/substed
-http://dbpedia.org/property/timestamp
-http://dbpedia.org/property/2020/06/24/85BirthPlace
-http://dbpedia.org/property/reasn
-http://dbpedia.org/property/teammate
-http://dbpedia.org/property/highlights
-http://dbpedia.org/ontology/almaMater
-http://dbpedia.org/property/hqLocationCity
-http://dbpedia.org/property/hqLocationCountry
-http://dbpedia.org/property/logo
-http://dbpedia.org/property/owners
-http://dbpedia.org/property/parent
-http://dbpedia.org/property/products
-http://dbpedia.org/property/type
-http://dbpedia.org/property/works
-http://dbpedia.org/property/bsbPoints
-http://dbpedia.org/property/upright
-http://dbpedia.org/property/dutchTtContested
-http://dbpedia.org/property/dutchTtWins
-http://dbpedia.org/property/isleOfManTtContested
-http://dbpedia.org/property/ribbon
-http://dbpedia.org/property/qalign
-http://dbpedia.org/property/bestBuschFin
-http://dbpedia.org/property/bestCupFin
-http://dbpedia.org/property/died
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/ontology/birthPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/birthPlace> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/birthPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/birthPlace> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/birthDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/birthDate> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/birthDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/birthDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/birthDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/birthDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/firstRace> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/firstRace> rdfs:range <http://dbpedia.org/ontology/GrandPrix> .
+<http://dbpedia.org/ontology/firstRace> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/firstRace> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/firstRace> rdfs:range <http://dbpedia.org/ontology/GrandPrix> .
+<http://dbpedia.org/ontology/firstRace> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/lastRace> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/lastRace> rdfs:range <http://dbpedia.org/ontology/GrandPrix> .
+<http://dbpedia.org/ontology/lastRace> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/lastRace> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/lastRace> rdfs:range <http://dbpedia.org/ontology/GrandPrix> .
+<http://dbpedia.org/ontology/lastRace> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/championships> rdfs:domain <http://dbpedia.org/ontology/Agent> .
+<http://dbpedia.org/ontology/championships> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/championships> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/championships> rdfs:domain <http://dbpedia.org/ontology/Agent> .
+<http://dbpedia.org/ontology/championships> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/championships> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/fastestLap> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/fastestLap> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/fastestLap> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/fastestLap> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/fastestLap> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/fastestLap> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/podiums> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/podiums> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/podiums> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/podiums> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/podiums> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/podiums> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/poles> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/poles> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/poles> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/poles> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/poles> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/poles> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/races> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/races> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/races> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/races> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/races> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/races> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/nationality> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/nationality> rdfs:range <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/nationality> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/nationality> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/nationality> rdfs:range <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/nationality> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/deathPlace> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/deathPlace> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/deathDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/deathDate> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/deathDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/deathDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/deathDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/deathDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/firstWin> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/firstWin> rdfs:range <http://dbpedia.org/ontology/GrandPrix> .
+<http://dbpedia.org/ontology/firstWin> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/firstWin> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/firstWin> rdfs:range <http://dbpedia.org/ontology/GrandPrix> .
+<http://dbpedia.org/ontology/firstWin> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/lastWin> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/lastWin> rdfs:range <http://dbpedia.org/ontology/GrandPrix> .
+<http://dbpedia.org/ontology/lastWin> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/lastWin> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/lastWin> rdfs:range <http://dbpedia.org/ontology/GrandPrix> .
+<http://dbpedia.org/ontology/lastWin> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/lastPosition> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/lastPosition> rdfs:range <http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://dbpedia.org/ontology/lastPosition> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/lastPosition> rdfs:domain <http://dbpedia.org/ontology/FormulaOneRacer> .
+<http://dbpedia.org/ontology/lastPosition> rdfs:range <http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://dbpedia.org/ontology/lastPosition> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/birthYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/birthYear> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/birthYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/birthYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/birthYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/birthYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/parent> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/parent> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/parent> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/parent> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/parent> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/parent> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/deathYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/deathYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/deathYear> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/deathYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/deathYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/deathYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/deathYear> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/deathYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/deathYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/personFunction> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/personFunction> rdfs:range <http://dbpedia.org/ontology/PersonFunction> .
+<http://dbpedia.org/ontology/personFunction> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/personFunction> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/personFunction> rdfs:range <http://dbpedia.org/ontology/PersonFunction> .
+<http://dbpedia.org/ontology/personFunction> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/birthName> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthName> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/birthName> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/birthName> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/birthName> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/birthName> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/child> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/child> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/child> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/child> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/child> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/child> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/spouse> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/spouse> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/spouse> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/spouse> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/spouse> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/spouse> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/relative> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/relative> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/relative> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/relative> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/relative> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/relative> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdfs:range <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdfs:range <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/stateOfOrigin> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/employer> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/employer> rdfs:range <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/employer> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/employer> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/employer> rdfs:range <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/employer> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/restingPlace> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/restingPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/restingPlace> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/restingPlace> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/restingPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/restingPlace> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/almaMater> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/almaMater> rdfs:range <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/almaMater> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/almaMater> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/almaMater> rdfs:range <http://dbpedia.org/ontology/EducationalInstitution> .
+<http://dbpedia.org/ontology/almaMater> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .

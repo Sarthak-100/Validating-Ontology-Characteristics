@@ -1,615 +1,113 @@
-http://www.w3.org/2002/07/owl#differentFrom
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.w3.org/2000/01/rdf-schema#comment
-http://xmlns.com/foaf/0.1/name
-http://xmlns.com/foaf/0.1/nick
-http://xmlns.com/foaf/0.1/homepage
-http://dbpedia.org/property/name
-http://www.w3.org/2003/01/geo/wgs84_pos#lat
-http://www.w3.org/2003/01/geo/wgs84_pos#long
-http://xmlns.com/foaf/0.1/depiction
-http://dbpedia.org/ontology/location
-http://purl.org/dc/terms/subject
-http://dbpedia.org/ontology/wikiPageID
-http://dbpedia.org/ontology/wikiPageRevisionID
-http://dbpedia.org/ontology/wikiPageWikiLink
-http://www.w3.org/2002/07/owl#sameAs
-http://dbpedia.org/ontology/wikiPageExternalLink
-http://dbpedia.org/property/teamColours
-http://dbpedia.org/property/wikiPageUsesTemplate
-http://dbpedia.org/ontology/thumbnail
-http://dbpedia.org/property/alt
-http://dbpedia.org/property/body
-http://dbpedia.org/property/capacity
-http://dbpedia.org/property/captain
-http://dbpedia.org/property/chairman
-http://dbpedia.org/property/chrtitle
-http://dbpedia.org/property/clubname
-http://dbpedia.org/property/coach
-http://dbpedia.org/property/current
-http://dbpedia.org/property/date
-http://dbpedia.org/property/dimensions
-http://dbpedia.org/property/dissolved
-http://dbpedia.org/property/founded
-http://dbpedia.org/property/fullname
-http://dbpedia.org/property/ground
-http://dbpedia.org/property/imageSize
-http://dbpedia.org/property/league
-http://dbpedia.org/property/leftarm
-http://dbpedia.org/property/location
-http://dbpedia.org/property/manager
-http://dbpedia.org/property/mgrtitle
-http://dbpedia.org/property/nat
-http://dbpedia.org/property/nickname
-http://dbpedia.org/property/no
-http://dbpedia.org/property/other
-http://dbpedia.org/property/owner
-http://dbpedia.org/property/patternB
-http://dbpedia.org/property/patternLa
-http://dbpedia.org/property/patternRa
-http://dbpedia.org/property/patternSh
-http://dbpedia.org/property/patternSo
-http://dbpedia.org/property/pos
-http://dbpedia.org/ontology/chairmanTitle
-http://dbpedia.org/ontology/dissolved
-http://dbpedia.org/ontology/formationDate
-http://dbpedia.org/ontology/managerTitle
-http://dbpedia.org/ontology/teamName
-http://dbpedia.org/ontology/ground
-http://dbpedia.org/ontology/manager
-http://dbpedia.org/property/position
-http://dbpedia.org/property/rightarm
-http://dbpedia.org/property/season
-http://dbpedia.org/property/seatingCapacity
-http://dbpedia.org/property/shortName
-http://dbpedia.org/property/shorts
-http://dbpedia.org/property/socks
-http://dbpedia.org/property/stadium
-http://dbpedia.org/property/stadiumName
-http://dbpedia.org/property/surface
-http://dbpedia.org/property/teamname
-http://dbpedia.org/property/tenants
-http://dbpedia.org/property/title
-http://dbpedia.org/property/upright
-http://dbpedia.org/property/url
-http://dbpedia.org/property/website
-http://dbpedia.org/property/american
-http://www.georss.org/georss/point
-http://dbpedia.org/ontology/abstract
-http://dbpedia.org/property/countryflag
-http://purl.org/linguistics/gold/hypernym
-http://schema.org/sameAs
-http://dbpedia.org/property/wordnet_type
-http://www.w3.org/ns/prov#wasDerivedFrom
-http://dbpedia.org/ontology/wikiPageLength
-http://dbpedia.org/ontology/capacity
-http://dbpedia.org/ontology/foundingYear
-http://dbpedia.org/ontology/coach
-http://dbpedia.org/ontology/league
-http://dbpedia.org/ontology/owner
-http://dbpedia.org/ontology/position
-http://dbpedia.org/ontology/season
-http://xmlns.com/foaf/0.1/isPrimaryTopicOf
-http://www.w3.org/2003/01/geo/wgs84_pos#geometry
-http://www.w3.org/2000/01/rdf-schema#seeAlso
-http://dbpedia.org/property/shirtsupplier
-http://dbpedia.org/property/subConfederation
-http://dbpedia.org/property/worldCupApps
-http://dbpedia.org/property/badgeSize
-http://dbpedia.org/property/age
-http://dbpedia.org/property/align
-http://dbpedia.org/property/attendance
-http://dbpedia.org/property/background
-http://dbpedia.org/property/bot
-http://dbpedia.org/property/caption
-http://dbpedia.org/property/club
-http://dbpedia.org/property/color
-http://dbpedia.org/property/country
-http://dbpedia.org/property/dab
-http://dbpedia.org/property/first
-http://dbpedia.org/property/fixAttempted
-http://dbpedia.org/property/gk
-http://dbpedia.org/property/goals
-http://dbpedia.org/property/home
-http://dbpedia.org/property/last
-http://dbpedia.org/property/lb
-http://dbpedia.org/property/lcb
-http://dbpedia.org/property/lcm
-http://dbpedia.org/property/president
-http://dbpedia.org/property/rb
-http://dbpedia.org/property/rcb
-http://dbpedia.org/property/rcm
-http://dbpedia.org/property/referee
-http://dbpedia.org/property/report
-http://dbpedia.org/property/result
-http://dbpedia.org/property/score
-http://dbpedia.org/property/shortname
-http://dbpedia.org/property/ss
-http://dbpedia.org/property/team
-http://dbpedia.org/property/time
-http://dbpedia.org/property/topScorer
-http://dbpedia.org/property/union
-http://dbpedia.org/property/cm
-http://dbpedia.org/property/kitAlt
-http://dbpedia.org/property/topscorer
-http://dbpedia.org/property/away
-http://dbpedia.org/property/con
-http://dbpedia.org/property/largestLoss
-http://dbpedia.org/property/largestWin
-http://dbpedia.org/property/pen
-http://dbpedia.org/property/round
-http://dbpedia.org/property/try
-http://dbpedia.org/property/caps
-http://dbpedia.org/property/clubnat
-http://dbpedia.org/property/2ndregionalCupApps
-http://dbpedia.org/property/2ndregionalCupBest
-http://dbpedia.org/property/2ndregionalCupFirst
-http://dbpedia.org/property/2ndregionalName
-http://dbpedia.org/property/3rdregionalCupApps
-http://dbpedia.org/property/3rdregionalCupBest
-http://dbpedia.org/property/3rdregionalCupFirst
-http://dbpedia.org/property/3rdregionalName
-http://dbpedia.org/property/association
-http://dbpedia.org/property/badge
-http://dbpedia.org/property/bigloss
-http://dbpedia.org/property/bigwin
-http://dbpedia.org/property/confederation
-http://dbpedia.org/property/directorOfRugby
-http://dbpedia.org/property/eloMax
-http://dbpedia.org/property/eloMaxDate
-http://dbpedia.org/property/eloMin
-http://dbpedia.org/property/eloMinDate
-http://dbpedia.org/property/emblem
-http://dbpedia.org/property/fifaMax
-http://dbpedia.org/property/fifaMaxDate
-http://dbpedia.org/property/fifaMin
-http://dbpedia.org/property/fifaMinDate
-http://dbpedia.org/property/fifaTrigramme
-http://dbpedia.org/property/firstGame
-http://dbpedia.org/property/homeStadium
-http://dbpedia.org/property/lam
-http://dbpedia.org/property/latest
-http://dbpedia.org/property/mostCaps
-http://dbpedia.org/property/nolink
-http://dbpedia.org/property/owntitle
-http://dbpedia.org/property/ram
-http://dbpedia.org/property/regionalCupApps
-http://dbpedia.org/property/regionalCupBest
-http://dbpedia.org/property/regionalCupFirst
-http://dbpedia.org/property/regionalName
-http://dbpedia.org/ontology/title
-http://dbpedia.org/ontology/chairman
-http://dbpedia.org/ontology/country
-http://dbpedia.org/ontology/stadium
-http://dbpedia.org/property/shirtsponsors
-http://dbpedia.org/property/worldCupBest
-http://dbpedia.org/property/worldCupFirst
-http://dbpedia.org/property/coaches
-http://dbpedia.org/property/format
-http://dbpedia.org/property/headCoach
-http://dbpedia.org/property/id
-http://dbpedia.org/property/imagesize
-http://dbpedia.org/property/penalties
-http://dbpedia.org/property/penaltyscore
-http://dbpedia.org/property/type
-http://dbpedia.org/property/aet
-http://dbpedia.org/property/patternName
-http://dbpedia.org/property/competitions
-http://dbpedia.org/property/rdo
-http://dbpedia.org/property/coach(es)_
-http://dbpedia.org/property/season2007/_
-http://dbpedia.org/property/after
-http://dbpedia.org/property/before
-http://dbpedia.org/property/bg
-http://dbpedia.org/property/governingBody
-http://dbpedia.org/property/image
-http://dbpedia.org/property/note
-http://dbpedia.org/property/region
-http://dbpedia.org/property/titlestyle
-http://dbpedia.org/property/width
-http://dbpedia.org/property/years
-http://dbpedia.org/property/aggregatescore
-http://dbpedia.org/property/bordercolor
-http://dbpedia.org/property/confederationsCupApps
-http://dbpedia.org/property/confederationsCupBest
-http://dbpedia.org/property/confederationsCupFirst
-http://dbpedia.org/property/fg
-http://dbpedia.org/property/firstInternational
-http://dbpedia.org/property/sevens
-http://dbpedia.org/property/u17wcApps
-http://dbpedia.org/property/u17wcBest
-http://dbpedia.org/property/u17wcFirst
-http://dbpedia.org/property/u20wcApps
-http://dbpedia.org/property/u20wcBest
-http://dbpedia.org/property/u20wcFirst
-http://dbpedia.org/ontology/wikiPageInterLanguageLink
-http://dbpedia.org/property/ceo
-http://dbpedia.org/property/class
-http://dbpedia.org/property/colwidth
-http://dbpedia.org/property/content
-http://dbpedia.org/property/disbanded
-http://dbpedia.org/property/from
-http://dbpedia.org/property/group
-http://dbpedia.org/property/logo
-http://dbpedia.org/property/logoSize
-http://dbpedia.org/property/p
-http://dbpedia.org/property/s
-http://dbpedia.org/property/t
-http://dbpedia.org/property/year
-http://dbpedia.org/property/natvar
-http://dbpedia.org/property/topTryScorer
-http://dbpedia.org/property/asstManager
-http://dbpedia.org/property/best
-http://dbpedia.org/property/fifaRank
-http://dbpedia.org/property/form
-http://dbpedia.org/property/marginBottom
-http://dbpedia.org/property/marginLeft
-http://dbpedia.org/property/marginRight
-http://dbpedia.org/property/marginTop
-http://dbpedia.org/property/mostTries
-http://dbpedia.org/property/nokit
-http://dbpedia.org/property/rlifRank
-http://dbpedia.org/property/appearances
-http://dbpedia.org/property/captain(s)_
-http://dbpedia.org/property/footer
-http://dbpedia.org/property/footerAlign
-http://dbpedia.org/property/height
-http://dbpedia.org/property/perrow
-http://dbpedia.org/property/totalWidth
-http://dbpedia.org/property/groundGeGf
-http://dbpedia.org/property/rugbyDirector
-http://dbpedia.org/property/generalmanager
-http://dbpedia.org/property/headcoach
-http://dbpedia.org/property/patternS
-http://dbpedia.org/property/generalManager
-http://dbpedia.org/property/conifaRank
-http://dbpedia.org/property/as
-http://dbpedia.org/property/branch
-http://dbpedia.org/property/reserveManager
-http://dbpedia.org/ontology/president
-http://dbpedia.org/property/chairwoman
-http://dbpedia.org/property/clubDirector
-http://dbpedia.org/property/countryflagvar
-http://dbpedia.org/property/colors
-http://dbpedia.org/property/colours
-http://dbpedia.org/property/coach’s
-http://dbpedia.org/property/reason
-http://dbpedia.org/property/imageLeft
-http://dbpedia.org/property/imageTop
-http://dbpedia.org/property/address
-http://dbpedia.org/property/bc
-http://dbpedia.org/property/director
-http://dbpedia.org/property/imageWidth
-http://dbpedia.org/property/points
-http://dbpedia.org/property/topPointScorer
-http://dbpedia.org/property/column1Title
-http://dbpedia.org/property/fc
-http://dbpedia.org/property/squadname
-http://dbpedia.org/property/langcode
-http://dbpedia.org/property/otherarticle
-http://dbpedia.org/property/small
-http://dbpedia.org/property/u
-http://dbpedia.org/property/imagemap
-http://dbpedia.org/property/sport
-http://dbpedia.org/property/managers
-http://dbpedia.org/property/scorenote
-http://dbpedia.org/property/president/Secretary
-http://dbpedia.org/property/context
-http://dbpedia.org/property/mr
-http://dbpedia.org/property/rr
-http://dbpedia.org/property/lcf
-http://dbpedia.org/property/rcf
-http://dbpedia.org/property/4thregionalCupApps
-http://dbpedia.org/property/4thregionalCupBest
-http://dbpedia.org/property/4thregionalCupFirst
-http://dbpedia.org/property/4thregionalName
-http://dbpedia.org/property/cb
-http://dbpedia.org/property/lwb
-http://dbpedia.org/property/rwb
-http://dbpedia.org/property/unionurl
-http://dbpedia.org/property/am
-http://dbpedia.org/property/cf
-http://dbpedia.org/property/float
-http://dbpedia.org/property/gkNat
-http://dbpedia.org/property/inaccurate
-http://dbpedia.org/property/lbNat
-http://dbpedia.org/property/lcbNat
-http://dbpedia.org/property/lcfNat
-http://dbpedia.org/property/lcmNat
-http://dbpedia.org/property/lm
-http://dbpedia.org/property/lmNat
-http://dbpedia.org/property/rbNat
-http://dbpedia.org/property/rcbNat
-http://dbpedia.org/property/rcfNat
-http://dbpedia.org/property/rcmNat
-http://dbpedia.org/property/rm
-http://dbpedia.org/property/rmNat
-http://dbpedia.org/property/secretary
-http://dbpedia.org/property/sign
-http://dbpedia.org/property/source
-http://dbpedia.org/property/text
-http://dbpedia.org/property/amNat
-http://dbpedia.org/property/cfNat
-http://dbpedia.org/property/currentseason
-http://dbpedia.org/property/nbp
-http://dbpedia.org/property/unions
-http://dbpedia.org/property/conference
-http://dbpedia.org/property/manofmatch
-http://dbpedia.org/property/referees
-http://dbpedia.org/property/motm
-http://dbpedia.org/property/firstInternationalTitle
-http://dbpedia.org/property/topDrinker
-http://dbpedia.org/property/founder
-http://dbpedia.org/property/song
-http://dbpedia.org/property/m&jChairman
-http://dbpedia.org/property/uefau21champApps
-http://dbpedia.org/property/uefau21champBest
-http://dbpedia.org/property/uefau21champFirst
-http://dbpedia.org/property/clubName
-http://dbpedia.org/property/c
-http://dbpedia.org/property/fullName
-http://dbpedia.org/property/size
-http://dbpedia.org/property/border
-http://dbpedia.org/property/cup
-http://dbpedia.org/property/nonumber
-http://dbpedia.org/property/opened
-http://dbpedia.org/property/operator
-http://dbpedia.org/property/web
-http://dbpedia.org/property/recordAttendance
-http://dbpedia.org/property/worldCup
-http://dbpedia.org/property/drop
-http://dbpedia.org/property/cards
-http://dbpedia.org/property/filetype
-http://dbpedia.org/property/halign
-http://dbpedia.org/property/author
-http://dbpedia.org/property/bgcolor
-http://dbpedia.org/property/rivals
-http://dbpedia.org/property/salign
-http://dbpedia.org/property/textcolor
-http://dbpedia.org/ontology/ceo
-http://dbpedia.org/property/body.
-http://dbpedia.org/property/executiveDirector
-http://dbpedia.org/property/executiveDirectorOfFootball
-http://dbpedia.org/property/honours
-http://dbpedia.org/property/leftarm.
-http://dbpedia.org/property/patternC
-http://dbpedia.org/ontology/honours
-http://dbpedia.org/property/dor
-http://dbpedia.org/property/wLeftarm
-http://dbpedia.org/property/scale
-http://dbpedia.org/property/toggle
-http://dbpedia.org/property/x
-http://dbpedia.org/property/y
-http://dbpedia.org/property/dm
-http://dbpedia.org/property/rw
-http://dbpedia.org/property/lw
-http://dbpedia.org/property/quoted
-http://dbpedia.org/property/quote
-http://dbpedia.org/property/lss
-http://dbpedia.org/property/rss
-http://dbpedia.org/property/dmNat
-http://dbpedia.org/property/lssNat
-http://dbpedia.org/property/lwNat
-http://dbpedia.org/property/rssNat
-http://dbpedia.org/property/rssShift
-http://dbpedia.org/property/rwNat
-http://dbpedia.org/property/d
-http://dbpedia.org/property/h
-http://dbpedia.org/property/l
-http://dbpedia.org/property/r
-http://dbpedia.org/property/road
-http://dbpedia.org/property/tv
-http://dbpedia.org/property/w
-http://dbpedia.org/property/clubSecretary
-http://dbpedia.org/property/lastGame
-http://dbpedia.org/property/sortname
-http://dbpedia.org/property/chairperson
-http://dbpedia.org/property/flag
-http://dbpedia.org/property/header
-http://dbpedia.org/property/updated
-http://dbpedia.org/property/captains
-http://dbpedia.org/property/logosize
-http://dbpedia.org/property/topGoalScorer
-http://dbpedia.org/property/comps
-http://dbpedia.org/property/firstwin
-http://dbpedia.org/property/jointManagers
-http://dbpedia.org/property/leaguename
-http://dbpedia.org/property/regionyear
-http://dbpedia.org/property/remit
-http://dbpedia.org/property/rlif
-http://dbpedia.org/property/captionAlign
-http://dbpedia.org/property/head
-http://dbpedia.org/property/headTitle
-http://dbpedia.org/property/headerAlign
-http://dbpedia.org/property/headquarters
-http://dbpedia.org/property/style
-http://dbpedia.org/property/gaelicName
-http://dbpedia.org/property/teamManager
-http://dbpedia.org/property/robertoPradaBotelhoLeague
-http://dbpedia.org/property/patternShorts
-http://dbpedia.org/property/auto
-http://dbpedia.org/property/honoraryPresident
-http://dbpedia.org/property/twitter
-http://dbpedia.org/property/ffffff
-http://dbpedia.org/property/motto
-http://dbpedia.org/property/wplCoach
-http://dbpedia.org/property/slmBlues
-http://dbpedia.org/property/trainingFacility
-http://dbpedia.org/property/edit
-http://dbpedia.org/property/training
-http://dbpedia.org/property/folded
-http://dbpedia.org/property/vicechairman
-http://dbpedia.org/property/inhale
-http://dbpedia.org/property/sponsors
-http://dbpedia.org/property/treasurer
-http://dbpedia.org/property/grounds
-http://dbpedia.org/property/nextseason
-http://dbpedia.org/property/prevseason
-http://dbpedia.org/property/awayscore
-http://dbpedia.org/property/homescore
-http://dbpedia.org/property/chiefExecutive
-http://dbpedia.org/property/assistantreferees
-http://dbpedia.org/property/ad
-http://dbpedia.org/property/aga
-http://dbpedia.org/property/agf
-http://dbpedia.org/property/al
-http://dbpedia.org/property/aw
-http://dbpedia.org/property/hd
-http://dbpedia.org/property/hga
-http://dbpedia.org/property/hgf
-http://dbpedia.org/property/hl
-http://dbpedia.org/property/hw
-http://dbpedia.org/property/stack
-http://dbpedia.org/property/fourthofficial
-http://dbpedia.org/property/telegramChannel
-http://dbpedia.org/property/bestresult
-http://dbpedia.org/property/instagram
-http://dbpedia.org/property/kitsponsor
-http://dbpedia.org/property/ssNat
-http://dbpedia.org/property/1stXvCaptain
-http://dbpedia.org/property/attackCoach
-http://dbpedia.org/property/clubCaptain
-http://dbpedia.org/property/defenceCoach
-http://dbpedia.org/property/fitnessCoordinator
-http://dbpedia.org/property/forwardsCoach
-http://dbpedia.org/property/foundation
-http://dbpedia.org/property/chair
-http://dbpedia.org/property/showflag
-http://dbpedia.org/property/altname
-http://dbpedia.org/property/gr
-http://dbpedia.org/property/order
-http://dbpedia.org/property/coCaptains
-http://dbpedia.org/property/leftarm2Bb
-http://dbpedia.org/property/mrgtitle
-http://dbpedia.org/property/direction
-http://dbpedia.org/property/mostRecentMatch
-http://dbpedia.org/property/symbols
-http://dbpedia.org/property/transactionDate
-http://dbpedia.org/property/game
-http://dbpedia.org/property/handle
-http://dbpedia.org/property/webSite
-http://dbpedia.org/property/interimHeadCoach
-http://dbpedia.org/property/tarih
-http://dbpedia.org/property/confed
-http://dbpedia.org/property/eloRank
-http://dbpedia.org/property/assets
-http://dbpedia.org/property/buildingName
-http://dbpedia.org/property/hqLocation
-http://dbpedia.org/property/hqLocationCity
-http://dbpedia.org/property/hqLocationCountry
-http://dbpedia.org/property/imageCaption
-http://dbpedia.org/property/industry
-http://dbpedia.org/property/netIncome
-http://dbpedia.org/property/operatingIncome
-http://dbpedia.org/property/revenue
-http://dbpedia.org/property/sponsor
-http://dbpedia.org/property/nicknames
-http://dbpedia.org/property/patron
-http://dbpedia.org/property/kit
-http://dbpedia.org/property/gestor
-http://dbpedia.org/property/ecussonB
-http://dbpedia.org/property/renovated
-http://dbpedia.org/property/shortNames
-http://dbpedia.org/property/label
-http://dbpedia.org/property/value
-http://dbpedia.org/property/balkansCupApps
-http://dbpedia.org/property/balkansCupBest
-http://dbpedia.org/property/balkansCupFirst
-http://dbpedia.org/property/dateFounded
-http://dbpedia.org/property/assistant
-http://dbpedia.org/property/captainFirstXv
-http://dbpedia.org/property/currentSeason
-http://dbpedia.org/property/skirt
-http://dbpedia.org/property/eloMaxYear
-http://dbpedia.org/property/fifaMaxYear
-http://dbpedia.org/property/irlRank
-http://dbpedia.org/property/i
-http://dbpedia.org/property/presidentRobertoFlores
-http://dbpedia.org/property/reFounded
-http://dbpedia.org/property/showMatches
-http://dbpedia.org/property/showteam
-http://dbpedia.org/property/viceCaptain
-http://dbpedia.org/property/assistantCoach
-http://dbpedia.org/property/matchesStyle
-http://dbpedia.org/property/onlyPldPts
-http://dbpedia.org/property/physio
-http://dbpedia.org/property/paternB
-http://dbpedia.org/property/teamsInvolved
-http://dbpedia.org/property/mostWins
-http://dbpedia.org/property/cityOrRegion
-http://dbpedia.org/property/firstContested
-http://dbpedia.org/property/firstcol
-http://dbpedia.org/property/nextcol
-http://dbpedia.org/property/otherAffiliation
-http://dbpedia.org/property/vicepresident
-http://dbpedia.org/property/rd
-http://dbpedia.org/property/rd1Score
-http://dbpedia.org/property/rd1Team
-http://dbpedia.org/property/rd2Score
-http://dbpedia.org/property/rd2Team
-http://dbpedia.org/property/rd2Seed
-http://dbpedia.org/property/rd1Seed
-http://dbpedia.org/property/pattern1a
-http://dbpedia.org/property/event
-http://dbpedia.org/property/nobars
-http://dbpedia.org/property/expanded
-http://dbpedia.org/property/clear
-http://dbpedia.org/property/rd3Team
-http://dbpedia.org/property/main
-http://dbpedia.org/property/cy
-http://dbpedia.org/property/firstTryScorer
-http://dbpedia.org/property/mostAppearances
-http://dbpedia.org/property/viceChairman
-http://dbpedia.org/property/abrevname
-http://dbpedia.org/property/ldm
-http://dbpedia.org/property/rdm
-http://dbpedia.org/property/1stTeamManager
-http://dbpedia.org/property/chairmanOfRugby
-http://dbpedia.org/property/rival(s)_
-http://dbpedia.org/property/competition
-http://dbpedia.org/property/owners
-http://dbpedia.org/property/emergingNationsWorldChampionshipsApps
-http://dbpedia.org/property/emergingNationsWorldChampionshipsBest
-http://dbpedia.org/property/hangul
-http://dbpedia.org/property/1stGradeCoach
-http://dbpedia.org/property/president'sCup2005Season
-http://dbpedia.org/property/contentstyle
-http://dbpedia.org/property/5thregionalCupApps
-http://dbpedia.org/property/5thregionalCupBest
-http://dbpedia.org/property/5thregionalCupFirst
-http://dbpedia.org/property/5thregionalName
-http://dbpedia.org/property/6thregionalCupApps
-http://dbpedia.org/property/6thregionalCupBest
-http://dbpedia.org/property/6thregionalCupFirst
-http://dbpedia.org/property/6thregionalName
-http://dbpedia.org/property/highestRanking
-http://dbpedia.org/property/irbRanking
-http://dbpedia.org/property/ranking
-http://dbpedia.org/property/bswwRank
-http://dbpedia.org/property/presiden
-http://dbpedia.org/property/city
-http://dbpedia.org/property/collapse
-http://dbpedia.org/ontology/largestWin
-http://dbpedia.org/property/largestwin
-http://dbpedia.org/property/patternso
-http://dbpedia.org/property/typeB
-http://dbpedia.org/property/typeLa
-http://dbpedia.org/property/typeRa
-http://dbpedia.org/property/brokeGround
-http://dbpedia.org/property/built
-http://dbpedia.org/property/formerNames
-http://dbpedia.org/property/eventsAndMarketing
-http://dbpedia.org/property/part
-http://dbpedia.org/ontology/fansgroup
-http://dbpedia.org/property/fansgroup
-http://dbpedia.org/property/cbNat
-http://dbpedia.org/property/lwbNat
-http://dbpedia.org/property/rwbNat
-http://dbpedia.org/property/u20WorldCupApps
-http://dbpedia.org/property/goal
-http://dbpedia.org/property/directorWomen'sRugby
-http://dbpedia.org/property/uefau21champAppearences
-http://dbpedia.org/property/alternativemap
-http://dbpedia.org/property/directorOfFootball
-http://dbpedia.org/property/vicePresident
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/chairmanTitle> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/chairmanTitle> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/chairmanTitle> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/chairmanTitle> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/chairmanTitle> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/chairmanTitle> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/dissolved> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/dissolved> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/dissolved> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/dissolved> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/dissolved> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/dissolved> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/formationDate> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/formationDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/formationDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/formationDate> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/formationDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/formationDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/managerTitle> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/managerTitle> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/managerTitle> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/managerTitle> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/managerTitle> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/managerTitle> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/teamName> rdfs:domain <http://dbpedia.org/ontology/School> .
+<http://dbpedia.org/ontology/teamName> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/teamName> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/teamName> rdfs:domain <http://dbpedia.org/ontology/School> .
+<http://dbpedia.org/ontology/teamName> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/teamName> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/ground> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/ground> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/ground> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/ground> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/ground> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/ground> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/manager> rdfs:domain <http://dbpedia.org/ontology/SportsTeam> .
+<http://dbpedia.org/ontology/manager> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/manager> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/manager> rdfs:domain <http://dbpedia.org/ontology/SportsTeam> .
+<http://dbpedia.org/ontology/manager> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/manager> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/ceo> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/ceo> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/ceo> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/ceo> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/ceo> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/ceo> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/largestWin> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/largestWin> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/largestWin> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/largestWin> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/largestWin> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/largestWin> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/fansgroup> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/fansgroup> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/fansgroup> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/fansgroup> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/fansgroup> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/fansgroup> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/worstDefeat> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/worstDefeat> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/worstDefeat> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/worstDefeat> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/worstDefeat> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/worstDefeat> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/firstGame> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/firstGame> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/firstGame> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/firstGame> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/firstGame> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/firstGame> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/membership> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/membership> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/membership> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/membership> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/membership> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/membership> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/leaderFunction> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/leaderFunction> rdfs:range <http://dbpedia.org/ontology/PersonFunction> .
+<http://dbpedia.org/ontology/leaderFunction> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/leaderFunction> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/leaderFunction> rdfs:range <http://dbpedia.org/ontology/PersonFunction> .
+<http://dbpedia.org/ontology/leaderFunction> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/regionServed> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/regionServed> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/regionServed> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/regionServed> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/regionServed> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/regionServed> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/clubsRecordGoalscorer> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/clubsRecordGoalscorer> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/clubsRecordGoalscorer> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/clubsRecordGoalscorer> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/clubsRecordGoalscorer> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/clubsRecordGoalscorer> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/headquarter> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/headquarter> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/headquarter> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/headquarter> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/headquarter> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/headquarter> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .

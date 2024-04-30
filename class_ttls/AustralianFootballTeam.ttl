@@ -1,495 +1,191 @@
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.w3.org/2000/01/rdf-schema#comment
-http://www.w3.org/2000/01/rdf-schema#seeAlso
-http://xmlns.com/foaf/0.1/name
-http://xmlns.com/foaf/0.1/homepage
-http://dbpedia.org/property/name
-http://xmlns.com/foaf/0.1/depiction
-http://purl.org/dc/terms/subject
-http://dbpedia.org/ontology/wikiPageID
-http://dbpedia.org/ontology/wikiPageRevisionID
-http://dbpedia.org/ontology/wikiPageWikiLink
-http://www.w3.org/2002/07/owl#sameAs
-http://dbpedia.org/ontology/wikiPageExternalLink
-http://dbpedia.org/property/topgoalkicker
-http://dbpedia.org/property/trainingground
-http://dbpedia.org/property/usNationalChampions
-http://dbpedia.org/property/wikiPageUsesTemplate
-http://dbpedia.org/ontology/thumbnail
-http://dbpedia.org/property/bodystyle
-http://dbpedia.org/property/nicknames
-http://dbpedia.org/property/span
-http://dbpedia.org/property/above
-http://dbpedia.org/property/body
-http://dbpedia.org/property/capacity
-http://dbpedia.org/property/captain
-http://dbpedia.org/property/centre
-http://dbpedia.org/property/ceo
-http://dbpedia.org/property/clubname
-http://dbpedia.org/property/coach
-http://dbpedia.org/property/color
-http://dbpedia.org/property/colours
-http://dbpedia.org/property/current
-http://dbpedia.org/property/data
-http://dbpedia.org/property/date
-http://dbpedia.org/property/founded
-http://dbpedia.org/property/fullname
-http://dbpedia.org/property/goals
-http://dbpedia.org/property/ground
-http://dbpedia.org/property/id
-http://dbpedia.org/property/imageSize
-http://dbpedia.org/property/label
-http://dbpedia.org/property/league
-http://dbpedia.org/property/motto
-http://dbpedia.org/property/nickname
-http://dbpedia.org/property/patternB
-http://dbpedia.org/property/patternSh
-http://dbpedia.org/property/patternSo
-http://dbpedia.org/property/position
-http://dbpedia.org/property/president
-http://dbpedia.org/property/report
-http://dbpedia.org/property/score
-http://dbpedia.org/property/season
-http://dbpedia.org/property/shorts
-http://dbpedia.org/property/socks
-http://dbpedia.org/property/song
-http://dbpedia.org/property/sport
-http://dbpedia.org/property/stadium
-http://dbpedia.org/property/team
-http://dbpedia.org/property/time
-http://dbpedia.org/property/title
-http://dbpedia.org/property/titlestyle
-http://dbpedia.org/property/url
-http://dbpedia.org/property/backpocket
-http://dbpedia.org/property/centrehalfback
-http://dbpedia.org/property/centrehalfforward
-http://dbpedia.org/property/forwardpocket
-http://dbpedia.org/property/fullback
-http://dbpedia.org/property/fullforward
-http://dbpedia.org/property/halfbackflank
-http://dbpedia.org/property/halfforwardflank
-http://dbpedia.org/property/rover
-http://dbpedia.org/property/ruck
-http://dbpedia.org/property/ruckrover
-http://dbpedia.org/property/wing
-http://dbpedia.org/property/patternName
-http://dbpedia.org/property/round
-http://dbpedia.org/property/interchange
-http://dbpedia.org/ontology/abstract
-http://dbpedia.org/property/qtrbyqtr
-http://dbpedia.org/property/afterfinals
-http://dbpedia.org/property/bestandfairest
-http://dbpedia.org/property/bestandfairestname
-http://dbpedia.org/property/bests
-http://dbpedia.org/property/canadaNationalChampions
-http://dbpedia.org/property/clubsong
-http://dbpedia.org/property/currentBestandfairest
-http://dbpedia.org/property/curtainraiser
-http://dbpedia.org/property/emblem
-http://dbpedia.org/property/endOfSeason
-http://dbpedia.org/property/formerground
-http://dbpedia.org/property/formernames
-http://dbpedia.org/property/formernicknames
-http://dbpedia.org/property/home&away
-http://dbpedia.org/property/premierships
-http://purl.org/linguistics/gold/hypernym
-http://schema.org/sameAs
-http://dbpedia.org/property/wordnet_type
-http://www.w3.org/ns/prov#wasDerivedFrom
-http://dbpedia.org/ontology/wikiPageLength
-http://dbpedia.org/ontology/coach
-http://xmlns.com/foaf/0.1/isPrimaryTopicOf
-http://dbpedia.org/property/captain(s)_
-http://dbpedia.org/property/align
-http://dbpedia.org/property/attendance
-http://dbpedia.org/property/bc
-http://dbpedia.org/property/caption
-http://dbpedia.org/property/chairman
-http://dbpedia.org/property/club
-http://dbpedia.org/property/dissolved
-http://dbpedia.org/property/float
-http://dbpedia.org/property/formed
-http://dbpedia.org/property/imagesize
-http://dbpedia.org/property/location
-http://dbpedia.org/property/manager
-http://dbpedia.org/property/mgrtitle
-http://dbpedia.org/property/nat
-http://dbpedia.org/property/nextseason
-http://dbpedia.org/ontology/managerTitle
-http://dbpedia.org/ontology/manager
-http://dbpedia.org/property/no
-http://dbpedia.org/property/other
-http://dbpedia.org/property/pos
-http://dbpedia.org/property/prevseason
-http://dbpedia.org/property/referee
-http://dbpedia.org/property/result
-http://dbpedia.org/property/width
-http://dbpedia.org/property/bestAndFairest
-http://dbpedia.org/property/clubB&f
-http://dbpedia.org/property/finalsResult
-http://dbpedia.org/property/finalsSeries
-http://dbpedia.org/property/leadingGoalscorer
-http://dbpedia.org/property/list4a
-http://dbpedia.org/property/preseasonComp
-http://dbpedia.org/property/preseasonResult
-http://dbpedia.org/property/averageAttendance
-http://dbpedia.org/property/highestAttendance
-http://dbpedia.org/property/homeGround
-http://dbpedia.org/property/leagueResult
-http://dbpedia.org/property/leagueTopscorer
-http://dbpedia.org/property/lowestAttendance
-http://dbpedia.org/property/regularseasonComp
-http://dbpedia.org/property/regularseasonResult
-http://dbpedia.org/property/seasonTopscorer
-http://dbpedia.org/property/column1Title
-http://dbpedia.org/property/column2Title
-http://dbpedia.org/property/fc
-http://dbpedia.org/property/list1a
-http://dbpedia.org/property/list2a
-http://dbpedia.org/property/squadname
-http://dbpedia.org/property/leadingGoalkicker
-http://dbpedia.org/property/mostRecentPremiership
-http://dbpedia.org/property/mottos
-http://dbpedia.org/ontology/league
-http://dbpedia.org/ontology/predecessor
-http://dbpedia.org/ontology/successor
-http://dbpedia.org/property/ground(s)_
-http://dbpedia.org/property/source
-http://dbpedia.org/property/website
-http://dbpedia.org/property/years
-http://dbpedia.org/property/templatename
-http://dbpedia.org/property/list3a
-http://dbpedia.org/ontology/birthPlace
-http://dbpedia.org/ontology/deathPlace
-http://dbpedia.org/ontology/deathDate
-http://dbpedia.org/ontology/birthDate
-http://www.w3.org/2003/01/geo/wgs84_pos#lat
-http://www.w3.org/2003/01/geo/wgs84_pos#long
-http://dbpedia.org/property/deathPlace
-http://dbpedia.org/property/birthPlace
-http://dbpedia.org/property/treasurer
-http://dbpedia.org/ontology/MeanOfTransportation/length
-http://dbpedia.org/ontology/shipBeam
-http://dbpedia.org/ontology/shipDisplacement
-http://dbpedia.org/ontology/instrument
-http://dbpedia.org/property/quoted
-http://dbpedia.org/property/bgcolor
-http://dbpedia.org/property/birthDate
-http://dbpedia.org/property/deathDate
-http://dbpedia.org/property/genre
-http://dbpedia.org/property/imageName
-http://dbpedia.org/property/instrument
-http://dbpedia.org/property/occupation
-http://dbpedia.org/property/quote
-http://dbpedia.org/property/reason
-http://dbpedia.org/property/salign
-http://dbpedia.org/property/shipArmament
-http://dbpedia.org/property/shipBuilder
-http://dbpedia.org/property/shipClass
-http://dbpedia.org/property/shipComplement
-http://dbpedia.org/property/shipCountry
-http://dbpedia.org/property/shipDisplacement
-http://dbpedia.org/property/shipFate
-http://dbpedia.org/property/shipIdentification
-http://dbpedia.org/property/shipLaunched
-http://dbpedia.org/property/shipName
-http://dbpedia.org/property/shipPropulsion
-http://dbpedia.org/property/yearsActive
-http://dbpedia.org/property/reserve
-http://dbpedia.org/property/captains
-http://www.georss.org/georss/point
-http://dbpedia.org/property/preseason
-http://dbpedia.org/property/clubMembers
-http://dbpedia.org/property/coCaptains
-http://dbpedia.org/property/currentClubChampion
-http://dbpedia.org/property/lastposition
-http://dbpedia.org/property/preSeason
-http://dbpedia.org/ontology/activeYearsEndYear
-http://dbpedia.org/ontology/activeYearsStartYear
-http://dbpedia.org/ontology/length
-http://dbpedia.org/ontology/status
-http://dbpedia.org/ontology/builder
-http://dbpedia.org/ontology/country
-http://dbpedia.org/ontology/genre
-http://dbpedia.org/ontology/occupation
-http://www.w3.org/2003/01/geo/wgs84_pos#geometry
-http://www.w3.org/2002/07/owl#differentFrom
-http://dbpedia.org/property/owner
-http://dbpedia.org/property/secretary
-http://dbpedia.org/property/vicePresident
-http://dbpedia.org/property/strip
-http://dbpedia.org/property/colwidth
-http://dbpedia.org/property/direction
-http://dbpedia.org/property/headerAlign
-http://dbpedia.org/property/height
-http://dbpedia.org/property/image
-http://dbpedia.org/property/logo
-http://dbpedia.org/property/small
-http://dbpedia.org/property/totalWidth
-http://dbpedia.org/property/colora%23_
-http://dbpedia.org/property/colorb%23_
-http://dbpedia.org/property/colorc%23_
-http://dbpedia.org/property/colord%23_
-http://dbpedia.org/property/teamName
-http://dbpedia.org/property/allTeamNames
-http://dbpedia.org/property/assistant
-http://dbpedia.org/property/currentTeamName
-http://dbpedia.org/property/edflDivision
-http://dbpedia.org/property/grounds
-http://dbpedia.org/property/jumper
-http://dbpedia.org/property/list1.
-http://dbpedia.org/property/list2.
-http://dbpedia.org/property/seniorCoach
-http://dbpedia.org/property/wealth
-http://dbpedia.org/property/after
-http://dbpedia.org/property/allegiance
-http://dbpedia.org/property/battles
-http://dbpedia.org/property/before
-http://dbpedia.org/property/owners
-http://dbpedia.org/property/rank
-http://dbpedia.org/property/type
-http://dbpedia.org/property/generalManager
-http://dbpedia.org/property/baseOfOperations
-http://dbpedia.org/property/commands
-http://dbpedia.org/property/fb
-http://dbpedia.org/ontology/careerStation
-http://dbpedia.org/ontology/iataAirlineCode
-http://dbpedia.org/ontology/icaoAirlineCode
-http://dbpedia.org/ontology/Person/height
-http://dbpedia.org/ontology/headquarter
-http://dbpedia.org/property/architect
-http://dbpedia.org/property/callsign
-http://dbpedia.org/property/destinations
-http://dbpedia.org/property/dimensions
-http://dbpedia.org/property/division
-http://dbpedia.org/property/headquarters
-http://dbpedia.org/property/logoSize
-http://dbpedia.org/property/opened
-http://dbpedia.org/property/operator
-http://dbpedia.org/property/renovated
-http://dbpedia.org/property/seatingCapacity
-http://dbpedia.org/property/stadiumName
-http://dbpedia.org/property/text
-http://dbpedia.org/property/caps
-http://dbpedia.org/property/airline
-http://dbpedia.org/property/clubs
-http://dbpedia.org/property/directorOfFootballOperations
-http://dbpedia.org/property/fleetSize
-http://dbpedia.org/property/iata
-http://dbpedia.org/property/icao
-http://dbpedia.org/property/nationalcaps
-http://dbpedia.org/property/nationalgoals
-http://dbpedia.org/property/nationalteam
-http://dbpedia.org/property/nationalyears
-http://dbpedia.org/property/ntupdate
-http://dbpedia.org/property/pcupdate
-http://dbpedia.org/ontology/height
-http://dbpedia.org/ontology/industry
-http://dbpedia.org/ontology/position
-http://dbpedia.org/ontology/team
-http://dbpedia.org/property/merger
-http://dbpedia.org/property/fullName
-http://dbpedia.org/property/firstseason
-http://dbpedia.org/property/coach(es)_
-http://dbpedia.org/property/topGoalkicker
-http://dbpedia.org/ontology/managerClub
-http://dbpedia.org/ontology/address
-http://dbpedia.org/ontology/seatingCapacity
-http://dbpedia.org/ontology/currentlyUsedFor
-http://dbpedia.org/property/address
-http://dbpedia.org/property/bot
-http://dbpedia.org/property/city
-http://dbpedia.org/property/closed
-http://dbpedia.org/property/country
-http://dbpedia.org/property/othernames
-http://dbpedia.org/property/yearsactive
-http://dbpedia.org/property/kitAlt
-http://dbpedia.org/property/cdm
-http://dbpedia.org/property/currentuse
-http://dbpedia.org/property/gamesRecordHolder
-http://dbpedia.org/property/managerclubs
-http://dbpedia.org/property/manageryears
-http://dbpedia.org/property/reopened
-http://dbpedia.org/ontology/alternativeName
-http://dbpedia.org/ontology/city
-http://dbpedia.org/ontology/operator
-http://dbpedia.org/ontology/owner
-http://dbpedia.org/property/seniorAssistant
-http://dbpedia.org/property/formerNames
-http://dbpedia.org/property/imagename
-http://dbpedia.org/property/reservesCoach
-http://dbpedia.org/property/shipAircraftFacilities
-http://dbpedia.org/property/shipBoats
-http://dbpedia.org/property/shipDecommissioned
-http://dbpedia.org/property/shipEndurance
-http://dbpedia.org/property/shipEw
-http://dbpedia.org/property/shipHomeport
-http://dbpedia.org/property/shipMotto
-http://dbpedia.org/property/shipOriginalCost
-http://dbpedia.org/property/shipSensors
-http://dbpedia.org/property/viceCaptain
-http://dbpedia.org/property/clubSong
-http://dbpedia.org/property/legend
-http://dbpedia.org/property/nickame
-http://dbpedia.org/property/shipSponsor
-http://dbpedia.org/property/translators
-http://dbpedia.org/property/virtual
-http://dbpedia.org/property/shipCommissioned
-http://dbpedia.org/property/airdate
-http://dbpedia.org/property/branding
-http://dbpedia.org/property/callsignMeaning
-http://dbpedia.org/property/competition
-http://dbpedia.org/property/coordinates
-http://dbpedia.org/property/erp
-http://dbpedia.org/property/licensee
-http://dbpedia.org/property/licensingAuthority
-http://dbpedia.org/property/number
-http://dbpedia.org/property/ribbon
-http://dbpedia.org/property/shipLaidDown
-http://dbpedia.org/property/shipNamesake
-http://dbpedia.org/ontology/homeport
-http://dbpedia.org/ontology/layingDown
-http://dbpedia.org/ontology/shipLaunch
-http://dbpedia.org/ontology/commissioningDate
-http://dbpedia.org/ontology/decommissioningDate
-http://dbpedia.org/ontology/shipDraft
-http://dbpedia.org/property/shipAircraft
-http://dbpedia.org/property/shipRange
-http://dbpedia.org/property/reserves
-http://dbpedia.org/property/best&Fairest
-http://dbpedia.org/property/facilityId
-http://dbpedia.org/property/foxtelCup
-http://dbpedia.org/property/hcards
-http://dbpedia.org/property/lastBest&Fairest
-http://dbpedia.org/property/lastCaptain
-http://dbpedia.org/property/lastCoach
-http://dbpedia.org/property/lastLeadingGoalkicker
-http://dbpedia.org/property/lastPresident
-http://dbpedia.org/property/lastSeason
-http://dbpedia.org/property/leadinggoalkicker
-http://dbpedia.org/property/letterid
-http://dbpedia.org/ontology/cost
-http://dbpedia.org/ontology/motto
-http://dbpedia.org/ontology/topSpeed
-http://dbpedia.org/ontology/class
-http://dbpedia.org/ontology/wikiPageRedirects
-http://dbpedia.org/property/umpires
-http://dbpedia.org/property/anthem
-http://dbpedia.org/property/notes
-http://dbpedia.org/property/venue
-http://dbpedia.org/property/winner
-http://dbpedia.org/property/awayReports
-http://dbpedia.org/property/homeInjuries
-http://dbpedia.org/property/homeReports
-http://dbpedia.org/property/bogAward
-http://dbpedia.org/property/broadcast
-http://dbpedia.org/property/awayBest
-http://dbpedia.org/property/awayFinal
-http://dbpedia.org/property/awayGoals
-http://dbpedia.org/property/awayInjuries
-http://dbpedia.org/property/awayQ
-http://dbpedia.org/property/bogWinner
-http://dbpedia.org/property/crowd
-http://dbpedia.org/property/homeBest
-http://dbpedia.org/property/homeFinal
-http://dbpedia.org/property/homeGoals
-http://dbpedia.org/property/homeQ
-http://dbpedia.org/property/chattersOldMan
-http://dbpedia.org/property/organisation
-http://dbpedia.org/property/almaMater
-http://dbpedia.org/property/birthName
-http://dbpedia.org/property/education
-http://dbpedia.org/property/fields
-http://dbpedia.org/property/fixAttempted
-http://dbpedia.org/property/honorificPrefix
-http://dbpedia.org/property/list
-http://dbpedia.org/property/listclass
-http://dbpedia.org/property/nationality
-http://dbpedia.org/property/state
-http://dbpedia.org/property/groupstyle
-http://dbpedia.org/property/plMensCoach
-http://dbpedia.org/property/mostGames
-http://dbpedia.org/property/emergency
-http://dbpedia.org/property/chairperson
-http://dbpedia.org/property/footer
-http://dbpedia.org/property/awayTeam
-http://dbpedia.org/property/homeTeam
-http://dbpedia.org/property/chairmain
-http://dbpedia.org/property/div3Coaches
-http://dbpedia.org/property/treasurers
-http://dbpedia.org/property/runnerUp
-http://dbpedia.org/property/3rdPlace
-http://dbpedia.org/property/currentseason
-http://dbpedia.org/property/leaguewins
-http://dbpedia.org/property/reformed
-http://dbpedia.org/property/colors
-http://dbpedia.org/property/championsihps
-http://dbpedia.org/property/teamsSeason
-http://dbpedia.org/property/chairmanOfBoardOfManagement
-http://dbpedia.org/property/coltsCoach
-http://dbpedia.org/property/reserveCoach
-http://dbpedia.org/property/seniorAssistantCoach
-http://dbpedia.org/property/chair
-http://dbpedia.org/property/headCoach
-http://dbpedia.org/property/clubPresident
-http://dbpedia.org/property/headTrainer
-http://dbpedia.org/property/imagesSize
-http://dbpedia.org/property/secrutary
-http://dbpedia.org/property/sponsor
-http://dbpedia.org/property/%3CspanStyle
-http://dbpedia.org/ontology/location
-http://dbpedia.org/property/sessionRes
-http://dbpedia.org/property/sessionRoom
-http://dbpedia.org/property/totalSc
-http://dbpedia.org/property/coaPic
-http://dbpedia.org/property/election
-http://dbpedia.org/property/electorate
-http://dbpedia.org/property/houseType
-http://dbpedia.org/property/invalid
-http://dbpedia.org/property/lastElection
-http://dbpedia.org/property/leader1Type
-http://dbpedia.org/property/legislature
-http://dbpedia.org/property/meetingPlace
-http://dbpedia.org/property/nativeName
-http://dbpedia.org/property/party
-http://dbpedia.org/property/politicalGroups
-http://dbpedia.org/property/row
-http://dbpedia.org/property/sc
-http://dbpedia.org/property/seats
-http://dbpedia.org/property/structure
-http://dbpedia.org/property/structure1Res
-http://dbpedia.org/property/votes
-http://dbpedia.org/property/votingSystem
-http://dbpedia.org/property/folded
-http://dbpedia.org/ontology/electionDateLeader
-http://dbpedia.org/ontology/lastElectionDate
-http://dbpedia.org/ontology/legislativePeriodName
-http://dbpedia.org/ontology/politicalPartyInLegislature
-http://dbpedia.org/ontology/politicalPartyOfLeader
-http://dbpedia.org/ontology/type
-http://dbpedia.org/property/youthclubs
-http://dbpedia.org/property/youthyears
-http://dbpedia.org/property/clubCaptain
-http://dbpedia.org/property/colo
-http://dbpedia.org/property/netballCoaches
-http://dbpedia.org/property/buildingType
-http://dbpedia.org/property/day
-http://dbpedia.org/property/help
-http://dbpedia.org/property/imageCaption
-http://dbpedia.org/property/locationCity
-http://dbpedia.org/property/locationCountry
-http://dbpedia.org/property/logoCaption
-http://dbpedia.org/property/month
-http://dbpedia.org/property/openedDate
-http://dbpedia.org/property/page
-http://dbpedia.org/property/status
-http://dbpedia.org/property/substed
-http://dbpedia.org/property/timestamp
-http://dbpedia.org/property/year
-http://dbpedia.org/property/afterFinals
-http://dbpedia.org/property/formerGround
-http://dbpedia.org/property/frequentOpponents
-http://dbpedia.org/property/fullnamye
-http://dbpedia.org/property/nationalChampionship
-http://dbpedia.org/ontology/openingDate
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/managerTitle> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/managerTitle> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/managerTitle> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/managerTitle> rdfs:domain <http://dbpedia.org/ontology/SoccerClub> .
+<http://dbpedia.org/ontology/managerTitle> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/managerTitle> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/manager> rdfs:domain <http://dbpedia.org/ontology/SportsTeam> .
+<http://dbpedia.org/ontology/manager> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/manager> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/manager> rdfs:domain <http://dbpedia.org/ontology/SportsTeam> .
+<http://dbpedia.org/ontology/manager> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/manager> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/birthPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/birthPlace> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/birthPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/birthPlace> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/deathPlace> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathPlace> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/deathPlace> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/deathDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/deathDate> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/deathDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/deathDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/deathDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/deathDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/deathDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/birthDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/birthDate> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/birthDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/birthDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/birthDate> rdfs:domain <http://dbpedia.org/ontology/Animal> .
+<http://dbpedia.org/ontology/birthDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/birthDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/MeanOfTransportation/length> rdfs:domain <http://dbpedia.org/ontology/MeanOfTransportation> .
+<http://dbpedia.org/ontology/MeanOfTransportation/length> rdfs:range <http://dbpedia.org/datatype/millimetre> .
+<http://dbpedia.org/ontology/MeanOfTransportation/length> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/shipBeam> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/shipBeam> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/shipBeam> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/shipBeam> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/shipBeam> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/shipBeam> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/shipDisplacement> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/shipDisplacement> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/shipDisplacement> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/shipDisplacement> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/shipDisplacement> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/shipDisplacement> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/instrument> rdfs:domain <http://dbpedia.org/ontology/Artist> .
+<http://dbpedia.org/ontology/instrument> rdfs:range <http://dbpedia.org/ontology/Instrument> .
+<http://dbpedia.org/ontology/instrument> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/instrument> rdfs:domain <http://dbpedia.org/ontology/Artist> .
+<http://dbpedia.org/ontology/instrument> rdfs:range <http://dbpedia.org/ontology/Instrument> .
+<http://dbpedia.org/ontology/instrument> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/careerStation> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/careerStation> rdfs:range <http://dbpedia.org/ontology/CareerStation> .
+<http://dbpedia.org/ontology/careerStation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/careerStation> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/careerStation> rdfs:range <http://dbpedia.org/ontology/CareerStation> .
+<http://dbpedia.org/ontology/careerStation> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/iataAirlineCode> rdfs:domain <http://dbpedia.org/ontology/Airline> .
+<http://dbpedia.org/ontology/iataAirlineCode> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/iataAirlineCode> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/iataAirlineCode> rdfs:domain <http://dbpedia.org/ontology/Airline> .
+<http://dbpedia.org/ontology/iataAirlineCode> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/iataAirlineCode> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/icaoAirlineCode> rdfs:domain <http://dbpedia.org/ontology/Airline> .
+<http://dbpedia.org/ontology/icaoAirlineCode> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/icaoAirlineCode> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/icaoAirlineCode> rdfs:domain <http://dbpedia.org/ontology/Airline> .
+<http://dbpedia.org/ontology/icaoAirlineCode> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/icaoAirlineCode> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/Person/height> rdfs:domain <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/Person/height> rdfs:range <http://dbpedia.org/datatype/centimetre> .
+<http://dbpedia.org/ontology/Person/height> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/headquarter> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/headquarter> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/headquarter> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/headquarter> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/headquarter> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/headquarter> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/managerClub> rdfs:domain <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/managerClub> rdfs:range <http://dbpedia.org/ontology/SportsTeam> .
+<http://dbpedia.org/ontology/managerClub> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/managerClub> rdfs:domain <http://dbpedia.org/ontology/Athlete> .
+<http://dbpedia.org/ontology/managerClub> rdfs:range <http://dbpedia.org/ontology/SportsTeam> .
+<http://dbpedia.org/ontology/managerClub> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/address> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/address> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/address> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/address> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/address> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/address> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/seatingCapacity> rdfs:domain <http://dbpedia.org/ontology/Building> .
+<http://dbpedia.org/ontology/seatingCapacity> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/seatingCapacity> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/seatingCapacity> rdfs:domain <http://dbpedia.org/ontology/Building> .
+<http://dbpedia.org/ontology/seatingCapacity> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/seatingCapacity> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/currentlyUsedFor> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/currentlyUsedFor> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/currentlyUsedFor> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/currentlyUsedFor> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/currentlyUsedFor> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/currentlyUsedFor> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/homeport> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/homeport> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/homeport> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/homeport> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/homeport> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/homeport> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/layingDown> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/layingDown> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/layingDown> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/layingDown> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/layingDown> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/layingDown> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/shipLaunch> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/shipLaunch> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/shipLaunch> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/shipLaunch> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/shipLaunch> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/shipLaunch> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/commissioningDate> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/commissioningDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/commissioningDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/commissioningDate> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/commissioningDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/commissioningDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/decommissioningDate> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/decommissioningDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/decommissioningDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/decommissioningDate> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/decommissioningDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/decommissioningDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/shipDraft> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/shipDraft> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/shipDraft> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/shipDraft> rdfs:domain <http://dbpedia.org/ontology/Ship> .
+<http://dbpedia.org/ontology/shipDraft> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/shipDraft> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/electionDateLeader> rdfs:domain <http://dbpedia.org/ontology/Legislature> .
+<http://dbpedia.org/ontology/electionDateLeader> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/electionDateLeader> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/electionDateLeader> rdfs:domain <http://dbpedia.org/ontology/Legislature> .
+<http://dbpedia.org/ontology/electionDateLeader> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/electionDateLeader> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/lastElectionDate> rdfs:domain <http://dbpedia.org/ontology/Legislature> .
+<http://dbpedia.org/ontology/lastElectionDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/lastElectionDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/lastElectionDate> rdfs:domain <http://dbpedia.org/ontology/Legislature> .
+<http://dbpedia.org/ontology/lastElectionDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/lastElectionDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/legislativePeriodName> rdfs:domain <http://dbpedia.org/ontology/Legislature> .
+<http://dbpedia.org/ontology/legislativePeriodName> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/legislativePeriodName> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/legislativePeriodName> rdfs:domain <http://dbpedia.org/ontology/Legislature> .
+<http://dbpedia.org/ontology/legislativePeriodName> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/legislativePeriodName> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/politicalPartyInLegislature> rdfs:domain <http://dbpedia.org/ontology/Legislature> .
+<http://dbpedia.org/ontology/politicalPartyInLegislature> rdfs:range <http://dbpedia.org/ontology/PoliticalParty> .
+<http://dbpedia.org/ontology/politicalPartyInLegislature> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/politicalPartyInLegislature> rdfs:domain <http://dbpedia.org/ontology/Legislature> .
+<http://dbpedia.org/ontology/politicalPartyInLegislature> rdfs:range <http://dbpedia.org/ontology/PoliticalParty> .
+<http://dbpedia.org/ontology/politicalPartyInLegislature> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/politicalPartyOfLeader> rdfs:domain <http://dbpedia.org/ontology/Legislature> .
+<http://dbpedia.org/ontology/politicalPartyOfLeader> rdfs:range <http://dbpedia.org/ontology/PoliticalParty> .
+<http://dbpedia.org/ontology/politicalPartyOfLeader> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/politicalPartyOfLeader> rdfs:domain <http://dbpedia.org/ontology/Legislature> .
+<http://dbpedia.org/ontology/politicalPartyOfLeader> rdfs:range <http://dbpedia.org/ontology/PoliticalParty> .
+<http://dbpedia.org/ontology/politicalPartyOfLeader> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .

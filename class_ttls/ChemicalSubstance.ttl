@@ -1,961 +1,332 @@
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.w3.org/2000/01/rdf-schema#comment
-http://xmlns.com/foaf/0.1/name
-http://www.w3.org/2004/02/skos/core#exactMatch
-http://dbpedia.org/property/name
-http://xmlns.com/foaf/0.1/depiction
-http://purl.org/dc/terms/subject
-http://dbpedia.org/ontology/wikiPageID
-http://dbpedia.org/ontology/wikiPageRevisionID
-http://dbpedia.org/ontology/wikiPageWikiLink
-http://www.w3.org/2002/07/owl#sameAs
-http://dbpedia.org/ontology/wikiPageExternalLink
-http://dbpedia.org/property/streak
-http://dbpedia.org/property/strunz
-http://dbpedia.org/property/unitCell
-http://dbpedia.org/property/wikiPageUsesTemplate
-http://dbpedia.org/ontology/thumbnail
-http://dbpedia.org/property/atcSuffix
-http://dbpedia.org/property/atcPrefix
-http://dbpedia.org/property/bioavailability
-http://dbpedia.org/property/c
-http://dbpedia.org/property/caption
-http://dbpedia.org/property/casNumber
-http://dbpedia.org/property/category
-http://dbpedia.org/property/chebi
-http://dbpedia.org/property/chembl
-http://dbpedia.org/property/chemspiderid
-http://dbpedia.org/property/class
-http://dbpedia.org/property/color
-http://dbpedia.org/property/component
-http://dbpedia.org/property/drugbank
-http://dbpedia.org/property/eliminationHalfLife
-http://dbpedia.org/property/excretion
-http://dbpedia.org/property/f
-http://dbpedia.org/property/gravity
-http://dbpedia.org/property/h
-http://dbpedia.org/property/image
-http://dbpedia.org/property/imagealt
-http://dbpedia.org/property/imagecaption
-http://dbpedia.org/property/imagecaptionl
-http://dbpedia.org/property/imagecaptionr
-http://dbpedia.org/property/imagefile
-http://dbpedia.org/property/imagefilel
-http://dbpedia.org/property/imagefiler
-http://dbpedia.org/property/imagename
-http://dbpedia.org/property/imagenamel
-http://dbpedia.org/property/imagenamer
-http://dbpedia.org/property/imagesize
-http://dbpedia.org/property/imagesizel
-http://dbpedia.org/property/imagesizer
-http://dbpedia.org/property/index2Label
-http://dbpedia.org/property/iupacName
-http://dbpedia.org/property/iupacname
-http://dbpedia.org/property/kegg
-http://dbpedia.org/property/legalStatus
-http://dbpedia.org/property/legalUk
-http://dbpedia.org/property/legalUs
-http://dbpedia.org/property/medlineplus
-http://dbpedia.org/property/metabolism
-http://dbpedia.org/property/n
-http://dbpedia.org/property/o
-http://dbpedia.org/property/othernames
-http://dbpedia.org/property/pin
-http://dbpedia.org/property/pregnancyUs
-http://dbpedia.org/property/pubchem
-http://dbpedia.org/property/routesOfAdministration
-http://dbpedia.org/property/smiles
-http://dbpedia.org/property/stdinchi
-http://dbpedia.org/property/stdinchikey
-http://dbpedia.org/property/symmetry
-http://dbpedia.org/property/synonyms
-http://dbpedia.org/property/system
-http://dbpedia.org/property/title
-http://dbpedia.org/property/titlestyle
-http://dbpedia.org/property/tradename
-http://dbpedia.org/property/type
-http://dbpedia.org/property/unii
-http://dbpedia.org/property/verifiedfields
-http://dbpedia.org/property/verifiedrevid
-http://dbpedia.org/property/watchedfields
-http://dbpedia.org/property/width
-http://dbpedia.org/ontology/abstract
-http://dbpedia.org/ontology/chEBI
-http://dbpedia.org/ontology/chEMBL
-http://dbpedia.org/ontology/iupacName
-http://dbpedia.org/ontology/kegg
-http://dbpedia.org/ontology/pubchem
-http://dbpedia.org/property/birefringence
-http://dbpedia.org/property/containerOnly
-http://dbpedia.org/property/dailymedid
-http://dbpedia.org/property/diaphaneity
-http://dbpedia.org/property/fracture
-http://dbpedia.org/property/habit
-http://dbpedia.org/property/imasymbol
-http://dbpedia.org/property/iupharLigand
-http://dbpedia.org/property/legalAu
-http://dbpedia.org/property/legalCa
-http://dbpedia.org/property/legalEu
-http://dbpedia.org/property/licenceEu
-http://dbpedia.org/property/licenceUs
-http://dbpedia.org/property/luster
-http://dbpedia.org/property/metabolites
-http://dbpedia.org/property/mohs
-http://dbpedia.org/property/opticalprop
-http://dbpedia.org/property/pregnancyAu
-http://dbpedia.org/property/proteinBound
-http://dbpedia.org/property/refractive
-http://purl.org/linguistics/gold/hypernym
-http://www.w3.org/ns/prov#wasDerivedFrom
-http://dbpedia.org/ontology/wikiPageLength
-http://purl.org/dc/terms/isPartOf
-http://dbpedia.org/ontology/alternativeName
-http://dbpedia.org/ontology/casNumber
-http://dbpedia.org/ontology/drugbank
-http://dbpedia.org/ontology/fdaUniiCode
-http://dbpedia.org/ontology/medlinePlus
-http://xmlns.com/foaf/0.1/isPrimaryTopicOf
-http://www.w3.org/2002/07/owl#differentFrom
-http://www.w3.org/2000/01/rdf-schema#seeAlso
-http://dbpedia.org/property/alt
-http://dbpedia.org/property/book
-http://dbpedia.org/property/commons
-http://dbpedia.org/property/date
-http://dbpedia.org/property/id
-http://dbpedia.org/property/portal
-http://dbpedia.org/property/s
-http://dbpedia.org/property/sSearch
-http://dbpedia.org/property/url
-http://dbpedia.org/property/v
-http://dbpedia.org/property/vSearch
-http://dbpedia.org/property/wikt
-http://dbpedia.org/property/wiktSearch
-http://dbpedia.org/property/formula
-http://dbpedia.org/property/molweight
-http://dbpedia.org/property/solubility
-http://dbpedia.org/property/tenacity
-http://dbpedia.org/property/twinning
-http://dbpedia.org/property/usan
-http://dbpedia.org/property/imageLeft
-http://dbpedia.org/property/imageTop
-http://dbpedia.org/property/onset
-http://dbpedia.org/property/with
-http://dbpedia.org/property/b
-http://dbpedia.org/property/bSearch
-http://dbpedia.org/property/density
-http://dbpedia.org/property/doi
-http://dbpedia.org/property/first
-http://dbpedia.org/property/float
-http://dbpedia.org/property/height
-http://dbpedia.org/property/imageWidth
-http://dbpedia.org/property/last
-http://dbpedia.org/property/legalDe
-http://dbpedia.org/property/meltingHigh
-http://dbpedia.org/property/meltingPoint
-http://dbpedia.org/property/other
-http://dbpedia.org/property/p
-http://dbpedia.org/property/pregnancyCategory
-http://dbpedia.org/property/reason
-http://dbpedia.org/property/2v
-http://dbpedia.org/ontology/bioavailability
-http://dbpedia.org/property/addictionLiability
-http://dbpedia.org/property/atcSupplemental
-http://dbpedia.org/property/boxbgcolor
-http://dbpedia.org/property/cleavage
-http://dbpedia.org/property/dataPagePagename
-http://dbpedia.org/property/dependencyLiability
-http://dbpedia.org/property/durationOfAction
-http://dbpedia.org/property/fusibility
-http://dbpedia.org/property/legalNz
-http://dbpedia.org/property/meltingNotes
-http://dbpedia.org/property/pdbLigand
-http://dbpedia.org/property/pleochroism
-http://dbpedia.org/property/pronounce
-http://dbpedia.org/property/wordnet_type
-http://www.w3.org/2004/02/skos/core#closeMatch
-http://dbpedia.org/ontology/atcCode
-http://dbpedia.org/ontology/class
-http://dbpedia.org/ontology/wikiPageInterLanguageLink
-http://dbpedia.org/property/systematicname
-http://dbpedia.org/property/ca
-http://dbpedia.org/ontology/chemicalFormula
-http://dbpedia.org/property/chemicalFormula
-http://dbpedia.org/property/pregnancyUsComment
-http://dbpedia.org/property/direction
-http://dbpedia.org/property/footer
-http://dbpedia.org/property/totalWidth
-http://dbpedia.org/property/dana
-http://dbpedia.org/ontology/license
-http://dbpedia.org/ontology/wikiPageRedirects
-http://dbpedia.org/property/auto
-http://dbpedia.org/property/cl
-http://dbpedia.org/property/commonscat
-http://dbpedia.org/property/interpro
-http://dbpedia.org/property/molecularWeight
-http://dbpedia.org/property/organism
-http://dbpedia.org/property/pfam
-http://dbpedia.org/property/source
-http://dbpedia.org/property/symbol
-http://dbpedia.org/property/target
-http://dbpedia.org/property/uniprot
-http://dbpedia.org/property/mabType
-http://xmlns.com/foaf/0.1/homepage
-http://dbpedia.org/property/stdinchiRef
-http://dbpedia.org/property/stdinchikeyRef
-http://dbpedia.org/property/i
-http://dbpedia.org/property/accessDate
-http://dbpedia.org/property/casSupplemental
-http://dbpedia.org/property/legalUsComment
-http://dbpedia.org/property/number
-http://dbpedia.org/property/legalUn
-http://dbpedia.org/property/bot
-http://dbpedia.org/property/fixAttempted
-http://dbpedia.org/property/imagealtl
-http://dbpedia.org/property/imagealtr
-http://dbpedia.org/property/atcvet
-http://dbpedia.org/property/flange
-http://dbpedia.org/property/innerDiameter
-http://dbpedia.org/property/mountName
-http://dbpedia.org/property/heat
-http://dbpedia.org/property/scoville
-http://dbpedia.org/property/section
-http://dbpedia.org/property/state
-http://dbpedia.org/property/small
-http://dbpedia.org/property/chirality
-http://dbpedia.org/property/dtxsid
-http://dbpedia.org/property/polish
-http://dbpedia.org/property/pt
-http://dbpedia.org/property/boxwidth
-http://dbpedia.org/property/colour
-http://dbpedia.org/property/fluorescence
-http://dbpedia.org/property/lustre
-http://dbpedia.org/property/drugName
-http://dbpedia.org/property/text
-http://dbpedia.org/property/boxtextcolor
-http://dbpedia.org/property/diagnostic
-http://dbpedia.org/property/impurities
-http://dbpedia.org/property/melt
-http://dbpedia.org/ontology/colour
-http://dbpedia.org/property/similarAircraft
-http://dbpedia.org/property/sourcelink
-http://dbpedia.org/ontology/inn
-http://dbpedia.org/property/manufacturer
-http://dbpedia.org/property/notes
-http://dbpedia.org/property/related
-http://dbpedia.org/property/served
-http://dbpedia.org/property/status
-http://dbpedia.org/property/developedFrom
-http://dbpedia.org/property/drinkware
-http://dbpedia.org/property/iba
-http://dbpedia.org/property/ingredients
-http://dbpedia.org/property/inn
-http://dbpedia.org/property/legalCaComment
-http://dbpedia.org/property/lists
-http://dbpedia.org/property/prep
-http://dbpedia.org/property/seeAlso
-http://dbpedia.org/ontology/manufacturer
-http://dbpedia.org/ontology/predecessor
-http://dbpedia.org/ontology/type
-http://dbpedia.org/property/k
-http://dbpedia.org/property/solUnits
-http://dbpedia.org/property/boilingPoint
-http://dbpedia.org/property/charge
-http://dbpedia.org/property/iupacnames
-http://dbpedia.org/property/na
-http://dbpedia.org/property/align
-http://dbpedia.org/property/video
-http://dbpedia.org/property/headerimage
-http://dbpedia.org/property/br
-http://dbpedia.org/property/niaidChemdb
-http://dbpedia.org/property/legalAuComment
-http://dbpedia.org/property/legalUkComment
-http://dbpedia.org/property/specificRotation
-http://dbpedia.org/property/toggle
-http://dbpedia.org/property/verifiedimages
-http://dbpedia.org/property/boilingHigh
-http://dbpedia.org/property/serviceweight
-http://dbpedia.org/property/smoketubes
-http://dbpedia.org/property/superheaterarea
-http://dbpedia.org/property/tubearea
-http://dbpedia.org/property/weightondrivers
-http://dbpedia.org/property/builddate
-http://dbpedia.org/property/retiredate
-http://dbpedia.org/property/totalproduction
-http://dbpedia.org/property/uicclass
-http://dbpedia.org/property/watercap
-http://dbpedia.org/property/whytetype
-http://dbpedia.org/property/bgcolor
-http://dbpedia.org/property/builder
-http://dbpedia.org/ontology/cylinderCount
-http://dbpedia.org/ontology/numberBuilt
-http://dbpedia.org/property/maxspeed
-http://dbpedia.org/property/page
-http://dbpedia.org/property/volume
-http://dbpedia.org/property/wstitle
-http://dbpedia.org/property/axleload
-http://dbpedia.org/property/boilerpressure
-http://dbpedia.org/property/carrydiameter
-http://dbpedia.org/property/cmyk
-http://dbpedia.org/property/coupleddiameter
-http://dbpedia.org/property/cylindercount
-http://dbpedia.org/property/cylindersize
-http://dbpedia.org/property/drgtype
-http://dbpedia.org/property/emptyweight
-http://dbpedia.org/property/evaporativearea
-http://dbpedia.org/property/fireboxarea
-http://dbpedia.org/property/heatingtubes
-http://dbpedia.org/property/hex
-http://dbpedia.org/property/indicatedpower
-http://dbpedia.org/property/innEma
-http://dbpedia.org/property/overBufferbeams
-http://dbpedia.org/property/overallwheelbase
-http://dbpedia.org/property/pistonstroke
-http://dbpedia.org/property/radiativearea
-http://dbpedia.org/ontology/activeYearsEndYear
-http://dbpedia.org/ontology/activeYearsStartYear
-http://dbpedia.org/ontology/builder
-http://dbpedia.org/property/pages
-http://dbpedia.org/property/footerAlign
-http://dbpedia.org/property/absorption
-http://dbpedia.org/property/prop
-http://dbpedia.org/property/prop1text
-http://dbpedia.org/property/si
-http://dbpedia.org/property/forwardEnzyme
-http://dbpedia.org/property/minorForwardProduct(s)_
-http://dbpedia.org/property/product
-http://dbpedia.org/property/productImage
-http://dbpedia.org/property/reactionDirection(forward/reversible/reverse)_
-http://dbpedia.org/property/substrate
-http://dbpedia.org/property/substrateImage
-http://dbpedia.org/property/minorReverseProduct(s)_
-http://dbpedia.org/property/minorReverseSubstrate(s)_
-http://dbpedia.org/property/productImageSize
-http://dbpedia.org/property/reverseEnzyme
-http://dbpedia.org/property/minorForwardSubstrate(s)_
-http://dbpedia.org/property/highPh
-http://dbpedia.org/property/highPhColor
-http://dbpedia.org/property/highPhText
-http://dbpedia.org/property/indicatorName
-http://dbpedia.org/property/lowPh
-http://dbpedia.org/property/lowPhColor
-http://dbpedia.org/property/background
-http://dbpedia.org/property/genre
-http://dbpedia.org/property/label
-http://dbpedia.org/property/origin
-http://dbpedia.org/property/pastMembers
-http://dbpedia.org/property/yearsActive
-http://dbpedia.org/ontology/formerBandMember
-http://schema.org/sameAs
-http://dbpedia.org/ontology/background
-http://dbpedia.org/ontology/genre
-http://dbpedia.org/ontology/recordLabel
-http://dbpedia.org/property/widthl
-http://dbpedia.org/property/widthr
-http://dbpedia.org/property/colwidth
-http://dbpedia.org/property/imagel
-http://dbpedia.org/property/imager
-http://dbpedia.org/property/vaccineType
-http://dbpedia.org/property/dispersion
-http://dbpedia.org/property/d
-http://dbpedia.org/property/m
-http://dbpedia.org/property/mw
-http://dbpedia.org/property/q
-http://dbpedia.org/property/species
-http://dbpedia.org/property/voy
-http://dbpedia.org/property/alteration
-http://dbpedia.org/property/licenceCa
-http://dbpedia.org/property/index3Label
-http://dbpedia.org/ontology/locusSupplementaryData
-http://dbpedia.org/ontology/arm
-http://dbpedia.org/ontology/band
-http://dbpedia.org/ontology/chromosome
-http://dbpedia.org/ontology/entrezgene
-http://dbpedia.org/ontology/hgncid
-http://dbpedia.org/ontology/refseq
-http://dbpedia.org/ontology/uniprot
-http://dbpedia.org/ontology/omim
-http://dbpedia.org/ontology/symbol
-http://dbpedia.org/property/omim
-http://dbpedia.org/property/arm
-http://dbpedia.org/property/band
-http://dbpedia.org/property/chromosome
-http://dbpedia.org/property/entrezgene
-http://dbpedia.org/property/gtTargetGene
-http://dbpedia.org/property/hgncid
-http://dbpedia.org/property/locussupplementarydata
-http://dbpedia.org/property/refseq
-http://dbpedia.org/ontology/wikiPageDisambiguates
-http://dbpedia.org/property/casNumberRef
-http://dbpedia.org/property/altname
-http://dbpedia.org/property/j
-http://dbpedia.org/property/l
-http://dbpedia.org/property/pic
-http://dbpedia.org/property/piccap
-http://dbpedia.org/property/t
-http://dbpedia.org/property/w
-http://dbpedia.org/property/legalEuComment
-http://www.w3.org/2003/01/geo/wgs84_pos#lat
-http://www.w3.org/2003/01/geo/wgs84_pos#long
-http://www.georss.org/georss/point
-http://dbpedia.org/property/drugs.com
-http://dbpedia.org/property/jan
-http://www.w3.org/2003/01/geo/wgs84_pos#geometry
-http://dbpedia.org/property/meshid
-http://dbpedia.org/property/use
-http://dbpedia.org/property/biologicalTarget
-http://dbpedia.org/property/spanFt
-http://dbpedia.org/property/spanIn
-http://dbpedia.org/property/stallSpeedKts
-http://dbpedia.org/property/stallSpeedNote
-http://dbpedia.org/property/wingAreaSqft
-http://dbpedia.org/property/wingLoadingLb/sqft
-http://dbpedia.org/property/primeUnits%3F_
-http://dbpedia.org/property/nationalOrigin
-http://dbpedia.org/property/primaryUser
-http://dbpedia.org/property/capacity
-http://dbpedia.org/property/crew
-http://dbpedia.org/property/fuelCapacity
-http://dbpedia.org/property/heightFt
-http://dbpedia.org/property/heightIn
-http://dbpedia.org/property/introduced
-http://dbpedia.org/property/lengthFt
-http://dbpedia.org/property/ref
-http://dbpedia.org/property/retired
-http://dbpedia.org/property/airfoil
-http://dbpedia.org/property/avionics
-http://dbpedia.org/property/ceilingFt
-http://dbpedia.org/property/ceilingNote
-http://dbpedia.org/property/climbRateFtmin
-http://dbpedia.org/property/cruiseSpeedKts
-http://dbpedia.org/property/cruiseSpeedNote
-http://dbpedia.org/property/emptyWeightLb
-http://dbpedia.org/property/eng1Hp
-http://dbpedia.org/property/eng1Name
-http://dbpedia.org/property/eng1Number
-http://dbpedia.org/property/eng1Type
-http://dbpedia.org/property/extinction
-http://dbpedia.org/property/grossWeightLb
-http://dbpedia.org/property/lengthIn
-http://dbpedia.org/property/licenseUs
-http://dbpedia.org/property/maxSpeedKts
-http://dbpedia.org/property/maxTakeoffWeightLb
-http://dbpedia.org/property/morePerformance
-http://dbpedia.org/property/numberBuilt
-http://dbpedia.org/property/propBladeNumber
-http://dbpedia.org/property/propDiaFt
-http://dbpedia.org/property/propDiaIn
-http://dbpedia.org/property/propDiaNote
-http://dbpedia.org/property/propName
-http://dbpedia.org/property/rangeNmi
-http://dbpedia.org/property/rangeNote
-http://dbpedia.org/property/compound
-http://dbpedia.org/property/forProd
-http://dbpedia.org/property/ban
-http://dbpedia.org/property/forSubst
-http://dbpedia.org/ontology/ChemicalSubstance/density
-http://dbpedia.org/ontology/density
-http://dbpedia.org/property/note
-http://dbpedia.org/property/boilingNotes
-http://dbpedia.org/property/densityNotes
-http://dbpedia.org/property/leucine
-http://dbpedia.org/property/noteRefsNamed
-http://dbpedia.org/property/biosimilars
-http://dbpedia.org/property/header
-http://dbpedia.org/property/bi
-http://dbpedia.org/property/var1text
-http://dbpedia.org/property/var
-http://dbpedia.org/property/authority
-http://dbpedia.org/property/imageCaption
-http://dbpedia.org/property/imageUpright
-http://dbpedia.org/property/taxon
-http://dbpedia.org/property/pubchemsubstance
-http://dbpedia.org/property/ecNumber
-http://dbpedia.org/property/goCode
-http://dbpedia.org/property/e
-http://dbpedia.org/property/u
-http://dbpedia.org/property/altsymbols
-http://dbpedia.org/property/perrow
-http://dbpedia.org/property/diagnosis
-http://dbpedia.org/property/icd
-http://dbpedia.org/property/symptoms
-http://dbpedia.org/property/treatment
-http://dbpedia.org/property/causes
-http://dbpedia.org/property/frequency
-http://dbpedia.org/property/references
-http://dbpedia.org/property/speciality
-http://dbpedia.org/ontology/icd9
-http://dbpedia.org/ontology/eMedicineSubject
-http://dbpedia.org/ontology/eMedicineTopic
-http://dbpedia.org/ontology/icd10
-http://dbpedia.org/property/emedicinesubj
-http://dbpedia.org/property/emedicinetopic
-http://dbpedia.org/property/prevention
-http://dbpedia.org/property/risks
-http://dbpedia.org/ontology/treatment
-http://dbpedia.org/ontology/medicalDiagnosis
-http://dbpedia.org/property/by
-http://dbpedia.org/property/lcheading
-http://dbpedia.org/property/onlinebooks
-http://dbpedia.org/property/co
-http://dbpedia.org/property/altl
-http://dbpedia.org/property/altr
-http://dbpedia.org/property/genus
-http://dbpedia.org/property/parent
-http://dbpedia.org/property/rangeMap
-http://dbpedia.org/property/rangeMapCaption
-http://dbpedia.org/property/statusSystem
-http://dbpedia.org/property/subdivision
-http://dbpedia.org/property/subdivisionRanks
-http://dbpedia.org/property/li
-http://dbpedia.org/property/cs1Dates
-http://dbpedia.org/property/legalBr
-http://dbpedia.org/property/author
-http://dbpedia.org/property/chemicalFormulaComment
-http://dbpedia.org/property/molecularWeightComment
-http://dbpedia.org/property/imagecaptionlr
-http://dbpedia.org/property/sure
-http://dbpedia.org/property/find
-http://dbpedia.org/property/talk
-http://dbpedia.org/property/group
-http://dbpedia.org/property/liststyle
-http://dbpedia.org/property/subheaderstyle
-http://dbpedia.org/property/subheader
-http://dbpedia.org/property/above
-http://dbpedia.org/property/data
-http://dbpedia.org/property/y
-http://dbpedia.org/property/inventor
-http://dbpedia.org/property/year
-http://dbpedia.org/property/sourceTissues
-http://dbpedia.org/property/targetTissues
-http://dbpedia.org/property/agonists
-http://dbpedia.org/property/antagonists
-http://dbpedia.org/property/receptors
-http://dbpedia.org/property/moaText
-http://dbpedia.org/property/pdbComplex
-http://dbpedia.org/property/sites
-http://dbpedia.org/property/success
-http://dbpedia.org/property/family
-http://dbpedia.org/property/stages
-http://dbpedia.org/ontology/countryOrigin
-http://dbpedia.org/ontology/launchSite
-http://dbpedia.org/ontology/finalFlight
-http://dbpedia.org/ontology/maidenFlight
-http://dbpedia.org/property/countryOrigin
-http://dbpedia.org/property/fail
-http://dbpedia.org/property/function
-http://dbpedia.org/property/gtNucleicAcidType
-http://dbpedia.org/property/gtVector
-http://dbpedia.org/property/jmol
-http://dbpedia.org/property/launches
-http://dbpedia.org/property/payloads
-http://dbpedia.org/ontology/rocketFunction
-http://dbpedia.org/ontology/rocketStages
-http://dbpedia.org/ontology/failedLaunches
-http://dbpedia.org/ontology/status
-http://dbpedia.org/ontology/successfulLaunches
-http://dbpedia.org/ontology/totalLaunches
-http://dbpedia.org/property/authorlink
-http://purl.org/dc/elements/1.1/type
-http://dbpedia.org/ontology/ingredientName
-http://dbpedia.org/property/countryOfOrigin
-http://dbpedia.org/property/course
-http://dbpedia.org/property/imageSize
-http://dbpedia.org/property/mainIngredient
-http://dbpedia.org/property/region
-http://dbpedia.org/ontology/ingredient
-http://dbpedia.org/property/specificGravity
-http://dbpedia.org/property/country
-http://dbpedia.org/property/mo
-http://dbpedia.org/ontology/country
-http://dbpedia.org/property/boilingptNotes
-http://dbpedia.org/property/boilingptc
-http://dbpedia.org/property/casno
-http://dbpedia.org/ontology/ChemicalSubstance/boilingPoint
-http://dbpedia.org/ontology/boilingPoint
-http://dbpedia.org/ontology/chemSpiderId
-http://dbpedia.org/ontology/smiles
-http://dbpedia.org/property/flashptc
-http://dbpedia.org/property/mainhazards
-http://dbpedia.org/property/discuss
-http://dbpedia.org/property/term
-http://dbpedia.org/property/nocat
-http://dbpedia.org/property/issn
-http://dbpedia.org/property/containerStyle
-http://dbpedia.org/property/link
-http://dbpedia.org/property/duration
-http://dbpedia.org/property/next
-http://dbpedia.org/property/previous
-http://dbpedia.org/property/categories
-http://dbpedia.org/property/mostTournamentFinals
-http://dbpedia.org/property/mostTournamentTitles
-http://dbpedia.org/property/tournaments
-http://dbpedia.org/ontology/location
-http://dbpedia.org/property/governingBody
-http://dbpedia.org/property/iucnCategory
-http://dbpedia.org/property/location
-http://dbpedia.org/property/mapWidth
-http://dbpedia.org/property/nearestCity
-http://dbpedia.org/property/photo
-http://dbpedia.org/property/photoCaption
-http://dbpedia.org/property/website
-http://dbpedia.org/ontology/areaTotal
-http://dbpedia.org/ontology/iucnCategory
-http://dbpedia.org/ontology/nearestCity
-http://dbpedia.org/property/photoAlt
-http://dbpedia.org/property/photoWidth
-http://dbpedia.org/property/stdProtectionYesno
-http://dbpedia.org/property/timeToAltitude
-http://dbpedia.org/property/userReminders
-http://dbpedia.org/property/weightGainLoss
-http://dbpedia.org/property/perfectFailure%25_
-http://dbpedia.org/property/typicalFailure%25_
-http://dbpedia.org/property/moreUsers
-http://dbpedia.org/property/bcType
-http://dbpedia.org/property/benefits
-http://dbpedia.org/property/clinicInterval
-http://dbpedia.org/property/dateFirstUse
-http://dbpedia.org/property/eng1Note
-http://dbpedia.org/property/ferryRangeMiles
-http://dbpedia.org/property/ferryRangeNote
-http://dbpedia.org/property/lowPhText
-http://dbpedia.org/property/maxSpeedMph
-http://dbpedia.org/property/maxSpeedNote
-http://dbpedia.org/property/periodsAdvantage
-http://dbpedia.org/property/rangeMiles
-http://dbpedia.org/property/rateType
-http://dbpedia.org/property/cu
-http://dbpedia.org/property/isccname
-http://dbpedia.org/property/var2text
-http://dbpedia.org/property/var3text
-http://dbpedia.org/property/chemicalClass
-http://dbpedia.org/property/city
-http://dbpedia.org/property/established
-http://dbpedia.org/property/mascot
-http://dbpedia.org/property/superintendent
-http://dbpedia.org/ontology/state
-http://dbpedia.org/ontology/foundingYear
-http://dbpedia.org/ontology/mascot
-http://dbpedia.org/ontology/city
-http://dbpedia.org/property/durationEffect
-http://dbpedia.org/property/medicalNotes
-http://dbpedia.org/property/periodsDisadvantage
-http://dbpedia.org/property/reversibility
-http://dbpedia.org/property/as
-http://dbpedia.org/property/precursor
-http://dbpedia.org/property/designers
-http://dbpedia.org/property/developer
-http://dbpedia.org/property/discontinued
-http://dbpedia.org/property/influenced
-http://dbpedia.org/property/influencedBy
-http://dbpedia.org/property/operatingSystem
-http://dbpedia.org/property/paradigms
-http://dbpedia.org/property/platform
-http://dbpedia.org/property/programmingLanguage
-http://dbpedia.org/ontology/developer
-http://dbpedia.org/ontology/influenced
-http://dbpedia.org/ontology/influencedBy
-http://dbpedia.org/property/cr
-http://dbpedia.org/property/opmFamily
-http://dbpedia.org/property/opmProtein
-http://www.w3.org/2004/02/skos/core#narrower
-http://dbpedia.org/property/legalBrComment
-http://dbpedia.org/property/legalUnComment
-http://dbpedia.org/property/var4text
-http://dbpedia.org/property/firstFlight
-http://dbpedia.org/property/unitCost
-http://dbpedia.org/property/produced
-http://dbpedia.org/ontology/productionEndYear
-http://dbpedia.org/ontology/productionStartYear
-http://dbpedia.org/ontology/origin
-http://dbpedia.org/property/sodiumMg
-http://dbpedia.org/property/sourceUsda
-http://dbpedia.org/property/calciumMg
-http://dbpedia.org/property/carbs
-http://dbpedia.org/property/fat
-http://dbpedia.org/property/ironMg
-http://dbpedia.org/property/kcal
-http://dbpedia.org/property/phosphorusMg
-http://dbpedia.org/property/potassiumMg
-http://dbpedia.org/property/protein
-http://dbpedia.org/property/gd
-http://dbpedia.org/property/headerstyle
-http://dbpedia.org/property/labelstyle
-http://dbpedia.org/property/abovestyle
-http://dbpedia.org/property/backgroundColor
-http://dbpedia.org/property/imageStyle
-http://dbpedia.org/property/majorProduct
-http://dbpedia.org/property/majorProduct1Image
-http://dbpedia.org/property/majorProduct2Image
-http://dbpedia.org/property/majorSubstrate
-http://dbpedia.org/property/majorSubstrate1Image
-http://dbpedia.org/property/enzyme
-http://dbpedia.org/property/revProd
-http://dbpedia.org/property/revSubst
-http://dbpedia.org/property/sourceModel
-http://dbpedia.org/property/ui
-http://dbpedia.org/property/updatemodel
-http://dbpedia.org/property/workingState
-http://dbpedia.org/property/kernelType
-http://dbpedia.org/property/latestReleaseDate
-http://dbpedia.org/property/latestReleaseVersion
-http://dbpedia.org/property/license
-http://dbpedia.org/property/logo
-http://dbpedia.org/property/packageManager
-http://dbpedia.org/property/screenshot
-http://dbpedia.org/property/supportedPlatforms
-http://dbpedia.org/ontology/latestReleaseDate
-http://dbpedia.org/ontology/latestReleaseVersion
-http://dbpedia.org/property/tcdb
-http://dbpedia.org/property/stylisticOrigins
-http://dbpedia.org/property/culturalOrigins
-http://dbpedia.org/property/derivatives
-http://dbpedia.org/ontology/derivative
-http://dbpedia.org/ontology/stylisticOrigin
-http://dbpedia.org/property/otherTopics
-http://dbpedia.org/property/steering
-http://dbpedia.org/property/designer
-http://dbpedia.org/property/engine
-http://dbpedia.org/property/enginePower
-http://dbpedia.org/property/isVehicle
-http://dbpedia.org/property/length
-http://dbpedia.org/property/primaryArmament
-http://dbpedia.org/property/productionDate
-http://dbpedia.org/property/speed
-http://dbpedia.org/property/suspension
-http://dbpedia.org/property/transmission
-http://dbpedia.org/property/variants
-http://dbpedia.org/property/vehicleRange
-http://dbpedia.org/ontology/Weapon/height
-http://dbpedia.org/ontology/Weapon/length
-http://dbpedia.org/ontology/Weapon/weight
-http://dbpedia.org/ontology/Weapon/width
-http://dbpedia.org/ontology/height
-http://dbpedia.org/ontology/length
-http://dbpedia.org/ontology/weight
-http://dbpedia.org/ontology/width
-http://dbpedia.org/property/sporeprintcolor
-http://dbpedia.org/property/stipecharacter
-http://dbpedia.org/property/whichgills
-http://dbpedia.org/property/aan
-http://dbpedia.org/property/capshape
-http://dbpedia.org/property/ecologicaltype
-http://dbpedia.org/property/howedible
-http://dbpedia.org/property/hymeniumtype
-http://dbpedia.org/property/partial
-http://dbpedia.org/property/imsize
-http://dbpedia.org/ontology/MeanOfTransportation/diameter
-http://dbpedia.org/ontology/MeanOfTransportation/height
-http://dbpedia.org/ontology/MeanOfTransportation/mass
-http://dbpedia.org/ontology/Rocket/mass
-http://dbpedia.org/ontology/diameter
-http://dbpedia.org/ontology/mass
-http://dbpedia.org/ontology/partialFailedLaunches
-http://dbpedia.org/property/quote
-http://dbpedia.org/property/daate
-http://dbpedia.org/property/ru
-http://dbpedia.org/property/spanM
-http://dbpedia.org/property/cruiseSpeedKmh
-http://dbpedia.org/property/cruiseSpeedMph
-http://dbpedia.org/property/eng1Kw
-http://dbpedia.org/property/grossWeightKg
-http://dbpedia.org/property/lengthM
-http://dbpedia.org/property/maxTakeoffWeightKg
-http://dbpedia.org/property/rangeKm
-http://xmlns.com/foaf/0.1/nick
-http://dbpedia.org/property/areaCode
-http://dbpedia.org/property/areaCodeType
-http://dbpedia.org/property/artist
-http://dbpedia.org/property/blank1InfoSec
-http://dbpedia.org/property/blank1NameSec
-http://dbpedia.org/property/blank2NameSec
-http://dbpedia.org/property/blank3NameSec
-http://dbpedia.org/property/cover
-http://dbpedia.org/property/demographics1Info
-http://dbpedia.org/property/demographics1Title
-http://dbpedia.org/property/demographicsType
-http://dbpedia.org/property/elevationM
-http://dbpedia.org/property/governmentType
-http://dbpedia.org/property/leaderName
-http://dbpedia.org/property/leaderTitle
-http://dbpedia.org/property/nextTitle
-http://dbpedia.org/property/nextYear
-http://dbpedia.org/property/nickname
-http://dbpedia.org/property/populationAsOf
-http://dbpedia.org/property/populationDensityKm
-http://dbpedia.org/property/populationTotal
-http://dbpedia.org/property/postalCode
-http://dbpedia.org/property/prevTitle
-http://dbpedia.org/property/prevYear
-http://dbpedia.org/property/producer
-http://dbpedia.org/property/pushpinLabelPosition
-http://dbpedia.org/property/pushpinMap
-http://dbpedia.org/property/pushpinMapCaption
-http://dbpedia.org/property/recorded
-http://dbpedia.org/property/registrationPlate
-http://dbpedia.org/property/released
-http://dbpedia.org/property/rev
-http://dbpedia.org/property/settlementType
-http://dbpedia.org/property/subdivisionName
-http://dbpedia.org/property/subdivisionType
-http://dbpedia.org/property/timezone
-http://dbpedia.org/property/unitPref
-http://dbpedia.org/property/utcOffset
-http://dbpedia.org/ontology/areaCode
-http://dbpedia.org/ontology/elevation
-http://dbpedia.org/ontology/utcOffset
-http://dbpedia.org/ontology/politicalLeader
-http://dbpedia.org/property/blank4NameSec
-http://dbpedia.org/ontology/populationTotal
-http://dbpedia.org/ontology/postalCode
-http://dbpedia.org/ontology/subdivision
-http://dbpedia.org/ontology/timeZone
-http://dbpedia.org/property/indexLabel
-http://dbpedia.org/property/molecularWeightRound
-http://dbpedia.org/property/molecularWeightUnit
-http://dbpedia.org/property/lengthFast/slow
-http://dbpedia.org/property/mode
-http://dbpedia.org/property/taxid
-http://dbpedia.org/property/entrezchromosome
-http://dbpedia.org/property/genlocEnd
-http://dbpedia.org/property/genlocStart
-http://dbpedia.org/property/pdb
-http://dbpedia.org/property/pdbSupplemental
-http://dbpedia.org/property/refseqmrna
-http://dbpedia.org/property/refseqprotein
-http://dbpedia.org/property/captionAlign
-http://dbpedia.org/property/headerAlign
-http://dbpedia.org/property/cultivar
-http://dbpedia.org/ontology/species
-http://dbpedia.org/property/acgihTlvTwa
-http://dbpedia.org/property/pelOsha
-http://dbpedia.org/property/rtecs
-http://dbpedia.org/property/illegalComment
-http://dbpedia.org/property/part
-http://dbpedia.org/property/description
-http://dbpedia.org/property/filename
-http://dbpedia.org/property/index2Comment
-http://dbpedia.org/property/indexComment
-http://dbpedia.org/property/lu
-http://dbpedia.org/ontology/drugs.com
-http://dbpedia.org/ontology/soundRecording
-http://dbpedia.org/property/specType
-http://dbpedia.org/property/action
-http://dbpedia.org/property/cartridge
-http://dbpedia.org/property/designDate
-http://dbpedia.org/property/feed
-http://dbpedia.org/property/isRanged
-http://dbpedia.org/property/rate
-http://dbpedia.org/property/velocity
-http://dbpedia.org/property/weight
-http://dbpedia.org/property/icon
-http://dbpedia.org/property/annotFontSize
-http://dbpedia.org/property/radius
-http://dbpedia.org/property/topic
-http://dbpedia.org/property/value
-http://dbpedia.org/property/mg
-http://dbpedia.org/property/mn
-http://dbpedia.org/property/authors
-http://dbpedia.org/property/areaTotalKm
-http://dbpedia.org/property/centre
-http://dbpedia.org/property/east
-http://dbpedia.org/property/north
-http://dbpedia.org/property/northeast
-http://dbpedia.org/property/northwest
-http://dbpedia.org/property/officialName
-http://dbpedia.org/property/populationBlank
-http://dbpedia.org/property/populationBlank1Title
-http://dbpedia.org/property/populationBlank2Title
-http://dbpedia.org/property/pushpinMapsize
-http://dbpedia.org/property/sign
-http://dbpedia.org/property/south
-http://dbpedia.org/property/southeast
-http://dbpedia.org/property/southwest
-http://dbpedia.org/ontology/PopulatedPlace/areaTotal
-http://dbpedia.org/ontology/PopulatedPlace/populationDensity
-http://dbpedia.org/ontology/populationDensity
-http://dbpedia.org/property/west
-http://dbpedia.org/property/ag
-http://dbpedia.org/property/province
-http://dbpedia.org/property/imageSkyline
-http://dbpedia.org/property/comune
-http://dbpedia.org/property/gentilic
-http://dbpedia.org/property/scop
-http://dbpedia.org/property/sb
-http://dbpedia.org/property/sr
-http://dbpedia.org/property/about
-http://dbpedia.org/property/seleniumUg
-http://dbpedia.org/property/thiaminMg
-http://dbpedia.org/property/vitcMg
-http://dbpedia.org/property/al
-http://dbpedia.org/property/kj
-http://dbpedia.org/property/niacinMg
-http://dbpedia.org/property/riboflavinMg
-http://dbpedia.org/property/zn
-http://dbpedia.org/property/composition
-http://dbpedia.org/ontology/region
-http://dbpedia.org/property/certain
-http://dbpedia.org/property/usageNotes
-http://dbpedia.org/property/useAbDate
-http://dbpedia.org/property/useEwDate
-http://dbpedia.org/property/useFrDate
-http://dbpedia.org/property/useSeDate
-http://dbpedia.org/property/useUsDate
-http://dbpedia.org/property/abortionType
-http://dbpedia.org/property/gestationalAge
-http://dbpedia.org/property/useEw%25_
-http://dbpedia.org/property/useUs%25_
-http://dbpedia.org/property/useAb%25_
-http://dbpedia.org/property/useFr%25_
-http://dbpedia.org/property/useSe%25_
-http://dbpedia.org/property/format
-http://dbpedia.org/property/innerstyle
-http://dbpedia.org/property/isbn
-http://dbpedia.org/property/specialty
-http://dbpedia.org/property/synonym
-http://dbpedia.org/property/au
-http://dbpedia.org/property/sk
-http://dbpedia.org/property/th
-http://dbpedia.org/property/vi
-http://dbpedia.org/property/mt
-http://dbpedia.org/property/bg
-http://dbpedia.org/property/gr
-http://dbpedia.org/property/lt
-http://dbpedia.org/property/scale
-http://dbpedia.org/property/us
-http://dbpedia.org/property/jp
-http://dbpedia.org/property/po
-http://dbpedia.org/property/hr
-http://dbpedia.org/property/at
-http://dbpedia.org/property/be
-http://dbpedia.org/property/bq
-http://dbpedia.org/property/cy
-http://dbpedia.org/property/cz
-http://dbpedia.org/property/de
-http://dbpedia.org/property/dk
-http://dbpedia.org/property/ee
-http://dbpedia.org/property/es
-http://dbpedia.org/property/fi
-http://dbpedia.org/property/fr
-http://dbpedia.org/property/hu
-http://dbpedia.org/property/ie
-http://dbpedia.org/property/it
-http://dbpedia.org/property/lv
-http://dbpedia.org/property/mx
-http://dbpedia.org/property/nl
-http://dbpedia.org/property/projection
-http://dbpedia.org/property/pw
-http://dbpedia.org/property/ro
-http://dbpedia.org/property/se
-http://dbpedia.org/property/%3F_
-http://dbpedia.org/property/dataPage
-http://dbpedia.org/property/factory
-http://dbpedia.org/property/formation
-http://dbpedia.org/property/operator
-http://dbpedia.org/property/service
-http://dbpedia.org/property/yearconstruction
-http://dbpedia.org/property/yearservice
-http://dbpedia.org/ontology/yearOfConstruction
-http://dbpedia.org/ontology/operator
-http://dbpedia.org/property/annotTextAlign
-http://dbpedia.org/property/captionlr
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/chEBI> rdfs:domain <http://dbpedia.org/ontology/Drug> .
+<http://dbpedia.org/ontology/chEBI> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/chEBI> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/chEBI> rdfs:domain <http://dbpedia.org/ontology/Drug> .
+<http://dbpedia.org/ontology/chEBI> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/chEBI> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/chEMBL> rdfs:domain <http://dbpedia.org/ontology/ChemicalSubstance> .
+<http://dbpedia.org/ontology/chEMBL> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/chEMBL> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/chEMBL> rdfs:domain <http://dbpedia.org/ontology/ChemicalSubstance> .
+<http://dbpedia.org/ontology/chEMBL> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/chEMBL> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/iupacName> rdfs:domain <http://dbpedia.org/ontology/Drug> .
+<http://dbpedia.org/ontology/iupacName> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/iupacName> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/iupacName> rdfs:domain <http://dbpedia.org/ontology/Drug> .
+<http://dbpedia.org/ontology/iupacName> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/iupacName> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/kegg> rdfs:domain <http://dbpedia.org/ontology/ChemicalSubstance> .
+<http://dbpedia.org/ontology/kegg> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/kegg> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/kegg> rdfs:domain <http://dbpedia.org/ontology/ChemicalSubstance> .
+<http://dbpedia.org/ontology/kegg> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/kegg> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/pubchem> rdfs:domain <http://dbpedia.org/ontology/ChemicalSubstance> .
+<http://dbpedia.org/ontology/pubchem> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/pubchem> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/pubchem> rdfs:domain <http://dbpedia.org/ontology/ChemicalSubstance> .
+<http://dbpedia.org/ontology/pubchem> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/pubchem> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/bioavailability> rdfs:domain <http://dbpedia.org/ontology/Drug> .
+<http://dbpedia.org/ontology/bioavailability> rdfs:range <http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/ontology/bioavailability> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/bioavailability> rdfs:domain <http://dbpedia.org/ontology/Drug> .
+<http://dbpedia.org/ontology/bioavailability> rdfs:range <http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/ontology/bioavailability> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/chemicalFormula> rdfs:domain <http://dbpedia.org/ontology/ChemicalSubstance> .
+<http://dbpedia.org/ontology/chemicalFormula> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/chemicalFormula> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/chemicalFormula> rdfs:domain <http://dbpedia.org/ontology/ChemicalSubstance> .
+<http://dbpedia.org/ontology/chemicalFormula> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/chemicalFormula> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/inn> rdfs:domain <http://dbpedia.org/ontology/ChemicalCompound> .
+<http://dbpedia.org/ontology/inn> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/inn> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/inn> rdfs:domain <http://dbpedia.org/ontology/ChemicalCompound> .
+<http://dbpedia.org/ontology/inn> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/inn> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/cylinderCount> rdfs:domain <http://dbpedia.org/ontology/Locomotive> .
+<http://dbpedia.org/ontology/cylinderCount> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/cylinderCount> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/cylinderCount> rdfs:domain <http://dbpedia.org/ontology/Locomotive> .
+<http://dbpedia.org/ontology/cylinderCount> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/cylinderCount> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/numberBuilt> rdfs:domain <http://dbpedia.org/ontology/Aircraft> .
+<http://dbpedia.org/ontology/numberBuilt> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberBuilt> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberBuilt> rdfs:domain <http://dbpedia.org/ontology/Aircraft> .
+<http://dbpedia.org/ontology/numberBuilt> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberBuilt> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/formerBandMember> rdfs:domain <http://dbpedia.org/ontology/Band> .
+<http://dbpedia.org/ontology/formerBandMember> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/formerBandMember> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/formerBandMember> rdfs:domain <http://dbpedia.org/ontology/Band> .
+<http://dbpedia.org/ontology/formerBandMember> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/formerBandMember> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/locusSupplementaryData> rdfs:domain <http://dbpedia.org/ontology/Protein> .
+<http://dbpedia.org/ontology/locusSupplementaryData> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/locusSupplementaryData> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/locusSupplementaryData> rdfs:domain <http://dbpedia.org/ontology/Protein> .
+<http://dbpedia.org/ontology/locusSupplementaryData> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/locusSupplementaryData> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/arm> rdfs:domain <http://dbpedia.org/ontology/Protein> .
+<http://dbpedia.org/ontology/arm> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/arm> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/arm> rdfs:domain <http://dbpedia.org/ontology/Protein> .
+<http://dbpedia.org/ontology/arm> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/arm> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/band> rdfs:domain <http://dbpedia.org/ontology/Protein> .
+<http://dbpedia.org/ontology/band> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/band> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/band> rdfs:domain <http://dbpedia.org/ontology/Protein> .
+<http://dbpedia.org/ontology/band> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/band> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/chromosome> rdfs:domain <http://dbpedia.org/ontology/Protein> .
+<http://dbpedia.org/ontology/chromosome> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/chromosome> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/chromosome> rdfs:domain <http://dbpedia.org/ontology/Protein> .
+<http://dbpedia.org/ontology/chromosome> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/chromosome> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/entrezgene> rdfs:domain <http://dbpedia.org/ontology/Biomolecule> .
+<http://dbpedia.org/ontology/entrezgene> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/entrezgene> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/entrezgene> rdfs:domain <http://dbpedia.org/ontology/Biomolecule> .
+<http://dbpedia.org/ontology/entrezgene> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/entrezgene> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/hgncid> rdfs:domain <http://dbpedia.org/ontology/Biomolecule> .
+<http://dbpedia.org/ontology/hgncid> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/hgncid> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/hgncid> rdfs:domain <http://dbpedia.org/ontology/Biomolecule> .
+<http://dbpedia.org/ontology/hgncid> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/hgncid> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/refseq> rdfs:domain <http://dbpedia.org/ontology/Protein> .
+<http://dbpedia.org/ontology/refseq> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/refseq> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/refseq> rdfs:domain <http://dbpedia.org/ontology/Protein> .
+<http://dbpedia.org/ontology/refseq> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/refseq> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/uniprot> rdfs:domain <http://dbpedia.org/ontology/Biomolecule> .
+<http://dbpedia.org/ontology/uniprot> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/uniprot> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/uniprot> rdfs:domain <http://dbpedia.org/ontology/Biomolecule> .
+<http://dbpedia.org/ontology/uniprot> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/uniprot> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/omim> rdfs:domain <http://dbpedia.org/ontology/Biomolecule> .
+<http://dbpedia.org/ontology/omim> rdfs:range <http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/omim> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/omim> rdfs:domain <http://dbpedia.org/ontology/Biomolecule> .
+<http://dbpedia.org/ontology/omim> rdfs:range <http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/omim> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/symbol> rdfs:domain <http://dbpedia.org/ontology/Biomolecule> .
+<http://dbpedia.org/ontology/symbol> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/symbol> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/symbol> rdfs:domain <http://dbpedia.org/ontology/Biomolecule> .
+<http://dbpedia.org/ontology/symbol> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/symbol> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/ChemicalSubstance/density> rdfs:domain <http://dbpedia.org/ontology/ChemicalSubstance> .
+<http://dbpedia.org/ontology/ChemicalSubstance/density> rdfs:range <http://dbpedia.org/datatype/kilogramPerCubicMetre> .
+<http://dbpedia.org/ontology/ChemicalSubstance/density> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/icd9> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/icd9> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/icd9> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/icd9> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/icd9> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/icd9> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/eMedicineSubject> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/eMedicineSubject> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/eMedicineSubject> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/eMedicineSubject> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/eMedicineSubject> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/eMedicineSubject> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/eMedicineTopic> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/eMedicineTopic> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/eMedicineTopic> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/eMedicineTopic> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/eMedicineTopic> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/eMedicineTopic> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/icd10> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/icd10> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/icd10> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/icd10> rdfs:domain <http://dbpedia.org/ontology/Disease> .
+<http://dbpedia.org/ontology/icd10> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/icd10> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/countryOrigin> rdfs:domain <http://dbpedia.org/ontology/Rocket> .
+<http://dbpedia.org/ontology/countryOrigin> rdfs:range <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/countryOrigin> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/countryOrigin> rdfs:domain <http://dbpedia.org/ontology/Rocket> .
+<http://dbpedia.org/ontology/countryOrigin> rdfs:range <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/countryOrigin> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/launchSite> rdfs:domain <http://dbpedia.org/ontology/SpaceMission> .
+<http://dbpedia.org/ontology/launchSite> rdfs:range <http://dbpedia.org/ontology/Building> .
+<http://dbpedia.org/ontology/launchSite> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/launchSite> rdfs:domain <http://dbpedia.org/ontology/SpaceMission> .
+<http://dbpedia.org/ontology/launchSite> rdfs:range <http://dbpedia.org/ontology/Building> .
+<http://dbpedia.org/ontology/launchSite> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/finalFlight> rdfs:domain <http://dbpedia.org/ontology/Rocket> .
+<http://dbpedia.org/ontology/finalFlight> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/finalFlight> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/finalFlight> rdfs:domain <http://dbpedia.org/ontology/Rocket> .
+<http://dbpedia.org/ontology/finalFlight> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/finalFlight> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/maidenFlight> rdfs:domain <http://dbpedia.org/ontology/Rocket> .
+<http://dbpedia.org/ontology/maidenFlight> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/maidenFlight> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/maidenFlight> rdfs:domain <http://dbpedia.org/ontology/Rocket> .
+<http://dbpedia.org/ontology/maidenFlight> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/maidenFlight> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/rocketStages> rdfs:domain <http://dbpedia.org/ontology/Rocket> .
+<http://dbpedia.org/ontology/rocketStages> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/rocketStages> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/rocketStages> rdfs:domain <http://dbpedia.org/ontology/Rocket> .
+<http://dbpedia.org/ontology/rocketStages> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/rocketStages> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/ingredientName> rdfs:domain <http://dbpedia.org/ontology/Food> .
+<http://dbpedia.org/ontology/ingredientName> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/ingredientName> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/ingredientName> rdfs:domain <http://dbpedia.org/ontology/Food> .
+<http://dbpedia.org/ontology/ingredientName> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/ingredientName> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/ChemicalSubstance/boilingPoint> rdfs:domain <http://dbpedia.org/ontology/ChemicalSubstance> .
+<http://dbpedia.org/ontology/ChemicalSubstance/boilingPoint> rdfs:range <http://dbpedia.org/datatype/kelvin> .
+<http://dbpedia.org/ontology/ChemicalSubstance/boilingPoint> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/boilingPoint> rdfs:domain <http://dbpedia.org/ontology/ChemicalSubstance> .
+<http://dbpedia.org/ontology/boilingPoint> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/boilingPoint> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/boilingPoint> rdfs:domain <http://dbpedia.org/ontology/ChemicalSubstance> .
+<http://dbpedia.org/ontology/boilingPoint> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/boilingPoint> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/chemSpiderId> rdfs:domain <http://dbpedia.org/ontology/ChemicalSubstance> .
+<http://dbpedia.org/ontology/chemSpiderId> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/chemSpiderId> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/chemSpiderId> rdfs:domain <http://dbpedia.org/ontology/ChemicalSubstance> .
+<http://dbpedia.org/ontology/chemSpiderId> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/chemSpiderId> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/smiles> rdfs:domain <http://dbpedia.org/ontology/ChemicalCompound> .
+<http://dbpedia.org/ontology/smiles> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/smiles> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/smiles> rdfs:domain <http://dbpedia.org/ontology/ChemicalCompound> .
+<http://dbpedia.org/ontology/smiles> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/smiles> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/areaTotal> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/areaTotal> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/areaTotal> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/areaTotal> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/areaTotal> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/areaTotal> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/iucnCategory> rdfs:domain <http://dbpedia.org/ontology/ProtectedArea> .
+<http://dbpedia.org/ontology/iucnCategory> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/iucnCategory> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/iucnCategory> rdfs:domain <http://dbpedia.org/ontology/ProtectedArea> .
+<http://dbpedia.org/ontology/iucnCategory> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/iucnCategory> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/nearestCity> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/nearestCity> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/nearestCity> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/nearestCity> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/nearestCity> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/nearestCity> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/latestReleaseDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/latestReleaseVersion> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/latestReleaseVersion> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/latestReleaseVersion> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/latestReleaseVersion> rdfs:domain <http://dbpedia.org/ontology/Software> .
+<http://dbpedia.org/ontology/latestReleaseVersion> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/latestReleaseVersion> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/derivative> rdfs:domain <http://dbpedia.org/ontology/MusicGenre> .
+<http://dbpedia.org/ontology/derivative> rdfs:range <http://dbpedia.org/ontology/MusicGenre> .
+<http://dbpedia.org/ontology/derivative> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/derivative> rdfs:domain <http://dbpedia.org/ontology/MusicGenre> .
+<http://dbpedia.org/ontology/derivative> rdfs:range <http://dbpedia.org/ontology/MusicGenre> .
+<http://dbpedia.org/ontology/derivative> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/stylisticOrigin> rdfs:domain <http://dbpedia.org/ontology/MusicGenre> .
+<http://dbpedia.org/ontology/stylisticOrigin> rdfs:range <http://dbpedia.org/ontology/MusicGenre> .
+<http://dbpedia.org/ontology/stylisticOrigin> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/stylisticOrigin> rdfs:domain <http://dbpedia.org/ontology/MusicGenre> .
+<http://dbpedia.org/ontology/stylisticOrigin> rdfs:range <http://dbpedia.org/ontology/MusicGenre> .
+<http://dbpedia.org/ontology/stylisticOrigin> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/Weapon/height> rdfs:domain <http://dbpedia.org/ontology/Weapon> .
+<http://dbpedia.org/ontology/Weapon/height> rdfs:range <http://dbpedia.org/datatype/millimetre> .
+<http://dbpedia.org/ontology/Weapon/height> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/Weapon/length> rdfs:domain <http://dbpedia.org/ontology/Weapon> .
+<http://dbpedia.org/ontology/Weapon/length> rdfs:range <http://dbpedia.org/datatype/millimetre> .
+<http://dbpedia.org/ontology/Weapon/length> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/Weapon/weight> rdfs:domain <http://dbpedia.org/ontology/Weapon> .
+<http://dbpedia.org/ontology/Weapon/weight> rdfs:range <http://dbpedia.org/datatype/kilogram> .
+<http://dbpedia.org/ontology/Weapon/weight> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/Weapon/width> rdfs:domain <http://dbpedia.org/ontology/Weapon> .
+<http://dbpedia.org/ontology/Weapon/width> rdfs:range <http://dbpedia.org/datatype/millimetre> .
+<http://dbpedia.org/ontology/Weapon/width> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/MeanOfTransportation/diameter> rdfs:domain <http://dbpedia.org/ontology/MeanOfTransportation> .
+<http://dbpedia.org/ontology/MeanOfTransportation/diameter> rdfs:range <http://dbpedia.org/datatype/metre> .
+<http://dbpedia.org/ontology/MeanOfTransportation/diameter> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/MeanOfTransportation/height> rdfs:domain <http://dbpedia.org/ontology/MeanOfTransportation> .
+<http://dbpedia.org/ontology/MeanOfTransportation/height> rdfs:range <http://dbpedia.org/datatype/millimetre> .
+<http://dbpedia.org/ontology/MeanOfTransportation/height> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/MeanOfTransportation/mass> rdfs:domain <http://dbpedia.org/ontology/MeanOfTransportation> .
+<http://dbpedia.org/ontology/MeanOfTransportation/mass> rdfs:range <http://dbpedia.org/datatype/kilogram> .
+<http://dbpedia.org/ontology/MeanOfTransportation/mass> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/Rocket/mass> rdfs:domain <http://dbpedia.org/ontology/Rocket> .
+<http://dbpedia.org/ontology/Rocket/mass> rdfs:range <http://dbpedia.org/datatype/kilogram> .
+<http://dbpedia.org/ontology/Rocket/mass> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/areaCode> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/areaCode> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/areaCode> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/areaCode> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/areaCode> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/areaCode> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/elevation> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/elevation> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/elevation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/elevation> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/elevation> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/elevation> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/utcOffset> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/utcOffset> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/utcOffset> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/utcOffset> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/utcOffset> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/utcOffset> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/politicalLeader> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/politicalLeader> rdfs:range <http://dbpedia.org/ontology/PersonFunction> .
+<http://dbpedia.org/ontology/politicalLeader> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/politicalLeader> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/politicalLeader> rdfs:range <http://dbpedia.org/ontology/PersonFunction> .
+<http://dbpedia.org/ontology/politicalLeader> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/species> rdfs:domain <http://dbpedia.org/ontology/Species> .
+<http://dbpedia.org/ontology/species> rdfs:range <http://dbpedia.org/ontology/Species> .
+<http://dbpedia.org/ontology/species> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/species> rdfs:domain <http://dbpedia.org/ontology/Species> .
+<http://dbpedia.org/ontology/species> rdfs:range <http://dbpedia.org/ontology/Species> .
+<http://dbpedia.org/ontology/species> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/PopulatedPlace/areaTotal> rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/PopulatedPlace/areaTotal> rdfs:range <http://dbpedia.org/datatype/squareKilometre> .
+<http://dbpedia.org/ontology/PopulatedPlace/areaTotal> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/PopulatedPlace/populationDensity> rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/PopulatedPlace/populationDensity> rdfs:range <http://dbpedia.org/datatype/inhabitantsPerSquareKilometre> .
+<http://dbpedia.org/ontology/PopulatedPlace/populationDensity> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/populationDensity> rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/populationDensity> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/populationDensity> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/populationDensity> rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/populationDensity> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/populationDensity> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .

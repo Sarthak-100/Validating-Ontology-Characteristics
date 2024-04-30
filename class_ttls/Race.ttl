@@ -1,276 +1,35 @@
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.w3.org/2000/01/rdf-schema#comment
-http://www.w3.org/2000/01/rdf-schema#seeAlso
-http://xmlns.com/foaf/0.1/name
-http://xmlns.com/foaf/0.1/homepage
-http://dbpedia.org/property/name
-http://www.w3.org/2003/01/geo/wgs84_pos#lat
-http://www.w3.org/2003/01/geo/wgs84_pos#long
-http://xmlns.com/foaf/0.1/depiction
-http://dbpedia.org/ontology/location
-http://purl.org/dc/terms/subject
-http://dbpedia.org/ontology/wikiPageID
-http://dbpedia.org/ontology/wikiPageRevisionID
-http://dbpedia.org/ontology/wikiPageWikiLink
-http://www.w3.org/2002/07/owl#sameAs
-http://dbpedia.org/ontology/wikiPageExternalLink
-http://dbpedia.org/property/wikiPageUsesTemplate
-http://dbpedia.org/ontology/thumbnail
-http://dbpedia.org/ontology/wikiPageInterLanguageLink
-http://dbpedia.org/property/conditions
-http://dbpedia.org/property/pagename
-http://dbpedia.org/property/quoted
-http://dbpedia.org/property/startingPrice
-http://dbpedia.org/property/winningHorse
-http://dbpedia.org/property/winningJockey
-http://dbpedia.org/property/winningOwner
-http://dbpedia.org/property/winningTrainer
-http://dbpedia.org/property/align
-http://dbpedia.org/property/alt
-http://dbpedia.org/property/attendance
-http://dbpedia.org/property/bot
-http://dbpedia.org/property/caption
-http://dbpedia.org/property/captionAlign
-http://dbpedia.org/property/class
-http://dbpedia.org/property/colwidth
-http://dbpedia.org/property/competition
-http://dbpedia.org/property/content
-http://dbpedia.org/property/date
-http://dbpedia.org/property/direction
-http://dbpedia.org/property/director
-http://dbpedia.org/property/discipline
-http://dbpedia.org/property/distance
-http://dbpedia.org/property/first
-http://dbpedia.org/property/fixAttempted
-http://dbpedia.org/property/founder
-http://dbpedia.org/property/header
-http://dbpedia.org/property/history
-http://dbpedia.org/property/horseRace
-http://dbpedia.org/property/image
-http://dbpedia.org/property/imageCaption
-http://dbpedia.org/property/imageSize
-http://dbpedia.org/property/inaugurated
-http://dbpedia.org/property/last
-http://dbpedia.org/property/lastRun
-http://dbpedia.org/property/location
-http://dbpedia.org/property/mostrecent
-http://dbpedia.org/property/mostwins
-http://dbpedia.org/property/nat
-http://dbpedia.org/property/next
-http://dbpedia.org/property/nickname
-http://dbpedia.org/property/number
-http://dbpedia.org/property/organiser
-http://dbpedia.org/property/previous
-http://dbpedia.org/property/purse
-http://dbpedia.org/property/qualification
-http://dbpedia.org/property/quote
-http://dbpedia.org/property/raceType
-http://dbpedia.org/property/reason
-http://dbpedia.org/property/region
-http://dbpedia.org/property/source
-http://dbpedia.org/property/sponsor
-http://dbpedia.org/property/surface
-http://dbpedia.org/property/team
-http://dbpedia.org/property/track
-http://dbpedia.org/property/type
-http://dbpedia.org/property/video
-http://dbpedia.org/property/website
-http://dbpedia.org/ontology/firstWinner
-http://dbpedia.org/ontology/recentWinner
-http://dbpedia.org/property/weight
-http://dbpedia.org/property/width
-http://dbpedia.org/property/year
-http://www.georss.org/georss/point
-http://dbpedia.org/property/finalOdds
-http://dbpedia.org/property/natvar
-http://dbpedia.org/property/record
-http://dbpedia.org/property/winningTime
-http://dbpedia.org/ontology/abstract
-http://dbpedia.org/ontology/mostWins
-http://dbpedia.org/property/final
-http://dbpedia.org/property/bonuses
-http://dbpedia.org/property/english
-http://dbpedia.org/property/firstwinner
-http://dbpedia.org/property/historyWomen
-http://dbpedia.org/property/localnames
-http://dbpedia.org/property/numberWomen
-http://dbpedia.org/property/officialWebsite
-http://purl.org/linguistics/gold/hypernym
-http://www.w3.org/ns/prov#wasDerivedFrom
-http://dbpedia.org/ontology/wikiPageLength
-http://xmlns.com/foaf/0.1/isPrimaryTopicOf
-http://www.w3.org/2003/01/geo/wgs84_pos#geometry
-http://www.w3.org/2002/07/owl#differentFrom
-http://dbpedia.org/property/teamnat
-http://dbpedia.org/property/color
-http://dbpedia.org/ontology/startDate
-http://dbpedia.org/property/organizer
-http://dbpedia.org/property/url
-http://dbpedia.org/property/2020Surface
-http://dbpedia.org/property/2Location
-http://dbpedia.org/property/currentEvent
-http://dbpedia.org/property/mostwinsWomen
-http://dbpedia.org/ontology/date
-http://dbpedia.org/property/imageName
-http://dbpedia.org/property/motto
-http://dbpedia.org/property/finalWomen
-http://dbpedia.org/property/firstWomen
-http://dbpedia.org/property/purseWinnings
-http://dbpedia.org/ontology/imdbId
-http://dbpedia.org/property/tv
-http://dbpedia.org/property/float
-http://dbpedia.org/property/id
-http://dbpedia.org/property/president
-http://dbpedia.org/property/size
-http://dbpedia.org/property/title
-http://dbpedia.org/property/venue
-http://dbpedia.org/property/siteWeb
-http://dbpedia.org/property/abbreviation
-http://dbpedia.org/property/creator
-http://dbpedia.org/property/homepage
-http://dbpedia.org/property/imageWidth
-http://dbpedia.org/property/keyPeople
-http://dbpedia.org/property/label
-http://dbpedia.org/property/latDeg
-http://dbpedia.org/property/lonDeg
-http://dbpedia.org/property/small
-http://dbpedia.org/ontology/endDate
-http://dbpedia.org/property/.mostwins
-http://dbpedia.org/property/ambassadors
-http://dbpedia.org/property/coFounder
-http://dbpedia.org/property/days
-http://dbpedia.org/property/intl
-http://dbpedia.org/property/silverBlr
-http://dbpedia.org/property/silverLtu
-http://dbpedia.org/property/silverSlo
-http://dbpedia.org/property/bronzeDdr
-http://dbpedia.org/property/goldDdr
-http://dbpedia.org/property/silverDdr
-http://dbpedia.org/property/bronzeCol
-http://dbpedia.org/property/goldCol
-http://dbpedia.org/property/silverCol
-http://dbpedia.org/property/bronzeNed
-http://dbpedia.org/property/goldNed
-http://dbpedia.org/property/silverNed
-http://dbpedia.org/property/bronzeCze
-http://dbpedia.org/property/bronzeFin
-http://dbpedia.org/property/bronzeFra
-http://dbpedia.org/property/bronzeGdr
-http://dbpedia.org/property/bronzeGer
-http://dbpedia.org/property/bronzeHun
-http://dbpedia.org/property/bronzeIta
-http://dbpedia.org/property/bronzeNor
-http://dbpedia.org/property/bronzePol
-http://dbpedia.org/property/bronzeRus
-http://dbpedia.org/property/bronzeSvk
-http://dbpedia.org/property/bronzeSwe
-http://dbpedia.org/property/bronzeTch
-http://dbpedia.org/property/bronzeUkr
-http://dbpedia.org/property/bronzeUrs
-http://dbpedia.org/property/bronzeUsa
-http://dbpedia.org/property/editions
-http://dbpedia.org/property/flagTemplate
-http://dbpedia.org/property/goldCze
-http://dbpedia.org/property/goldFin
-http://dbpedia.org/property/goldFra
-http://dbpedia.org/property/goldGdr
-http://dbpedia.org/property/goldGer
-http://dbpedia.org/property/goldHun
-http://dbpedia.org/property/goldIta
-http://dbpedia.org/property/goldNor
-http://dbpedia.org/property/goldPol
-http://dbpedia.org/property/goldRus
-http://dbpedia.org/property/goldSvk
-http://dbpedia.org/property/goldSwe
-http://dbpedia.org/property/goldTch
-http://dbpedia.org/property/goldUkr
-http://dbpedia.org/property/goldUrs
-http://dbpedia.org/property/goldUsa
-http://dbpedia.org/property/silverCze
-http://dbpedia.org/property/silverFin
-http://dbpedia.org/property/silverFra
-http://dbpedia.org/property/silverGdr
-http://dbpedia.org/property/silverGer
-http://dbpedia.org/property/silverHun
-http://dbpedia.org/property/silverIta
-http://dbpedia.org/property/silverNor
-http://dbpedia.org/property/silverPol
-http://dbpedia.org/property/silverRus
-http://dbpedia.org/property/silverSvk
-http://dbpedia.org/property/silverSwe
-http://dbpedia.org/property/silverTch
-http://dbpedia.org/property/silverUkr
-http://dbpedia.org/property/silverUrs
-http://dbpedia.org/property/silverUsa
-http://dbpedia.org/property/bronzeCan
-http://dbpedia.org/property/bronzeIrl
-http://dbpedia.org/property/bronzeLux
-http://dbpedia.org/property/goldCan
-http://dbpedia.org/property/goldIrl
-http://dbpedia.org/property/goldLux
-http://dbpedia.org/property/silverCan
-http://dbpedia.org/property/silverIrl
-http://dbpedia.org/property/silverLux
-http://dbpedia.org/property/bronzeBra
-http://dbpedia.org/property/bronzeEsp
-http://dbpedia.org/property/bronzeLat
-http://dbpedia.org/property/bronzeNld
-http://dbpedia.org/property/bronzeNzl
-http://dbpedia.org/property/bronzePor
-http://dbpedia.org/property/goldBra
-http://dbpedia.org/property/goldEsp
-http://dbpedia.org/property/goldLat
-http://dbpedia.org/property/goldNld
-http://dbpedia.org/property/goldNzl
-http://dbpedia.org/property/goldPor
-http://dbpedia.org/property/silverBra
-http://dbpedia.org/property/silverEsp
-http://dbpedia.org/property/silverLat
-http://dbpedia.org/property/silverNld
-http://dbpedia.org/property/silverNzl
-http://dbpedia.org/property/silverPor
-http://dbpedia.org/property/bronze
-http://dbpedia.org/property/gold
-http://dbpedia.org/property/silver
-http://dbpedia.org/property/bronzeAus
-http://dbpedia.org/property/bronzeAut
-http://dbpedia.org/property/bronzeBel
-http://dbpedia.org/property/bronzeDen
-http://dbpedia.org/property/bronzeGbr
-http://dbpedia.org/property/bronzeSui
-http://dbpedia.org/property/goldAus
-http://dbpedia.org/property/goldAut
-http://dbpedia.org/property/goldBel
-http://dbpedia.org/property/goldDen
-http://dbpedia.org/property/goldGbr
-http://dbpedia.org/property/goldSui
-http://dbpedia.org/property/silverAus
-http://dbpedia.org/property/silverAut
-http://dbpedia.org/property/silverBel
-http://dbpedia.org/property/silverDen
-http://dbpedia.org/property/silverGbr
-http://dbpedia.org/property/silverSui
-http://dbpedia.org/property/bronzeUru
-http://dbpedia.org/property/goldUru
-http://dbpedia.org/property/silverUru
-http://dbpedia.org/property/bronzeRda
-http://dbpedia.org/property/goldRda
-http://dbpedia.org/property/silverRda
-http://dbpedia.org/property/bronzeBlr
-http://dbpedia.org/property/bronzeLtu
-http://dbpedia.org/property/bronzeSlo
-http://dbpedia.org/property/goldBlr
-http://dbpedia.org/property/goldLtu
-http://dbpedia.org/property/goldSlo
-http://dbpedia.org/property/hideTotals
-http://dbpedia.org/property/silverCro
-http://dbpedia.org/property/teamnatvar
-http://dbpedia.org/property/bronzeEst
-http://dbpedia.org/property/goldEst
-http://dbpedia.org/property/silverEst
-http://dbpedia.org/property/bronzeCro
-http://dbpedia.org/property/firstEdition
-http://dbpedia.org/property/goldCro
-http://dbpedia.org/property/numberOfEditions
-http://dbpedia.org/property/imageAlt
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/firstWinner> rdfs:domain <http://dbpedia.org/ontology/Race> .
+<http://dbpedia.org/ontology/firstWinner> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/firstWinner> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/firstWinner> rdfs:domain <http://dbpedia.org/ontology/Race> .
+<http://dbpedia.org/ontology/firstWinner> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/firstWinner> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/recentWinner> rdfs:domain <http://dbpedia.org/ontology/Race> .
+<http://dbpedia.org/ontology/recentWinner> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/recentWinner> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/recentWinner> rdfs:domain <http://dbpedia.org/ontology/Race> .
+<http://dbpedia.org/ontology/recentWinner> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/recentWinner> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/startDate> rdfs:domain <http://dbpedia.org/ontology/Event> .
+<http://dbpedia.org/ontology/startDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/startDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/startDate> rdfs:domain <http://dbpedia.org/ontology/Event> .
+<http://dbpedia.org/ontology/startDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/startDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/endDate> rdfs:domain <http://dbpedia.org/ontology/Event> .
+<http://dbpedia.org/ontology/endDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/endDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/endDate> rdfs:domain <http://dbpedia.org/ontology/Event> .
+<http://dbpedia.org/ontology/endDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/endDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .

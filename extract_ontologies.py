@@ -47,28 +47,23 @@ def fetch_properties_for_class(class_uri):
 
 print("Started Storing Properties for each class.....")
 
-# Fetch properties for each ontology class
-# class_properties_mapping = {}
-# for ontology_class_uri in ontology_classes:
-#     decoded_class_uri = quote(ontology_class_uri, safe='/:')
-#     properties = fetch_properties_for_class(decoded_class_uri)
-#     class_properties_mapping[ontology_class_uri] = properties
-
-# print(".....Done Fetching Properties for each class")
-
-# # Print the mapping of classes to their properties
-# for ontology_class_uri, properties in class_properties_mapping.items():
-#     print(f"Class: {ontology_class_uri}")
-#     print("Properties:")
-#     for prop in properties:
-#         print(f"- {prop}")
-#     print()
-
 # Define a function to fetch relationships/properties of a given class and save them to a TTL file
 def fetch_properties_and_save(class_uri):
     try:
         decoded_class_uri = quote(class_uri, safe='/:')
-        properties = fetch_properties_for_class(decoded_class_uri)
+        sparql.setQuery(f"""
+            SELECT DISTINCT ?property ?domain ?range ?type WHERE {{
+              ?subject rdf:type <{decoded_class_uri}> ;
+                       ?property [] .
+              OPTIONAL {{
+                ?property rdfs:domain ?domain .
+                ?property rdfs:range ?range .
+                ?property rdf:type ?type .
+              }}
+            }}
+        """)
+        sparql.setReturnFormat(JSON)
+        results = sparql.query().convert()
 
         # Create a folder to store TTL files if it doesn't exist
         folder_name = "class_ttls"
@@ -79,10 +74,19 @@ def fetch_properties_and_save(class_uri):
         file_name = f"{class_uri.split('/')[-1]}.ttl"
         file_path = os.path.join(folder_name, file_name)
         with open(file_path, 'w') as f:
-            for prop in properties:
-                f.write(f"{prop}\n")
+            for result in results["results"]["bindings"]:
+                property_uri = result["property"]["value"]
+                domain_uri = result.get("domain", {}).get("value")
+                range_uri = result.get("range", {}).get("value")
+                type_uri = result.get("type", {}).get("value")
+                if domain_uri and range_uri:
+                    f.write(f"<{property_uri}> rdfs:domain <{domain_uri}> .\n")
+                    f.write(f"<{property_uri}> rdfs:range <{range_uri}> .\n")
+                if type_uri:
+                    f.write(f"<{property_uri}> rdf:type <{type_uri}> .\n")
     except Exception as e:
         print(f"Failed to fetch properties for class: {class_uri}")
+
 
 # Fetch properties for each ontology class and save to TTL files
 for ontology_class_uri in ontology_classes:

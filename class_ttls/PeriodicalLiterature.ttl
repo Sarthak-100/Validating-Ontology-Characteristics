@@ -1,1177 +1,227 @@
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.w3.org/2000/01/rdf-schema#comment
-http://xmlns.com/foaf/0.1/name
-http://xmlns.com/foaf/0.1/homepage
-http://dbpedia.org/property/name
-http://xmlns.com/foaf/0.1/depiction
-http://purl.org/dc/terms/subject
-http://www.w3.org/2002/07/owl#sameAs
-http://dbpedia.org/ontology/wikiPageID
-http://dbpedia.org/ontology/wikiPageRevisionID
-http://dbpedia.org/ontology/wikiPageWikiLink
-http://dbpedia.org/ontology/wikiPageExternalLink
-http://dbpedia.org/ontology/managingEditor
-http://dbpedia.org/ontology/sisterNewspaper
-http://dbpedia.org/ontology/chiefEditor
-http://dbpedia.org/ontology/circulation
-http://dbpedia.org/ontology/editorTitle
-http://dbpedia.org/ontology/issn
-http://dbpedia.org/ontology/headquarter
-http://dbpedia.org/ontology/previousEditor
-http://dbpedia.org/property/sisterNewspapers
-http://dbpedia.org/property/wikiPageUsesTemplate
-http://dbpedia.org/ontology/thumbnail
-http://dbpedia.org/property/author
-http://dbpedia.org/property/based
-http://dbpedia.org/property/caption
-http://dbpedia.org/property/category
-http://dbpedia.org/property/ceasedPublication
-http://dbpedia.org/property/chiefeditor
-http://dbpedia.org/property/circulation
-http://dbpedia.org/property/commercial
-http://dbpedia.org/property/company
-http://dbpedia.org/property/country
-http://dbpedia.org/property/currentStatus
-http://dbpedia.org/property/editor
-http://dbpedia.org/property/editorTitle
-http://dbpedia.org/property/finaldate
-http://dbpedia.org/property/finalnumber
-http://dbpedia.org/property/first
-http://dbpedia.org/property/firstdate
-http://dbpedia.org/property/format
-http://dbpedia.org/property/foundation
-http://dbpedia.org/property/founded
-http://dbpedia.org/property/founder
-http://dbpedia.org/property/free
-http://dbpedia.org/property/frequency
-http://dbpedia.org/property/headquarters
-http://dbpedia.org/property/imageAlt
-http://dbpedia.org/property/imageCaption
-http://dbpedia.org/property/imageFile
-http://dbpedia.org/property/imageSize
-http://dbpedia.org/property/issn
-http://dbpedia.org/property/l
-http://dbpedia.org/property/language
-http://dbpedia.org/property/launchDate
-http://dbpedia.org/property/logo
-http://dbpedia.org/property/logoSize
-http://dbpedia.org/property/oclc
-http://dbpedia.org/property/owner
-http://dbpedia.org/property/owners
-http://dbpedia.org/property/p
-http://dbpedia.org/property/political
-http://dbpedia.org/property/previousEditor
-http://dbpedia.org/property/publisher
-http://dbpedia.org/property/s
-http://dbpedia.org/property/screenshot
-http://dbpedia.org/property/screenshotSize
-http://dbpedia.org/property/staff
-http://dbpedia.org/property/t
-http://dbpedia.org/property/title
-http://dbpedia.org/property/type
-http://dbpedia.org/property/url
-http://dbpedia.org/property/website
-http://dbpedia.org/ontology/abstract
-http://dbpedia.org/property/circulationDate
-http://dbpedia.org/property/collapsetext
-http://dbpedia.org/property/collapsible
-http://dbpedia.org/property/logocaption
-http://dbpedia.org/property/maneditor
-http://dbpedia.org/property/price
-http://dbpedia.org/property/publishingCity
-http://dbpedia.org/property/publishingCountry
-http://purl.org/linguistics/gold/hypernym
-http://dbpedia.org/property/wordnet_type
-http://www.w3.org/ns/prov#wasDerivedFrom
-http://dbpedia.org/ontology/wikiPageLength
-http://dbpedia.org/ontology/date
-http://dbpedia.org/ontology/depictionDescription
-http://dbpedia.org/ontology/foundingDate
-http://dbpedia.org/ontology/imageSize
-http://dbpedia.org/ontology/logo
-http://dbpedia.org/ontology/city
-http://dbpedia.org/ontology/country
-http://dbpedia.org/ontology/editor
-http://dbpedia.org/ontology/format
-http://dbpedia.org/ontology/foundedBy
-http://dbpedia.org/ontology/founder
-http://dbpedia.org/ontology/genre
-http://dbpedia.org/ontology/language
-http://dbpedia.org/ontology/owner
-http://dbpedia.org/ontology/publisher
-http://dbpedia.org/ontology/type
-http://xmlns.com/foaf/0.1/isPrimaryTopicOf
-http://dbpedia.org/property/totalCirculation
-http://dbpedia.org/ontology/impactFactor
-http://dbpedia.org/ontology/impactFactorAsOf
-http://dbpedia.org/ontology/openAccessContent
-http://dbpedia.org/ontology/jstor
-http://dbpedia.org/ontology/lccn
-http://dbpedia.org/ontology/firstPublicationYear
-http://dbpedia.org/ontology/frequencyOfPublication
-http://dbpedia.org/ontology/oclc
-http://dbpedia.org/ontology/coden
-http://dbpedia.org/property/lccn
-http://dbpedia.org/property/editors
-http://dbpedia.org/property/impact
-http://dbpedia.org/property/abbreviation
-http://dbpedia.org/property/alt
-http://dbpedia.org/property/cover
-http://dbpedia.org/property/discipline
-http://dbpedia.org/property/history
-http://dbpedia.org/property/link
-http://dbpedia.org/property/president
-http://dbpedia.org/property/subject
-http://dbpedia.org/property/circulationYear
-http://dbpedia.org/property/coden
-http://dbpedia.org/property/eissn
-http://dbpedia.org/property/impactYear
-http://dbpedia.org/property/jstor
-http://dbpedia.org/property/link1Name
-http://dbpedia.org/property/link2Name
-http://dbpedia.org/property/openaccess
-http://dbpedia.org/ontology/abbreviation
-http://dbpedia.org/ontology/year
-http://dbpedia.org/ontology/academicDiscipline
-http://www.w3.org/2002/07/owl#differentFrom
-http://dbpedia.org/property/staffWriter
-http://dbpedia.org/property/launched
-http://dbpedia.org/property/colour
-http://dbpedia.org/property/formerNames
-http://dbpedia.org/property/location
-http://dbpedia.org/property/motto
-http://dbpedia.org/property/nickname
-http://dbpedia.org/property/othernames
-http://dbpedia.org/property/precededBy
-http://dbpedia.org/property/registration
-http://dbpedia.org/property/school
-http://dbpedia.org/property/custom
-http://dbpedia.org/property/customLabel
-http://dbpedia.org/property/firstname
-http://dbpedia.org/property/link1At
-http://dbpedia.org/property/link3Name
-http://dbpedia.org/property/relaunched
-http://dbpedia.org/ontology/formerName
-http://dbpedia.org/ontology/finalPublicationYear
-http://dbpedia.org/property/italicTitle
-http://dbpedia.org/property/bluebook
-http://dbpedia.org/property/formernames
-http://schema.org/sameAs
-http://dbpedia.org/property/formerName
-http://dbpedia.org/property/issn2label
-http://dbpedia.org/property/issn3label
-http://dbpedia.org/property/issn4label
-http://dbpedia.org/property/issnlabel
-http://dbpedia.org/property/link2At
-http://dbpedia.org/property/nlm
-http://www.w3.org/2000/01/rdf-schema#seeAlso
-http://dbpedia.org/property/boxwidth
-http://dbpedia.org/property/mathscinet
-http://dbpedia.org/property/formername
-http://dbpedia.org/property/link3At
-http://www.w3.org/2004/02/skos/core#closeMatch
-http://dbpedia.org/ontology/picture
-http://dbpedia.org/property/lastdate
-http://dbpedia.org/property/newseditor
-http://dbpedia.org/property/photoeditor
-http://dbpedia.org/property/readership
-http://dbpedia.org/ontology/location
-http://dbpedia.org/property/sportseditor
-http://dbpedia.org/property/bot
-http://dbpedia.org/property/date
-http://dbpedia.org/property/fixAttempted
-http://dbpedia.org/property/homepage
-http://dbpedia.org/property/industry
-http://dbpedia.org/property/keyPeople
-http://dbpedia.org/property/license
-http://dbpedia.org/property/products
-http://dbpedia.org/ontology/description
-http://dbpedia.org/ontology/foundingYear
-http://dbpedia.org/ontology/industry
-http://dbpedia.org/ontology/license
-http://dbpedia.org/ontology/product
-http://dbpedia.org/property/tableWidth
-http://dbpedia.org/ontology/wikiPageInterLanguageLink
-http://dbpedia.org/property/data
-http://dbpedia.org/property/label
-http://dbpedia.org/property/dataType
-http://dbpedia.org/property/labelType
-http://dbpedia.org/property/langcode
-http://dbpedia.org/property/otherarticle
-http://dbpedia.org/property/ownership
-http://dbpedia.org/property/parentCompany
-http://dbpedia.org/property/politicalAlignment
-http://www.w3.org/2003/01/geo/wgs84_pos#lat
-http://www.w3.org/2003/01/geo/wgs84_pos#long
-http://dbpedia.org/property/b
-http://dbpedia.org/property/commons
-http://dbpedia.org/property/d
-http://dbpedia.org/property/m
-http://dbpedia.org/property/mw
-http://dbpedia.org/property/n
-http://dbpedia.org/property/q
-http://dbpedia.org/property/species
-http://dbpedia.org/property/titlestyle
-http://dbpedia.org/property/v
-http://dbpedia.org/property/voy
-http://dbpedia.org/property/wikt
-http://www.georss.org/georss/point
-http://umbel.org/umbel#isLike
-http://www.w3.org/2003/01/geo/wgs84_pos#geometry
-http://dbpedia.org/ontology/wikiPageRedirects
-http://dbpedia.org/property/founders
-http://dbpedia.org/property/logoCaption
-http://dbpedia.org/property/source
-http://dbpedia.org/property/text
-http://dbpedia.org/property/auditedMonth
-http://dbpedia.org/property/dname
-http://dbpedia.org/property/monthlyAuditedSiteTraffic
-http://dbpedia.org/property/monthlyPageImpressions
-http://dbpedia.org/property/search
-http://rdvocab.info/RDARelationshipsWEMI/manifestationOfWork
-http://dbpedia.org/property/c
-http://dbpedia.org/property/netIncome
-http://dbpedia.org/property/reason
-http://dbpedia.org/property/revenue
-http://dbpedia.org/ontology/revenue
-http://dbpedia.org/property/publisherTitle
-http://dbpedia.org/property/context
-http://dbpedia.org/property/hanja
-http://dbpedia.org/property/mr
-http://dbpedia.org/ontology/photographer
-http://dbpedia.org/property/centre
-http://dbpedia.org/property/east
-http://dbpedia.org/property/hangul
-http://dbpedia.org/property/northeast
-http://dbpedia.org/property/northwest
-http://dbpedia.org/property/photographer
-http://dbpedia.org/property/rr
-http://dbpedia.org/property/south
-http://dbpedia.org/property/southeast
-http://dbpedia.org/property/southwest
-http://dbpedia.org/property/west
-http://dbpedia.org/property/generalmanager
-http://dbpedia.org/property/imageBorder
-http://dbpedia.org/property/lit
-http://dbpedia.org/property/editorInChief
-http://dbpedia.org/property/align
-http://dbpedia.org/property/direction
-http://dbpedia.org/property/image
-http://dbpedia.org/property/totalWidth
-http://dbpedia.org/property/width
-http://dbpedia.org/property/artDirector
-http://dbpedia.org/property/politicalPosition
-http://dbpedia.org/property/accessdate
-http://dbpedia.org/property/id
-http://dbpedia.org/property/centers
-http://dbpedia.org/property/sname
-http://dbpedia.org/property/work
-http://dbpedia.org/ontology/firstPublicationDate
-http://dbpedia.org/property/assoceditor
-http://dbpedia.org/property/rss
-http://dbpedia.org/property/citeScore
-http://dbpedia.org/property/currentOwners
-http://dbpedia.org/property/priorOwners
-http://dbpedia.org/property/link4Name
-http://dbpedia.org/property/link5Name
-http://dbpedia.org/property/num
-http://dbpedia.org/property/o
-http://dbpedia.org/property/y
-http://dbpedia.org/property/top
-http://dbpedia.org/property/u
-http://dbpedia.org/property/center
-http://dbpedia.org/property/refs
-http://dbpedia.org/property/companySlogan
-http://dbpedia.org/property/foundingEditor
-http://dbpedia.org/property/newseditors
-http://dbpedia.org/property/address
-http://dbpedia.org/property/deputyEditor
-http://dbpedia.org/property/localSisterPapers
-http://dbpedia.org/property/newsEditor
-http://dbpedia.org/property/unpaidCirculation
-http://dbpedia.org/property/quote
-http://dbpedia.org/property/paidCirculation
-http://dbpedia.org/property/chiefEditor
-http://dbpedia.org/property/managingeditordesign
-http://dbpedia.org/property/j
-http://dbpedia.org/property/editorialTeam
-http://dbpedia.org/property/assistantEditor
-http://dbpedia.org/property/executiveDirector
-http://dbpedia.org/property/opeditor
-http://dbpedia.org/property/yearFounded
-http://dbpedia.org/property/links
-http://dbpedia.org/ontology/associateEditor
-http://dbpedia.org/property/advertisingDirector
-http://dbpedia.org/property/cultureeditor
-http://dbpedia.org/property/sportsEditor
-http://dbpedia.org/property/previous
-http://dbpedia.org/property/years
-http://dbpedia.org/property/advertising
-http://dbpedia.org/property/groupEditor
-http://dbpedia.org/property/previousEditors
-http://dbpedia.org/property/managingEditor
-http://dbpedia.org/property/fid
-http://dbpedia.org/property/sisterPublications
-http://dbpedia.org/property/size
-http://dbpedia.org/property/generalManager
-http://dbpedia.org/property/seniorExecutiveEditor
-http://dbpedia.org/property/colwidth
-http://dbpedia.org/property/content
-http://dbpedia.org/property/cost
-http://dbpedia.org/property/footerAlign
-http://dbpedia.org/property/headerAlign
-http://dbpedia.org/property/w
-http://dbpedia.org/property/chiefSubEditors
-http://dbpedia.org/property/executiveEditors
-http://dbpedia.org/property/bgcolor
-http://dbpedia.org/property/cat
-http://dbpedia.org/property/footer
-http://dbpedia.org/property/group
-http://dbpedia.org/property/perrow
-http://dbpedia.org/property/style
-http://dbpedia.org/property/year
-http://dbpedia.org/property/revivals
-http://dbpedia.org/property/silverButton
-http://dbpedia.org/property/silverYear
-http://dbpedia.org/property/statsUpdate
-http://dbpedia.org/property/subscribers
-http://dbpedia.org/property/views
-http://dbpedia.org/property/associatedActs
-http://dbpedia.org/property/began
-http://dbpedia.org/property/ended
-http://dbpedia.org/property/established
-http://dbpedia.org/property/genre
-http://dbpedia.org/property/length
-http://dbpedia.org/property/network
-http://dbpedia.org/property/numEpisodes
-http://dbpedia.org/property/production
-http://dbpedia.org/property/updates
-http://dbpedia.org/property/yearsActive
-http://dbpedia.org/property/broadcastArea
-http://dbpedia.org/property/channelDisplayName
-http://dbpedia.org/property/channelName
-http://dbpedia.org/property/executivePublisher
-http://dbpedia.org/property/goldButton
-http://dbpedia.org/property/goldYear
-http://dbpedia.org/property/hosting
-http://dbpedia.org/property/marketing
-http://dbpedia.org/property/1a
-http://dbpedia.org/property/1p
-http://dbpedia.org/property/1pp
-http://dbpedia.org/property/1y
-http://dbpedia.org/property/2a
-http://dbpedia.org/property/2p
-http://dbpedia.org/property/2pp
-http://dbpedia.org/property/2y
-http://dbpedia.org/property/logoAlt
-http://dbpedia.org/property/link6Name
-http://dbpedia.org/property/link7Name
-http://dbpedia.org/property/illustrator
-http://dbpedia.org/property/last
-http://dbpedia.org/property/ongoing
-http://dbpedia.org/property/slogan
-http://dbpedia.org/property/completed
-http://dbpedia.org/property/kanjititle
-http://dbpedia.org/property/romajititle
-http://dbpedia.org/property/captionAlign
-http://dbpedia.org/property/fullForm
-http://dbpedia.org/property/dissolved
-http://dbpedia.org/ontology/author
-http://dbpedia.org/property/journal
-http://dbpedia.org/property/circulationRef
-http://dbpedia.org/property/languages
-http://dbpedia.org/property/sign
-http://dbpedia.org/property/link4At
-http://dbpedia.org/property/groupPublisher
-http://dbpedia.org/property/showflag
-http://dbpedia.org/property/order
-http://dbpedia.org/property/previousContributors
-http://dbpedia.org/property/cs1Dates
-http://dbpedia.org/property/langauage
-http://dbpedia.org/property/preceding
-http://dbpedia.org/property/creativeServicesDirector
-http://dbpedia.org/property/publication
-http://dbpedia.org/property/edit
-http://dbpedia.org/property/advisor
-http://dbpedia.org/property/mon
-http://dbpedia.org/property/mong
-http://dbpedia.org/property/rni
-http://dbpedia.org/property/small
-http://dbpedia.org/property/status
-http://dbpedia.org/property/politicalAllegiance
-http://dbpedia.org/property/ceo
-http://dbpedia.org/property/cvr
-http://dbpedia.org/property/publisherPrinters
-http://dbpedia.org/property/assocEditor
-http://dbpedia.org/property/depeditor
-http://dbpedia.org/property/twitter
-http://dbpedia.org/property/facebook
-http://dbpedia.org/property/noparen
-http://purl.org/dc/elements/1.1/publisher
-http://dbpedia.org/property/sportingAffiliations
-http://dbpedia.org/property/students
-http://dbpedia.org/property/symbolism
-http://dbpedia.org/property/thesAus
-http://dbpedia.org/property/thesW
-http://dbpedia.org/property/undergrad
-http://dbpedia.org/property/uniname
-http://dbpedia.org/property/usnwrAus
-http://dbpedia.org/property/usnwrW
-http://dbpedia.org/property/viceChancellor
-http://dbpedia.org/property/audioReadBy
-http://dbpedia.org/property/budget
-http://dbpedia.org/property/campus
-http://dbpedia.org/property/city
-http://dbpedia.org/property/colours
-http://dbpedia.org/property/followedBy
-http://dbpedia.org/property/head
-http://dbpedia.org/property/imageName
-http://dbpedia.org/property/manager
-http://dbpedia.org/property/notes
-http://dbpedia.org/property/origLangCode
-http://dbpedia.org/property/pages
-http://dbpedia.org/property/poj
-http://dbpedia.org/property/pubDate
-http://dbpedia.org/property/published
-http://dbpedia.org/property/state
-http://dbpedia.org/property/titleOrig
-http://dbpedia.org/property/translator
-http://dbpedia.org/ontology/numberOfPages
-http://dbpedia.org/ontology/subsequentWork
-http://dbpedia.org/ontology/translator
-http://dbpedia.org/property/wikisource
-http://dbpedia.org/property/chancellor
-http://dbpedia.org/property/academicAffiliations
-http://dbpedia.org/property/academicStaff
-http://dbpedia.org/property/accreditation
-http://dbpedia.org/property/administrativeStaff
-http://dbpedia.org/property/adopted
-http://dbpedia.org/property/arwuAus
-http://dbpedia.org/property/arwuW
-http://dbpedia.org/property/doctoral
-http://dbpedia.org/property/eraAus
-http://dbpedia.org/property/escutcheon
-http://dbpedia.org/property/headLabel
-http://dbpedia.org/property/latinName
-http://dbpedia.org/property/leidenAus
-http://dbpedia.org/property/leidenW
-http://dbpedia.org/property/nativeWikisource
-http://dbpedia.org/property/postgrad
-http://dbpedia.org/property/qsAus
-http://dbpedia.org/property/qsW
-http://dbpedia.org/ontology/nonFictionSubject
-http://dbpedia.org/property/associatePublisher
-http://dbpedia.org/property/politics
-http://dbpedia.org/property/executiveEditor
-http://dbpedia.org/property/webmaster
-http://dbpedia.org/property/sisterChannels
-http://dbpedia.org/property/issn1label
-http://dbpedia.org/property/formerOwners
-http://dbpedia.org/property/imagesize
-http://dbpedia.org/property/db
-http://dbpedia.org/property/managingDirector/editorInChief
-http://dbpedia.org/property/showName
-http://dbpedia.org/property/reporters
-http://dbpedia.org/property/pageCount
-http://dbpedia.org/property/stype
-http://dbpedia.org/ontology/isPeerReviewed
-http://dbpedia.org/property/peerReviewed
-http://dbpedia.org/property/www.greeneconomicsinstitute.org.uk
-http://dbpedia.org/property/manuscriptSubmission
-http://dbpedia.org/property/iso
-http://dbpedia.org/property/dewey
-http://dbpedia.org/property/bsize
-http://dbpedia.org/property/cheight
-http://dbpedia.org/property/cwidth
-http://dbpedia.org/property/description
-http://dbpedia.org/property/oleft
-http://dbpedia.org/property/otop
-http://dbpedia.org/property/legalForm
-http://dbpedia.org/ontology/isbn
-http://dbpedia.org/ontology/coverArtist
-http://dbpedia.org/property/coverArtist
-http://dbpedia.org/property/gm
-http://dbpedia.org/property/isbn
-http://dbpedia.org/property/mediaType
-http://dbpedia.org/property/releaseDate
-http://dbpedia.org/property/managingPublisher
-http://dbpedia.org/property/webVisitorsPerYear
-http://dbpedia.org/property/agency
-http://dbpedia.org/property/article
-http://dbpedia.org/property/finalPrintIssue
-http://dbpedia.org/property/firstOnlineIssue
-http://dbpedia.org/property/registrar
-http://dbpedia.org/property/from
-http://dbpedia.org/property/to
-http://dbpedia.org/property/artikel
-http://dbpedia.org/property/coPublisher
-http://dbpedia.org/property/onlineEditor
-http://dbpedia.org/property/seniorstaff
-http://dbpedia.org/property/advertisingDirecter
-http://dbpedia.org/property/instagram
-http://dbpedia.org/property/obituaries
-http://dbpedia.org/property/zdb
-http://dbpedia.org/property/firstYear
-http://dbpedia.org/property/formation
-http://dbpedia.org/property/auflage
-http://dbpedia.org/property/director
-http://dbpedia.org/property/printer
-http://dbpedia.org/property/aprilfools
-http://dbpedia.org/property/advertisingdirector
-http://dbpedia.org/property/firstref
-http://dbpedia.org/property/lastref
-http://dbpedia.org/property/fee
-http://dbpedia.org/property/hp
-http://dbpedia.org/property/sportJournalsit
-http://dbpedia.org/property/design
-http://dbpedia.org/property/deputyEditorInChief
-http://dbpedia.org/property/editorChief
-http://dbpedia.org/property/headOfDigital&Marketing
-http://dbpedia.org/property/part
-http://dbpedia.org/property/politicalJournalist
-http://dbpedia.org/property/citescore
-http://dbpedia.org/property/citescoreYear
-http://dbpedia.org/property/float
-http://dbpedia.org/property/video
-http://dbpedia.org/property/ci
-http://dbpedia.org/property/alternateTitle
-http://dbpedia.org/property/culture
-http://dbpedia.org/property/page
-http://dbpedia.org/property/volume
-http://dbpedia.org/property/wstitle
-http://dbpedia.org/property/generaManager
-http://dbpedia.org/property/managingDirector
-http://dbpedia.org/property/sundayEditor
-http://dbpedia.org/property/distributor
-http://dbpedia.org/property/dailyEditor
-http://dbpedia.org/property/fiveYearImpactFactor
-http://dbpedia.org/property/saturdayEditor
-http://dbpedia.org/ontology/publicationDate
-http://dbpedia.org/ontology/literaryGenre
-http://dbpedia.org/property/chiefReporter
-http://purl.org/dc/terms/isPartOf
-http://dbpedia.org/property/scientificLevel
-http://dbpedia.org/property/issn5label
-http://dbpedia.org/property/webeditor
-http://dbpedia.org/property/imagePage
-http://dbpedia.org/property/relaunching
-http://dbpedia.org/property/areaServed
-http://dbpedia.org/property/focus
-http://dbpedia.org/property/iboxOrder
-http://dbpedia.org/property/kana
-http://dbpedia.org/property/revhep
-http://dbpedia.org/property/sportsreporter
-http://dbpedia.org/property/developer
-http://dbpedia.org/property/discontinued
-http://dbpedia.org/property/advertisingmanager
-http://dbpedia.org/property/datesOfPublication
-http://dbpedia.org/property/graphicDesigner
-http://dbpedia.org/property/managingeditor
-http://dbpedia.org/property/dirvideo
-http://dbpedia.org/property/dirvisuals
-http://dbpedia.org/property/publishingState
-http://dbpedia.org/property/director/Editor
-http://dbpedia.org/property/locationCity
-http://dbpedia.org/property/locationCountry
-http://dbpedia.org/property/services
-http://dbpedia.org/ontology/service
-http://dbpedia.org/property/day
-http://dbpedia.org/property/help
-http://dbpedia.org/property/month
-http://dbpedia.org/property/substed
-http://dbpedia.org/property/timestamp
-http://dbpedia.org/property/businessOperationsOfficer
-http://dbpedia.org/property/communityeditor
-http://dbpedia.org/property/productionManager
-http://dbpedia.org/property/sourcepath
-http://dbpedia.org/property/metroeditor
-http://dbpedia.org/property/available
-http://dbpedia.org/property/branding
-http://dbpedia.org/property/callsignMeaning
-http://dbpedia.org/property/pictureFormat
-http://dbpedia.org/property/upright
-http://dbpedia.org/property/networkType
-http://dbpedia.org/property/pastNames
-http://dbpedia.org/property/commonsSearch
-http://dbpedia.org/property/portal
-http://dbpedia.org/property/sSearch
-http://dbpedia.org/ontology/mediaType
-http://dbpedia.org/property/parentOrganisation
-http://dbpedia.org/property/bookReviewsEditor
-http://dbpedia.org/property/membership
-http://dbpedia.org/property/socialmediaeditor
-http://dbpedia.org/property/artsentertainmenteditor
-http://dbpedia.org/property/mlcts
-http://dbpedia.org/property/my
-http://dbpedia.org/property/foundingPublisher
-http://dbpedia.org/property/commonscat
-http://dbpedia.org/property/salign
-http://dbpedia.org/property/publisherAndEditor
-http://dbpedia.org/property/publisher/editor
-http://dbpedia.org/property/fate
-http://dbpedia.org/property/typeOfSite
-http://dbpedia.org/property/brands
-http://dbpedia.org/property/chairman
-http://dbpedia.org/property/divisions
-http://dbpedia.org/property/parent
-http://dbpedia.org/property/subsid
-http://dbpedia.org/property/tradedAs
-http://dbpedia.org/property/chiefExecutiveOfficer
-http://dbpedia.org/property/deputyeditor
-http://dbpedia.org/property/dirinteractive
-http://dbpedia.org/property/sportEditor
-http://dbpedia.org/property/hide
-http://dbpedia.org/property/no
-http://dbpedia.org/property/sl
-http://dbpedia.org/property/deputyChiefReporter
-http://dbpedia.org/property/photojournalist
-http://dbpedia.org/property/businessManager
-http://dbpedia.org/property/communityPapers
-http://dbpedia.org/property/gap
-http://dbpedia.org/property/editor&Publisher
-http://dbpedia.org/property/editorInCharge
-http://dbpedia.org/property/hqLocation
-http://dbpedia.org/property/hqLocationCity
-http://dbpedia.org/property/hqLocationCountry
-http://dbpedia.org/property/formerEditor
-http://dbpedia.org/property/formerHeadquarters
-http://dbpedia.org/property/formerPublisher
-http://dbpedia.org/property/formerWebsite
-http://dbpedia.org/property/filename
-http://dbpedia.org/property/pos
-http://dbpedia.org/ontology/soundRecording
-http://dbpedia.org/property/quoted
-http://dbpedia.org/property/sopt
-http://dbpedia.org/property/coda
-http://dbpedia.org/property/neseditor
-http://dbpedia.org/property/newswriter
-http://dbpedia.org/property/chiefFinancialOfficer
-http://dbpedia.org/property/predatory
-http://dbpedia.org/property/section
-http://dbpedia.org/property/onlineSince
-http://dbpedia.org/property/editorinchief
-http://dbpedia.org/property/newschief
-http://dbpedia.org/property/pic
-http://dbpedia.org/property/piccap
-http://dbpedia.org/property/topic
-http://dbpedia.org/property/myr
-http://dbpedia.org/property/seniorEditor
-http://dbpedia.org/property/cid
-http://dbpedia.org/property/newsDirector
-http://dbpedia.org/property/originalName
-http://dbpedia.org/property/redirect
-http://dbpedia.org/property/deathPlace
-http://dbpedia.org/property/deathDate
-http://dbpedia.org/property/education
-http://dbpedia.org/property/occupation
-http://dbpedia.org/property/lat
-http://dbpedia.org/property/long
-http://dbpedia.org/property/relief
-http://dbpedia.org/property/marksize
-http://dbpedia.org/property/alexa
-http://dbpedia.org/property/position
-http://dbpedia.org/property/executiveEditorAndGeneralManager
-http://dbpedia.org/property/presidentAndPublisher
-http://dbpedia.org/property/defunct
-http://dbpedia.org/property/editor/publisher
-http://dbpedia.org/property/issnNote
-http://dbpedia.org/property/display
-http://dbpedia.org/property/demographic
-http://dbpedia.org/property/jaKanji
-http://dbpedia.org/property/jaRomaji
-http://dbpedia.org/property/director.
-http://dbpedia.org/property/linecolor
-http://dbpedia.org/property/magazine
-http://dbpedia.org/property/onelanguage
-http://dbpedia.org/property/reldate
-http://dbpedia.org/property/volumeList
-http://dbpedia.org/property/volumenumber
-http://dbpedia.org/property/volumes
-http://dbpedia.org/property/att
-http://dbpedia.org/property/labels
-http://dbpedia.org/property/talk
-http://dbpedia.org/property/artist
-http://dbpedia.org/property/cinematography
-http://dbpedia.org/property/color
-http://dbpedia.org/property/editing
-http://dbpedia.org/property/tp
-http://dbpedia.org/property/designerTitle
-http://dbpedia.org/property/editorAssistant
-http://dbpedia.org/property/editorAssistantTitle
-http://dbpedia.org/property/editor(s)_
-http://dbpedia.org/property/concern
-http://dbpedia.org/property/nom
-http://dbpedia.org/property/coreTarget
-http://dbpedia.org/property/team
-http://dbpedia.org/property/index
-http://dbpedia.org/property/startYear
-http://dbpedia.org/property/value
-http://dbpedia.org/property/cname
-http://dbpedia.org/ontology/illustrator
-http://dbpedia.org/property/artists
-http://dbpedia.org/property/issues
-http://dbpedia.org/property/mainCharTeam
-http://dbpedia.org/property/sort
-http://dbpedia.org/property/1shot
-http://dbpedia.org/property/currentEditorInChief
-http://dbpedia.org/property/hostLocation
-http://dbpedia.org/property/associateEditors
-http://www.w3.org/2004/02/skos/core#exactMatch
-http://dbpedia.org/property/imprint
-http://dbpedia.org/property/sjr
-http://dbpedia.org/property/editorialadviser
-http://dbpedia.org/property/maneditors
-http://dbpedia.org/property/designer
-http://dbpedia.org/property/superbalitaNewseditor
-http://dbpedia.org/property/editor2Title
-http://dbpedia.org/property/pre16jun
-http://dbpedia.org/property/auto
-http://dbpedia.org/property/audience
-http://dbpedia.org/property/printCirculation
-http://dbpedia.org/property/telephone
-http://dbpedia.org/property/producer
-http://dbpedia.org/property/email
-http://dbpedia.org/property/withtitle
-http://dbpedia.org/property/chairman(notAllListed)_
-http://dbpedia.org/property/list
-http://dbpedia.org/property/chiefCopyEditor
-http://dbpedia.org/property/digitalDirector
-http://dbpedia.org/property/lakerrevieweditor
-http://dbpedia.org/property/photoDirector
-http://dbpedia.org/property/creativeDirector
-http://dbpedia.org/property/dissolution
-http://dbpedia.org/property/modes
-http://dbpedia.org/property/platforms
-http://dbpedia.org/property/released
-http://dbpedia.org/property/creator
-http://dbpedia.org/property/series
-http://dbpedia.org/ontology/creator
-http://dbpedia.org/property/editorialdirector
-http://dbpedia.org/property/z
-http://dbpedia.org/property/startyear
-http://dbpedia.org/property/contentcss
-http://dbpedia.org/property/header
-http://dbpedia.org/property/headercss
-http://dbpedia.org/property/endyear
-http://dbpedia.org/property/trademarks
-http://dbpedia.org/property/border
-http://dbpedia.org/property/costPerMagazine
-http://dbpedia.org/property/height
-http://dbpedia.org/property/pencillers
-http://dbpedia.org/property/colorists
-http://dbpedia.org/property/creators
-http://dbpedia.org/property/limited
-http://dbpedia.org/property/schedule
-http://dbpedia.org/property/inkers
-http://dbpedia.org/property/creativeTeamYear
-http://dbpedia.org/property/associateEditor
-http://dbpedia.org/property/publishers
-http://dbpedia.org/property/webAdvertising
-http://dbpedia.org/property/classifiedManager
-http://dbpedia.org/property/retailManager
-http://dbpedia.org/ontology/releaseDate
-http://dbpedia.org/property/moto
-http://dbpedia.org/property/r.n.
-http://dbpedia.org/ontology/previousWork
-http://dbpedia.org/property/circulationEditor
-http://dbpedia.org/property/executiveMarketingOfficer
-http://dbpedia.org/property/endmo
-http://dbpedia.org/property/endyr
-http://dbpedia.org/property/startmo
-http://dbpedia.org/property/startyr
-http://dbpedia.org/property/subcat
-http://dbpedia.org/property/writers
-http://dbpedia.org/property/multigenre
-http://dbpedia.org/property/tablewidth
-http://dbpedia.org/property/avEditor
-http://dbpedia.org/property/circulationDistribute
-http://dbpedia.org/property/teo
-http://dbpedia.org/property/h
-http://dbpedia.org/property/interimPresident
-http://dbpedia.org/property/temporal
-http://dbpedia.org/property/depth
-http://dbpedia.org/property/number
-http://dbpedia.org/property/web
-http://dbpedia.org/property/disciplines
-http://dbpedia.org/property/geospatial
-http://dbpedia.org/property/pDates
-http://dbpedia.org/property/pTitle
-http://dbpedia.org/property/providers
-http://dbpedia.org/property/honarySecretary
-http://dbpedia.org/property/suspendedPub.
-http://dbpedia.org/property/generalmgr
-http://dbpedia.org/property/language(s)_
-http://dbpedia.org/property/interimPublisher
-http://dbpedia.org/property/left
-http://dbpedia.org/property/username
-http://dbpedia.org/property/translation
-http://dbpedia.org/property/us/euCorrespondent
-http://dbpedia.org/property/chiefExecutive
-http://dbpedia.org/property/nativeName
-http://dbpedia.org/property/purpose
-http://dbpedia.org/property/runtime
-http://dbpedia.org/property/studio
-http://dbpedia.org/property/artsEditor
-http://dbpedia.org/property/publisherEmeritus
-http://dbpedia.org/property/latDeg
-http://dbpedia.org/property/latMin
-http://dbpedia.org/property/lonDeg
-http://dbpedia.org/property/lonMin
-http://dbpedia.org/property/mark
-http://dbpedia.org/property/latDir
-http://dbpedia.org/property/latSec
-http://dbpedia.org/property/lonDir
-http://dbpedia.org/property/lonSec
-http://dbpedia.org/property/authorLink
-http://dbpedia.org/property/availableAt
-http://dbpedia.org/property/logoBorder
-http://dbpedia.org/property/directorTitle
-http://dbpedia.org/property/endDate
-http://dbpedia.org/property/event
-http://dbpedia.org/property/sportseditors
-http://dbpedia.org/property/widthUnits
-http://dbpedia.org/property/dataMax
-http://dbpedia.org/property/barWidth
-http://dbpedia.org/property/multimediaeditors
-http://dbpedia.org/property/photoeditors
-http://dbpedia.org/property/webEditor
-http://dbpedia.org/property/product
-http://dbpedia.org/property/descriptionUrl
-http://dbpedia.org/property/operatingSystem
-http://dbpedia.org/property/employees
-http://dbpedia.org/property/marketLeader
-http://dbpedia.org/property/digitaleditor
-http://dbpedia.org/property/videoeditor
-http://dbpedia.org/property/coEditors
-http://dbpedia.org/property/recentEditors
-http://dbpedia.org/property/provider
-http://dbpedia.org/property/currentEditor
-http://dbpedia.org/property/previousTitle
-http://dbpedia.org/property/office
-http://dbpedia.org/property/directorOfOperations
-http://dbpedia.org/property/isbnNote
-http://dbpedia.org/property/vicePresident
-http://dbpedia.org/property/ceo.
-http://dbpedia.org/property/cityEditor
-http://dbpedia.org/property/seniorReporter
-http://dbpedia.org/property/sportsReporter,Circulation
-http://dbpedia.org/property/advertisingConsultant
-http://dbpedia.org/property/brandingAndDesign
-http://dbpedia.org/property/centralCityReporter
-http://dbpedia.org/property/editor.
-http://dbpedia.org/property/editorChhattisgarhEdition
-http://dbpedia.org/property/historicalColumnist
-http://dbpedia.org/property/lookingBackColumnist
-http://dbpedia.org/property/productionAndDesign
-http://dbpedia.org/property/nation
-http://dbpedia.org/property/5YearsJournalImpactYear
-http://dbpedia.org/property/youtube
-http://dbpedia.org/property/priceOnWeekdays
-http://www.w3.org/2004/02/skos/core#broader
-http://dbpedia.org/property/joinedGannett
-http://dbpedia.org/property/cc
-http://dbpedia.org/ontology/writer
-http://dbpedia.org/property/theology
-http://dbpedia.org/property/associations
-http://dbpedia.org/property/governance
-http://dbpedia.org/property/altname
-http://dbpedia.org/property/area
-http://dbpedia.org/property/foundedPlace
-http://dbpedia.org/property/mainClassification
-http://dbpedia.org/property/calendarEditor
-http://dbpedia.org/property/president/editor
-http://dbpedia.org/property/pissn
-http://dbpedia.org/property/politicalOrientation
-http://dbpedia.org/property/mainEditor
-http://dbpedia.org/property/headPhotographer
-http://dbpedia.org/property/marketingManager
-http://dbpedia.org/property/circulationManager
-http://dbpedia.org/property/dptyEditor
-http://dbpedia.org/property/designation
-http://dbpedia.org/property/designation1Date
-http://dbpedia.org/property/designation1Number
-http://dbpedia.org/property/date+_
-http://dbpedia.org/property/founderEditor
-http://dbpedia.org/property/deputyEditor.
-http://dbpedia.org/property/organization
-http://dbpedia.org/property/atom
-http://dbpedia.org/property/consultantEditor
-http://dbpedia.org/property/headOfNews&Online
-http://dbpedia.org/property/featuresEditor
-http://dbpedia.org/property/deputynewseditor
-http://dbpedia.org/property/entertainmenteditor
-http://dbpedia.org/property/multimediaeditor
-http://dbpedia.org/property/productioneditor
-http://dbpedia.org/property/fmt
-http://dbpedia.org/property/r
-http://dbpedia.org/property/cursign
-http://dbpedia.org/property/contributors
-http://dbpedia.org/property/machine
-http://dbpedia.org/property/currentPresident
-http://dbpedia.org/property/fascicle
-http://dbpedia.org/property/sportsReporter
-http://dbpedia.org/property/graphicArtist
-http://dbpedia.org/property/officeManager
-http://dbpedia.org/property/pressRoom
-http://dbpedia.org/property/featureEditor
-http://dbpedia.org/property/seniorEditor,Dayside
-http://dbpedia.org/property/seniorEditor,Nightside
-http://dbpedia.org/property/reporter
-http://dbpedia.org/property/productionDirector
-http://dbpedia.org/property/img
-http://dbpedia.org/property/publicationManager
-http://dbpedia.org/property/superhero
-http://dbpedia.org/property/tagline
-http://dbpedia.org/property/actingeditor
-http://dbpedia.org/property/advertisingRepresentative
-http://dbpedia.org/property/indent
-http://dbpedia.org/property/ceasedDailyPublication
-http://dbpedia.org/property/sketchProducer
-http://dbpedia.org/property/zineEditor
-http://dbpedia.org/property/graphicsEditor
-http://dbpedia.org/property/humourEditor
-http://dbpedia.org/property/investigationsEditor
-http://dbpedia.org/property/bipad
-http://dbpedia.org/property/campuseditor
-http://dbpedia.org/property/cityeditor
-http://dbpedia.org/property/edinchief
-http://dbpedia.org/property/featureseditor
-http://dbpedia.org/property/graphicsAndLayoutEditor
-http://dbpedia.org/property/lifestyleeditor
-http://dbpedia.org/property/maneditorDesign
-http://dbpedia.org/property/opinionEditor
-http://dbpedia.org/property/podcasteditor
-http://dbpedia.org/property/copychief
-http://dbpedia.org/property/screenshotAlt
-http://dbpedia.org/property/tpb
-http://dbpedia.org/property/owner/editor
-http://dbpedia.org/property/businessChair
-http://dbpedia.org/property/firstEdition
-http://dbpedia.org/property/newsLeader
-http://dbpedia.org/property/regionalManager
-http://dbpedia.org/property/inventoryNumber
-http://dbpedia.org/property/seniorNewsDirector
-http://dbpedia.org/property/seniornewsdirector
-http://dbpedia.org/property/assoccityeditor
-http://dbpedia.org/property/sisterMediaProperties
-http://dbpedia.org/property/phone
-http://dbpedia.org/property/assistantPublisher
-http://dbpedia.org/property/sisterNewspaper
-http://dbpedia.org/property/bypassRcheck
-http://dbpedia.org/property/colc
-http://dbpedia.org/property/editorTitle.
-http://dbpedia.org/property/dyGeralManager
-http://dbpedia.org/property/otherName
-http://dbpedia.org/property/comment
-http://dbpedia.org/property/documenturl
-http://dbpedia.org/property/leadDist.Man.
-http://dbpedia.org/property/pageNumbers
-http://dbpedia.org/property/college
-http://dbpedia.org/property/inaccurate
-http://dbpedia.org/property/executiveProducer
-http://dbpedia.org/property/lastAired
-http://dbpedia.org/property/presenter
-http://dbpedia.org/property/publishingDirector
-http://dbpedia.org/property/liststyle
-http://dbpedia.org/property/alignment
-http://dbpedia.org/property/ceo/publisher
-http://dbpedia.org/property/executiveVp
-http://dbpedia.org/property/italicName
-http://dbpedia.org/ontology/dcc
-http://dbpedia.org/ontology/lcc
-http://dbpedia.org/property/congress
-http://dbpedia.org/property/weekendEditor
-http://dbpedia.org/property/distribution
-http://dbpedia.org/property/chiefOperatingOfficer
-http://dbpedia.org/property/gr
-http://dbpedia.org/property/editorinChief
-http://dbpedia.org/property/explain
-http://dbpedia.org/property/formats
-http://dbpedia.org/property/sisterWebsites
-http://dbpedia.org/property/advertisingSupervisor
-http://dbpedia.org/property/circulationDirector
-http://dbpedia.org/property/consultingEditor
-http://dbpedia.org/property/rights
-http://dbpedia.org/property/price(daily)_
-http://dbpedia.org/property/price(weekly)_
-http://dbpedia.org/property/closed
-http://dbpedia.org/property/copyEditor
-http://dbpedia.org/property/metroEditor
-http://dbpedia.org/property/app
-http://dbpedia.org/property/coeditor
-http://dbpedia.org/property/chairman&EditorInChief
-http://dbpedia.org/property/awardedFor
-http://dbpedia.org/property/host
-http://dbpedia.org/property/sponsor
-http://dbpedia.org/property/ce
-http://dbpedia.org/property/cityReporter
-http://dbpedia.org/property/newsReporter
-http://dbpedia.org/property/copyEditors
-http://dbpedia.org/property/coverPrice
-http://dbpedia.org/property/workingEditor
-http://dbpedia.org/property/subscriptionIndex
-http://dbpedia.org/property/subjectName
-http://dbpedia.org/property/players
-http://dbpedia.org/property/randomChance
-http://dbpedia.org/property/skills
-http://dbpedia.org/property/languageCount
-http://dbpedia.org/property/updated
-http://dbpedia.org/property/bd
-http://dbpedia.org/property/onlineEditorialDirector
-http://dbpedia.org/property/proprietor
-http://dbpedia.org/property/expenses
-http://dbpedia.org/property/expensesYear
-http://dbpedia.org/property/foundedDate
-http://dbpedia.org/property/leaderName
-http://dbpedia.org/property/leaderTitle
-http://dbpedia.org/property/revenueYear
-http://dbpedia.org/property/taxId
-http://dbpedia.org/property/assets
-http://dbpedia.org/property/equity
-http://dbpedia.org/property/numEmployees
-http://dbpedia.org/property/operatingIncome
-http://dbpedia.org/property/websitename
-http://dbpedia.org/property/dateOfLaunch
-http://dbpedia.org/property/openAccess
-http://dbpedia.org/property/ceoTitle
-http://dbpedia.org/property/publicationDate
-http://dbpedia.org/ontology/finalPublicationDate
-http://dbpedia.org/property/visualsEditor
-http://dbpedia.org/property/columnist
-http://dbpedia.org/property/craftBeerWriter
-http://dbpedia.org/property/litWriter
-http://dbpedia.org/property/musicEditor
-http://dbpedia.org/property/politicalColumnist
-http://dbpedia.org/property/regionalExecutiveEditor
-http://dbpedia.org/property/nativeNameLang
-http://dbpedia.org/property/predecessor
-http://dbpedia.org/property/sportsNickname
-http://dbpedia.org/property/theWsj
-http://dbpedia.org/property/usnwrNu
-http://dbpedia.org/property/wamoNu
-http://dbpedia.org/property/colors
-http://dbpedia.org/property/endowment
-http://dbpedia.org/property/imageUpright
-http://dbpedia.org/property/mascot
-http://dbpedia.org/property/arwuNu
-http://dbpedia.org/property/athleticsAffiliations
-http://dbpedia.org/property/faculty
-http://dbpedia.org/property/forbes
-http://dbpedia.org/property/freeLabel
-http://dbpedia.org/property/logoUpright
-http://dbpedia.org/property/mottoeng
-http://dbpedia.org/property/provost
-http://dbpedia.org/property/religiousAffiliation
-http://dbpedia.org/property/editorsInChief
-http://dbpedia.org/property/salesManager
-http://dbpedia.org/property/exEditor
-http://dbpedia.org/property/exHeadquarters
-http://dbpedia.org/property/editor/Director
-http://dbpedia.org/property/publisher/SiteLeader
-http://dbpedia.org/property/fullName
-http://dbpedia.org/property/formerly
-http://dbpedia.org/property/operations.
-http://dbpedia.org/property/affiliations
-http://dbpedia.org/property/regionServed
-http://dbpedia.org/property/parentOrganization
-http://dbpedia.org/property/numMembers
-http://dbpedia.org/property/closure
-http://dbpedia.org/property/salesmanager
-http://dbpedia.org/property/koreanipa
-http://dbpedia.org/property/rules
-http://dbpedia.org/property/altTitle
-http://dbpedia.org/property/ceo/executiveeditor
-http://dbpedia.org/property/bpmf
-http://dbpedia.org/property/name05/_
-http://dbpedia.org/property/reach
-http://dbpedia.org/property/foundingLocation
-http://dbpedia.org/property/needed
-http://dbpedia.org/property/audioFormat
-http://dbpedia.org/property/successor
-http://dbpedia.org/property/mediaDirector
-http://dbpedia.org/property/numberOfIssues
-http://dbpedia.org/property/replacement
-http://dbpedia.org/property/staffWriters
-http://dbpedia.org/property/accounting/FinanceExec.Vp
-http://dbpedia.org/property/cio/technologyAdvisor
-http://dbpedia.org/property/itManager
-http://dbpedia.org/property/onlineBusinessDevelopment
-http://dbpedia.org/property/onlineNewsEditor
-http://dbpedia.org/property/salesDirector
-http://dbpedia.org/property/casualtiesLabel
-http://dbpedia.org/property/arrests
-http://dbpedia.org/property/causes
-http://dbpedia.org/property/goals
-http://dbpedia.org/property/injuries
-http://dbpedia.org/property/methods
-http://dbpedia.org/property/partof
-http://dbpedia.org/property/place
-http://dbpedia.org/property/featureeditor
-http://dbpedia.org/property/lifeeditor
-http://dbpedia.org/property/presidents
-http://dbpedia.org/property/addresss
-http://dbpedia.org/property/seniorStaffWriter
-http://dbpedia.org/property/indexing
-http://dbpedia.org/property/start1s
-http://dbpedia.org/property/end
-http://dbpedia.org/property/episode
-http://dbpedia.org/property/episodes
-http://dbpedia.org/property/linkt
-http://dbpedia.org/property/start
-http://dbpedia.org/property/color1s
-http://dbpedia.org/property/end1s
-http://dbpedia.org/property/episodes1s
-http://dbpedia.org/property/link1s
-http://dbpedia.org/property/linkt1s
-http://dbpedia.org/property/fields
-http://dbpedia.org/property/mission
-http://dbpedia.org/property/region
-http://dbpedia.org/property/websiteType
-http://dbpedia.org/property/companyType
-http://dbpedia.org/property/numEmployeesYear
-http://dbpedia.org/property/romanizedName
-http://dbpedia.org/property/editorial
-http://dbpedia.org/property/''online''editor'_
-http://dbpedia.org/property/airdate
-http://dbpedia.org/property/editorInChiefTitle
-http://dbpedia.org/property/halign
-http://dbpedia.org/property/cancellation
-http://dbpedia.org/property/sales
-http://dbpedia.org/property/webAdministrator
-http://dbpedia.org/property/edition
-http://dbpedia.org/property/dnlm
-http://dbpedia.org/property/issn6label
-http://dbpedia.org/property/issn7label
-http://dbpedia.org/property/issn8label
-http://dbpedia.org/property/issn9label
-http://dbpedia.org/property/chiefTechnologyOfficer
-http://dbpedia.org/property/deputyPublisher
-http://dbpedia.org/property/side
-http://dbpedia.org/property/extlinks
-http://dbpedia.org/property/nobreak
-http://dbpedia.org/property/seealso
-http://dbpedia.org/property/editorialPageEditor
-http://dbpedia.org/property/mobile
-http://dbpedia.org/property/webcast
-http://dbpedia.org/property/contactEmail
-http://dbpedia.org/property/contactPhone
-http://dbpedia.org/property/assignmentEditor
-http://dbpedia.org/property/authorTitle
-http://dbpedia.org/property/weblog
-http://dbpedia.org/property/priceOnSundays
-http://dbpedia.org/property/formerEditors
-http://dbpedia.org/property/r.n.iNumber
-http://dbpedia.org/property/executiveEditorOnline
-http://dbpedia.org/property/extinction
-http://dbpedia.org/property/editorEditorial
-http://dbpedia.org/property/interimEditor
-http://dbpedia.org/property/collapse
-http://dbpedia.org/property/vicePresidentOfContent
-http://dbpedia.org/property/accessDate
-http://dbpedia.org/property/communityEditor
-http://dbpedia.org/property/mlivePresidentAndChiefRevenueOfficer
-http://dbpedia.org/property/regionalNewsManager
-http://dbpedia.org/property/regionalPresident
-http://dbpedia.org/property/onlinebooks
-http://dbpedia.org/property/contributingEditors
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/managingEditor> rdfs:domain <http://dbpedia.org/ontology/Newspaper> .
+<http://dbpedia.org/ontology/managingEditor> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/managingEditor> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/managingEditor> rdfs:domain <http://dbpedia.org/ontology/Newspaper> .
+<http://dbpedia.org/ontology/managingEditor> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/managingEditor> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/sisterNewspaper> rdfs:domain <http://dbpedia.org/ontology/Newspaper> .
+<http://dbpedia.org/ontology/sisterNewspaper> rdfs:range <http://dbpedia.org/ontology/Newspaper> .
+<http://dbpedia.org/ontology/sisterNewspaper> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/sisterNewspaper> rdfs:domain <http://dbpedia.org/ontology/Newspaper> .
+<http://dbpedia.org/ontology/sisterNewspaper> rdfs:range <http://dbpedia.org/ontology/Newspaper> .
+<http://dbpedia.org/ontology/sisterNewspaper> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/chiefEditor> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/chiefEditor> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/chiefEditor> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/chiefEditor> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/chiefEditor> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/chiefEditor> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/circulation> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/circulation> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/circulation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/circulation> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/circulation> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/circulation> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/editorTitle> rdfs:domain <http://dbpedia.org/ontology/Magazine> .
+<http://dbpedia.org/ontology/editorTitle> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/editorTitle> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/editorTitle> rdfs:domain <http://dbpedia.org/ontology/Magazine> .
+<http://dbpedia.org/ontology/editorTitle> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/editorTitle> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/issn> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/issn> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/issn> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/issn> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/issn> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/issn> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/headquarter> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/headquarter> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/headquarter> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/headquarter> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/headquarter> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/headquarter> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/previousEditor> rdfs:domain <http://dbpedia.org/ontology/Magazine> .
+<http://dbpedia.org/ontology/previousEditor> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/previousEditor> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/previousEditor> rdfs:domain <http://dbpedia.org/ontology/Magazine> .
+<http://dbpedia.org/ontology/previousEditor> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/previousEditor> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/publisher> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/publisher> rdfs:range <http://dbpedia.org/ontology/Agent> .
+<http://dbpedia.org/ontology/publisher> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/publisher> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/publisher> rdfs:range <http://dbpedia.org/ontology/Agent> .
+<http://dbpedia.org/ontology/publisher> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/impactFactor> rdfs:domain <http://dbpedia.org/ontology/AcademicJournal> .
+<http://dbpedia.org/ontology/impactFactor> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/impactFactor> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/impactFactor> rdfs:domain <http://dbpedia.org/ontology/AcademicJournal> .
+<http://dbpedia.org/ontology/impactFactor> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/impactFactor> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/impactFactorAsOf> rdfs:domain <http://dbpedia.org/ontology/AcademicJournal> .
+<http://dbpedia.org/ontology/impactFactorAsOf> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/impactFactorAsOf> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/impactFactorAsOf> rdfs:domain <http://dbpedia.org/ontology/AcademicJournal> .
+<http://dbpedia.org/ontology/impactFactorAsOf> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/impactFactorAsOf> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/openAccessContent> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/openAccessContent> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/openAccessContent> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/openAccessContent> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/openAccessContent> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/openAccessContent> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/jstor> rdfs:domain <http://dbpedia.org/ontology/AcademicJournal> .
+<http://dbpedia.org/ontology/jstor> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/jstor> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/jstor> rdfs:domain <http://dbpedia.org/ontology/AcademicJournal> .
+<http://dbpedia.org/ontology/jstor> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/jstor> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/lccn> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/lccn> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/lccn> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/lccn> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/lccn> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/lccn> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/firstPublicationYear> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/firstPublicationYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/firstPublicationYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/firstPublicationYear> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/firstPublicationYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/firstPublicationYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/frequencyOfPublication> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/frequencyOfPublication> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/frequencyOfPublication> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/frequencyOfPublication> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/frequencyOfPublication> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/frequencyOfPublication> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/oclc> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/oclc> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/oclc> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/oclc> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/oclc> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/oclc> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/coden> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/coden> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/coden> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/coden> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/coden> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/coden> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/finalPublicationYear> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/finalPublicationYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/finalPublicationYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/finalPublicationYear> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/finalPublicationYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/finalPublicationYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/revenue> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/revenue> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/revenue> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/revenue> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/revenue> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/revenue> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/photographer> rdfs:domain <http://dbpedia.org/ontology/TelevisionEpisode> .
+<http://dbpedia.org/ontology/photographer> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/photographer> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/photographer> rdfs:domain <http://dbpedia.org/ontology/TelevisionEpisode> .
+<http://dbpedia.org/ontology/photographer> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/photographer> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/firstPublicationDate> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/firstPublicationDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/firstPublicationDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/firstPublicationDate> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/firstPublicationDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/firstPublicationDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/associateEditor> rdfs:domain <http://dbpedia.org/ontology/Newspaper> .
+<http://dbpedia.org/ontology/associateEditor> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/associateEditor> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/associateEditor> rdfs:domain <http://dbpedia.org/ontology/Newspaper> .
+<http://dbpedia.org/ontology/associateEditor> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/associateEditor> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/author> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/author> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/author> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/author> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/author> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/author> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/numberOfPages> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/numberOfPages> rdfs:range <http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://dbpedia.org/ontology/numberOfPages> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfPages> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/numberOfPages> rdfs:range <http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://dbpedia.org/ontology/numberOfPages> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/subsequentWork> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/subsequentWork> rdfs:range <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/subsequentWork> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/subsequentWork> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/subsequentWork> rdfs:range <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/subsequentWork> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/translator> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/translator> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/translator> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/translator> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/translator> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/translator> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/isPeerReviewed> rdfs:domain <http://dbpedia.org/ontology/AcademicJournal> .
+<http://dbpedia.org/ontology/isPeerReviewed> rdfs:range <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://dbpedia.org/ontology/isPeerReviewed> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/isPeerReviewed> rdfs:domain <http://dbpedia.org/ontology/AcademicJournal> .
+<http://dbpedia.org/ontology/isPeerReviewed> rdfs:range <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://dbpedia.org/ontology/isPeerReviewed> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/isbn> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/isbn> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/isbn> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/isbn> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/isbn> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/isbn> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/coverArtist> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/coverArtist> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/coverArtist> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/coverArtist> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/coverArtist> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/coverArtist> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/illustrator> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/illustrator> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/illustrator> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/illustrator> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/illustrator> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/illustrator> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/previousWork> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/previousWork> rdfs:range <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/previousWork> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/previousWork> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/previousWork> rdfs:range <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/previousWork> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/writer> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/writer> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/writer> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/writer> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/writer> rdfs:range <http://dbpedia.org/ontology/Person> .
+<http://dbpedia.org/ontology/writer> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/dcc> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/dcc> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/dcc> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/dcc> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/dcc> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/dcc> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/lcc> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/lcc> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/lcc> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/lcc> rdfs:domain <http://dbpedia.org/ontology/WrittenWork> .
+<http://dbpedia.org/ontology/lcc> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/lcc> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/finalPublicationDate> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/finalPublicationDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/finalPublicationDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/finalPublicationDate> rdfs:domain <http://dbpedia.org/ontology/PeriodicalLiterature> .
+<http://dbpedia.org/ontology/finalPublicationDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/finalPublicationDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .

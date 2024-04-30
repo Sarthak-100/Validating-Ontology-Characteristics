@@ -1,3016 +1,608 @@
-http://www.w3.org/2002/07/owl#differentFrom
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.w3.org/2000/01/rdf-schema#comment
-http://www.w3.org/2000/01/rdf-schema#seeAlso
-http://xmlns.com/foaf/0.1/name
-http://xmlns.com/foaf/0.1/homepage
-http://dbpedia.org/property/name
-http://www.w3.org/2003/01/geo/wgs84_pos#lat
-http://www.w3.org/2003/01/geo/wgs84_pos#long
-http://xmlns.com/foaf/0.1/depiction
-http://dbpedia.org/ontology/location
-http://purl.org/dc/terms/subject
-http://dbpedia.org/ontology/wikiPageID
-http://dbpedia.org/ontology/wikiPageRevisionID
-http://dbpedia.org/ontology/wikiPageWikiLink
-http://www.w3.org/2002/07/owl#sameAs
-http://dbpedia.org/ontology/wikiPageExternalLink
-http://dbpedia.org/property/servicesCollapsible
-http://dbpedia.org/property/serving
-http://dbpedia.org/property/solarType
-http://dbpedia.org/property/speedKm/h
-http://dbpedia.org/property/spillwayType
-http://dbpedia.org/property/spiritOfQueensland
-http://dbpedia.org/property/spiritOfTheOutback
-http://dbpedia.org/property/starts
-http://dbpedia.org/property/stat1Data
-http://dbpedia.org/property/stat1Header
-http://dbpedia.org/property/stat2Data
-http://dbpedia.org/property/stat2Header
-http://dbpedia.org/property/stat3Data
-http://dbpedia.org/property/stat3Header
-http://dbpedia.org/property/stat4Data
-http://dbpedia.org/property/stat4Header
-http://dbpedia.org/property/statYear
-http://dbpedia.org/property/stateCol
-http://dbpedia.org/property/stations
-http://dbpedia.org/property/sunshineCoast
-http://dbpedia.org/property/thFuelPrimary
-http://dbpedia.org/property/thTechnology
-http://dbpedia.org/property/thomson
-http://dbpedia.org/property/through
-http://dbpedia.org/property/tiltTrain
-http://dbpedia.org/property/toLeft
-http://dbpedia.org/property/toRight
-http://dbpedia.org/property/toc
-http://dbpedia.org/property/towns
-http://dbpedia.org/property/trainOperators
-http://dbpedia.org/property/tunnel
-http://dbpedia.org/property/uspan
-http://dbpedia.org/property/vpd
-http://dbpedia.org/property/wmo
-http://dbpedia.org/property/yearcompleted
-http://dbpedia.org/property/wikiPageUsesTemplate
-http://dbpedia.org/ontology/thumbnail
-http://dbpedia.org/ontology/wikiPageInterLanguageLink
-http://dbpedia.org/property/photos
-http://dbpedia.org/property/used
-http://dbpedia.org/property/begin
-http://dbpedia.org/property/complete
-http://dbpedia.org/property/counties
-http://dbpedia.org/property/dir
-http://dbpedia.org/property/events
-http://dbpedia.org/property/gauge
-http://dbpedia.org/property/inline
-http://dbpedia.org/property/left
-http://dbpedia.org/property/locationSpecial
-http://dbpedia.org/property/mapCustom
-http://dbpedia.org/property/mapName
-http://dbpedia.org/property/mile
-http://dbpedia.org/property/namesake
-http://dbpedia.org/property/nspan
-http://dbpedia.org/property/pfn
-http://dbpedia.org/property/province
-http://dbpedia.org/property/spans
-http://dbpedia.org/property/survey
-http://dbpedia.org/property/toll
-http://dbpedia.org/property/traffic
-http://dbpedia.org/property/unnum
-http://dbpedia.org/property/ada
-http://dbpedia.org/property/added
-http://dbpedia.org/property/address
-http://dbpedia.org/property/agency
-http://dbpedia.org/property/alsoKnownAs
-http://dbpedia.org/property/alt
-http://dbpedia.org/property/alternateName
-http://dbpedia.org/property/architect
-http://dbpedia.org/property/area
-http://dbpedia.org/property/b
-http://dbpedia.org/property/basinCountries
-http://dbpedia.org/property/bicycle
-http://dbpedia.org/property/borough
-http://dbpedia.org/property/bot
-http://dbpedia.org/property/boxWidth
-http://dbpedia.org/property/bridge
-http://dbpedia.org/property/bridgeName
-http://dbpedia.org/property/bridgeSigns
-http://dbpedia.org/property/builder
-http://dbpedia.org/property/built
-http://dbpedia.org/property/c
-http://dbpedia.org/property/caption
-http://dbpedia.org/property/carries
-http://dbpedia.org/property/centre
-http://dbpedia.org/property/cities
-http://dbpedia.org/property/classification
-http://dbpedia.org/property/close
-http://dbpedia.org/property/closed
-http://dbpedia.org/property/code
-http://dbpedia.org/property/col
-http://dbpedia.org/property/collapsed
-http://dbpedia.org/property/color
-http://dbpedia.org/property/completionDate
-http://dbpedia.org/property/connections
-http://dbpedia.org/property/coordinates
-http://dbpedia.org/property/cost
-http://dbpedia.org/property/country
-http://dbpedia.org/property/county
-http://dbpedia.org/property/crosses
-http://dbpedia.org/property/data
-http://dbpedia.org/property/date
-http://dbpedia.org/property/depth
-http://dbpedia.org/property/design
-http://dbpedia.org/property/designer
-http://dbpedia.org/property/destinations
-http://dbpedia.org/property/directionA
-http://dbpedia.org/property/directionB
-http://dbpedia.org/property/disabled
-http://dbpedia.org/property/distance
-http://dbpedia.org/property/downstream
-http://dbpedia.org/property/downstreamSigns
-http://dbpedia.org/property/east
-http://dbpedia.org/property/electrification
-http://dbpedia.org/property/electrified
-http://dbpedia.org/property/elevationF
-http://dbpedia.org/property/elevationM
-http://dbpedia.org/property/embedded
-http://dbpedia.org/property/end
-http://dbpedia.org/property/established
-http://dbpedia.org/property/event
-http://dbpedia.org/property/extra
-http://dbpedia.org/property/f
-http://dbpedia.org/property/first
-http://dbpedia.org/property/fixAttempted
-http://dbpedia.org/property/float
-http://dbpedia.org/property/footnotes
-http://dbpedia.org/ontology/icaoLocationIdentifier
-http://dbpedia.org/ontology/lineLength
-http://dbpedia.org/ontology/maximumDepth
-http://dbpedia.org/ontology/numberOfStations
-http://dbpedia.org/ontology/lake
-http://dbpedia.org/ontology/river
-http://dbpedia.org/ontology/routeEndLocation
-http://dbpedia.org/ontology/routeStartLocation
-http://dbpedia.org/ontology/inflow
-http://dbpedia.org/ontology/outflow
-http://dbpedia.org/ontology/depth
-http://dbpedia.org/ontology/numberOfLanes
-http://dbpedia.org/ontology/speedLimit
-http://dbpedia.org/ontology/areaOfCatchment
-http://dbpedia.org/ontology/averageDepth
-http://dbpedia.org/ontology/buildingStartYear
-http://dbpedia.org/ontology/capacityFactor
-http://dbpedia.org/ontology/Infrastructure/length
-http://dbpedia.org/ontology/address
-http://dbpedia.org/ontology/agencyStationCode
-http://dbpedia.org/ontology/areaTotal
-http://dbpedia.org/ontology/bicycleInformation
-http://dbpedia.org/ontology/bridgeCarries
-http://dbpedia.org/ontology/elevation
-http://dbpedia.org/ontology/fareZone
-http://dbpedia.org/ontology/isHandicappedAccessible
-http://dbpedia.org/ontology/loadLimit
-http://dbpedia.org/ontology/mainspan
-http://dbpedia.org/ontology/numberOfPlatformLevels
-http://dbpedia.org/ontology/numberOfSpans
-http://dbpedia.org/ontology/numberOfTracks
-http://dbpedia.org/ontology/otherServingLines
-http://dbpedia.org/ontology/parkingInformation
-http://dbpedia.org/ontology/passengersPerYear
-http://dbpedia.org/ontology/railwayPlatforms
-http://dbpedia.org/ontology/rebuildingDate
-http://dbpedia.org/ontology/rebuildingYear
-http://dbpedia.org/ontology/routeEndDirection
-http://dbpedia.org/ontology/routeNumber
-http://dbpedia.org/ontology/routeStartDirection
-http://dbpedia.org/ontology/routeTypeAbbreviation
-http://dbpedia.org/ontology/runwayDesignation
-http://dbpedia.org/ontology/runwayLength
-http://dbpedia.org/ontology/runwaySurface
-http://dbpedia.org/ontology/stationStructure
-http://dbpedia.org/ontology/unitedStatesNationalBridgeId
-http://dbpedia.org/ontology/vehiclesPerDay
-http://dbpedia.org/ontology/visitorStatisticsAsOf
-http://dbpedia.org/ontology/yearOfElectrification
-http://dbpedia.org/ontology/averageAnnualGeneration
-http://dbpedia.org/ontology/faaLocationIdentifier
-http://dbpedia.org/ontology/iataLocationIdentifier
-http://dbpedia.org/ontology/installedCapacity
-http://dbpedia.org/ontology/locationIdentifier
-http://dbpedia.org/ontology/passengersUsedSystem
-http://dbpedia.org/ontology/architect
-http://dbpedia.org/ontology/crosses
-http://dbpedia.org/ontology/district
-http://dbpedia.org/ontology/locatedInArea
-http://dbpedia.org/ontology/nearestCity
-http://dbpedia.org/ontology/routeEnd
-http://dbpedia.org/ontology/routeJunction
-http://dbpedia.org/ontology/routeStart
-http://dbpedia.org/property/formed
-http://dbpedia.org/property/former
-http://dbpedia.org/property/formerNames
-http://dbpedia.org/property/gridName
-http://dbpedia.org/property/header
-http://dbpedia.org/property/height
-http://dbpedia.org/property/id
-http://dbpedia.org/property/image
-http://dbpedia.org/property/imageCaption
-http://dbpedia.org/property/imageMap
-http://dbpedia.org/property/imageName
-http://dbpedia.org/property/imageSize
-http://dbpedia.org/property/imageWidth
-http://dbpedia.org/property/inaugurated
-http://dbpedia.org/property/indepCity
-http://dbpedia.org/property/inflow
-http://dbpedia.org/property/junction
-http://dbpedia.org/property/km
-http://dbpedia.org/property/knownFor
-http://dbpedia.org/property/l
-http://dbpedia.org/property/length
-http://dbpedia.org/property/lengthKm
-http://dbpedia.org/property/lengthMi
-http://dbpedia.org/property/levels
-http://dbpedia.org/property/line
-http://dbpedia.org/property/lines
-http://dbpedia.org/property/link
-http://dbpedia.org/property/locale
-http://dbpedia.org/property/location
-http://dbpedia.org/property/locationMap
-http://dbpedia.org/property/logo
-http://dbpedia.org/property/logoWidth
-http://dbpedia.org/property/lspan
-http://dbpedia.org/property/maint
-http://dbpedia.org/property/manager
-http://dbpedia.org/property/mapAlt
-http://dbpedia.org/property/mapCaption
-http://dbpedia.org/property/mapDotLabel
-http://dbpedia.org/property/mapNotes
-http://dbpedia.org/property/mapSize
-http://dbpedia.org/property/mapState
-http://dbpedia.org/property/mapType
-http://dbpedia.org/property/mapframe
-http://dbpedia.org/property/mapframeZoom
-http://dbpedia.org/property/markerImage
-http://dbpedia.org/property/material
-http://dbpedia.org/property/mspan
-http://dbpedia.org/property/nativeName
-http://dbpedia.org/property/nativeNameLang
-http://dbpedia.org/property/next
-http://dbpedia.org/property/north
-http://dbpedia.org/property/northeast
-http://dbpedia.org/property/northwest
-http://dbpedia.org/property/notes
-http://dbpedia.org/property/officialName
-http://dbpedia.org/property/open
-http://dbpedia.org/property/opened
-http://dbpedia.org/property/opening
-http://dbpedia.org/property/operator
-http://dbpedia.org/property/other
-http://dbpedia.org/property/otherName
-http://dbpedia.org/property/otherServicesCollapsible
-http://dbpedia.org/property/otherServicesHeader
-http://dbpedia.org/property/outflow
-http://dbpedia.org/property/owned
-http://dbpedia.org/property/owner
-http://dbpedia.org/property/p
-http://dbpedia.org/property/parking
-http://dbpedia.org/property/passRank
-http://dbpedia.org/property/passYear
-http://dbpedia.org/property/passengers
-http://dbpedia.org/property/place
-http://dbpedia.org/property/platform
-http://dbpedia.org/property/platforms
-http://dbpedia.org/property/previous
-http://dbpedia.org/property/purpose
-http://dbpedia.org/property/pushpinLabel
-http://dbpedia.org/property/pushpinLabelPosition
-http://dbpedia.org/property/pushpinMap
-http://dbpedia.org/property/pushpinMapAlt
-http://dbpedia.org/property/pushpinMapCaption
-http://dbpedia.org/property/pushpinMapsize
-http://dbpedia.org/property/pushpinRelief
-http://dbpedia.org/property/r1LengthF
-http://dbpedia.org/property/r1Number
-http://dbpedia.org/property/r1Surface
-http://dbpedia.org/property/reason
-http://dbpedia.org/property/rebuilt
-http://dbpedia.org/property/refnum
-http://dbpedia.org/property/restrictions
-http://dbpedia.org/property/road
-http://dbpedia.org/property/route
-http://dbpedia.org/property/s
-http://dbpedia.org/property/service
-http://dbpedia.org/property/south
-http://dbpedia.org/property/southeast
-http://dbpedia.org/property/southwest
-http://dbpedia.org/property/speed
-http://dbpedia.org/property/start
-http://dbpedia.org/property/state
-http://dbpedia.org/property/status
-http://dbpedia.org/property/structure
-http://dbpedia.org/property/style
-http://dbpedia.org/property/summer
-http://dbpedia.org/property/symbol
-http://dbpedia.org/property/symbolLocation
-http://dbpedia.org/property/system
-http://dbpedia.org/property/t
-http://dbpedia.org/property/tc
-http://dbpedia.org/property/terminusA
-http://dbpedia.org/property/terminusB
-http://dbpedia.org/property/timezone
-http://dbpedia.org/property/title
-http://dbpedia.org/property/tracks
-http://dbpedia.org/property/type
-http://dbpedia.org/property/upstream
-http://dbpedia.org/property/upstreamSigns
-http://dbpedia.org/property/url
-http://dbpedia.org/property/utc
-http://dbpedia.org/property/utcs
-http://dbpedia.org/property/volume
-http://dbpedia.org/property/w
-http://dbpedia.org/property/web
-http://dbpedia.org/property/website
-http://dbpedia.org/property/west
-http://dbpedia.org/property/width
-http://dbpedia.org/property/years
-http://dbpedia.org/property/zone
-http://dbpedia.org/property/commissioned
-http://dbpedia.org/property/decommissioned
-http://www.georss.org/georss/point
-http://dbpedia.org/property/cap
-http://dbpedia.org/property/re
-http://dbpedia.org/property/sspan
-http://dbpedia.org/property/imageMapCaption
-http://dbpedia.org/property/right
-http://dbpedia.org/ontology/abstract
-http://dbpedia.org/property/below
-http://dbpedia.org/property/access
-http://dbpedia.org/property/allocation
-http://dbpedia.org/property/append
-http://dbpedia.org/property/bankstown
-http://dbpedia.org/property/caboolture
-http://dbpedia.org/property/character
-http://dbpedia.org/property/circle
-http://dbpedia.org/property/cityServed
-http://dbpedia.org/property/connectinglines
-http://dbpedia.org/property/constructionBegan
-http://dbpedia.org/property/contractedDesigner
-http://dbpedia.org/property/conv
-http://dbpedia.org/property/cumberland
-http://dbpedia.org/property/dailyRidership
-http://dbpedia.org/property/damCrosses
-http://dbpedia.org/property/damType
-http://dbpedia.org/property/dateBuilt
-http://dbpedia.org/property/depot
-http://dbpedia.org/property/dftCategory
-http://dbpedia.org/property/endA
-http://dbpedia.org/property/endB
-http://dbpedia.org/property/engineering
-http://dbpedia.org/property/est
-http://dbpedia.org/property/event1label
-http://dbpedia.org/property/event2label
-http://dbpedia.org/property/exits
-http://dbpedia.org/property/faa
-http://dbpedia.org/property/fabricator
-http://dbpedia.org/property/fareZone
-http://dbpedia.org/property/focusCity
-http://dbpedia.org/property/h1LengthF
-http://dbpedia.org/property/h1LengthM
-http://dbpedia.org/property/h1Number
-http://dbpedia.org/property/h1Surface
-http://dbpedia.org/property/h2LengthF
-http://dbpedia.org/property/h2LengthM
-http://dbpedia.org/property/h2Number
-http://dbpedia.org/property/h2Surface
-http://dbpedia.org/property/headerType
-http://dbpedia.org/property/heritage
-http://dbpedia.org/property/hub
-http://dbpedia.org/property/iata
-http://dbpedia.org/property/icao
-http://dbpedia.org/property/image2Width
-http://dbpedia.org/property/imageNotes
-http://dbpedia.org/property/innerWest&Leppington
-http://dbpedia.org/property/keys
-http://dbpedia.org/property/kuranda
-http://dbpedia.org/property/lanes
-http://dbpedia.org/property/lcalign
-http://dbpedia.org/property/lcspan
-http://dbpedia.org/property/lengthRound
-http://dbpedia.org/property/lga
-http://dbpedia.org/property/lgaCo
-http://dbpedia.org/property/lgaS
-http://dbpedia.org/property/lgac
-http://dbpedia.org/property/lgarc
-http://dbpedia.org/property/lgas
-http://dbpedia.org/property/lgaspan
-http://dbpedia.org/property/lid
-http://dbpedia.org/property/linelengthKm
-http://dbpedia.org/property/linelengthMi
-http://dbpedia.org/property/listingEntry
-http://dbpedia.org/property/listingGrade
-http://dbpedia.org/property/listingStart
-http://dbpedia.org/property/locationMapCaption
-http://dbpedia.org/property/mainspan
-http://dbpedia.org/property/margary
-http://dbpedia.org/property/metricElev
-http://dbpedia.org/property/metricRwy
-http://dbpedia.org/property/metro
-http://dbpedia.org/property/metroSystem
-http://dbpedia.org/property/nameOfficial
-http://dbpedia.org/property/nativename
-http://dbpedia.org/property/nativenameA
-http://dbpedia.org/property/nativenameR
-http://dbpedia.org/property/nextRoute
-http://dbpedia.org/property/nextType
-http://dbpedia.org/property/nidx
-http://dbpedia.org/property/nll
-http://dbpedia.org/property/noclear
-http://dbpedia.org/property/noprov
-http://dbpedia.org/property/noteMid
-http://dbpedia.org/property/numberSpans
-http://dbpedia.org/property/original
-http://dbpedia.org/property/osGridReference
-http://dbpedia.org/property/ownerOper
-http://dbpedia.org/property/p1alinename
-http://dbpedia.org/property/p1astop
-http://dbpedia.org/property/p1blinename
-http://dbpedia.org/property/p1bstop
-http://dbpedia.org/property/p1clinename
-http://dbpedia.org/property/p1cstop
-http://dbpedia.org/property/p1linename
-http://dbpedia.org/property/p1stop
-http://dbpedia.org/property/p2alinename
-http://dbpedia.org/property/p2astop
-http://dbpedia.org/property/p2blinename
-http://dbpedia.org/property/p2bstop
-http://dbpedia.org/property/p2clinename
-http://dbpedia.org/property/p2cstop
-http://dbpedia.org/property/parramattaRiver
-http://dbpedia.org/property/passSystem
-http://dbpedia.org/property/piersInWater
-http://dbpedia.org/property/plantAnnualGen
-http://dbpedia.org/property/plantCapacity
-http://dbpedia.org/property/plantCommission
-http://dbpedia.org/property/plantOperator
-http://dbpedia.org/property/plantTurbines
-http://dbpedia.org/property/postgroup
-http://dbpedia.org/property/pregroup
-http://dbpedia.org/property/previousRoute
-http://dbpedia.org/property/previousType
-http://dbpedia.org/property/provdab
-http://dbpedia.org/property/provinces
-http://dbpedia.org/property/psAnnualGeneration
-http://dbpedia.org/property/psCombinedCycle
-http://dbpedia.org/property/psCoolingSource
-http://dbpedia.org/property/psCoolingTowers
-http://dbpedia.org/property/psElectricalCapFac
-http://dbpedia.org/property/psElectricalCapacity
-http://dbpedia.org/property/psUnitsManuModel
-http://dbpedia.org/property/psUnitsOperational
-http://dbpedia.org/property/r1LengthM
-http://dbpedia.org/property/r2LengthF
-http://dbpedia.org/property/r2LengthM
-http://dbpedia.org/property/r2Number
-http://dbpedia.org/property/r2Surface
-http://dbpedia.org/property/r3LengthF
-http://dbpedia.org/property/r3LengthM
-http://dbpedia.org/property/r3Number
-http://dbpedia.org/property/r3Surface
-http://dbpedia.org/property/r4LengthF
-http://dbpedia.org/property/r4Number
-http://dbpedia.org/property/r4Surface
-http://dbpedia.org/property/railcode
-http://dbpedia.org/property/railexits
-http://dbpedia.org/property/resName
-http://dbpedia.org/property/river
-http://dbpedia.org/property/roadName
-http://dbpedia.org/ontology/part
-http://dbpedia.org/ontology/constructionMaterial
-http://dbpedia.org/ontology/management
-http://purl.org/linguistics/gold/hypernym
-http://schema.org/sameAs
-http://dbpedia.org/property/wordnet_type
-http://www.w3.org/ns/prov#wasDerivedFrom
-http://dbpedia.org/ontology/wikiPageLength
-http://dbpedia.org/ontology/buildingEndDate
-http://dbpedia.org/ontology/buildingStartDate
-http://dbpedia.org/ontology/closingDate
-http://dbpedia.org/ontology/closingYear
-http://dbpedia.org/ontology/cost
-http://dbpedia.org/ontology/description
-http://dbpedia.org/ontology/formerName
-http://dbpedia.org/ontology/height
-http://dbpedia.org/ontology/isPartOfName
-http://dbpedia.org/ontology/length
-http://dbpedia.org/ontology/openingDate
-http://dbpedia.org/ontology/openingYear
-http://dbpedia.org/ontology/purpose
-http://dbpedia.org/ontology/status
-http://dbpedia.org/ontology/volume
-http://dbpedia.org/ontology/width
-http://dbpedia.org/ontology/builder
-http://dbpedia.org/ontology/city
-http://dbpedia.org/ontology/country
-http://dbpedia.org/ontology/isPartOf
-http://dbpedia.org/ontology/maintainedBy
-http://dbpedia.org/ontology/operator
-http://dbpedia.org/ontology/owner
-http://dbpedia.org/ontology/owningOrganisation
-http://dbpedia.org/ontology/picture
-http://dbpedia.org/ontology/servingRailwayLine
-http://dbpedia.org/ontology/type
-http://xmlns.com/foaf/0.1/isPrimaryTopicOf
-http://www.w3.org/2003/01/geo/wgs84_pos#geometry
-http://dbpedia.org/property/tourist
-http://dbpedia.org/property/ends
-http://dbpedia.org/property/exit
-http://dbpedia.org/property/fetchwikidata
-http://dbpedia.org/property/nrhp
-http://dbpedia.org/property/align
-http://dbpedia.org/property/basedOn
-http://dbpedia.org/property/capacity
-http://dbpedia.org/property/content
-http://dbpedia.org/property/deleted
-http://dbpedia.org/property/direction
-http://dbpedia.org/property/footer
-http://dbpedia.org/property/history
-http://dbpedia.org/property/lengthFt
-http://dbpedia.org/property/nearestCity
-http://dbpedia.org/property/passPercent
-http://dbpedia.org/property/section
-http://dbpedia.org/property/site
-http://dbpedia.org/property/use
-http://dbpedia.org/property/countyNote
-http://dbpedia.org/property/countySpecial
-http://dbpedia.org/property/cspan
-http://dbpedia.org/ontology/visitorsPercentageChange
-http://dbpedia.org/property/ctdab
-http://dbpedia.org/property/destRef
-http://dbpedia.org/property/espan
-http://dbpedia.org/property/exitRef
-http://dbpedia.org/property/lengthNotes
-http://dbpedia.org/property/lengthRef
-http://dbpedia.org/property/notrack
-http://dbpedia.org/property/own
-http://dbpedia.org/property/partOf
-http://dbpedia.org/property/pmspan
-http://dbpedia.org/property/post
-http://dbpedia.org/property/postRef
-http://dbpedia.org/property/postmile
-http://dbpedia.org/property/postsmile
-http://dbpedia.org/property/reopened
-http://dbpedia.org/property/restarea
-http://dbpedia.org/property/reference
-http://dbpedia.org/property/sevensisters
-http://dbpedia.org/property/snNone
-http://dbpedia.org/property/spillwayCount
-http://dbpedia.org/property/stateafter
-http://dbpedia.org/property/stateafterlink
-http://dbpedia.org/property/statebefore
-http://dbpedia.org/property/statebeforelink
-http://dbpedia.org/property/stock
-http://dbpedia.org/property/transitAuthority
-http://dbpedia.org/property/traversable
-http://dbpedia.org/property/upstreamText
-http://dbpedia.org/ontology/toll
-http://dbpedia.org/ontology/quote
-http://dbpedia.org/ontology/shoreLength
-http://dbpedia.org/ontology/gridReference
-http://dbpedia.org/property/dwgs
-http://dbpedia.org/property/hide
-http://dbpedia.org/property/commissioningDate
-http://dbpedia.org/property/imageLeft
-http://dbpedia.org/property/imageTop
-http://dbpedia.org/property/layout
-http://dbpedia.org/property/transfer
-http://dbpedia.org/property/architecturalStyle
-http://dbpedia.org/property/captionAlign
-http://dbpedia.org/property/construction
-http://dbpedia.org/property/elevationFt
-http://dbpedia.org/property/frame
-http://dbpedia.org/property/imageAlt
-http://dbpedia.org/property/imageUpright
-http://dbpedia.org/property/inaugurationDate
-http://dbpedia.org/property/postalCode
-http://dbpedia.org/property/region
-http://dbpedia.org/property/replaces
-http://dbpedia.org/property/routes
-http://dbpedia.org/property/rows
-http://dbpedia.org/property/totalWidth
-http://dbpedia.org/property/video
-http://dbpedia.org/property/fen
-http://dbpedia.org/property/mapframeCaption
-http://dbpedia.org/property/interchange
-http://dbpedia.org/property/alamein
-http://dbpedia.org/property/availability
-http://dbpedia.org/property/belgrave
-http://dbpedia.org/property/browseRoute
-http://dbpedia.org/property/constructionStartDate
-http://dbpedia.org/property/damElevationCrest
-http://dbpedia.org/property/downstreamText
-http://dbpedia.org/property/gazetted
-http://dbpedia.org/property/gridref
-http://dbpedia.org/property/h3LengthF
-http://dbpedia.org/property/h3LengthM
-http://dbpedia.org/property/h3Number
-http://dbpedia.org/property/h3Surface
-http://dbpedia.org/property/h4LengthF
-http://dbpedia.org/property/h4LengthM
-http://dbpedia.org/property/h4Number
-http://dbpedia.org/property/h4Surface
-http://dbpedia.org/property/h5LengthF
-http://dbpedia.org/property/h5LengthM
-http://dbpedia.org/property/h5Number
-http://dbpedia.org/property/h5Surface
-http://dbpedia.org/property/h6LengthF
-http://dbpedia.org/property/h6LengthM
-http://dbpedia.org/property/h6Number
-http://dbpedia.org/property/h6Surface
-http://dbpedia.org/property/hatnote
-http://dbpedia.org/property/hidemid
-http://dbpedia.org/property/idType
-http://dbpedia.org/property/lengthM
-http://dbpedia.org/property/lilydale
-http://dbpedia.org/property/linelength
-http://dbpedia.org/property/load
-http://dbpedia.org/property/loadGauge
-http://dbpedia.org/property/municipalities
-http://dbpedia.org/property/municipality
-http://dbpedia.org/property/namedFor
-http://dbpedia.org/property/nolga
-http://dbpedia.org/property/noteLeft
-http://dbpedia.org/property/noteRight
-http://dbpedia.org/property/npReactorSupplier
-http://dbpedia.org/property/npReactorType
-http://dbpedia.org/property/part
-http://dbpedia.org/property/peterborough
-http://dbpedia.org/property/plantType
-http://dbpedia.org/property/psThermalCapacity
-http://dbpedia.org/property/psUnitsCancelled
-http://dbpedia.org/property/pushpinLabelPositionA
-http://dbpedia.org/property/pushpinLabelPositionB
-http://dbpedia.org/property/railstation
-http://dbpedia.org/property/resCapacityTotal
-http://dbpedia.org/property/ridership
-http://dbpedia.org/property/rowsmid
-http://dbpedia.org/property/seNone
-http://dbpedia.org/ontology/railwayRollingStock
-http://dbpedia.org/ontology/alternativeName
-http://dbpedia.org/ontology/postalCode
-http://dbpedia.org/property/sidcup
-http://dbpedia.org/property/southWestern
-http://dbpedia.org/property/southernHighlands
-http://dbpedia.org/property/southernRegion
-http://dbpedia.org/property/staplehurst
-http://dbpedia.org/property/startwork
-http://dbpedia.org/property/stop
-http://dbpedia.org/property/thornlie
-http://dbpedia.org/property/thz
-http://dbpedia.org/property/titleColor
-http://dbpedia.org/property/urban
-http://dbpedia.org/property/windFarmType
-http://dbpedia.org/property/windSiteUsage
-http://dbpedia.org/property/busRoutes
-http://dbpedia.org/property/busStands
-http://dbpedia.org/property/footnote
-http://dbpedia.org/property/lat
-http://dbpedia.org/property/long
-http://dbpedia.org/property/titleBg
-http://dbpedia.org/property/accessdate
-http://dbpedia.org/property/after
-http://dbpedia.org/property/altName
-http://dbpedia.org/property/author
-http://dbpedia.org/property/before
-http://dbpedia.org/property/clearance
-http://dbpedia.org/property/day
-http://dbpedia.org/property/dno
-http://dbpedia.org/property/elevation
-http://dbpedia.org/property/engineer
-http://dbpedia.org/property/fuel
-http://dbpedia.org/property/help
-http://dbpedia.org/property/imagesize
-http://dbpedia.org/property/islands
-http://dbpedia.org/property/j
-http://dbpedia.org/property/label
-http://dbpedia.org/property/labels
-http://dbpedia.org/property/langcode
-http://dbpedia.org/property/latDeg
-http://dbpedia.org/property/latMin
-http://dbpedia.org/property/list
-http://dbpedia.org/ontology/numberOfPiersInWater
-http://dbpedia.org/ontology/yearOfConstruction
-http://dbpedia.org/property/lonDeg
-http://dbpedia.org/property/lonMin
-http://dbpedia.org/property/m
-http://dbpedia.org/property/mark
-http://dbpedia.org/property/month
-http://dbpedia.org/property/page
-http://dbpedia.org/property/position
-http://dbpedia.org/property/prev
-http://dbpedia.org/property/relief
-http://dbpedia.org/property/replacedBy
-http://dbpedia.org/property/routeMap
-http://dbpedia.org/property/services
-http://dbpedia.org/property/states
-http://dbpedia.org/property/substed
-http://dbpedia.org/property/text
-http://dbpedia.org/property/timestamp
-http://dbpedia.org/property/year
-http://dbpedia.org/property/busOperators
-http://dbpedia.org/property/top
-http://dbpedia.org/property/latDir
-http://dbpedia.org/property/lonDir
-http://dbpedia.org/property/marksize
-http://dbpedia.org/property/titre
-http://dbpedia.org/property/abbeyWood
-http://dbpedia.org/property/accessNote
-http://dbpedia.org/property/airport&South
-http://dbpedia.org/property/alternativeLocationMap
-http://dbpedia.org/property/apm
-http://dbpedia.org/property/armadale
-http://dbpedia.org/property/bexleyheath
-http://dbpedia.org/property/catchment
-http://dbpedia.org/property/chatham
-http://dbpedia.org/property/cleveland
-http://dbpedia.org/property/collapse
-http://dbpedia.org/property/const
-http://dbpedia.org/property/continuesfrom
-http://dbpedia.org/property/coords
-http://dbpedia.org/property/cy
-http://dbpedia.org/property/damHeight
-http://dbpedia.org/property/damLength
-http://dbpedia.org/property/damWidthBase
-http://dbpedia.org/property/dest
-http://dbpedia.org/property/ell
-http://dbpedia.org/property/elmstead
-http://dbpedia.org/property/ensign
-http://dbpedia.org/property/ensignSize
-http://dbpedia.org/property/fccNone
-http://dbpedia.org/property/hastings
-http://dbpedia.org/property/hayes
-http://dbpedia.org/property/highSpeed
-http://dbpedia.org/property/legend
-http://dbpedia.org/property/lgat
-http://dbpedia.org/property/life
-http://dbpedia.org/property/linenumber
-http://dbpedia.org/property/locCaption
-http://dbpedia.org/property/locationAlt
-http://dbpedia.org/property/locationMapSize
-http://dbpedia.org/property/mandurah
-http://dbpedia.org/property/mapLabelPosition
-http://dbpedia.org/property/notemid
-http://dbpedia.org/property/onewayLeft
-http://dbpedia.org/property/osGridRef
-http://dbpedia.org/property/otherServices2Header
-http://dbpedia.org/property/p2cnotes
-http://dbpedia.org/property/p2linename
-http://dbpedia.org/property/p2stop
-http://dbpedia.org/property/p3alinename
-http://dbpedia.org/property/p3astop
-http://dbpedia.org/property/p3blinename
-http://dbpedia.org/property/p3bstop
-http://dbpedia.org/property/p3clinename
-http://dbpedia.org/property/p3cnotes
-http://dbpedia.org/property/p3cstop
-http://dbpedia.org/property/p4linename
-http://dbpedia.org/property/p4stop
-http://dbpedia.org/property/pattern
-http://dbpedia.org/property/permit
-http://dbpedia.org/property/pierswater
-http://dbpedia.org/property/plantName
-http://dbpedia.org/property/pspan
-http://dbpedia.org/property/railint
-http://dbpedia.org/property/resCatchment
-http://dbpedia.org/property/resSurface
-http://dbpedia.org/ontology/railwayLineUsingTunnel
-http://dbpedia.org/ontology/alias
-http://dbpedia.org/property/showLinks
-http://dbpedia.org/property/spurOf
-http://dbpedia.org/property/spurType
-http://dbpedia.org/property/stateBus
-http://dbpedia.org/property/stateSkytrain
-http://dbpedia.org/property/tlaunches
-http://dbpedia.org/property/valign
-http://dbpedia.org/property/widthUnits
-http://dbpedia.org/property/followed
-http://dbpedia.org/property/mr
-http://dbpedia.org/property/nocty
-http://dbpedia.org/property/roads
-http://dbpedia.org/ontology/beltwayCity
-http://dbpedia.org/ontology/launchSite
-http://dbpedia.org/ontology/demolitionDate
-http://dbpedia.org/ontology/numberOfPads
-http://dbpedia.org/property/bgcolor
-http://dbpedia.org/property/commander
-http://dbpedia.org/property/footerAlign
-http://dbpedia.org/property/frameAlign
-http://dbpedia.org/property/from
-http://dbpedia.org/property/headerAlign
-http://dbpedia.org/property/inclination
-http://dbpedia.org/property/preceded
-http://dbpedia.org/property/quote
-http://dbpedia.org/property/rr
-http://dbpedia.org/property/short
-http://dbpedia.org/property/split
-http://dbpedia.org/property/dataMax
-http://dbpedia.org/property/dataType
-http://dbpedia.org/property/labelType
-http://dbpedia.org/property/old
-http://dbpedia.org/property/occupants
-http://dbpedia.org/property/imsize
-http://dbpedia.org/property/barWidth
-http://dbpedia.org/property/beltwayCity
-http://dbpedia.org/property/centralCoast&Newcastle
-http://dbpedia.org/property/collapsible
-http://dbpedia.org/property/comment
-http://dbpedia.org/property/imageMapAlt
-http://dbpedia.org/property/imageMapsize
-http://dbpedia.org/property/junctions
-http://dbpedia.org/property/maxincline
-http://dbpedia.org/property/nameLang
-http://dbpedia.org/property/newairport
-http://dbpedia.org/property/ospan
-http://dbpedia.org/property/paddetails
-http://dbpedia.org/property/pads
-http://dbpedia.org/property/pakenham
-http://dbpedia.org/property/plain
-http://dbpedia.org/property/psChimneys
-http://dbpedia.org/property/psUnitsDecommissioned
-http://dbpedia.org/property/psUnitsPlanned
-http://dbpedia.org/property/resElevation
-http://dbpedia.org/property/riverWide
-http://dbpedia.org/property/roadType
-http://dbpedia.org/ontology/totalLaunches
-http://dbpedia.org/property/watford
-http://dbpedia.org/property/western
-http://dbpedia.org/property/accessDate
-http://dbpedia.org/property/areaServed
-http://dbpedia.org/property/auto
-http://dbpedia.org/property/city
-http://dbpedia.org/property/d
-http://dbpedia.org/property/employees
-http://dbpedia.org/property/etymology
-http://dbpedia.org/property/labelPosition
-http://dbpedia.org/property/lang
-http://dbpedia.org/property/locmapin
-http://dbpedia.org/property/num
-http://dbpedia.org/property/center
-http://dbpedia.org/property/cranbourne
-http://dbpedia.org/property/easternSuburbs&Illawarra
-http://dbpedia.org/property/event3label
-http://dbpedia.org/property/frankston
-http://dbpedia.org/property/lgaR
-http://dbpedia.org/property/locationMapAlt
-http://dbpedia.org/property/moleValley
-http://dbpedia.org/property/munspan
-http://dbpedia.org/property/numTrack
-http://dbpedia.org/property/p1anotes
-http://dbpedia.org/property/p1notes
-http://dbpedia.org/property/p2anotes
-http://dbpedia.org/property/p2notes
-http://dbpedia.org/property/p3linename
-http://dbpedia.org/property/p3notes
-http://dbpedia.org/property/p3stop
-http://dbpedia.org/property/p4notes
-http://dbpedia.org/property/psSiteArea
-http://dbpedia.org/property/pushpinImage
-http://dbpedia.org/property/pushpinMark
-http://dbpedia.org/property/pushpinMarksize
-http://dbpedia.org/property/redcliffePeninsula
-http://dbpedia.org/property/routenumber
-http://dbpedia.org/property/sepHumidity
-http://dbpedia.org/property/sepSun
-http://dbpedia.org/property/sepdSun
-http://dbpedia.org/property/stat5Data
-http://dbpedia.org/property/stat5Header
-http://dbpedia.org/property/stat6Data
-http://dbpedia.org/property/stat6Header
-http://dbpedia.org/property/strokeColour
-http://dbpedia.org/property/strokeWidth
-http://dbpedia.org/property/sub
-http://dbpedia.org/property/thFuelSecondary
-http://dbpedia.org/property/timeDay
-http://dbpedia.org/property/useLgaMap
-http://dbpedia.org/property/yearHumidity
-http://dbpedia.org/property/yeardSun
-http://dbpedia.org/property/aprHighC
-http://dbpedia.org/property/aprLowC
-http://dbpedia.org/property/aprMeanC
-http://dbpedia.org/property/aprPrecipitationDays
-http://dbpedia.org/property/aprPrecipitationMm
-http://dbpedia.org/property/aprRecordHighC
-http://dbpedia.org/property/aprRecordLowC
-http://dbpedia.org/property/aprSnowDays
-http://dbpedia.org/property/augHighC
-http://dbpedia.org/property/augLowC
-http://dbpedia.org/property/augMeanC
-http://dbpedia.org/property/augPrecipitationDays
-http://dbpedia.org/property/augPrecipitationMm
-http://dbpedia.org/property/augRecordHighC
-http://dbpedia.org/property/augRecordLowC
-http://dbpedia.org/property/augSnowDays
-http://dbpedia.org/property/countries
-http://dbpedia.org/property/decHighC
-http://dbpedia.org/property/decLowC
-http://dbpedia.org/property/decMeanC
-http://dbpedia.org/property/decPrecipitationDays
-http://dbpedia.org/property/decPrecipitationMm
-http://dbpedia.org/property/decRecordHighC
-http://dbpedia.org/property/decRecordLowC
-http://dbpedia.org/property/decSnowDays
-http://dbpedia.org/property/dspan
-http://dbpedia.org/property/febHighC
-http://dbpedia.org/property/febLowC
-http://dbpedia.org/property/febMeanC
-http://dbpedia.org/property/febPrecipitationDays
-http://dbpedia.org/property/febPrecipitationMm
-http://dbpedia.org/property/febRecordHighC
-http://dbpedia.org/property/febRecordLowC
-http://dbpedia.org/property/febSnowDays
-http://dbpedia.org/property/frameHeight
-http://dbpedia.org/property/frameWidth
-http://dbpedia.org/property/janHighC
-http://dbpedia.org/property/janLowC
-http://dbpedia.org/property/janMeanC
-http://dbpedia.org/property/janPrecipitationDays
-http://dbpedia.org/property/janPrecipitationMm
-http://dbpedia.org/property/janRecordHighC
-http://dbpedia.org/property/janRecordLowC
-http://dbpedia.org/property/janSnowDays
-http://dbpedia.org/property/julHighC
-http://dbpedia.org/property/julLowC
-http://dbpedia.org/property/julMeanC
-http://dbpedia.org/property/julPrecipitationDays
-http://dbpedia.org/property/julPrecipitationMm
-http://dbpedia.org/property/julRecordHighC
-http://dbpedia.org/property/julRecordLowC
-http://dbpedia.org/property/julSnowDays
-http://dbpedia.org/property/junHighC
-http://dbpedia.org/property/junLowC
-http://dbpedia.org/property/junMeanC
-http://dbpedia.org/property/junPrecipitationDays
-http://dbpedia.org/property/junPrecipitationMm
-http://dbpedia.org/property/junRecordHighC
-http://dbpedia.org/property/junRecordLowC
-http://dbpedia.org/property/junSnowDays
-http://dbpedia.org/property/mapframeMarker
-http://dbpedia.org/property/marHighC
-http://dbpedia.org/property/marLowC
-http://dbpedia.org/property/marMeanC
-http://dbpedia.org/property/marPrecipitationDays
-http://dbpedia.org/property/marPrecipitationMm
-http://dbpedia.org/property/marRecordHighC
-http://dbpedia.org/property/marRecordLowC
-http://dbpedia.org/property/marSnowDays
-http://dbpedia.org/ontology/trackLength
-http://dbpedia.org/property/mayHighC
-http://dbpedia.org/property/mayLowC
-http://dbpedia.org/property/mayMeanC
-http://dbpedia.org/property/mayPrecipitationDays
-http://dbpedia.org/property/mayPrecipitationMm
-http://dbpedia.org/property/mayRecordHighC
-http://dbpedia.org/property/mayRecordLowC
-http://dbpedia.org/property/maySnowDays
-http://dbpedia.org/property/metricFirst
-http://dbpedia.org/property/novHighC
-http://dbpedia.org/property/novLowC
-http://dbpedia.org/property/novMeanC
-http://dbpedia.org/property/novPrecipitationDays
-http://dbpedia.org/property/novPrecipitationMm
-http://dbpedia.org/property/novRecordHighC
-http://dbpedia.org/property/novRecordLowC
-http://dbpedia.org/property/novSnowDays
-http://dbpedia.org/property/octHighC
-http://dbpedia.org/property/octLowC
-http://dbpedia.org/property/octMeanC
-http://dbpedia.org/property/octPrecipitationDays
-http://dbpedia.org/property/octPrecipitationMm
-http://dbpedia.org/property/octRecordHighC
-http://dbpedia.org/property/octRecordLowC
-http://dbpedia.org/property/octSnowDays
-http://dbpedia.org/property/photo
-http://dbpedia.org/property/precipitationColour
-http://dbpedia.org/property/sepHighC
-http://dbpedia.org/property/sepLowC
-http://dbpedia.org/property/sepMeanC
-http://dbpedia.org/property/sepPrecipitationDays
-http://dbpedia.org/property/sepPrecipitationMm
-http://dbpedia.org/property/sepRecordHighC
-http://dbpedia.org/property/sepRecordLowC
-http://dbpedia.org/property/sepSnowDays
-http://dbpedia.org/property/singleLine
-http://dbpedia.org/property/source
-http://dbpedia.org/property/unitPrecipitationDays
-http://dbpedia.org/property/yearHighC
-http://dbpedia.org/property/yearLowC
-http://dbpedia.org/property/yearMeanC
-http://dbpedia.org/property/yearPrecipitationDays
-http://dbpedia.org/property/yearPrecipitationMm
-http://dbpedia.org/property/yearSnowDays
-http://dbpedia.org/property/zoom
-http://dbpedia.org/property/aprHumidity
-http://dbpedia.org/property/aprSun
-http://dbpedia.org/property/aprdSun
-http://dbpedia.org/property/augHumidity
-http://dbpedia.org/property/augSun
-http://dbpedia.org/property/augdSun
-http://dbpedia.org/property/dateOpened
-http://dbpedia.org/property/decHumidity
-http://dbpedia.org/property/decSun
-http://dbpedia.org/property/decdSun
-http://dbpedia.org/property/designedBy
-http://dbpedia.org/property/divisionSpecial
-http://dbpedia.org/property/febHumidity
-http://dbpedia.org/property/febSun
-http://dbpedia.org/property/febdSun
-http://dbpedia.org/property/formerconnections
-http://dbpedia.org/property/janHumidity
-http://dbpedia.org/property/janSun
-http://dbpedia.org/property/jandSun
-http://dbpedia.org/property/julHumidity
-http://dbpedia.org/property/julSun
-http://dbpedia.org/property/juldSun
-http://dbpedia.org/property/junHumidity
-http://dbpedia.org/property/junSun
-http://dbpedia.org/property/jundSun
-http://dbpedia.org/property/lowelevation
-http://dbpedia.org/property/lowerResName
-http://dbpedia.org/property/marHumidity
-http://dbpedia.org/property/marSun
-http://dbpedia.org/property/mardSun
-http://dbpedia.org/property/mayHumidity
-http://dbpedia.org/property/maySun
-http://dbpedia.org/property/maydSun
-http://dbpedia.org/property/namesPre
-http://dbpedia.org/property/northern
-http://dbpedia.org/property/novHumidity
-http://dbpedia.org/property/novSun
-http://dbpedia.org/property/novdSun
-http://dbpedia.org/property/octHumidity
-http://dbpedia.org/property/octSun
-http://dbpedia.org/property/octdSun
-http://dbpedia.org/property/plantCapacityFactor
-http://dbpedia.org/property/plantPumpgenerators
-http://dbpedia.org/property/raillowexits
-http://dbpedia.org/ontology/county
-http://dbpedia.org/property/towpath
-http://dbpedia.org/property/demolished
-http://dbpedia.org/property/desc
-http://dbpedia.org/property/bsize
-http://dbpedia.org/property/cheight
-http://dbpedia.org/property/cwidth
-http://dbpedia.org/property/description
-http://dbpedia.org/property/note
-http://dbpedia.org/property/oleft
-http://dbpedia.org/property/otherNames
-http://dbpedia.org/property/otherarticle
-http://dbpedia.org/property/otop
-http://dbpedia.org/ontology/railGauge
-http://dbpedia.org/ontology/island
-http://dbpedia.org/ontology/meetingRoad
-http://dbpedia.org/property/station
-http://dbpedia.org/property/brightonExpress
-http://dbpedia.org/property/cityflyer
-http://dbpedia.org/property/dateFlooded
-http://dbpedia.org/property/feet
-http://dbpedia.org/property/gatwickExpress
-http://dbpedia.org/property/grade
-http://dbpedia.org/property/headerColor
-http://dbpedia.org/property/lstate
-http://dbpedia.org/property/lwidth
-http://dbpedia.org/property/mainlineWest
-http://dbpedia.org/property/northernCity
-http://dbpedia.org/property/passable
-http://dbpedia.org/property/passengerServicesCeased
-http://dbpedia.org/property/resCapacityActive
-http://dbpedia.org/property/sandringham
-http://dbpedia.org/property/spectrum
-http://dbpedia.org/property/stateSpecial
-http://dbpedia.org/property/thermal
-http://dbpedia.org/property/upriver
-http://dbpedia.org/property/generation
-http://dbpedia.org/property/alternativemap
-http://dbpedia.org/property/altname
-http://dbpedia.org/property/control
-http://dbpedia.org/ontology/voltageOfElectrification
-http://dbpedia.org/property/translation
-http://dbpedia.org/property/unit
-http://dbpedia.org/property/y
-http://dbpedia.org/property/ew
-http://dbpedia.org/property/ns
-http://dbpedia.org/property/dam
-http://dbpedia.org/property/downriver
-http://dbpedia.org/property/downtown
-http://dbpedia.org/property/el
-http://dbpedia.org/property/mapOverlay
-http://dbpedia.org/property/mapframeMarkerColour
-http://dbpedia.org/property/mapframeStrokeColour
-http://dbpedia.org/property/mapframeStrokeWidth
-http://dbpedia.org/property/mernda
-http://dbpedia.org/property/nextDab
-http://dbpedia.org/property/otherServices2Collapsible
-http://dbpedia.org/property/previousDab
-http://dbpedia.org/property/racksystem
-http://dbpedia.org/ontology/typeOfElectrification
-http://dbpedia.org/ontology/state
-http://xmlns.com/foaf/0.1/logo
-http://dbpedia.org/property/solarCspTechnology
-http://dbpedia.org/property/solarSiteResource
-http://dbpedia.org/property/tp
-http://dbpedia.org/property/trainnumber
-http://dbpedia.org/property/regions
-http://dbpedia.org/property/district
-http://dbpedia.org/property/portal
-http://dbpedia.org/ontology/buildingEndYear
-http://dbpedia.org/property/red
-http://dbpedia.org/property/hp
-http://dbpedia.org/property/blue
-http://dbpedia.org/property/clearanceAbove
-http://dbpedia.org/property/concept
-http://dbpedia.org/property/coolant
-http://dbpedia.org/property/damName
-http://dbpedia.org/property/electric
-http://dbpedia.org/property/fuelState
-http://dbpedia.org/property/fuelType
-http://dbpedia.org/property/maglev
-http://dbpedia.org/property/maintained
-http://dbpedia.org/property/maker
-http://dbpedia.org/property/municipalitySpecial
-http://dbpedia.org/property/namespan
-http://dbpedia.org/property/oldGauge
-http://dbpedia.org/property/photoNotes
-http://dbpedia.org/property/provinceSpecial
-http://dbpedia.org/property/psCogeneration
-http://dbpedia.org/property/ramal
-http://dbpedia.org/property/reactorLine
-http://dbpedia.org/property/rollingStock
-http://dbpedia.org/property/solarCollectors
-http://dbpedia.org/property/kmspan
-http://dbpedia.org/property/mdab
-http://dbpedia.org/property/signalling
-http://dbpedia.org/property/spillwayCapacity
-http://dbpedia.org/property/toilets
-http://dbpedia.org/property/tracklengthKm
-http://dbpedia.org/property/yearcommenced
-http://dbpedia.org/property/labelSize
-http://dbpedia.org/property/markSize
-http://dbpedia.org/property/context
-http://dbpedia.org/property/markTitle
-http://dbpedia.org/property/hangul
-http://dbpedia.org/property/labelColor
-http://dbpedia.org/property/labelPos
-http://dbpedia.org/property/links
-http://dbpedia.org/property/logoAlt
-http://dbpedia.org/property/shape
-http://dbpedia.org/property/caterham
-http://dbpedia.org/property/crossIsland
-http://dbpedia.org/property/geoType
-http://dbpedia.org/property/geoWellCount
-http://dbpedia.org/property/lowerDamHeight
-http://dbpedia.org/property/lowerDamLength
-http://dbpedia.org/property/lowerDamType
-http://dbpedia.org/property/lowerResElevation
-http://dbpedia.org/property/lowerResMaxDepth
-http://dbpedia.org/property/mapsizeX
-http://dbpedia.org/property/mapsizeY
-http://dbpedia.org/property/maptext
-http://dbpedia.org/property/marker
-http://dbpedia.org/property/markersize
-http://dbpedia.org/property/markertext
-http://dbpedia.org/property/northEast
-http://dbpedia.org/property/otherServices
-http://dbpedia.org/property/planopen
-http://dbpedia.org/property/plantEfficiency
-http://dbpedia.org/property/plantHydraulicHead
-http://dbpedia.org/property/plantStorageHours
-http://dbpedia.org/property/posX
-http://dbpedia.org/property/posY
-http://dbpedia.org/property/redhill
-http://dbpedia.org/property/reopen
-http://dbpedia.org/property/resMaxDepth
-http://dbpedia.org/property/scalemark
-http://dbpedia.org/property/strokeColor
-http://dbpedia.org/property/strokeOpacity
-http://dbpedia.org/property/tib
-http://dbpedia.org/property/windsor
-http://dbpedia.org/property/wylie
-http://dbpedia.org/property/hanja
-http://dbpedia.org/property/order
-http://dbpedia.org/property/poj
-http://dbpedia.org/property/navbar
-http://dbpedia.org/property/addresses
-http://dbpedia.org/property/darlingHarbour
-http://dbpedia.org/property/frameLat
-http://dbpedia.org/property/frameLong
-http://dbpedia.org/property/hounslow
-http://dbpedia.org/property/ilNone
-http://dbpedia.org/property/kingston
-http://dbpedia.org/property/mainLineNone
-http://dbpedia.org/property/northShore&Northern
-http://dbpedia.org/property/plantAnnualGenYear
-http://dbpedia.org/property/pyrmontBay
-http://dbpedia.org/property/reading
-http://www.w3.org/2004/02/skos/core#exactMatch
-http://dbpedia.org/property/solarCollectorsArea
-http://dbpedia.org/property/structureGauge
-http://dbpedia.org/property/quarter
-http://dbpedia.org/property/revision
-http://dbpedia.org/property/sourcepath
-http://dbpedia.org/property/characters
-http://dbpedia.org/property/colwidth
-http://dbpedia.org/ontology/previousInfrastructure
-http://dbpedia.org/property/division
-http://dbpedia.org/property/group
-http://dbpedia.org/property/special
-http://dbpedia.org/property/arrondissement
-http://dbpedia.org/property/contractSigned
-http://dbpedia.org/property/error
-http://dbpedia.org/property/fix
-http://dbpedia.org/property/geoTempRequirement
-http://dbpedia.org/property/geoWellDepth
-http://dbpedia.org/property/indepCitySpecial
-http://dbpedia.org/property/kspan
-http://dbpedia.org/property/sections
-http://dbpedia.org/property/sepAvgRecordHighF
-http://dbpedia.org/property/sepAvgRecordLowF
-http://dbpedia.org/property/sepPercentsun
-http://dbpedia.org/property/sepRecordHighF
-http://dbpedia.org/property/sepRecordLowF
-http://dbpedia.org/property/sepSnowInch
-http://dbpedia.org/property/sheerness
-http://dbpedia.org/property/thisis
-http://dbpedia.org/property/upsub
-http://dbpedia.org/property/yearAvgRecordHighF
-http://dbpedia.org/property/yearAvgRecordLowF
-http://dbpedia.org/property/yearPercentsun
-http://dbpedia.org/property/yearRecordHighF
-http://dbpedia.org/property/yearRecordLowF
-http://dbpedia.org/property/yearSnowInch
-http://dbpedia.org/property/minimap
-http://dbpedia.org/property/aprHighF
-http://dbpedia.org/property/aprLowF
-http://dbpedia.org/property/aprPrecipitationInch
-http://dbpedia.org/property/augHighF
-http://dbpedia.org/property/augLowF
-http://dbpedia.org/property/augPrecipitationInch
-http://dbpedia.org/property/cat
-http://dbpedia.org/property/decHighF
-http://dbpedia.org/property/decLowF
-http://dbpedia.org/property/decPrecipitationInch
-http://dbpedia.org/property/febHighF
-http://dbpedia.org/property/febLowF
-http://dbpedia.org/property/febPrecipitationInch
-http://dbpedia.org/property/janHighF
-http://dbpedia.org/property/janLowF
-http://dbpedia.org/property/janPrecipitationInch
-http://dbpedia.org/property/julHighF
-http://dbpedia.org/property/julLowF
-http://dbpedia.org/property/julPrecipitationInch
-http://dbpedia.org/property/junHighF
-http://dbpedia.org/property/junLowF
-http://dbpedia.org/property/junPrecipitationInch
-http://dbpedia.org/property/marHighF
-http://dbpedia.org/property/marLowF
-http://dbpedia.org/property/marPrecipitationInch
-http://dbpedia.org/property/mayHighF
-http://dbpedia.org/property/mayLowF
-http://dbpedia.org/property/mayPrecipitationInch
-http://dbpedia.org/property/novHighF
-http://dbpedia.org/property/novLowF
-http://dbpedia.org/property/novPrecipitationInch
-http://dbpedia.org/property/octHighF
-http://dbpedia.org/property/octLowF
-http://dbpedia.org/property/octPrecipitationInch
-http://dbpedia.org/property/pic
-http://dbpedia.org/property/piccap
-http://dbpedia.org/ontology/subsequentInfrastructure
-http://dbpedia.org/property/sepHighF
-http://dbpedia.org/property/sepLowF
-http://dbpedia.org/property/sepPrecipitationInch
-http://dbpedia.org/property/unitSnowDays
-http://dbpedia.org/property/yearHighF
-http://dbpedia.org/property/yearLowF
-http://dbpedia.org/property/yearPrecipitationInch
-http://dbpedia.org/property/aprAvgRecordHighF
-http://dbpedia.org/property/aprAvgRecordLowF
-http://dbpedia.org/property/aprPercentsun
-http://dbpedia.org/property/aprRecordHighF
-http://dbpedia.org/property/aprRecordLowF
-http://dbpedia.org/property/aprSnowInch
-http://dbpedia.org/property/augAvgRecordHighF
-http://dbpedia.org/property/augAvgRecordLowF
-http://dbpedia.org/property/augPercentsun
-http://dbpedia.org/property/augRecordHighF
-http://dbpedia.org/property/augRecordLowF
-http://dbpedia.org/property/augSnowInch
-http://dbpedia.org/property/decAvgRecordHighF
-http://dbpedia.org/property/decAvgRecordLowF
-http://dbpedia.org/property/decPercentsun
-http://dbpedia.org/property/decRecordHighF
-http://dbpedia.org/property/decRecordLowF
-http://dbpedia.org/property/decSnowInch
-http://dbpedia.org/property/downsub
-http://dbpedia.org/property/febAvgRecordHighF
-http://dbpedia.org/property/febAvgRecordLowF
-http://dbpedia.org/property/febPercentsun
-http://dbpedia.org/property/febRecordHighF
-http://dbpedia.org/property/febRecordLowF
-http://dbpedia.org/property/febSnowInch
-http://dbpedia.org/property/fullscreenOption
-http://dbpedia.org/property/hucicc
-http://dbpedia.org/property/humidityColour
-http://dbpedia.org/property/janAvgRecordHighF
-http://dbpedia.org/property/janAvgRecordLowF
-http://dbpedia.org/property/janPercentsun
-http://dbpedia.org/property/janRecordHighF
-http://dbpedia.org/property/janRecordLowF
-http://dbpedia.org/property/janSnowInch
-http://dbpedia.org/property/julAvgRecordHighF
-http://dbpedia.org/property/julAvgRecordLowF
-http://dbpedia.org/property/julPercentsun
-http://dbpedia.org/property/julRecordHighF
-http://dbpedia.org/property/julRecordLowF
-http://dbpedia.org/property/julSnowInch
-http://dbpedia.org/property/junAvgRecordHighF
-http://dbpedia.org/property/junAvgRecordLowF
-http://dbpedia.org/property/junPercentsun
-http://dbpedia.org/property/junRecordHighF
-http://dbpedia.org/property/junRecordLowF
-http://dbpedia.org/property/junSnowInch
-http://dbpedia.org/property/labela
-http://dbpedia.org/property/lon
-http://dbpedia.org/property/marAvgRecordHighF
-http://dbpedia.org/property/marAvgRecordLowF
-http://dbpedia.org/property/marPercentsun
-http://dbpedia.org/property/marRecordHighF
-http://dbpedia.org/property/marRecordLowF
-http://dbpedia.org/property/marSnowInch
-http://dbpedia.org/property/markLat
-http://dbpedia.org/property/markLon
-http://dbpedia.org/property/mayAvgRecordHighF
-http://dbpedia.org/property/mayAvgRecordLowF
-http://dbpedia.org/property/mayPercentsun
-http://dbpedia.org/property/mayRecordHighF
-http://dbpedia.org/property/mayRecordLowF
-http://dbpedia.org/property/maySnowInch
-http://dbpedia.org/property/novAvgRecordHighF
-http://dbpedia.org/property/novAvgRecordLowF
-http://dbpedia.org/property/novPercentsun
-http://dbpedia.org/property/novRecordHighF
-http://dbpedia.org/property/novRecordLowF
-http://dbpedia.org/property/novSnowInch
-http://dbpedia.org/property/octAvgRecordHighF
-http://dbpedia.org/property/octAvgRecordLowF
-http://dbpedia.org/property/octPercentsun
-http://dbpedia.org/property/octRecordHighF
-http://dbpedia.org/property/octRecordLowF
-http://dbpedia.org/property/octSnowInch
-http://dbpedia.org/property/peckhamRye
-http://dbpedia.org/ontology/addressInRoad
-http://dbpedia.org/property/termini
-http://dbpedia.org/property/timeZoneDst
-http://dbpedia.org/property/transitType
-http://dbpedia.org/property/linecol
-http://dbpedia.org/property/nolinkindex
-http://dbpedia.org/property/span
-http://dbpedia.org/ontology/numberOfLines
-http://dbpedia.org/ontology/passengersPerDay
-http://dbpedia.org/property/host
-http://dbpedia.org/property/utcOffset
-http://dbpedia.org/property/utcOffsetDst
-http://dbpedia.org/property/timeZone
-http://dbpedia.org/property/alps
-http://dbpedia.org/property/annualRidership
-http://dbpedia.org/property/ashford
-http://dbpedia.org/property/beenleigh
-http://dbpedia.org/property/beganOperation
-http://dbpedia.org/property/brownLoop
-http://dbpedia.org/property/chiefExecutive
-http://dbpedia.org/property/goldCoast
-http://dbpedia.org/property/hielevation
-http://dbpedia.org/property/inaugurationLabel
-http://dbpedia.org/property/opens
-http://dbpedia.org/property/orange
-http://dbpedia.org/property/p5linename
-http://dbpedia.org/property/p5notes
-http://dbpedia.org/property/p5stop
-http://dbpedia.org/property/pink
-http://dbpedia.org/property/purple
-http://dbpedia.org/ontology/map
-http://dbpedia.org/property/shenfield
-http://dbpedia.org/property/shorncliffe
-http://dbpedia.org/property/springfield
-http://dbpedia.org/property/ucFormer
-http://dbpedia.org/property/westlander
-http://dbpedia.org/property/windRatedSpeed
-http://dbpedia.org/property/commons
-http://dbpedia.org/property/commonsSearch
-http://dbpedia.org/property/mapImage
-http://dbpedia.org/property/openingDate
-http://dbpedia.org/property/contentstyle
-http://dbpedia.org/property/headerstyle
-http://dbpedia.org/property/airport
-http://dbpedia.org/property/central
-http://dbpedia.org/property/customHeader
-http://dbpedia.org/property/damVolume
-http://dbpedia.org/property/doomben
-http://dbpedia.org/property/dwidth
-http://dbpedia.org/property/emerson
-http://dbpedia.org/property/environmentType
-http://dbpedia.org/property/exhibition
-http://dbpedia.org/property/fernyGrove
-http://dbpedia.org/property/goodsSold
-http://dbpedia.org/property/greatSouthern
-http://dbpedia.org/property/green
-http://dbpedia.org/property/hurstbridge
-http://dbpedia.org/property/idx
-http://dbpedia.org/property/ipswichAndRosewood
-http://dbpedia.org/property/lineindex
-http://dbpedia.org/property/linename
-http://dbpedia.org/property/minradius
-http://dbpedia.org/property/mpassengers
-http://dbpedia.org/property/normalMarketDays
-http://dbpedia.org/property/northCoastRegion
-http://dbpedia.org/property/nwidth
-http://dbpedia.org/property/plantPumps
-http://dbpedia.org/property/poststation
-http://dbpedia.org/property/preclosed
-http://dbpedia.org/property/prestation
-http://dbpedia.org/property/psStorageCapacity
-http://dbpedia.org/property/psUnitsUc
-http://dbpedia.org/property/retailMarketName
-http://dbpedia.org/property/tracklengthMi
-http://dbpedia.org/property/watsonsBay
-http://dbpedia.org/property/destroyed
-http://dbpedia.org/ontology/lengthReference
-http://dbpedia.org/property/pre
-http://dbpedia.org/property/ahn
-http://dbpedia.org/property/districts
-http://dbpedia.org/property/eastern
-http://dbpedia.org/property/lightcol
-http://dbpedia.org/property/photoWidth
-http://dbpedia.org/property/postspan
-http://dbpedia.org/property/prespan
-http://dbpedia.org/ontology/commander
-http://dbpedia.org/property/suburbanNone
-http://dbpedia.org/property/upfield
-http://dbpedia.org/property/departments
-http://dbpedia.org/property/titlestyle
-http://dbpedia.org/property/topic
-http://dbpedia.org/property/bodyclass
-http://dbpedia.org/property/bspan
-http://dbpedia.org/property/column
-http://dbpedia.org/property/columns
-http://dbpedia.org/property/craigieburn
-http://dbpedia.org/property/display
-http://dbpedia.org/property/portsmouthDirect
-http://dbpedia.org/property/taebaek
-http://dbpedia.org/property/titleBgColor
-http://dbpedia.org/property/darkred
-http://dbpedia.org/property/jungang
-http://dbpedia.org/property/lightred
-http://dbpedia.org/property/plantCoordinates
-http://dbpedia.org/property/replace
-http://dbpedia.org/ontology/demolitionYear
-http://dbpedia.org/property/license
-http://dbpedia.org/property/winner
-http://dbpedia.org/property/documenturl
-http://dbpedia.org/property/gap
-http://dbpedia.org/property/licenseStatementUrl
-http://dbpedia.org/property/prefectureSpecial
-http://dbpedia.org/property/r4LengthM
-http://dbpedia.org/property/stops
-http://dbpedia.org/property/tl
-http://dbpedia.org/property/bpmf
-http://dbpedia.org/property/architecture
-http://dbpedia.org/property/designation
-http://dbpedia.org/property/facilities
-http://dbpedia.org/property/owners
-http://dbpedia.org/ontology/frozen
-http://dbpedia.org/property/bergen
-http://dbpedia.org/property/builtBy
-http://dbpedia.org/property/clearanceBelow
-http://dbpedia.org/property/frozen
-http://dbpedia.org/property/gyeongchun
-http://dbpedia.org/property/journeytime
-http://dbpedia.org/property/lineUsed
-http://dbpedia.org/property/linef
-http://dbpedia.org/property/oxted
-http://dbpedia.org/property/phfs
-http://dbpedia.org/property/postbergen
-http://dbpedia.org/property/postf
-http://dbpedia.org/property/postr
-http://dbpedia.org/property/poststavanger
-http://dbpedia.org/property/prebergen
-http://dbpedia.org/property/pref
-http://dbpedia.org/property/prer
-http://dbpedia.org/property/prestavanger
-http://dbpedia.org/property/trackGauge
-http://dbpedia.org/property/shore
-http://dbpedia.org/property/waterway
-http://dbpedia.org/property/condition
-http://dbpedia.org/property/assets
-http://dbpedia.org/property/equity
-http://dbpedia.org/property/foundation
-http://dbpedia.org/property/industry
-http://dbpedia.org/property/keyPeople
-http://dbpedia.org/property/locationCity
-http://dbpedia.org/property/locationCountry
-http://dbpedia.org/property/netIncome
-http://dbpedia.org/property/numEmployees
-http://dbpedia.org/property/qid
-http://dbpedia.org/property/revenue
-http://dbpedia.org/property/controlledby
-http://dbpedia.org/property/mapframeWikidata
-http://dbpedia.org/property/materials
-http://dbpedia.org/property/pwidth
-http://dbpedia.org/property/regionCol
-http://dbpedia.org/property/rivers
-http://dbpedia.org/property/rspan
-http://dbpedia.org/ontology/waterwayThroughTunnel
-http://dbpedia.org/property/villages
-http://dbpedia.org/ontology/ruralMunicipality
-http://dbpedia.org/property/ft
-http://dbpedia.org/property/in
-http://dbpedia.org/property/bgl
-http://dbpedia.org/property/ferry
-http://dbpedia.org/property/nosub
-http://dbpedia.org/property/precision
-http://dbpedia.org/property/ruralMunicipalities
-http://dbpedia.org/property/rwidth
-http://dbpedia.org/property/thFuelTertiary
-http://dbpedia.org/property/tracklength
-http://dbpedia.org/property/last
-http://dbpedia.org/ontology/firstLaunchDate
-http://dbpedia.org/ontology/firstLaunchRocket
-http://dbpedia.org/ontology/lastLaunchDate
-http://dbpedia.org/ontology/lastLaunchRocket
-http://dbpedia.org/property/orbital
-http://dbpedia.org/property/countyCol
-http://dbpedia.org/property/fullheight
-http://dbpedia.org/property/fullwidth
-http://dbpedia.org/property/mapframeMarkerColor
-http://dbpedia.org/property/mapframeStrokeColor
-http://dbpedia.org/property/shapeOutline
-http://dbpedia.org/property/southCoast
-http://dbpedia.org/property/topath
-http://dbpedia.org/property/miniFile
-http://dbpedia.org/property/miniHeight
-http://dbpedia.org/property/miniWidth
-http://dbpedia.org/property/shapeColor
-http://dbpedia.org/property/n
-http://dbpedia.org/property/q
-http://dbpedia.org/property/v
-http://dbpedia.org/property/wikt
-http://dbpedia.org/property/markImage
-http://dbpedia.org/property/antiNextstation
-http://dbpedia.org/property/arcAnglea
-http://dbpedia.org/property/arcGapa
-http://dbpedia.org/property/arcRadiusa
-http://dbpedia.org/property/arcTextColora
-http://dbpedia.org/property/arcTextSizea
-http://dbpedia.org/property/arcTexta
-http://dbpedia.org/property/clckNextstation
-http://dbpedia.org/property/damHeightFoundation
-http://dbpedia.org/property/damWidthCrest
-http://dbpedia.org/property/fid
-http://dbpedia.org/property/labelOffsetY
-http://dbpedia.org/property/lineu
-http://dbpedia.org/property/lpsan
-http://dbpedia.org/property/mapframeFrameHeight
-http://dbpedia.org/property/mapframeFrameWidth
-http://dbpedia.org/property/markSized
-http://dbpedia.org/property/minipogX
-http://dbpedia.org/property/minipogY
-http://dbpedia.org/property/table
-http://dbpedia.org/property/timePeriod
-http://dbpedia.org/property/tipo
-http://dbpedia.org/property/significance
-http://dbpedia.org/property/related
-http://dbpedia.org/property/eRoad
-http://dbpedia.org/property/establishedBy
-http://dbpedia.org/property/estimatedCost
-http://dbpedia.org/property/geometry
-http://dbpedia.org/property/hunter
-http://dbpedia.org/property/innerstyle
-http://dbpedia.org/property/maxDepth
-http://dbpedia.org/property/northWesternRegion
-http://dbpedia.org/property/propertyName
-http://dbpedia.org/property/proposer
-http://dbpedia.org/property/designation1Date
-http://dbpedia.org/property/designation1Number
-http://dbpedia.org/property/designation1Offname
-http://dbpedia.org/property/reverse
-http://dbpedia.org/property/wide
-http://dbpedia.org/property/all
-http://dbpedia.org/property/damHeightThalweg
-http://dbpedia.org/property/embed
-http://dbpedia.org/property/goblin
-http://dbpedia.org/property/lgaRc
-http://dbpedia.org/property/listingDetail
-http://dbpedia.org/property/maidstone
-http://dbpedia.org/property/raillowint
-http://dbpedia.org/property/residenceTime
-http://dbpedia.org/ontology/highwaySystem
-http://dbpedia.org/property/swmlLocal
-http://dbpedia.org/property/weymouth
-http://dbpedia.org/property/yearSun
-http://dbpedia.org/property/yearRecordHighC
-http://dbpedia.org/property/yearRecordLowC
-http://dbpedia.org/property/bromleySouth
-http://dbpedia.org/property/catfordLoop
-http://dbpedia.org/property/cc
-http://dbpedia.org/property/characteristic
-http://dbpedia.org/property/hampshireLocals
-http://dbpedia.org/property/lgadc
-http://dbpedia.org/property/marking
-http://dbpedia.org/property/midland
-http://dbpedia.org/property/salisbury
-http://dbpedia.org/property/stage
-http://dbpedia.org/property/stageyears
-http://dbpedia.org/property/stonyPoint
-http://dbpedia.org/property/westernRegion
-http://dbpedia.org/property/label13Size
-http://dbpedia.org/property/label14Size
-http://dbpedia.org/property/label15Size
-http://dbpedia.org/property/label16Size
-http://dbpedia.org/property/label17Size
-http://dbpedia.org/property/label18Size
-http://dbpedia.org/property/label19Size
-http://dbpedia.org/property/label1Size
-http://dbpedia.org/property/label20Size
-http://dbpedia.org/property/map
-http://dbpedia.org/property/mapsize
-http://dbpedia.org/property/fmt
-http://dbpedia.org/property/headquarters
-http://dbpedia.org/property/index
-http://dbpedia.org/property/label10Size
-http://dbpedia.org/property/label11Size
-http://dbpedia.org/property/label12Size
-http://dbpedia.org/property/label2Size
-http://dbpedia.org/property/label3Size
-http://dbpedia.org/property/label4Size
-http://dbpedia.org/property/label5Size
-http://dbpedia.org/property/label6Size
-http://dbpedia.org/property/label7Size
-http://dbpedia.org/property/label8Size
-http://dbpedia.org/property/label9Size
-http://dbpedia.org/property/r
-http://dbpedia.org/property/speedMph
-http://dbpedia.org/property/startYear
-http://dbpedia.org/property/value
-http://dbpedia.org/property/blueMountains
-http://dbpedia.org/property/builtby
-http://dbpedia.org/property/conductionsystem
-http://dbpedia.org/property/linelengthFootnotes
-http://dbpedia.org/property/lowerSpillwayCount
-http://dbpedia.org/property/map2Title
-http://dbpedia.org/property/mapTitle
-http://dbpedia.org/property/mark20size
-http://dbpedia.org/property/morley–ellenbrook
-http://dbpedia.org/property/nummer
-http://dbpedia.org/property/originalopen
-http://dbpedia.org/property/outerSouth
-http://dbpedia.org/property/wes
-http://dbpedia.org/property/windHubHeight
-http://dbpedia.org/property/windOffshoreDepth
-http://dbpedia.org/property/windOffshoreDistance
-http://dbpedia.org/property/windRotorDiameter
-http://dbpedia.org/property/current
-http://dbpedia.org/property/coastwayWest
-http://dbpedia.org/property/ctbat
-http://dbpedia.org/property/mainLineWest
-http://dbpedia.org/property/psData
-http://dbpedia.org/property/psLabel
-http://dbpedia.org/property/resMaxLength
-http://dbpedia.org/property/resMaxWidth
-http://dbpedia.org/property/showflag
-http://dbpedia.org/property/wuu
-http://dbpedia.org/property/vehicles
-http://dbpedia.org/property/homepage
-http://dbpedia.org/property/tradedAs
-http://dbpedia.org/property/belair
-http://dbpedia.org/property/bottom
-http://dbpedia.org/property/flinders
-http://dbpedia.org/property/gawler
-http://dbpedia.org/property/grange
-http://dbpedia.org/property/kana
-http://dbpedia.org/property/kanji
-http://dbpedia.org/property/lastextension
-http://dbpedia.org/property/lineNumber
-http://dbpedia.org/property/outerHarbor
-http://dbpedia.org/property/romaji
-http://dbpedia.org/property/seaford
-http://dbpedia.org/property/parent
-http://dbpedia.org/property/medwayValley
-http://dbpedia.org/property/demolitionDate
-http://dbpedia.org/property/img
-http://dbpedia.org/property/northEastern
-http://dbpedia.org/ontology/namedAfter
-http://dbpedia.org/property/trondheim
-http://dbpedia.org/property/cs1Dates
-http://dbpedia.org/property/references
-http://dbpedia.org/property/hamptonCourt
-http://dbpedia.org/property/npReactors
-http://dbpedia.org/property/posttrondheim
-http://dbpedia.org/property/pretrondheim
-http://dbpedia.org/property/coastwayEast
-http://dbpedia.org/property/mainlineEast
-http://dbpedia.org/property/monumentName
-http://dbpedia.org/property/aprRainDays
-http://dbpedia.org/property/aprRainMm
-http://dbpedia.org/property/aprSnowCm
-http://dbpedia.org/property/augRainDays
-http://dbpedia.org/property/augRainMm
-http://dbpedia.org/property/augSnowCm
-http://dbpedia.org/property/commonscat
-http://dbpedia.org/property/decRainDays
-http://dbpedia.org/property/decRainMm
-http://dbpedia.org/property/decSnowCm
-http://dbpedia.org/property/febRainDays
-http://dbpedia.org/property/febRainMm
-http://dbpedia.org/property/febSnowCm
-http://dbpedia.org/property/janRainDays
-http://dbpedia.org/property/janRainMm
-http://dbpedia.org/property/janSnowCm
-http://dbpedia.org/property/julRainDays
-http://dbpedia.org/property/julRainMm
-http://dbpedia.org/property/julSnowCm
-http://dbpedia.org/property/junRainDays
-http://dbpedia.org/property/junRainMm
-http://dbpedia.org/property/junSnowCm
-http://dbpedia.org/property/marRainDays
-http://dbpedia.org/property/marRainMm
-http://dbpedia.org/property/marSnowCm
-http://dbpedia.org/property/mayRainDays
-http://dbpedia.org/property/mayRainMm
-http://dbpedia.org/property/maySnowCm
-http://dbpedia.org/property/novRainDays
-http://dbpedia.org/property/novRainMm
-http://dbpedia.org/property/novSnowCm
-http://dbpedia.org/property/octRainDays
-http://dbpedia.org/property/octRainMm
-http://dbpedia.org/property/octSnowCm
-http://dbpedia.org/property/rainColour
-http://dbpedia.org/property/sepRainDays
-http://dbpedia.org/property/sepRainMm
-http://dbpedia.org/property/sepSnowCm
-http://dbpedia.org/property/unitRainDays
-http://dbpedia.org/property/voy
-http://dbpedia.org/property/yearRainDays
-http://dbpedia.org/property/yearRainMm
-http://dbpedia.org/property/yearSnowCm
-http://dbpedia.org/property/captionBathymetry
-http://dbpedia.org/property/gps
-http://dbpedia.org/property/imageBathymetry
-http://dbpedia.org/property/resCapacityInactive
-http://dbpedia.org/property/mainContractor
-http://dbpedia.org/property/citymetro
-http://dbpedia.org/property/northSouth
-http://dbpedia.org/property/override
-http://dbpedia.org/property/plannedFinish
-http://dbpedia.org/property/postclosed
-http://dbpedia.org/property/postrauma
-http://dbpedia.org/property/prerauma
-http://dbpedia.org/property/sepMeanF
-http://dbpedia.org/property/systemQid
-http://dbpedia.org/property/for
-http://dbpedia.org/property/aprMeanF
-http://dbpedia.org/property/augMeanF
-http://dbpedia.org/property/decMeanF
-http://dbpedia.org/property/febMeanF
-http://dbpedia.org/property/hideSystem
-http://dbpedia.org/property/janMeanF
-http://dbpedia.org/property/julMeanF
-http://dbpedia.org/property/junMeanF
-http://dbpedia.org/property/marMeanF
-http://dbpedia.org/property/mayMeanF
-http://dbpedia.org/property/novMeanF
-http://dbpedia.org/property/octMeanF
-http://dbpedia.org/property/p1bnotes
-http://dbpedia.org/property/p1cnotes
-http://dbpedia.org/property/p2bnotes
-http://dbpedia.org/property/p3anotes
-http://dbpedia.org/property/p3bnotes
-http://dbpedia.org/property/p5alinename
-http://dbpedia.org/property/p5anotes
-http://dbpedia.org/property/p5astop
-http://dbpedia.org/property/p5blinename
-http://dbpedia.org/property/p5bstop
-http://dbpedia.org/property/p5clinename
-http://dbpedia.org/property/p5cnotes
-http://dbpedia.org/property/p5cstop
-http://dbpedia.org/property/p6alinename
-http://dbpedia.org/property/p6anotes
-http://dbpedia.org/property/p6astop
-http://dbpedia.org/property/p6blinename
-http://dbpedia.org/property/p6bstop
-http://dbpedia.org/property/p6clinename
-http://dbpedia.org/property/p6cnotes
-http://dbpedia.org/property/p6cstop
-http://dbpedia.org/property/p7alinename
-http://dbpedia.org/property/p7astop
-http://dbpedia.org/property/ringRoad
-http://dbpedia.org/property/thermalCapacity
-http://dbpedia.org/property/bodø
-http://dbpedia.org/property/labelAngle
-http://dbpedia.org/property/labelOffsetX
-http://dbpedia.org/property/numbered
-http://dbpedia.org/property/postbodø
-http://dbpedia.org/property/prebodø
-http://dbpedia.org/property/psSiteElevation
-http://dbpedia.org/property/sillim
-http://dbpedia.org/property/theOverland
-http://dbpedia.org/property/uiLrt
-http://dbpedia.org/property/founder
-http://dbpedia.org/property/subsid
-http://dbpedia.org/property/epsom
-http://dbpedia.org/property/huciccSpecial
-http://dbpedia.org/property/filename
-http://dbpedia.org/property/h
-http://dbpedia.org/property/continuesas
-http://dbpedia.org/ontology/soundRecording
-http://dbpedia.org/property/bgcolour
-http://dbpedia.org/property/company
-http://dbpedia.org/property/divisions
-http://dbpedia.org/property/endDate
-http://dbpedia.org/property/nocat
-http://dbpedia.org/property/nrhpType
-http://dbpedia.org/property/startDate
-http://dbpedia.org/property/ftcolour
-http://dbpedia.org/property/rte
-http://dbpedia.org/property/toLeft!_
-http://dbpedia.org/property/tloop
-http://dbpedia.org/property/small
-http://dbpedia.org/property/nyroutes
-http://dbpedia.org/property/curr
-http://dbpedia.org/property/mapWidth
-http://dbpedia.org/property/dedicated
-http://dbpedia.org/property/state/province
-http://dbpedia.org/property/hline
-http://dbpedia.org/property/products
-http://dbpedia.org/property/subdivisionType
-http://dbpedia.org/property/browse
-http://dbpedia.org/property/image2Alt
-http://dbpedia.org/property/openingYear
-http://dbpedia.org/property/rline
-http://dbpedia.org/property/selected
-http://dbpedia.org/property/supp
-http://dbpedia.org/property/boroughs
-http://dbpedia.org/property/plantDecommission
-http://dbpedia.org/property/township
-http://dbpedia.org/property/txt
-http://dbpedia.org/property/wline
-http://dbpedia.org/property/chapter
-http://dbpedia.org/property/class
-http://dbpedia.org/property/cline
-http://dbpedia.org/property/eline
-http://dbpedia.org/property/frequency
-http://dbpedia.org/property/e
-http://dbpedia.org/property/aline
-http://dbpedia.org/property/appendix
-http://dbpedia.org/property/autoCaption
-http://dbpedia.org/property/bline
-http://dbpedia.org/property/catering
-http://dbpedia.org/property/depthBelowWater
-http://dbpedia.org/property/gline
-http://dbpedia.org/property/nline
-http://dbpedia.org/property/paragraph
-http://dbpedia.org/property/psRevenue
-http://dbpedia.org/property/r5LengthF
-http://dbpedia.org/property/r5LengthM
-http://dbpedia.org/property/r5Number
-http://dbpedia.org/property/r5Surface
-http://dbpedia.org/property/r6LengthF
-http://dbpedia.org/property/r6LengthM
-http://dbpedia.org/property/r6Number
-http://dbpedia.org/property/r6Surface
-http://dbpedia.org/property/u
-http://dbpedia.org/property/col2Data
-http://dbpedia.org/property/col2DataMax
-http://dbpedia.org/property/col2DataType
-http://dbpedia.org/property/mon
-http://dbpedia.org/property/beginningDate
-http://dbpedia.org/property/formeroperator
-http://dbpedia.org/property/beginningLabel
-http://dbpedia.org/property/designation1Free1name
-http://dbpedia.org/property/designation1Free1value
-http://dbpedia.org/property/designation1Free2name
-http://dbpedia.org/property/designation1Free2value
-http://dbpedia.org/property/designation1Free3name
-http://dbpedia.org/property/designation1Type
-http://dbpedia.org/property/scale
-http://dbpedia.org/property/x
-http://dbpedia.org/property/talkpage
-http://dbpedia.org/property/baggage
-http://dbpedia.org/property/elr
-http://dbpedia.org/property/entertainment
-http://dbpedia.org/property/glenWaverley
-http://dbpedia.org/property/line2x
-http://dbpedia.org/property/p6linename
-http://dbpedia.org/property/p6stop
-http://dbpedia.org/property/p7linename
-http://dbpedia.org/property/p7stop
-http://dbpedia.org/property/post2x
-http://dbpedia.org/property/postspan2x
-http://dbpedia.org/property/postvestfold
-http://dbpedia.org/property/prevestfold
-http://dbpedia.org/property/seating
-http://dbpedia.org/property/werribee
-http://dbpedia.org/property/ref
-http://dbpedia.org/property/toggle
-http://dbpedia.org/property/arex
-http://dbpedia.org/property/gyeongui
-http://dbpedia.org/property/lang1Content
-http://dbpedia.org/property/lowerResCapacityTotal
-http://dbpedia.org/property/myr
-http://dbpedia.org/property/rationale
-http://dbpedia.org/property/designation1Free3value
-http://dbpedia.org/property/postalCodeType
-http://dbpedia.org/property/contractor
-http://dbpedia.org/property/lineyl
-http://dbpedia.org/property/p3dlinename
-http://dbpedia.org/property/p3dnotes
-http://dbpedia.org/property/p3dstop
-http://dbpedia.org/property/p5bnotes
-http://dbpedia.org/property/postrørostrondheim
-http://dbpedia.org/property/prerørostrondheim
-http://dbpedia.org/property/yellow
-http://dbpedia.org/property/batong
-http://dbpedia.org/property/handle
-http://dbpedia.org/property/identifier
-http://dbpedia.org/property/fate
-http://dbpedia.org/property/formerName
-http://dbpedia.org/property/logoCaption
-http://dbpedia.org/property/logoSize
-http://dbpedia.org/property/successor
-http://dbpedia.org/property/locationMapRelief
-http://dbpedia.org/property/locationMapZoom
-http://www.w3.org/2004/02/skos/core#closeMatch
-http://dbpedia.org/property/noteMid!_
-http://dbpedia.org/property/tam
-http://dbpedia.org/property/yearMeanF
-http://dbpedia.org/property/perrow
-http://dbpedia.org/property/locationGroup
-http://dbpedia.org/property/msa
-http://dbpedia.org/property/p4alinename
-http://dbpedia.org/property/p4astop
-http://dbpedia.org/property/p4blinename
-http://dbpedia.org/property/p4bstop
-http://dbpedia.org/ontology/floodingDate
-http://dbpedia.org/property/species
-http://dbpedia.org/property/joondalup
-http://dbpedia.org/property/mapcolour
-http://dbpedia.org/property/mapcolourlink
-http://dbpedia.org/property/onewayRight
-http://dbpedia.org/property/nonum
-http://dbpedia.org/property/altitude
-http://dbpedia.org/property/buildingType
-http://dbpedia.org/property/openedDate
-http://dbpedia.org/property/eastWest
-http://dbpedia.org/property/pavonia
-http://dbpedia.org/property/failed
-http://dbpedia.org/property/active
-http://dbpedia.org/property/module
-http://dbpedia.org/property/acquisitionYear
-http://dbpedia.org/property/altCaption
-http://dbpedia.org/property/altcaption
-http://dbpedia.org/property/officialWebsite
-http://dbpedia.org/property/stopPattern
-http://dbpedia.org/property/markerColour
-http://dbpedia.org/property/mode
-http://dbpedia.org/property/australind
-http://dbpedia.org/property/fewerLinks
-http://dbpedia.org/property/fremantle
-http://dbpedia.org/property/lowerSpillwayCapacity
-http://dbpedia.org/property/sukhumvit
-http://dbpedia.org/property/publictransit
-http://dbpedia.org/property/recordDriver
-http://dbpedia.org/property/recordYear
-http://dbpedia.org/property/outrightLapRecord
-http://dbpedia.org/property/postrøroshamar
-http://dbpedia.org/property/prerøroshamar
-http://dbpedia.org/property/recordTeam
-http://dbpedia.org/property/fline
-http://dbpedia.org/property/partof
-http://dbpedia.org/property/lgaDc
-http://dbpedia.org/property/mapframeCustom
-http://dbpedia.org/property/x%25_
-http://dbpedia.org/property/y%25_
-http://dbpedia.org/property/recordCar
-http://dbpedia.org/property/recordClass
-http://dbpedia.org/property/recordTime
-http://dbpedia.org/property/turns
-http://dbpedia.org/property/background
-http://dbpedia.org/property/operatingIncome
-http://dbpedia.org/property/romanizedName
-http://dbpedia.org/property/time
-http://dbpedia.org/property/luleå
-http://dbpedia.org/property/minradiusM
-http://dbpedia.org/property/ofotsto
-http://dbpedia.org/property/postluleå
-http://dbpedia.org/property/preluleå
-http://dbpedia.org/property/preofotsto
-http://dbpedia.org/property/crossingSigns
-http://dbpedia.org/property/frameLatitude
-http://dbpedia.org/property/frameLongitude
-http://dbpedia.org/property/photoAlt
-http://dbpedia.org/property/tideCrosses
-http://dbpedia.org/property/tideTechnology
-http://dbpedia.org/property/tlc
-http://dbpedia.org/property/size
-http://dbpedia.org/property/suf
-http://dbpedia.org/property/tacoma
-http://dbpedia.org/property/diameter
-http://dbpedia.org/property/textcolour
-http://dbpedia.org/property/colour
-http://dbpedia.org/property/details
-http://dbpedia.org/property/busnumber
-http://dbpedia.org/ontology/originalName
-http://dbpedia.org/ontology/engineer
-http://dbpedia.org/property/full
-http://dbpedia.org/property/mapframeAreaKm
-http://dbpedia.org/property/trial
-http://dbpedia.org/property/reportedDeaths
-http://dbpedia.org/property/reportedPropertyDamage
-http://dbpedia.org/property/casualties
-http://dbpedia.org/property/cause
-http://dbpedia.org/property/icon
-http://dbpedia.org/property/charges
-http://dbpedia.org/property/lowerDamCrosses
-http://dbpedia.org/property/reportedMissing
-http://dbpedia.org/ontology/imdbId
-http://dbpedia.org/property/woking
-http://dbpedia.org/property/chessington
-http://dbpedia.org/property/guildfordn
-http://dbpedia.org/property/kristiansand
-http://dbpedia.org/property/labelPost
-http://dbpedia.org/property/postkristiansand
-http://dbpedia.org/property/prekristiansand
-http://dbpedia.org/property/branch
-http://dbpedia.org/property/updated
-http://dbpedia.org/property/architectureFirm
-http://dbpedia.org/property/awards
-http://dbpedia.org/property/civilEngineer
-http://dbpedia.org/property/floorCount
-http://dbpedia.org/property/otherDesigners
-http://dbpedia.org/property/structuralEngineer
-http://dbpedia.org/property/structuralSystem
-http://dbpedia.org/property/liststyle
-http://dbpedia.org/property/nyc
-http://dbpedia.org/property/ring
-http://dbpedia.org/property/datastyle
-http://dbpedia.org/property/communities
-http://dbpedia.org/property/shield
-http://dbpedia.org/property/lline
-http://dbpedia.org/property/dline
-http://dbpedia.org/ontology/primaryFuelType
-http://dbpedia.org/ontology/generationUnits
-http://dbpedia.org/ontology/foundingDate
-http://dbpedia.org/ontology/code
-http://dbpedia.org/property/ml
-http://dbpedia.org/property/the
-http://dbpedia.org/property/mpsub
-http://dbpedia.org/property/bore'sWidth
-http://dbpedia.org/property/captionMap
-http://dbpedia.org/property/trainprotection
-http://dbpedia.org/property/nosplit
-http://dbpedia.org/property/pushpinMapSize
-http://dbpedia.org/property/deaths
-http://dbpedia.org/property/designatedOther
-http://dbpedia.org/property/format
-http://dbpedia.org/property/injuries
-http://dbpedia.org/property/trains
-http://dbpedia.org/property/historic
-http://dbpedia.org/ontology/dateOfAbandonment
-http://dbpedia.org/property/base
-http://dbpedia.org/property/altBathymetry
-http://dbpedia.org/property/baseWidth
-http://dbpedia.org/property/cyclepark
-http://dbpedia.org/property/refs
-http://dbpedia.org/property/arcAngleb
-http://dbpedia.org/property/arcGapb
-http://dbpedia.org/property/arcRadiusb
-http://dbpedia.org/property/arcTextColorb
-http://dbpedia.org/property/arcTextb
-http://dbpedia.org/property/elevatorCount
-http://dbpedia.org/property/cursign
-http://dbpedia.org/property/border
-http://dbpedia.org/property/jtype
-http://dbpedia.org/property/prenational
-http://dbpedia.org/property/sunbury
-http://dbpedia.org/property/term
-http://dbpedia.org/property/début
-http://dbpedia.org/property/munSpecial
-http://dbpedia.org/property/suffix
-http://dbpedia.org/property/ukOnly
-http://dbpedia.org/property/countriesOnly
-http://dbpedia.org/property/por
-http://dbpedia.org/property/certain
-http://dbpedia.org/property/markWidth
-http://dbpedia.org/property/populationAsOf
-http://dbpedia.org/property/populationDensityKm
-http://dbpedia.org/property/populationTotal
-http://dbpedia.org/property/settlementType
-http://dbpedia.org/property/subdivisionName
-http://dbpedia.org/property/timezoneDst
-http://dbpedia.org/property/dharmapuriJunction
-http://dbpedia.org/property/lomks
-http://dbpedia.org/property/npFuelType
-http://dbpedia.org/property/romsey
-http://dbpedia.org/property/territories
-http://dbpedia.org/property/labelb
-http://dbpedia.org/property/thdl
-http://dbpedia.org/property/buildingName
-http://dbpedia.org/property/patron
-http://dbpedia.org/property/architectureStyle
-http://dbpedia.org/property/consecrationYear
-http://dbpedia.org/property/religiousAffiliation
-http://dbpedia.org/property/tarongaZoo
-http://dbpedia.org/property/yizhuang
-http://dbpedia.org/property/cockatooIsland
-http://dbpedia.org/property/doubleBay
-http://dbpedia.org/property/manly
-http://dbpedia.org/property/mosmanBay
-http://dbpedia.org/property/neutralBay
-http://dbpedia.org/property/p4clinename
-http://dbpedia.org/property/p6elinename
-http://dbpedia.org/property/westLondon
-http://dbpedia.org/property/image2Size
-http://dbpedia.org/property/alton
-http://dbpedia.org/property/chingford
-http://dbpedia.org/property/mainLineEast
-http://dbpedia.org/property/rules
-http://dbpedia.org/property/col2Comment
-http://dbpedia.org/property/col3Comment
-http://dbpedia.org/property/col3Data
-http://dbpedia.org/property/col3DataMax
-http://dbpedia.org/property/col3DataType
-http://dbpedia.org/property/onlysourced
-http://dbpedia.org/property/lat1Deg
-http://dbpedia.org/property/lon1Deg
-http://dbpedia.org/property/mw
-http://dbpedia.org/property/lat1Dir
-http://dbpedia.org/property/lat1Min
-http://dbpedia.org/property/lat1Sec
-http://dbpedia.org/property/lon1Dir
-http://dbpedia.org/property/lon1Min
-http://dbpedia.org/property/lon1Sec
-http://dbpedia.org/property/mark1size
-http://dbpedia.org/property/salign
-http://dbpedia.org/property/parish
-http://dbpedia.org/property/parishes
-http://dbpedia.org/property/ralllowint
-http://dbpedia.org/property/blank2NameSec
-http://dbpedia.org/property/blankInfoSec
-http://dbpedia.org/property/blankNameSec
-http://dbpedia.org/property/imageSkyline
-http://dbpedia.org/property/allexceptnights
-http://dbpedia.org/property/alltimes
-http://dbpedia.org/property/markDescription
-http://dbpedia.org/property/psIwpp
-http://dbpedia.org/property/rushpeak
-http://dbpedia.org/property/buc
-http://dbpedia.org/property/uig
-http://dbpedia.org/property/uly
-http://dbpedia.org/property/usy
-http://dbpedia.org/property/uyy
-http://dbpedia.org/property/vie
-http://dbpedia.org/property/zha
-http://dbpedia.org/property/carlength
-http://dbpedia.org/property/carbody
-http://dbpedia.org/property/collectionmethod
-http://dbpedia.org/property/doors
-http://dbpedia.org/property/electricsystem
-http://dbpedia.org/property/formation
-http://dbpedia.org/property/gr
-http://dbpedia.org/property/manufacturer
-http://dbpedia.org/property/maxspeed
-http://dbpedia.org/property/numberbuilt
-http://dbpedia.org/property/yearconstruction
-http://dbpedia.org/property/sinbundang
-http://dbpedia.org/property/suin
-http://dbpedia.org/property/inaccurate
-http://dbpedia.org/property/bundang
-http://dbpedia.org/property/coord
-http://dbpedia.org/property/firstLength
-http://dbpedia.org/property/textWidth
-http://dbpedia.org/property/quoted
-http://dbpedia.org/property/g
-http://dbpedia.org/property/donghae
-http://dbpedia.org/property/designatedOther1Date
-http://dbpedia.org/property/designatedOther1NumPosition
-http://dbpedia.org/property/designatedOther1Number
-http://dbpedia.org/property/latSec
-http://dbpedia.org/property/lonSec
-http://dbpedia.org/property/boroughSpecial
-http://dbpedia.org/property/fontsize
-http://dbpedia.org/property/annotFontSize
-http://dbpedia.org/property/noshield
-http://dbpedia.org/property/yeongdong
-http://dbpedia.org/property/accessCategory
-http://dbpedia.org/property/ever
-http://dbpedia.org/property/gimpo
-http://dbpedia.org/property/arcAnglec
-http://dbpedia.org/property/arcGapc
-http://dbpedia.org/property/arcRadiusc
-http://dbpedia.org/property/arcTextColorc
-http://dbpedia.org/property/arcTextc
-http://dbpedia.org/property/daxing
-http://dbpedia.org/property/northShore
-http://dbpedia.org/property/stateAirports
-http://dbpedia.org/property/textLeft
-http://dbpedia.org/property/qalign
-http://dbpedia.org/property/postgjøvik
-http://dbpedia.org/property/pregjøvik
-http://dbpedia.org/property/raw
-http://dbpedia.org/property/lat2Deg
-http://dbpedia.org/property/lat3Deg
-http://dbpedia.org/property/lon2Deg
-http://dbpedia.org/property/lon3Deg
-http://dbpedia.org/property/lgaC
-http://dbpedia.org/property/lgam
-http://dbpedia.org/property/p4anotes
-http://dbpedia.org/property/p4bnotes
-http://dbpedia.org/property/subsection
-http://dbpedia.org/property/town
-http://dbpedia.org/property/stateOther
-http://dbpedia.org/property/archipelago
-http://dbpedia.org/property/countryAdminDivisions
-http://dbpedia.org/property/countryAdminDivisionsTitle
-http://dbpedia.org/property/markerColor
-http://dbpedia.org/property/preclosd
-http://dbpedia.org/property/throughRight
-http://dbpedia.org/property/thumbtime
-http://dbpedia.org/property/uid
-http://dbpedia.org/property/iucnCategory
-http://dbpedia.org/property/areaKm
-http://dbpedia.org/property/heading
-http://dbpedia.org/property/list1title
-http://dbpedia.org/property/list2title
-http://dbpedia.org/property/list3title
-http://dbpedia.org/property/list4title
-http://dbpedia.org/property/list5title
-http://dbpedia.org/property/reopens
-http://dbpedia.org/property/upsan
-http://dbpedia.org/property/sk
-http://dbpedia.org/property/waveTechnology
-http://dbpedia.org/property/starting
-http://dbpedia.org/property/tahn
-http://dbpedia.org/property/talk
-http://dbpedia.org/property/loop
-http://dbpedia.org/property/mapframeWidth
-http://dbpedia.org/property/officer(ceo)_
-http://dbpedia.org/property/imgfile
-http://dbpedia.org/property/map3Title
-http://dbpedia.org/property/indic
-http://dbpedia.org/property/trans
-http://dbpedia.org/property/population
-http://dbpedia.org/property/country1Claim
-http://dbpedia.org/property/country2Claim
-http://dbpedia.org/property/country3Claim
-http://dbpedia.org/property/countryClaim
-http://dbpedia.org/property/backgroundColor
-http://dbpedia.org/property/fontcolor
-http://dbpedia.org/property/forceNationalMap
-http://dbpedia.org/property/mapcolor
-http://dbpedia.org/property/tolls
-http://dbpedia.org/property/%3F_
-http://dbpedia.org/property/gyeongbu
-http://dbpedia.org/property/honam
-http://dbpedia.org/property/janghang
-http://dbpedia.org/property/jeolla
-http://dbpedia.org/property/nopref
-http://dbpedia.org/property/utcOffset1Dst
-http://dbpedia.org/property/anniversaries
-http://dbpedia.org/property/blank1InfoSec
-http://dbpedia.org/property/blank1NameSec
-http://dbpedia.org/property/blank2InfoSec
-http://dbpedia.org/property/blank3InfoSec
-http://dbpedia.org/property/blank3NameSec
-http://dbpedia.org/property/commandStructure
-http://dbpedia.org/property/conservation
-http://dbpedia.org/property/dates
-http://dbpedia.org/property/establishedDate
-http://dbpedia.org/property/establishedTitle
-http://dbpedia.org/property/garrison
-http://dbpedia.org/property/governingBody
-http://dbpedia.org/property/governmentType
-http://dbpedia.org/property/leaderName
-http://dbpedia.org/property/leaderTitle
-http://dbpedia.org/property/motto
-http://dbpedia.org/property/nickname
-http://dbpedia.org/property/notableCommanders
-http://dbpedia.org/property/parts
-http://dbpedia.org/property/partsType
-http://dbpedia.org/property/populationBlank
-http://dbpedia.org/property/populationBlank1Title
-http://dbpedia.org/property/populationBlank2Title
-http://dbpedia.org/property/radius
-http://dbpedia.org/property/seat
-http://dbpedia.org/property/seatType
-http://dbpedia.org/property/timezone1Dst
-http://dbpedia.org/property/unitName
-http://dbpedia.org/property/unitPref
-http://dbpedia.org/property/areaTotalAcre
-http://dbpedia.org/property/areaTotalSqMi
-http://dbpedia.org/property/areaWaterSqMi
-http://dbpedia.org/property/biome
-http://dbpedia.org/property/blank4InfoSec
-http://dbpedia.org/property/blank4NameSec
-http://dbpedia.org/property/ecozone
-http://dbpedia.org/property/elevationMaxFt
-http://dbpedia.org/property/elevationMaxPoint
-http://dbpedia.org/property/habitatLoss
-http://dbpedia.org/property/mouth
-http://dbpedia.org/property/populationDensityBlank1SqMi
-http://dbpedia.org/property/populationDensitySqMi
-http://dbpedia.org/property/rollingstock
-http://dbpedia.org/property/number
-http://dbpedia.org/property/a
-http://dbpedia.org/property/audio
-http://dbpedia.org/property/aStop
-http://dbpedia.org/property/bStop
-http://dbpedia.org/property/z
-http://dbpedia.org/property/zwpy
-http://dbpedia.org/property/linegf
-http://dbpedia.org/property/olympicPark
-http://dbpedia.org/property/p0linename
-http://dbpedia.org/property/p0stop
-http://dbpedia.org/property/stockholm
-http://dbpedia.org/property/poststockholm
-http://dbpedia.org/property/road.
-http://dbpedia.org/property/sgs
-http://dbpedia.org/property/trainlength
-http://dbpedia.org/property/factory
-http://dbpedia.org/property/gd
-http://dbpedia.org/property/mong
-http://dbpedia.org/property/labelColord
-http://dbpedia.org/property/labelPosd
-http://dbpedia.org/property/labelSized
-http://dbpedia.org/property/shapeColord
-http://dbpedia.org/property/shapeOutlined
-http://dbpedia.org/property/shaped
-http://dbpedia.org/property/nolabels
-http://dbpedia.org/property/baseAlt
-http://dbpedia.org/property/baseCaption
-http://dbpedia.org/property/float2Caption
-http://dbpedia.org/property/float2Width
-http://dbpedia.org/property/floatCaption
-http://dbpedia.org/property/floatWidth
-http://dbpedia.org/property/labelOffsetXd
-http://dbpedia.org/property/labelOffsetYd
-http://dbpedia.org/property/linehn
-http://dbpedia.org/ontology/maximumTemperature
-http://dbpedia.org/ontology/minimumTemperature
-http://dbpedia.org/property/aos
-http://dbpedia.org/property/displaymap
-http://dbpedia.org/property/imageGap
-http://dbpedia.org/property/interest
-http://dbpedia.org/property/notifydate
-http://dbpedia.org/property/created
-http://dbpedia.org/property/places
-http://dbpedia.org/property/sl
-http://dbpedia.org/property/lymington
-http://dbpedia.org/property/mil
-http://dbpedia.org/property/mlle
-http://dbpedia.org/property/postf1x
-http://dbpedia.org/property/pref1x
-http://dbpedia.org/property/key
-http://dbpedia.org/property/finish
-http://dbpedia.org/property/community
-http://dbpedia.org/property/routeImage
-http://dbpedia.org/property/keywords
-http://dbpedia.org/property/eRoadShield
-http://dbpedia.org/property/logan
-http://dbpedia.org/property/subsidiaries
-http://dbpedia.org/ontology/hubAirport
-http://dbpedia.org/ontology/numberOfEmployees
-http://dbpedia.org/ontology/headquarter
-http://dbpedia.org/property/airline
-http://dbpedia.org/property/aoc
-http://dbpedia.org/property/fleetSize
-http://dbpedia.org/property/hubs
-http://dbpedia.org/ontology/industry
-http://dbpedia.org/ontology/parentCompany
-http://dbpedia.org/property/visitationNum
-http://dbpedia.org/property/visitationYear
-http://dbpedia.org/property/reportedInjuries
-http://dbpedia.org/property/campSites
-http://dbpedia.org/property/collections
-http://dbpedia.org/property/habitat
-http://dbpedia.org/property/hikingTrails
-http://dbpedia.org/property/nearestTown
-http://dbpedia.org/property/otherInfo
-http://dbpedia.org/property/theGhan
-http://dbpedia.org/property/sn
-http://dbpedia.org/property/linecl
-http://dbpedia.org/property/fangshan
-http://dbpedia.org/property/article
-http://dbpedia.org/property/map2Collapse
-http://dbpedia.org/property/map2Collapsible
-http://dbpedia.org/property/northkorea
-http://dbpedia.org/property/archiveDate
-http://dbpedia.org/property/archiveUrl
-http://dbpedia.org/property/pre2x
-http://dbpedia.org/property/prespan2x
-http://dbpedia.org/property/prestockholm
-http://dbpedia.org/property/fareZoneNote
-http://dbpedia.org/property/footerBackground
-http://dbpedia.org/property/postmeråkerbanen
-http://dbpedia.org/property/premeråkerbanen
-http://dbpedia.org/property/fa
-http://dbpedia.org/property/lgaM
-http://dbpedia.org/property/bodystyle
-http://dbpedia.org/property/above
-http://dbpedia.org/property/listingAmended
-http://dbpedia.org/property/mapframeLengthKm
-http://dbpedia.org/property/stat7Data
-http://dbpedia.org/property/stat7Header
-http://dbpedia.org/property/brokeGround
-http://dbpedia.org/property/developer
-http://dbpedia.org/property/pages
-http://dbpedia.org/property/changping
-http://dbpedia.org/property/xej
-http://dbpedia.org/property/listclass
-http://dbpedia.org/property/shipOperator
-http://dbpedia.org/property/shipPower
-http://dbpedia.org/property/headerCaption
-http://dbpedia.org/property/shipInService
-http://dbpedia.org/property/shipName
-http://dbpedia.org/property/shipNotes
-http://dbpedia.org/property/shipOutOfService
-http://dbpedia.org/property/shipOwner
-http://dbpedia.org/property/shipPropulsion
-http://dbpedia.org/property/shipStatus
-http://dbpedia.org/property/kilometre
-http://dbpedia.org/property/waveWaterBody
-http://dbpedia.org/property/weekdaysonly
-http://dbpedia.org/property/allexceptrush
-http://dbpedia.org/property/exclude
-http://dbpedia.org/property/ne
-http://dbpedia.org/property/nightsonly
-http://dbpedia.org/property/nightsweekends
-http://dbpedia.org/property/rushonly
-http://dbpedia.org/property/openToPublic
-http://dbpedia.org/property/yeslga
-http://dbpedia.org/property/dim
-http://dbpedia.org/property/currentCommander
-http://dbpedia.org/property/subheader
-http://dbpedia.org/property/channel
-http://dbpedia.org/property/bromleyNorth
-http://dbpedia.org/property/indianPacific
-http://dbpedia.org/property/seohae
-http://dbpedia.org/property/watercourse
-http://dbpedia.org/property/numberDrops
-http://dbpedia.org/property/rcspan
-http://dbpedia.org/property/interiorimage
-http://dbpedia.org/property/battles
-http://dbpedia.org/property/deceleration
-http://dbpedia.org/property/depots
-http://dbpedia.org/property/fleetnumbers
-http://dbpedia.org/property/numberservice
-http://dbpedia.org/property/refurbishment
-http://dbpedia.org/property/traction
-http://dbpedia.org/property/tractionMotors
-http://dbpedia.org/property/yearservice
-http://dbpedia.org/property/endYear
-http://dbpedia.org/property/aarwheels
-http://dbpedia.org/property/gyeongjeon
-http://dbpedia.org/property/explain
-http://dbpedia.org/property/yrRef
-http://dbpedia.org/property/future
-http://dbpedia.org/property/noptes
-http://dbpedia.org/property/communipaw
-http://www.w3.org/2004/02/skos/core#narrower
-http://dbpedia.org/property/zhDungan
-http://dbpedia.org/property/jiangtiao
-http://dbpedia.org/property/gridPosition
-http://dbpedia.org/property/line3a
-http://dbpedia.org/property/nolink
-http://dbpedia.org/property/avonlink
-http://dbpedia.org/property/hugezhuang
-http://dbpedia.org/property/merredinlink
-http://dbpedia.org/property/prospector
-http://dbpedia.org/property/waterfront
-http://dbpedia.org/property/commissioning
-http://dbpedia.org/property/constructionBegin
-http://dbpedia.org/property/inlander
-http://dbpedia.org/property/hqCity
-http://dbpedia.org/property/marks
-http://dbpedia.org/property/postnabotåget
-http://dbpedia.org/property/prenabotåget
-http://dbpedia.org/property/railroadName
-http://dbpedia.org/property/ids
-http://dbpedia.org/property/salinity
-http://dbpedia.org/property/dab
-http://dbpedia.org/property/talksection
-http://dbpedia.org/property/unyrds
-http://dbpedia.org/property/indepCityAlign
-http://dbpedia.org/property/milepoint
-http://dbpedia.org/property/mpspan
-http://dbpedia.org/property/colspan
-http://dbpedia.org/property/mileRef
-http://dbpedia.org/property/statebefore2link
-http://dbpedia.org/property/windSiteArea
-http://dbpedia.org/property/portsmouth
-http://dbpedia.org/property/lengthNmi
-http://dbpedia.org/property/mapframePoint
-http://dbpedia.org/property/p1dlinename
-http://dbpedia.org/property/brown
-http://dbpedia.org/property/terminus
-http://dbpedia.org/property/edition
-http://dbpedia.org/property/comEvents
-http://dbpedia.org/property/comYears
-http://dbpedia.org/property/cty
-http://dbpedia.org/property/h10LengthF
-http://dbpedia.org/property/h10LengthM
-http://dbpedia.org/property/h10Number
-http://dbpedia.org/property/h10Surface
-http://dbpedia.org/property/h11LengthF
-http://dbpedia.org/property/h11LengthM
-http://dbpedia.org/property/h11Number
-http://dbpedia.org/property/h11Surface
-http://dbpedia.org/property/h8LengthF
-http://dbpedia.org/property/h8LengthM
-http://dbpedia.org/property/h8Number
-http://dbpedia.org/property/h8Surface
-http://dbpedia.org/property/h9LengthF
-http://dbpedia.org/property/h9LengthM
-http://dbpedia.org/property/h9Number
-http://dbpedia.org/property/h9Surface
-http://dbpedia.org/property/logoUpright
-http://dbpedia.org/property/sepRainInch
-http://dbpedia.org/property/yearRainInch
-http://dbpedia.org/property/aprRainInch
-http://dbpedia.org/property/augRainInch
-http://dbpedia.org/property/decRainInch
-http://dbpedia.org/property/febRainInch
-http://dbpedia.org/property/janRainInch
-http://dbpedia.org/property/julRainInch
-http://dbpedia.org/property/junRainInch
-http://dbpedia.org/property/marRainInch
-http://dbpedia.org/property/mayRainInch
-http://dbpedia.org/property/novRainInch
-http://dbpedia.org/property/octRainInch
-http://dbpedia.org/property/humboldt
-http://dbpedia.org/property/2ndhwy
-http://dbpedia.org/property/hwy
-http://dbpedia.org/property/mname
-http://dbpedia.org/property/mnumber
-http://dbpedia.org/property/spacing
-http://dbpedia.org/property/textAlign
-http://dbpedia.org/property/williamstown
-http://dbpedia.org/property/colors
-http://dbpedia.org/property/downstreamSign
-http://dbpedia.org/property/photo1a
-http://dbpedia.org/property/photo1b
-http://dbpedia.org/property/lk
-http://dbpedia.org/property/customIcon
-http://dbpedia.org/property/customText
-http://dbpedia.org/property/englewood
-http://dbpedia.org/property/jackson
-http://dbpedia.org/property/stakeholders
-http://dbpedia.org/property/weekendsevenings
-http://dbpedia.org/property/plannedStart
-http://dbpedia.org/property/voivodeship
-http://dbpedia.org/property/areas
-http://dbpedia.org/property/countrySpecial
-http://dbpedia.org/property/maxCost
-http://dbpedia.org/property/minCost
-http://dbpedia.org/property/alternateNames
-http://dbpedia.org/property/renCost
-http://dbpedia.org/property/renovationDate
-http://dbpedia.org/property/thumb
-http://dbpedia.org/property/stat8Data
-http://dbpedia.org/property/stat8Header
-http://dbpedia.org/property/parishSpecial
-http://dbpedia.org/property/trailheads
-http://dbpedia.org/property/season
-http://dbpedia.org/property/sights
-http://dbpedia.org/property/surface
-http://dbpedia.org/property/difficulty
-http://dbpedia.org/property/months
-http://dbpedia.org/property/navbarPos
-http://dbpedia.org/property/rcalign
-http://dbpedia.org/property/encyber
-http://dbpedia.org/property/nate
-http://dbpedia.org/property/interchangeNote
-http://dbpedia.org/property/mlanguage
-http://dbpedia.org/property/shippingClearanceAbove
-http://dbpedia.org/property/underground
-http://dbpedia.org/property/postspanbergen
-http://dbpedia.org/property/postspankristiansand
-http://dbpedia.org/property/prespanbergen
-http://dbpedia.org/property/prespankristiansand
-http://dbpedia.org/property/sign
-http://dbpedia.org/property/ground
-http://dbpedia.org/property/countyClub
-http://dbpedia.org/property/homeClub
-http://dbpedia.org/property/lastUsed
-http://dbpedia.org/property/acceleration
-http://dbpedia.org/property/bogies
-http://dbpedia.org/property/brakes
-http://dbpedia.org/property/coupling
-http://dbpedia.org/property/multipleworking
-http://dbpedia.org/property/numberscrapped
-http://dbpedia.org/property/replaced
-http://dbpedia.org/property/safety
-http://dbpedia.org/property/yearscrapped
-http://dbpedia.org/property/numberconstruction
-http://dbpedia.org/ontology/manufacturer
-http://dbpedia.org/property/postText
-http://dbpedia.org/property/shireCounty
-http://dbpedia.org/property/shireDistrict
-http://dbpedia.org/property/duplicateNotes
-http://dbpedia.org/property/countryafter
-http://dbpedia.org/property/countrybefore
-http://dbpedia.org/property/countrybeforelink
-http://dbpedia.org/property/districtSpecial
-http://dbpedia.org/property/p1Stop
-http://dbpedia.org/property/qspan
-http://dbpedia.org/property/spillwayLength
-http://dbpedia.org/property/spillwayVolumetricFlowRate
-http://dbpedia.org/property/exchangePlace
-http://dbpedia.org/property/structurenumber
-http://dbpedia.org/property/datakey
-http://dbpedia.org/property/lengthRnd
-http://dbpedia.org/property/npFuelSupplier
-http://dbpedia.org/property/1a
-http://dbpedia.org/property/1p
-http://dbpedia.org/property/1y
-http://dbpedia.org/property/2a
-http://dbpedia.org/property/2p
-http://dbpedia.org/property/2y
-http://dbpedia.org/property/flemingtonRacecourse
-http://dbpedia.org/property/h7LengthM
-http://dbpedia.org/property/h7Number
-http://dbpedia.org/property/h7Surface
-http://dbpedia.org/property/about
-http://dbpedia.org/property/stateIso
-http://dbpedia.org/property/pos
-http://dbpedia.org/property/coordsource
-http://dbpedia.org/property/nrisref
-http://dbpedia.org/property/clear
-http://dbpedia.org/property/complex
-http://dbpedia.org/property/p4cstop
-http://dbpedia.org/property/successorLine
-http://dbpedia.org/property/communes
-http://dbpedia.org/property/cols
-http://dbpedia.org/property/oblasts
-http://dbpedia.org/property/abbr
-http://dbpedia.org/property/designatedOther1Abbr
-http://dbpedia.org/property/designatedOther1Color
-http://dbpedia.org/property/designatedOther1Link
-http://dbpedia.org/property/designatedOther1Name
-http://dbpedia.org/property/p1dnotes
-http://dbpedia.org/property/p1dstop
-http://dbpedia.org/property/p2dlinename
-http://dbpedia.org/property/p2dnotes
-http://dbpedia.org/property/p2dstop
-http://dbpedia.org/property/p4cnotes
-http://dbpedia.org/ontology/wikiPageRedirects
-http://dbpedia.org/property/ownership
-http://dbpedia.org/property/solarTracker
-http://dbpedia.org/property/dailyridership
-http://dbpedia.org/property/garage
-http://dbpedia.org/property/closingYear
-http://dbpedia.org/property/financialYear
-http://dbpedia.org/property/teo
-http://dbpedia.org/property/enclosed
-http://dbpedia.org/property/mi
-http://dbpedia.org/property/guildfordViaS
-http://dbpedia.org/property/inclosedStation
-http://dbpedia.org/property/map3Collapse
-http://dbpedia.org/property/map3Collapsible
-http://dbpedia.org/property/picsize
-http://dbpedia.org/property/normal
-http://dbpedia.org/property/rainham
-http://dbpedia.org/property/showsldlink
-http://dbpedia.org/property/age
-http://dbpedia.org/property/photoCaption
-http://dbpedia.org/property/mrn
-http://www.w3.org/2004/02/skos/core#broader
-http://dbpedia.org/property/unitdef
-http://dbpedia.org/ontology/spurOf
-http://dbpedia.org/property/indepCities
-http://dbpedia.org/property/ile
-http://dbpedia.org/property/oldRef
-http://dbpedia.org/property/silom
-http://dbpedia.org/property/path
-http://dbpedia.org/property/bp
-http://dbpedia.org/property/lowerSpillwayType
-http://dbpedia.org/property/republics
-http://dbpedia.org/property/sub1dab
-http://dbpedia.org/property/powertype
-http://dbpedia.org/property/valvegear
-http://dbpedia.org/property/whytetype
-http://dbpedia.org/property/boilerpressure
-http://dbpedia.org/property/fueltype
-http://dbpedia.org/property/preservedunits
-http://dbpedia.org/property/highwaySystemQid
-http://dbpedia.org/property/rlong
-http://dbpedia.org/property/leff
-http://dbpedia.org/property/regionSpecial
-http://dbpedia.org/property/shapeClor
-http://dbpedia.org/property/interiorcaption
-http://dbpedia.org/property/crew
-http://dbpedia.org/property/family
-http://dbpedia.org/property/summary
-http://dbpedia.org/property/weight
-http://dbpedia.org/property/plane1Caption
-http://dbpedia.org/property/plane1Image
-http://dbpedia.org/property/plane2Caption
-http://dbpedia.org/property/plane2Crew
-http://dbpedia.org/property/plane2Fatalities
-http://dbpedia.org/property/plane2Image
-http://dbpedia.org/property/plane2Operator
-http://dbpedia.org/property/plane2Passengers
-http://dbpedia.org/property/plane2Tailnum
-http://dbpedia.org/property/plane2Type
-http://dbpedia.org/property/totalSurvivors
-http://dbpedia.org/property/totalFatalities
-http://dbpedia.org/property/aircraftType
-http://dbpedia.org/property/occurrenceType
-http://dbpedia.org/property/survivors
-http://dbpedia.org/property/tailNumber
-http://dbpedia.org/property/by
-http://dbpedia.org/property/onlinebooks
-http://dbpedia.org/property/psFeedInTariff
-http://dbpedia.org/property/gold
-http://dbpedia.org/property/enref
-http://dbpedia.org/property/grid
-http://dbpedia.org/property/legend1start
-http://dbpedia.org/property/legend1title
-http://dbpedia.org/property/overlay
-http://dbpedia.org/property/overlay1colour
-http://dbpedia.org/property/overlay1left
-http://dbpedia.org/property/overlay1top
-http://dbpedia.org/property/overlay2colour
-http://dbpedia.org/property/overlay2left
-http://dbpedia.org/property/overlay2top
-http://dbpedia.org/property/overlay3colour
-http://dbpedia.org/property/overlay3left
-http://dbpedia.org/property/overlay3top
-http://dbpedia.org/property/overlay4colour
-http://dbpedia.org/property/overlay4left
-http://dbpedia.org/property/overlay4top
-http://dbpedia.org/property/overlay5colour
-http://dbpedia.org/property/overlay5left
-http://dbpedia.org/property/overlay5top
-http://dbpedia.org/property/psIwppWaterOutput
-http://dbpedia.org/property/pushpinOutside
-http://dbpedia.org/property/tablewidth
-http://dbpedia.org/property/designatedNrhpType
-http://dbpedia.org/property/lit
-http://dbpedia.org/property/mapDataLight
-http://dbpedia.org/property/mapframeCoordinates
-http://dbpedia.org/property/qSearch
-http://dbpedia.org/property/dSearch
-http://dbpedia.org/property/i
-http://dbpedia.org/property/acVoltage
-http://dbpedia.org/property/circuitsNo
-http://dbpedia.org/property/currentType
-http://dbpedia.org/property/expected
-http://dbpedia.org/property/lang2Content
-http://dbpedia.org/property/postofotsto
-http://dbpedia.org/property/snowmaking
-http://dbpedia.org/property/terrainparks
-http://dbpedia.org/property/vertical
-http://dbpedia.org/property/externalLink
-http://dbpedia.org/property/liftsystem
-http://dbpedia.org/property/nightskiing
-http://dbpedia.org/property/numberTrails
-http://dbpedia.org/property/shortlink
-http://dbpedia.org/property/lowerSpillwayVolumetricFlowRate
-http://dbpedia.org/property/rm
-http://dbpedia.org/property/mark2size
-http://dbpedia.org/property/designation2Date
-http://dbpedia.org/property/designation2Number
-http://dbpedia.org/property/designation2Offname
-http://dbpedia.org/property/theme
-http://dbpedia.org/property/bg
-http://dbpedia.org/property/lat2Min
-http://dbpedia.org/property/lon2Min
-http://dbpedia.org/property/casinoType
-http://dbpedia.org/property/dateClosed
-http://dbpedia.org/property/lake
-http://dbpedia.org/property/lat2Dir
-http://dbpedia.org/property/licenseHolder
-http://dbpedia.org/property/lon2Dir
-http://dbpedia.org/property/renovations
-http://dbpedia.org/property/sepDewPointF
-http://dbpedia.org/property/yearDewPointF
-http://dbpedia.org/property/aprDewPointF
-http://dbpedia.org/property/augDewPointF
-http://dbpedia.org/property/decDewPointF
-http://dbpedia.org/property/febDewPointF
-http://dbpedia.org/property/imageStyle
-http://dbpedia.org/property/janDewPointF
-http://dbpedia.org/property/julDewPointF
-http://dbpedia.org/property/junDewPointF
-http://dbpedia.org/property/marDewPointF
-http://dbpedia.org/property/mayDewPointF
-http://dbpedia.org/property/novDewPointF
-http://dbpedia.org/property/octDewPointF
-http://dbpedia.org/property/sponsor
-http://dbpedia.org/property/mukim
-http://dbpedia.org/property/mukimspan
-http://dbpedia.org/property/stateMiscellaneous
-http://dbpedia.org/property/arcTextSizeb
-http://dbpedia.org/property/arcTextSizec
-http://dbpedia.org/property/chungbuk
-http://dbpedia.org/property/sure
-http://dbpedia.org/property/dissolved
-http://dbpedia.org/property/jurisdiction
-http://dbpedia.org/property/agencyName
-http://dbpedia.org/property/agencyType
-http://dbpedia.org/property/chief1Name
-http://dbpedia.org/property/chief1Position
-http://dbpedia.org/property/keydocument
-http://dbpedia.org/property/minister1Name
-http://dbpedia.org/property/minister1Pfo
-http://dbpedia.org/property/p6notes
-http://dbpedia.org/property/parentDepartment
-http://dbpedia.org/property/teda
-http://dbpedia.org/property/imgwidth
-http://dbpedia.org/property/typeName
-http://dbpedia.org/property/imageTitle
-http://dbpedia.org/property/sepAvgRecordHighC
-http://dbpedia.org/property/sepAvgRecordLowC
-http://dbpedia.org/property/sepSnowDepthInch
-http://dbpedia.org/property/yearSnowDepthInch
-http://dbpedia.org/property/publisher
-http://dbpedia.org/property/aprAvgRecordHighC
-http://dbpedia.org/property/aprAvgRecordLowC
-http://dbpedia.org/property/aprSnowDepthInch
-http://dbpedia.org/property/augAvgRecordHighC
-http://dbpedia.org/property/augAvgRecordLowC
-http://dbpedia.org/property/augSnowDepthInch
-http://dbpedia.org/property/decAvgRecordHighC
-http://dbpedia.org/property/decAvgRecordLowC
-http://dbpedia.org/property/decSnowDepthInch
-http://dbpedia.org/property/febAvgRecordHighC
-http://dbpedia.org/property/febAvgRecordLowC
-http://dbpedia.org/property/febSnowDepthInch
-http://dbpedia.org/property/janAvgRecordHighC
-http://dbpedia.org/property/janAvgRecordLowC
-http://dbpedia.org/property/janSnowDepthInch
-http://dbpedia.org/property/julAvgRecordHighC
-http://dbpedia.org/property/julAvgRecordLowC
-http://dbpedia.org/property/julSnowDepthInch
-http://dbpedia.org/property/junAvgRecordHighC
-http://dbpedia.org/property/junAvgRecordLowC
-http://dbpedia.org/property/junSnowDepthInch
-http://dbpedia.org/property/marAvgRecordHighC
-http://dbpedia.org/property/marAvgRecordLowC
-http://dbpedia.org/property/marSnowDepthInch
-http://dbpedia.org/property/mayAvgRecordHighC
-http://dbpedia.org/property/mayAvgRecordLowC
-http://dbpedia.org/property/maySnowDepthInch
-http://dbpedia.org/property/novAvgRecordHighC
-http://dbpedia.org/property/novAvgRecordLowC
-http://dbpedia.org/property/novSnowDepthInch
-http://dbpedia.org/property/octAvgRecordHighC
-http://dbpedia.org/property/octAvgRecordLowC
-http://dbpedia.org/property/octSnowDepthInch
-http://dbpedia.org/property/mark3size
-http://dbpedia.org/property/lat3Min
-http://dbpedia.org/property/lon3Min
-http://dbpedia.org/property/suppressfields
-http://dbpedia.org/property/pastCommanders
-http://dbpedia.org/property/douglas
-http://dbpedia.org/property/garfield
-http://dbpedia.org/property/metropolitan
-http://dbpedia.org/property/category
-http://dbpedia.org/property/hb
-http://dbpedia.org/property/parbur
-http://dbpedia.org/property/aqueductName
-http://dbpedia.org/property/circaEstablished
-http://dbpedia.org/property/partofRefnum
-http://dbpedia.org/property/halign
-http://dbpedia.org/property/weekdaysnights
-http://dbpedia.org/property/weekendsnights
-http://dbpedia.org/property/highlight
-http://dbpedia.org/property/closeDate
-http://dbpedia.org/property/nextNorth
-http://dbpedia.org/property/nextSouth
-http://dbpedia.org/property/openDate
-http://dbpedia.org/property/serviceCustom
-http://dbpedia.org/property/headerimage
-http://dbpedia.org/property/rushreversepeak
-http://dbpedia.org/property/gg
-http://dbpedia.org/property/increase
-http://dbpedia.org/property/increaseRefnum
-http://dbpedia.org/property/overlayImage
-http://dbpedia.org/property/gyeonggang
-http://dbpedia.org/property/constructionToBegin
-http://dbpedia.org/property/listed
-http://dbpedia.org/property/hn
-http://dbpedia.org/property/predecessor
-http://dbpedia.org/property/resTidalRange
-http://dbpedia.org/property/mapframeId
-http://dbpedia.org/property/predecessorLine
-http://dbpedia.org/property/trainLength
-http://dbpedia.org/property/headway
-http://dbpedia.org/property/operationWillStart
-http://dbpedia.org/property/chengjiao
-http://dbpedia.org/property/sub1Special
-http://dbpedia.org/property/sub1name
-http://dbpedia.org/property/sub1span
-http://dbpedia.org/property/sub2span
-http://dbpedia.org/property/lbels
-http://dbpedia.org/ontology/spurType
-http://dbpedia.org/property/sepChill
-http://dbpedia.org/property/sepMaximumHumidex
-http://dbpedia.org/property/yearChill
-http://dbpedia.org/property/yearMaximumHumidex
-http://dbpedia.org/property/pahistoricType
-http://dbpedia.org/property/locations
-http://dbpedia.org/property/designatedPahistoricType
-http://dbpedia.org/property/aprChill
-http://dbpedia.org/property/aprMaximumHumidex
-http://dbpedia.org/property/augChill
-http://dbpedia.org/property/augMaximumHumidex
-http://dbpedia.org/property/decChill
-http://dbpedia.org/property/decMaximumHumidex
-http://dbpedia.org/property/febChill
-http://dbpedia.org/property/febMaximumHumidex
-http://dbpedia.org/property/h12LengthF
-http://dbpedia.org/property/h12LengthM
-http://dbpedia.org/property/h12Number
-http://dbpedia.org/property/h12Surface
-http://dbpedia.org/property/h7LengthF
-http://dbpedia.org/property/janChill
-http://dbpedia.org/property/janMaximumHumidex
-http://dbpedia.org/property/julChill
-http://dbpedia.org/property/julMaximumHumidex
-http://dbpedia.org/property/junChill
-http://dbpedia.org/property/junMaximumHumidex
-http://dbpedia.org/property/marChill
-http://dbpedia.org/property/marMaximumHumidex
-http://dbpedia.org/property/mayChill
-http://dbpedia.org/property/mayMaximumHumidex
-http://dbpedia.org/property/novChill
-http://dbpedia.org/property/novMaximumHumidex
-http://dbpedia.org/property/octChill
-http://dbpedia.org/property/octMaximumHumidex
-http://dbpedia.org/property/r7LengthF
-http://dbpedia.org/property/r7LengthM
-http://dbpedia.org/property/r7Number
-http://dbpedia.org/property/r7Surface
-http://dbpedia.org/property/r8LengthF
-http://dbpedia.org/property/r8LengthM
-http://dbpedia.org/property/r8Number
-http://dbpedia.org/property/r8Surface
-http://dbpedia.org/property/locationDir
-http://dbpedia.org/property/hibottom
-http://dbpedia.org/property/oright
-http://dbpedia.org/property/version
-http://dbpedia.org/property/defunct
-http://dbpedia.org/property/cvr
-http://dbpedia.org/property/wikidata
-http://dbpedia.org/property/wnw
-http://dbpedia.org/property/wsw
-http://dbpedia.org/property/ene
-http://dbpedia.org/property/ese
-http://dbpedia.org/property/gazettedRef
-http://dbpedia.org/property/hqLocationCity
-http://dbpedia.org/property/hqLocationCountry
-http://dbpedia.org/property/jspan
-http://dbpedia.org/property/ldab
-http://dbpedia.org/property/map1Title
-http://dbpedia.org/property/map4Title
-http://dbpedia.org/property/map5Title
-http://dbpedia.org/property/map6Title
-http://dbpedia.org/property/tractionmotors
-http://dbpedia.org/property/builddate
-http://dbpedia.org/property/uicclass
-http://dbpedia.org/property/disposition
-http://dbpedia.org/property/numinclass
-http://dbpedia.org/property/fall
-http://dbpedia.org/property/lockName
-http://dbpedia.org/property/operation
-http://dbpedia.org/property/sealevel
-http://dbpedia.org/property/client
-http://dbpedia.org/property/depotcode
-http://dbpedia.org/property/formerDepotCodes
-http://dbpedia.org/property/gridRefUk
-http://dbpedia.org/property/child
-http://dbpedia.org/property/decat
-http://dbpedia.org/property/lmz
-http://dbpedia.org/property/pujiang
-http://dbpedia.org/property/windMinimumBladeTipHeight
-http://dbpedia.org/property/título
-http://dbpedia.org/property/darkgreen
-http://dbpedia.org/property/fechaacceso
-http://dbpedia.org/property/yanfang
-http://dbpedia.org/property/cnhangul
-http://dbpedia.org/property/cnhanja
-http://dbpedia.org/property/cnmr
-http://dbpedia.org/property/cnrr
-http://dbpedia.org/property/mlcts
-http://dbpedia.org/property/my
-http://dbpedia.org/property/shinbundang
-http://dbpedia.org/ontology/wikiPageDisambiguates
-http://dbpedia.org/property/captionPosition
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#sameAs> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/icaoLocationIdentifier> rdfs:domain <http://dbpedia.org/ontology/Airport> .
+<http://dbpedia.org/ontology/icaoLocationIdentifier> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/icaoLocationIdentifier> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/icaoLocationIdentifier> rdfs:domain <http://dbpedia.org/ontology/Airport> .
+<http://dbpedia.org/ontology/icaoLocationIdentifier> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/icaoLocationIdentifier> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/lake> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/lake> rdfs:range <http://dbpedia.org/ontology/BodyOfWater> .
+<http://dbpedia.org/ontology/lake> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/lake> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/lake> rdfs:range <http://dbpedia.org/ontology/BodyOfWater> .
+<http://dbpedia.org/ontology/lake> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/river> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/river> rdfs:range <http://dbpedia.org/ontology/River> .
+<http://dbpedia.org/ontology/river> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/river> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/river> rdfs:range <http://dbpedia.org/ontology/River> .
+<http://dbpedia.org/ontology/river> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/areaOfCatchment> rdfs:domain <http://dbpedia.org/ontology/Lake> .
+<http://dbpedia.org/ontology/areaOfCatchment> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/areaOfCatchment> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/areaOfCatchment> rdfs:domain <http://dbpedia.org/ontology/Lake> .
+<http://dbpedia.org/ontology/areaOfCatchment> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/areaOfCatchment> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/averageDepth> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/averageDepth> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/averageDepth> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/averageDepth> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/averageDepth> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/averageDepth> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/buildingStartYear> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/buildingStartYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/buildingStartYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/buildingStartYear> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/buildingStartYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/buildingStartYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/Infrastructure/length> rdfs:domain <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/Infrastructure/length> rdfs:range <http://dbpedia.org/datatype/kilometre> .
+<http://dbpedia.org/ontology/Infrastructure/length> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/address> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/address> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/address> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/address> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/address> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/address> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/areaTotal> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/areaTotal> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/areaTotal> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/areaTotal> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/areaTotal> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/areaTotal> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/bridgeCarries> rdfs:domain <http://dbpedia.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/bridgeCarries> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/bridgeCarries> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/bridgeCarries> rdfs:domain <http://dbpedia.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/bridgeCarries> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/bridgeCarries> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/elevation> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/elevation> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/elevation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/elevation> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/elevation> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/elevation> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/fareZone> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/fareZone> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/fareZone> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/fareZone> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/fareZone> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/fareZone> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/isHandicappedAccessible> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/isHandicappedAccessible> rdfs:range <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://dbpedia.org/ontology/isHandicappedAccessible> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/isHandicappedAccessible> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/isHandicappedAccessible> rdfs:range <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://dbpedia.org/ontology/isHandicappedAccessible> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/mainspan> rdfs:domain <http://dbpedia.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/mainspan> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/mainspan> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/mainspan> rdfs:domain <http://dbpedia.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/mainspan> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/mainspan> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/numberOfTracks> rdfs:domain <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/numberOfTracks> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfTracks> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfTracks> rdfs:domain <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/numberOfTracks> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfTracks> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/railwayPlatforms> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/railwayPlatforms> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/railwayPlatforms> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/railwayPlatforms> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/railwayPlatforms> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/railwayPlatforms> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/routeEndDirection> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeEndDirection> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/routeEndDirection> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/routeEndDirection> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeEndDirection> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/routeEndDirection> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/routeStartDirection> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeStartDirection> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/routeStartDirection> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/routeStartDirection> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeStartDirection> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/routeStartDirection> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/runwayDesignation> rdfs:domain <http://dbpedia.org/ontology/Airport> .
+<http://dbpedia.org/ontology/runwayDesignation> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/runwayDesignation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/runwayDesignation> rdfs:domain <http://dbpedia.org/ontology/Airport> .
+<http://dbpedia.org/ontology/runwayDesignation> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/runwayDesignation> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/runwayLength> rdfs:domain <http://dbpedia.org/ontology/Airport> .
+<http://dbpedia.org/ontology/runwayLength> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/runwayLength> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/runwayLength> rdfs:domain <http://dbpedia.org/ontology/Airport> .
+<http://dbpedia.org/ontology/runwayLength> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/runwayLength> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/runwaySurface> rdfs:domain <http://dbpedia.org/ontology/Airport> .
+<http://dbpedia.org/ontology/runwaySurface> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/runwaySurface> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/runwaySurface> rdfs:domain <http://dbpedia.org/ontology/Airport> .
+<http://dbpedia.org/ontology/runwaySurface> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/runwaySurface> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/stationStructure> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/stationStructure> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/stationStructure> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/stationStructure> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/stationStructure> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/stationStructure> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/unitedStatesNationalBridgeId> rdfs:domain <http://dbpedia.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/unitedStatesNationalBridgeId> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/unitedStatesNationalBridgeId> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/unitedStatesNationalBridgeId> rdfs:domain <http://dbpedia.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/unitedStatesNationalBridgeId> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/unitedStatesNationalBridgeId> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/vehiclesPerDay> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/vehiclesPerDay> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/vehiclesPerDay> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/vehiclesPerDay> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/vehiclesPerDay> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/vehiclesPerDay> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/faaLocationIdentifier> rdfs:domain <http://dbpedia.org/ontology/Airport> .
+<http://dbpedia.org/ontology/faaLocationIdentifier> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/faaLocationIdentifier> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/faaLocationIdentifier> rdfs:domain <http://dbpedia.org/ontology/Airport> .
+<http://dbpedia.org/ontology/faaLocationIdentifier> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/faaLocationIdentifier> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/iataLocationIdentifier> rdfs:domain <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/iataLocationIdentifier> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/iataLocationIdentifier> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/iataLocationIdentifier> rdfs:domain <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/iataLocationIdentifier> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/iataLocationIdentifier> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/crosses> rdfs:domain <http://dbpedia.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/crosses> rdfs:range <http://dbpedia.org/ontology/River> .
+<http://dbpedia.org/ontology/crosses> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/crosses> rdfs:domain <http://dbpedia.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/crosses> rdfs:range <http://dbpedia.org/ontology/River> .
+<http://dbpedia.org/ontology/crosses> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/locatedInArea> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/locatedInArea> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/locatedInArea> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/locatedInArea> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/locatedInArea> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/locatedInArea> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/routeEnd> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeEnd> rdfs:range <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/routeEnd> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/routeEnd> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeEnd> rdfs:range <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/routeEnd> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/routeStart> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeStart> rdfs:range <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/routeStart> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/routeStart> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeStart> rdfs:range <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/routeStart> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/lineLength> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/lineLength> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/lineLength> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/lineLength> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/lineLength> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/lineLength> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/numberOfStations> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/numberOfStations> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfStations> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfStations> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/numberOfStations> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfStations> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/speedLimit> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/speedLimit> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/speedLimit> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/speedLimit> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/speedLimit> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/speedLimit> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/agencyStationCode> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/agencyStationCode> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/agencyStationCode> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/agencyStationCode> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/agencyStationCode> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/agencyStationCode> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/bicycleInformation> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/bicycleInformation> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/bicycleInformation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/bicycleInformation> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/bicycleInformation> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/bicycleInformation> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/otherServingLines> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/otherServingLines> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/otherServingLines> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/otherServingLines> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/otherServingLines> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/otherServingLines> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/parkingInformation> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/parkingInformation> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/parkingInformation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/parkingInformation> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/parkingInformation> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/parkingInformation> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/passengersPerYear> rdfs:domain <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/passengersPerYear> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/passengersPerYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/passengersPerYear> rdfs:domain <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/passengersPerYear> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/passengersPerYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/rebuildingDate> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/rebuildingDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/rebuildingDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/rebuildingDate> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/rebuildingDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/rebuildingDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/rebuildingYear> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/rebuildingYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/rebuildingYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/rebuildingYear> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/rebuildingYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/rebuildingYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/routeTypeAbbreviation> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeTypeAbbreviation> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/routeTypeAbbreviation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/routeTypeAbbreviation> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeTypeAbbreviation> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/routeTypeAbbreviation> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/visitorStatisticsAsOf> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/visitorStatisticsAsOf> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/visitorStatisticsAsOf> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/visitorStatisticsAsOf> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/visitorStatisticsAsOf> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/visitorStatisticsAsOf> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/passengersUsedSystem> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/passengersUsedSystem> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/passengersUsedSystem> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/passengersUsedSystem> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/passengersUsedSystem> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/passengersUsedSystem> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/architect> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/architect> rdfs:range <http://dbpedia.org/ontology/Architect> .
+<http://dbpedia.org/ontology/architect> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/architect> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/architect> rdfs:range <http://dbpedia.org/ontology/Architect> .
+<http://dbpedia.org/ontology/architect> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/routeJunction> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeJunction> rdfs:range <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/routeJunction> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/routeJunction> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeJunction> rdfs:range <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/routeJunction> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/inflow> rdfs:domain <http://dbpedia.org/ontology/BodyOfWater> .
+<http://dbpedia.org/ontology/inflow> rdfs:range <http://dbpedia.org/ontology/BodyOfWater> .
+<http://dbpedia.org/ontology/inflow> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/inflow> rdfs:domain <http://dbpedia.org/ontology/BodyOfWater> .
+<http://dbpedia.org/ontology/inflow> rdfs:range <http://dbpedia.org/ontology/BodyOfWater> .
+<http://dbpedia.org/ontology/inflow> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/outflow> rdfs:domain <http://dbpedia.org/ontology/BodyOfWater> .
+<http://dbpedia.org/ontology/outflow> rdfs:range <http://dbpedia.org/ontology/River> .
+<http://dbpedia.org/ontology/outflow> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/outflow> rdfs:domain <http://dbpedia.org/ontology/BodyOfWater> .
+<http://dbpedia.org/ontology/outflow> rdfs:range <http://dbpedia.org/ontology/River> .
+<http://dbpedia.org/ontology/outflow> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/depth> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/depth> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/depth> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/depth> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/depth> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/depth> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/numberOfSpans> rdfs:domain <http://dbpedia.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/numberOfSpans> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfSpans> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfSpans> rdfs:domain <http://dbpedia.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/numberOfSpans> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfSpans> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/routeEndLocation> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeEndLocation> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/routeEndLocation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/routeEndLocation> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeEndLocation> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/routeEndLocation> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/routeStartLocation> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeStartLocation> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/routeStartLocation> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/routeStartLocation> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeStartLocation> rdfs:range <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/routeStartLocation> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/installedCapacity> rdfs:domain <http://dbpedia.org/ontology/PowerStation> .
+<http://dbpedia.org/ontology/installedCapacity> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/installedCapacity> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/installedCapacity> rdfs:domain <http://dbpedia.org/ontology/PowerStation> .
+<http://dbpedia.org/ontology/installedCapacity> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/installedCapacity> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/installedCapacity> rdfs:domain <http://dbpedia.org/ontology/PowerStation> .
+<http://dbpedia.org/ontology/installedCapacity> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/installedCapacity> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/nearestCity> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/nearestCity> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/nearestCity> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/nearestCity> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/nearestCity> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/nearestCity> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:domain <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdfs:range <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2002/07/owl#differentFrom> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfPlatformLevels> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/numberOfPlatformLevels> rdfs:range <http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/numberOfPlatformLevels> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfPlatformLevels> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/numberOfPlatformLevels> rdfs:range <http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/ontology/numberOfPlatformLevels> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/routeNumber> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeNumber> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/routeNumber> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/routeNumber> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/routeNumber> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/routeNumber> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/yearOfElectrification> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/yearOfElectrification> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/yearOfElectrification> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/yearOfElectrification> rdfs:domain <http://dbpedia.org/ontology/Station> .
+<http://dbpedia.org/ontology/yearOfElectrification> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/yearOfElectrification> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/maximumDepth> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/maximumDepth> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/maximumDepth> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/maximumDepth> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/maximumDepth> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/maximumDepth> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/numberOfLanes> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/numberOfLanes> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfLanes> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfLanes> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/numberOfLanes> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfLanes> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/capacityFactor> rdfs:domain <http://dbpedia.org/ontology/PowerStation> .
+<http://dbpedia.org/ontology/capacityFactor> rdfs:range <http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/ontology/capacityFactor> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/capacityFactor> rdfs:domain <http://dbpedia.org/ontology/PowerStation> .
+<http://dbpedia.org/ontology/capacityFactor> rdfs:range <http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/ontology/capacityFactor> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/averageAnnualGeneration> rdfs:domain <http://dbpedia.org/ontology/PowerStation> .
+<http://dbpedia.org/ontology/averageAnnualGeneration> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/averageAnnualGeneration> rdf:type <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://dbpedia.org/ontology/averageAnnualGeneration> rdfs:domain <http://dbpedia.org/ontology/PowerStation> .
+<http://dbpedia.org/ontology/averageAnnualGeneration> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/averageAnnualGeneration> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/averageAnnualGeneration> rdfs:domain <http://dbpedia.org/ontology/PowerStation> .
+<http://dbpedia.org/ontology/averageAnnualGeneration> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/averageAnnualGeneration> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/loadLimit> rdfs:domain <http://dbpedia.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/loadLimit> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/loadLimit> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/loadLimit> rdfs:domain <http://dbpedia.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/loadLimit> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/loadLimit> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/locationIdentifier> rdfs:domain <http://dbpedia.org/ontology/Airport> .
+<http://dbpedia.org/ontology/locationIdentifier> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/locationIdentifier> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/locationIdentifier> rdfs:domain <http://dbpedia.org/ontology/Airport> .
+<http://dbpedia.org/ontology/locationIdentifier> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/locationIdentifier> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/district> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/district> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/district> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/district> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/district> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/district> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/visitorsPercentageChange> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/visitorsPercentageChange> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/visitorsPercentageChange> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/visitorsPercentageChange> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/visitorsPercentageChange> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/visitorsPercentageChange> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/toll> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/toll> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/toll> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/toll> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/toll> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/toll> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/quote> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/quote> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/quote> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/quote> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/quote> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/quote> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/shoreLength> rdfs:domain <http://dbpedia.org/ontology/BodyOfWater> .
+<http://dbpedia.org/ontology/shoreLength> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/shoreLength> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/shoreLength> rdfs:domain <http://dbpedia.org/ontology/BodyOfWater> .
+<http://dbpedia.org/ontology/shoreLength> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/shoreLength> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/gridReference> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/gridReference> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/gridReference> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/gridReference> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/gridReference> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/gridReference> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/numberOfPiersInWater> rdfs:domain <http://dbpedia.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/numberOfPiersInWater> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfPiersInWater> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfPiersInWater> rdfs:domain <http://dbpedia.org/ontology/Bridge> .
+<http://dbpedia.org/ontology/numberOfPiersInWater> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfPiersInWater> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/yearOfConstruction> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/yearOfConstruction> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/yearOfConstruction> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/yearOfConstruction> rdfs:domain <http://dbpedia.org/ontology/Place> .
+<http://dbpedia.org/ontology/yearOfConstruction> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/yearOfConstruction> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/launchSite> rdfs:domain <http://dbpedia.org/ontology/SpaceMission> .
+<http://dbpedia.org/ontology/launchSite> rdfs:range <http://dbpedia.org/ontology/Building> .
+<http://dbpedia.org/ontology/launchSite> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/launchSite> rdfs:domain <http://dbpedia.org/ontology/SpaceMission> .
+<http://dbpedia.org/ontology/launchSite> rdfs:range <http://dbpedia.org/ontology/Building> .
+<http://dbpedia.org/ontology/launchSite> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/numberOfPads> rdfs:domain <http://dbpedia.org/ontology/LaunchPad> .
+<http://dbpedia.org/ontology/numberOfPads> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfPads> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfPads> rdfs:domain <http://dbpedia.org/ontology/LaunchPad> .
+<http://dbpedia.org/ontology/numberOfPads> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfPads> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/beltwayCity> rdfs:domain <http://dbpedia.org/ontology/Road> .
+<http://dbpedia.org/ontology/beltwayCity> rdfs:range <http://dbpedia.org/ontology/City> .
+<http://dbpedia.org/ontology/beltwayCity> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/beltwayCity> rdfs:domain <http://dbpedia.org/ontology/Road> .
+<http://dbpedia.org/ontology/beltwayCity> rdfs:range <http://dbpedia.org/ontology/City> .
+<http://dbpedia.org/ontology/beltwayCity> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/demolitionDate> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/demolitionDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/demolitionDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/demolitionDate> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/demolitionDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/demolitionDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/trackLength> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/trackLength> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/trackLength> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/trackLength> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/trackLength> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/trackLength> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/island> rdfs:domain <http://dbpedia.org/ontology/BodyOfWater> .
+<http://dbpedia.org/ontology/island> rdfs:range <http://dbpedia.org/ontology/Island> .
+<http://dbpedia.org/ontology/island> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/island> rdfs:domain <http://dbpedia.org/ontology/BodyOfWater> .
+<http://dbpedia.org/ontology/island> rdfs:range <http://dbpedia.org/ontology/Island> .
+<http://dbpedia.org/ontology/island> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/railGauge> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/railGauge> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/railGauge> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/railGauge> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/railGauge> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/railGauge> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/meetingRoad> rdfs:domain <http://dbpedia.org/ontology/RoadJunction> .
+<http://dbpedia.org/ontology/meetingRoad> rdfs:range <http://dbpedia.org/ontology/Road> .
+<http://dbpedia.org/ontology/meetingRoad> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/meetingRoad> rdfs:domain <http://dbpedia.org/ontology/RoadJunction> .
+<http://dbpedia.org/ontology/meetingRoad> rdfs:range <http://dbpedia.org/ontology/Road> .
+<http://dbpedia.org/ontology/meetingRoad> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/voltageOfElectrification> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/voltageOfElectrification> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/voltageOfElectrification> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/voltageOfElectrification> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/voltageOfElectrification> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/voltageOfElectrification> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/buildingEndYear> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/buildingEndYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/buildingEndYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/buildingEndYear> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/buildingEndYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/buildingEndYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/previousInfrastructure> rdfs:domain <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/previousInfrastructure> rdfs:range <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/previousInfrastructure> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/previousInfrastructure> rdfs:domain <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/previousInfrastructure> rdfs:range <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/previousInfrastructure> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/subsequentInfrastructure> rdfs:domain <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/subsequentInfrastructure> rdfs:range <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/subsequentInfrastructure> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/subsequentInfrastructure> rdfs:domain <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/subsequentInfrastructure> rdfs:range <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/subsequentInfrastructure> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/numberOfLines> rdfs:domain <http://dbpedia.org/ontology/PublicTransitSystem> .
+<http://dbpedia.org/ontology/numberOfLines> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfLines> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfLines> rdfs:domain <http://dbpedia.org/ontology/PublicTransitSystem> .
+<http://dbpedia.org/ontology/numberOfLines> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfLines> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/passengersPerDay> rdfs:domain <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/passengersPerDay> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/passengersPerDay> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/passengersPerDay> rdfs:domain <http://dbpedia.org/ontology/Infrastructure> .
+<http://dbpedia.org/ontology/passengersPerDay> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/passengersPerDay> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/lengthReference> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/lengthReference> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/lengthReference> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/lengthReference> rdfs:domain <http://dbpedia.org/ontology/RouteOfTransportation> .
+<http://dbpedia.org/ontology/lengthReference> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/lengthReference> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/demolitionYear> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/demolitionYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/demolitionYear> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/demolitionYear> rdfs:domain <http://dbpedia.org/ontology/ArchitecturalStructure> .
+<http://dbpedia.org/ontology/demolitionYear> rdfs:range <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/ontology/demolitionYear> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/frozen> rdfs:domain <http://dbpedia.org/ontology/BodyOfWater> .
+<http://dbpedia.org/ontology/frozen> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/frozen> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/frozen> rdfs:domain <http://dbpedia.org/ontology/BodyOfWater> .
+<http://dbpedia.org/ontology/frozen> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/frozen> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/ruralMunicipality> rdfs:domain <http://dbpedia.org/ontology/Road> .
+<http://dbpedia.org/ontology/ruralMunicipality> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/ruralMunicipality> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/ruralMunicipality> rdfs:domain <http://dbpedia.org/ontology/Road> .
+<http://dbpedia.org/ontology/ruralMunicipality> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/ruralMunicipality> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/firstLaunchDate> rdfs:domain <http://dbpedia.org/ontology/LaunchPad> .
+<http://dbpedia.org/ontology/firstLaunchDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/firstLaunchDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/firstLaunchDate> rdfs:domain <http://dbpedia.org/ontology/LaunchPad> .
+<http://dbpedia.org/ontology/firstLaunchDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/firstLaunchDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/firstLaunchRocket> rdfs:domain <http://dbpedia.org/ontology/LaunchPad> .
+<http://dbpedia.org/ontology/firstLaunchRocket> rdfs:range <http://dbpedia.org/ontology/Rocket> .
+<http://dbpedia.org/ontology/firstLaunchRocket> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/firstLaunchRocket> rdfs:domain <http://dbpedia.org/ontology/LaunchPad> .
+<http://dbpedia.org/ontology/firstLaunchRocket> rdfs:range <http://dbpedia.org/ontology/Rocket> .
+<http://dbpedia.org/ontology/firstLaunchRocket> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/lastLaunchDate> rdfs:domain <http://dbpedia.org/ontology/LaunchPad> .
+<http://dbpedia.org/ontology/lastLaunchDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/lastLaunchDate> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/lastLaunchDate> rdfs:domain <http://dbpedia.org/ontology/LaunchPad> .
+<http://dbpedia.org/ontology/lastLaunchDate> rdfs:range <http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/ontology/lastLaunchDate> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/lastLaunchRocket> rdfs:domain <http://dbpedia.org/ontology/LaunchPad> .
+<http://dbpedia.org/ontology/lastLaunchRocket> rdfs:range <http://dbpedia.org/ontology/Rocket> .
+<http://dbpedia.org/ontology/lastLaunchRocket> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/lastLaunchRocket> rdfs:domain <http://dbpedia.org/ontology/LaunchPad> .
+<http://dbpedia.org/ontology/lastLaunchRocket> rdfs:range <http://dbpedia.org/ontology/Rocket> .
+<http://dbpedia.org/ontology/lastLaunchRocket> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/generationUnits> rdfs:domain <http://dbpedia.org/ontology/PowerStation> .
+<http://dbpedia.org/ontology/generationUnits> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/generationUnits> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/generationUnits> rdfs:domain <http://dbpedia.org/ontology/PowerStation> .
+<http://dbpedia.org/ontology/generationUnits> rdfs:range <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<http://dbpedia.org/ontology/generationUnits> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/maximumTemperature> rdfs:domain <http://dbpedia.org/ontology/Planet> .
+<http://dbpedia.org/ontology/maximumTemperature> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/maximumTemperature> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/maximumTemperature> rdfs:domain <http://dbpedia.org/ontology/Planet> .
+<http://dbpedia.org/ontology/maximumTemperature> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/maximumTemperature> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/minimumTemperature> rdfs:domain <http://dbpedia.org/ontology/Planet> .
+<http://dbpedia.org/ontology/minimumTemperature> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/minimumTemperature> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/minimumTemperature> rdfs:domain <http://dbpedia.org/ontology/Planet> .
+<http://dbpedia.org/ontology/minimumTemperature> rdfs:range <http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/ontology/minimumTemperature> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/hubAirport> rdfs:domain <http://dbpedia.org/ontology/Airline> .
+<http://dbpedia.org/ontology/hubAirport> rdfs:range <http://dbpedia.org/ontology/Airport> .
+<http://dbpedia.org/ontology/hubAirport> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/hubAirport> rdfs:domain <http://dbpedia.org/ontology/Airline> .
+<http://dbpedia.org/ontology/hubAirport> rdfs:range <http://dbpedia.org/ontology/Airport> .
+<http://dbpedia.org/ontology/hubAirport> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/numberOfEmployees> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/numberOfEmployees> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfEmployees> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/numberOfEmployees> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/numberOfEmployees> rdfs:range <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://dbpedia.org/ontology/numberOfEmployees> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://dbpedia.org/ontology/headquarter> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/headquarter> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/headquarter> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/headquarter> rdfs:domain <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/headquarter> rdfs:range <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/headquarter> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/spurOf> rdfs:domain <http://dbpedia.org/ontology/Road> .
+<http://dbpedia.org/ontology/spurOf> rdfs:range <http://dbpedia.org/ontology/Road> .
+<http://dbpedia.org/ontology/spurOf> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/spurOf> rdfs:domain <http://dbpedia.org/ontology/Road> .
+<http://dbpedia.org/ontology/spurOf> rdfs:range <http://dbpedia.org/ontology/Road> .
+<http://dbpedia.org/ontology/spurOf> rdf:type <http://www.w3.org/2002/07/owl#ObjectProperty> .

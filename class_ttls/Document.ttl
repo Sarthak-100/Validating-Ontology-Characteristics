@@ -1,5 +1,11 @@
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type
-http://purl.org/dc/elements/1.1/type
-http://dbpedia.org/ontology/description
-http://dbpedia.org/ontology/filename
-http://dbpedia.org/ontology/title
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/ontology/filename> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/filename> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/filename> rdf:type <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://dbpedia.org/ontology/filename> rdfs:domain <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/ontology/filename> rdfs:range <http://www.w3.org/2001/XMLSchema#string> .
+<http://dbpedia.org/ontology/filename> rdf:type <http://www.w3.org/2002/07/owl#DatatypeProperty> .
