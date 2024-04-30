@@ -1,0 +1,5 @@
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://purl.org/dc/elements/1.1/type
+http://dbpedia.org/ontology/description
+http://dbpedia.org/ontology/filename
+http://dbpedia.org/ontology/title
