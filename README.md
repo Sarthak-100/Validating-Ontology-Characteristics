@@ -18,20 +18,18 @@ This project develops a robust system that validates ontologies using Language M
 ## Installation
 
 ```bash
-git clone https://github.com/yourrepository/ontology-validation-system
-cd ontology-validation-system
+git clone https://github.com/Sarthak-100/Validating-Ontology-Characteristics.git
+cd Validating-Ontology-Characteristics
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-To run the ontology validation, use the following command:
+To exttract the ontology from DBPedia for validation, use the following command:
 
 ```bash
-python validate_ontology.py <path_to_ontology_file>
+python extract_ontologies.py
 ```
-
-Replace `<path_to_ontology_file>` with the path to your ontology file in TTL format.
 
 ## Project Structure
 
