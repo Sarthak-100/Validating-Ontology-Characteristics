@@ -1,0 +1,421 @@
+@prefix : <http://www.iiitd.ac.in/sweb/festival-ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix event: <http://w3id.org/daselab/onto/event#> .
+@prefix swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#> .
+@prefix festival-ontology: <http://www.iiitd.ac.in/sweb/festival-ontology#> .
+@prefix cpannotationschema: <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#> .
+@base <http://www.iiitd.ac.in/sweb/festival-ontology/> .
+
+<http://www.iiitd.ac.in/sweb/festival-ontology> rdf:type owl:Ontology ;
+                                                 owl:versionIRI <http://www.iiitd.ac.in/sweb/festival-ontology/1.0.1> ;
+                                                 owl:imports <http://w3id.org/daselab/onto/event> ,
+                                                             <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#celebrate
+festival-ontology:celebrate rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf owl:topObjectProperty ;
+                            owl:inverseOf festival-ontology:hasParticipant ;
+                            rdf:type owl:InverseFunctionalProperty ;
+                            rdfs:domain <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> ;
+                            rdfs:range <https://schema.org/Festival> .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#celebratedIn
+festival-ontology:celebratedIn rdf:type owl:ObjectProperty ;
+                               rdfs:subPropertyOf owl:topObjectProperty ;
+                               rdfs:domain <https://schema.org/Festival> ;
+                               rdfs:range festival-ontology:Region .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#celebratedInMonth
+festival-ontology:celebratedInMonth rdf:type owl:ObjectProperty ;
+                                    rdfs:subPropertyOf owl:topObjectProperty ;
+                                    rdfs:domain <https://schema.org/Festival> ;
+                                    rdfs:range festival-ontology:Month .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#hasActivity
+festival-ontology:hasActivity rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf owl:topObjectProperty ;
+                              rdfs:domain <https://schema.org/Festival> ;
+                              rdfs:range [ rdf:type owl:Class ;
+                                           owl:oneOf ( festival-ontology:dance1
+                                                       festival-ontology:exhibition1
+                                                       festival-ontology:music1
+                                                     )
+                                         ] .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#hasOrigin
+festival-ontology:hasOrigin rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf owl:topObjectProperty ;
+                            rdfs:domain <https://schema.org/Festival> ;
+                            rdfs:range festival-ontology:Region .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#hasParticipant
+festival-ontology:hasParticipant rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf owl:topObjectProperty ;
+                                 rdfs:domain <https://schema.org/Festival> ;
+                                 rdfs:range <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#organize
+festival-ontology:organize rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf owl:topObjectProperty ;
+                           rdfs:domain [ rdf:type owl:Class ;
+                                         owl:unionOf ( festival-ontology:Organization
+                                                       festival-ontology:Organizer
+                                                     )
+                                       ] ;
+                           rdfs:range <https://schema.org/Festival> .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#sell
+festival-ontology:sell rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty ;
+                       owl:inverseOf festival-ontology:soldBy ;
+                       rdfs:domain festival-ontology:Vendor ;
+                       rdfs:range festival-ontology:Item .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#soldBy
+festival-ontology:soldBy rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty ;
+                         rdfs:domain festival-ontology:Item ;
+                         rdfs:range festival-ontology:Vendor .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#typeOf
+festival-ontology:typeOf rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole
+<http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole> rdfs:domain festival-ontology:Organization ,
+                                                                                  festival-ontology:Participant .
+
+
+###  http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf
+<http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf> rdfs:range <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> .
+
+
+###  http://www.w3.org/2002/07/owl#topObjectProperty
+owl:topObjectProperty rdfs:domain <https://schema.org/Festival> ;
+                      rdfs:range festival-ontology:FestivalType .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#hasAge
+festival-ontology:hasAge rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf owl:topDataProperty ;
+                         rdfs:domain festival-ontology:Participant ;
+                         rdfs:range xsd:integer .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#hasDate
+festival-ontology:hasDate rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf owl:topDataProperty ;
+                          rdfs:domain <https://schema.org/Festival> ;
+                          rdfs:range xsd:dateTime .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#hasPrice
+festival-ontology:hasPrice rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf owl:topDataProperty ;
+                           rdfs:domain festival-ontology:Item ;
+                           rdfs:range xsd:float .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#Activity
+festival-ontology:Activity rdf:type owl:Class .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#CentralRegion
+festival-ontology:CentralRegion rdf:type owl:Class ;
+                                rdfs:subClassOf festival-ontology:Region .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#ColorFestival
+festival-ontology:ColorFestival rdf:type owl:Class ;
+                                rdfs:subClassOf festival-ontology:FestivalType .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#Dance
+festival-ontology:Dance rdf:type owl:Class ;
+                        rdfs:subClassOf festival-ontology:Activity .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#EastRegion
+festival-ontology:EastRegion rdf:type owl:Class ;
+                             rdfs:subClassOf festival-ontology:Region .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#Exhibition
+festival-ontology:Exhibition rdf:type owl:Class ;
+                             rdfs:subClassOf festival-ontology:Activity .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#FestivalType
+festival-ontology:FestivalType rdf:type owl:Class .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#FilmFestival
+festival-ontology:FilmFestival rdf:type owl:Class ;
+                               rdfs:subClassOf festival-ontology:FestivalType .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#Item
+festival-ontology:Item rdf:type owl:Class .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#Month
+festival-ontology:Month rdf:type owl:Class ;
+                        rdfs:subClassOf event:SpatioTemporalExtent ;
+                        owl:disjointWith <https://schema.org/Festival> .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#Music
+festival-ontology:Music rdf:type owl:Class ;
+                        rdfs:subClassOf festival-ontology:Activity .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#MusicFestival
+festival-ontology:MusicFestival rdf:type owl:Class ;
+                                rdfs:subClassOf festival-ontology:FestivalType .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#NorthRegion
+festival-ontology:NorthRegion rdf:type owl:Class ;
+                              rdfs:subClassOf festival-ontology:Region .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#Organization
+festival-ontology:Organization rdf:type owl:Class ;
+                               rdfs:subClassOf <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#Organizer
+festival-ontology:Organizer rdf:type owl:Class ;
+                            rdfs:subClassOf <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role> .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#Participant
+festival-ontology:Participant rdf:type owl:Class ;
+                              rdfs:subClassOf <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#Region
+festival-ontology:Region rdf:type owl:Class ;
+                         rdfs:subClassOf event:SpatioTemporalExtent .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#SouthRegion
+festival-ontology:SouthRegion rdf:type owl:Class ;
+                              rdfs:subClassOf festival-ontology:Region .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#Vendor
+festival-ontology:Vendor rdf:type owl:Class ;
+                         rdfs:subClassOf <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role> .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#WestRegion
+festival-ontology:WestRegion rdf:type owl:Class ;
+                             rdfs:subClassOf festival-ontology:Region .
+
+
+###  https://schema.org/Festival
+<https://schema.org/Festival> rdf:type owl:Class ;
+                              rdfs:subClassOf event:Event ,
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty festival-ontology:celebratedIn ;
+                                                owl:someValuesFrom festival-ontology:Region
+                                              ] ,
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty festival-ontology:celebratedInMonth ;
+                                                owl:someValuesFrom festival-ontology:Month
+                                              ] ,
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty festival-ontology:hasActivity ;
+                                                owl:someValuesFrom festival-ontology:Activity
+                                              ] ;
+                              rdfs:comment "Event type: Festival."@en ;
+                              rdfs:isDefinedBy <https://schema.org/Festival> ;
+                              rdfs:label "Festival"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#apr
+festival-ontology:apr rdf:type owl:NamedIndividual ,
+                               festival-ontology:Month .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#bihu
+festival-ontology:bihu rdf:type owl:NamedIndividual ,
+                                <https://schema.org/Festival> ;
+                       festival-ontology:celebratedIn festival-ontology:eastregion1 ;
+                       festival-ontology:celebratedInMonth festival-ontology:apr ;
+                       festival-ontology:hasActivity festival-ontology:dance1 ;
+                       festival-ontology:hasDate "2024-01-16T00:00:00"^^xsd:dateTime .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#centralregion1
+festival-ontology:centralregion1 rdf:type owl:NamedIndividual ,
+                                          festival-ontology:CentralRegion .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#dance1
+festival-ontology:dance1 rdf:type owl:NamedIndividual ,
+                                  festival-ontology:Dance .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#dec
+festival-ontology:dec rdf:type owl:NamedIndividual ,
+                               festival-ontology:Month .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#diwali
+festival-ontology:diwali rdf:type owl:NamedIndividual ,
+                                  <https://schema.org/Festival> ;
+                         festival-ontology:celebratedIn festival-ontology:northRegion1 ;
+                         festival-ontology:celebratedInMonth festival-ontology:dec ;
+                         festival-ontology:hasActivity festival-ontology:music1 .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#eastregion1
+festival-ontology:eastregion1 rdf:type owl:NamedIndividual ,
+                                       festival-ontology:EastRegion .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#exhibition1
+festival-ontology:exhibition1 rdf:type owl:NamedIndividual ,
+                                       festival-ontology:Exhibition .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#filmFestival1
+festival-ontology:filmFestival1 rdf:type owl:NamedIndividual ,
+                                         <https://schema.org/Festival> .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#holi
+festival-ontology:holi rdf:type owl:NamedIndividual ,
+                                <https://schema.org/Festival> ;
+                       festival-ontology:celebratedIn festival-ontology:northRegion1 ;
+                       festival-ontology:celebratedInMonth festival-ontology:mar ;
+                       festival-ontology:hasActivity festival-ontology:dance1 ;
+                       festival-ontology:hasOrigin festival-ontology:northRegion1 ;
+                       festival-ontology:hasDate "2024-03-06T00:00:00"^^xsd:dateTime .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#item1
+festival-ontology:item1 rdf:type owl:NamedIndividual ,
+                                 festival-ontology:Item ;
+                        festival-ontology:soldBy festival-ontology:vendor1 ;
+                        festival-ontology:hasPrice 100.5 .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#item2
+festival-ontology:item2 rdf:type owl:NamedIndividual ,
+                                 festival-ontology:Item ;
+                        festival-ontology:soldBy festival-ontology:vendor1 ;
+                        festival-ontology:hasPrice 500 .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#jan
+festival-ontology:jan rdf:type owl:NamedIndividual ,
+                               festival-ontology:Month .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#mar
+festival-ontology:mar rdf:type owl:NamedIndividual ,
+                               festival-ontology:Month .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#music1
+festival-ontology:music1 rdf:type owl:NamedIndividual ,
+                                  festival-ontology:Music .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#northRegion1
+festival-ontology:northRegion1 rdf:type owl:NamedIndividual ,
+                                        festival-ontology:NorthRegion .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#org1
+festival-ontology:org1 rdf:type owl:NamedIndividual ,
+                                festival-ontology:Organization .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#organizer1
+festival-ontology:organizer1 rdf:type owl:NamedIndividual ,
+                                      festival-ontology:Organizer ;
+                             festival-ontology:organize festival-ontology:holi .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#participant1
+festival-ontology:participant1 rdf:type owl:NamedIndividual ,
+                                        festival-ontology:Participant ;
+                               festival-ontology:celebrate festival-ontology:holi ;
+                               festival-ontology:hasAge 25 .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#pongal
+festival-ontology:pongal rdf:type owl:NamedIndividual ,
+                                  <https://schema.org/Festival> ;
+                         festival-ontology:celebratedIn festival-ontology:southregion1 ;
+                         festival-ontology:celebratedInMonth festival-ontology:jan ;
+                         festival-ontology:hasActivity festival-ontology:exhibition1 .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#southregion1
+festival-ontology:southregion1 rdf:type owl:NamedIndividual ,
+                                        festival-ontology:SouthRegion .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#vendor1
+festival-ontology:vendor1 rdf:type owl:NamedIndividual ,
+                                   festival-ontology:Vendor ;
+                          festival-ontology:sell festival-ontology:item1 ,
+                                                 festival-ontology:item2 .
+
+
+###  http://www.iiitd.ac.in/sweb/festival-ontology#westregion1
+festival-ontology:westregion1 rdf:type owl:NamedIndividual ,
+                                       festival-ontology:WestRegion .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( festival-ontology:CentralRegion
+                festival-ontology:EastRegion
+                festival-ontology:NorthRegion
+                festival-ontology:SouthRegion
+                festival-ontology:WestRegion
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

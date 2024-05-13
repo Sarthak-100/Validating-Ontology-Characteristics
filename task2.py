@@ -1,4 +1,7 @@
 from utils.loader import load_ontology, load_model
+from sentence_transformers import SentenceTransformer
+
+# model_2 = SentenceTransformer('all-mpnet-base-v2')
 
 g = load_ontology("class_ttls/SportsTeam.ttl")
 model = load_model()
@@ -23,3 +26,4 @@ response3 = model.generate_content(prompt2)
 
 print("Validated properties: ")
 print(response3.text)
+

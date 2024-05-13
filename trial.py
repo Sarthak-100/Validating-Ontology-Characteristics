@@ -1,1 +1,0 @@
-from deeponto.onto import Ontology, OntologyPruner
