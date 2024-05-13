@@ -7,16 +7,18 @@ import joblib
 
 def preprocess_text(text):
     # Remove prefix, newline character, and asterisk
-    processed_text = text.replace('http://dbpedia.org/ontology/', '').strip().rstrip('*')
+    processed_text = text.replace('http://www.iiitd.ac.in/sweb/inclass2#', '').strip().rstrip('*')
     return processed_text
 
 model_2 = SentenceTransformer('all-mpnet-base-v2')
 
-g = load_ontology("C:/Users/Aaditya Gupta/OneDrive/Desktop/sweb_final_project/Validating-Ontology-Characteristics/inclass_ontology.ttl")
+ttl_file = 'C:/Users/Aaditya Gupta/OneDrive/Desktop/sweb_final_project/Validating-Ontology-Characteristics/inclass_onto.ttl'
+
+g = load_ontology(ttl_file)
 model = load_model()
 print(g)
 intro = "Our project aims to develop a system that validates ontologies using Language Models (LMs) and publicly available Knowledge Graphs (KGs)"
-query = "Create a list of all the properties and sub-properties present in the ontology."
+query = "Create a list of all the properties and sub-properties present in the ontology as text."
 
 q = intro +"Given this ontology in a turtle file " +  g.serialize(format="turtle") +  "Perform this task and give appropriate solution: " + query
 response1 = model.generate_content(q)
@@ -28,6 +30,7 @@ print(response1.text)
 
 processed_text = preprocess_text(text)
 l = processed_text.split(" ")
+
 emd = []
 for i in range(len(l)):
     emd.append(model_2.encode(l[i]))

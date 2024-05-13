@@ -1,0 +1,398 @@
+@prefix : <http://www.iiitd.ac.in/sweb/inclass2/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix event: <http://w3id.org/daselab/onto/event#> .
+@prefix swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#> .
+@prefix inclass2: <http://www.iiitd.ac.in/sweb/inclass2#> .
+@prefix cpannotationschema: <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#> .
+@base <http://www.iiitd.ac.in/sweb/inclass2/> .
+
+<http://www.iiitd.ac.in/sweb/inclass2> rdf:type owl:Ontology ;
+                                        owl:versionIRI <http://www.iiitd.ac.in/sweb/inclass2/1.0.0> ;
+                                        owl:imports <http://w3id.org/daselab/onto/event> ,
+                                                    <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.iiitd.ac.in/sweb/inclass2#belongsToTeam
+inclass2:belongsToTeam rdf:type owl:ObjectProperty ;
+                       owl:inverseOf inclass2:hasPlayer ;
+                       rdfs:domain inclass2:Player ;
+                       rdfs:range inclass2:Team .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#cricketMatchFormat
+inclass2:cricketMatchFormat rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf inclass2:matchFormat ;
+                            rdfs:domain inclass2:CricketMatch ;
+                            rdfs:range [ rdf:type owl:Class ;
+                                         owl:oneOf ( inclass2:odi
+                                                     inclass2:t20
+                                                   )
+                                       ] .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#hasPlayer
+inclass2:hasPlayer rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain inclass2:Team ;
+                   rdfs:range inclass2:Player .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#hasVenue
+inclass2:hasVenue rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf event:hasSpatioTemporalExtent ;
+                  rdfs:domain inclass2:Match ;
+                  rdfs:range inclass2:Venue .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#hostedBy
+inclass2:hostedBy rdf:type owl:ObjectProperty ;
+                  rdfs:domain inclass2:Tournament ;
+                  rdfs:range inclass2:Country .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#isRecordHolder
+inclass2:isRecordHolder rdf:type owl:ObjectProperty ;
+                        rdfs:domain inclass2:Player ;
+                        rdfs:range inclass2:Record .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#matchFormat
+inclass2:matchFormat rdf:type owl:ObjectProperty ;
+                     rdfs:domain inclass2:Match ;
+                     rdfs:range inclass2:Format .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#participatedInTournament
+inclass2:participatedInTournament rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                  rdfs:domain inclass2:Team ;
+                                  rdfs:range inclass2:Tournament .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#playsAgainst
+inclass2:playsAgainst rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#setBy
+inclass2:setBy rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain inclass2:Record ;
+               rdfs:range [ rdf:type owl:Class ;
+                            owl:unionOf ( inclass2:Player
+                                          inclass2:Team
+                                        )
+                          ] .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#usedInSport
+inclass2:usedInSport rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty ;
+                     owl:inverseOf inclass2:usesEquipment ;
+                     rdfs:domain inclass2:Equipment ;
+                     rdfs:range inclass2:Sport .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#usesCricketEquipment
+inclass2:usesCricketEquipment rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf inclass2:usesEquipment ;
+                              rdfs:domain inclass2:Sport ;
+                              rdfs:range [ rdf:type owl:Class ;
+                                           owl:oneOf ( inclass2:ball
+                                                       inclass2:bat
+                                                     )
+                                         ] .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#usesEquipment
+inclass2:usesEquipment rdf:type owl:ObjectProperty ;
+                       rdfs:domain inclass2:Sport ;
+                       rdfs:range inclass2:Equipment .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#wonTournament
+inclass2:wonTournament rdf:type owl:ObjectProperty ;
+                       rdfs:domain inclass2:Team ;
+                       rdfs:range inclass2:Tournament .
+
+
+###  http://www.w3.org/2002/07/owl#topObjectProperty
+owl:topObjectProperty rdf:type owl:ObjectProperty ,
+                               owl:SymmetricProperty ,
+                               owl:IrreflexiveProperty ;
+                      rdfs:domain inclass2:Player ;
+                      rdfs:range inclass2:Player .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.iiitd.ac.in/sweb/inclass2#hasAge
+inclass2:hasAge rdf:type owl:DatatypeProperty ;
+                rdfs:domain inclass2:Player ;
+                rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#hasCapacity
+inclass2:hasCapacity rdf:type owl:DatatypeProperty ;
+                     rdfs:domain inclass2:Venue ;
+                     rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#hasDuration
+inclass2:hasDuration rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf owl:topDataProperty ;
+                     rdfs:domain inclass2:Match ;
+                     rdfs:range xsd:dateTime .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#hasStartDate
+inclass2:hasStartDate rdf:type owl:DatatypeProperty ;
+                      rdfs:domain inclass2:Tournament ;
+                      rdfs:range xsd:dateTime .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#numberOfPlayers
+inclass2:numberOfPlayers rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf owl:topDataProperty ;
+                         rdfs:domain [ rdf:type owl:Class ;
+                                       owl:unionOf ( inclass2:Format
+                                                     inclass2:Sport
+                                                   )
+                                     ] ;
+                         rdfs:range xsd:nonNegativeInteger .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.iiitd.ac.in/sweb/inclass2#Country
+inclass2:Country rdf:type owl:Class .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#CricketMatch
+inclass2:CricketMatch rdf:type owl:Class ;
+                      rdfs:subClassOf inclass2:Match .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#Equipment
+inclass2:Equipment rdf:type owl:Class ;
+                   owl:disjointWith inclass2:Player .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#Format
+inclass2:Format rdf:type owl:Class .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#Match
+inclass2:Match rdf:type owl:Class ;
+               rdfs:subClassOf event:Event ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty inclass2:hasVenue ;
+                                 owl:someValuesFrom inclass2:Venue
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty inclass2:matchFormat ;
+                                 owl:someValuesFrom inclass2:Format
+                               ] .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#Player
+inclass2:Player rdf:type owl:Class .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#Record
+inclass2:Record rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty inclass2:setBy ;
+                                  owl:someValuesFrom inclass2:Player
+                                ] .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#Sport
+inclass2:Sport rdf:type owl:Class .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#Sport_
+inclass2:Sport_ rdf:type owl:Class .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#Team
+inclass2:Team rdf:type owl:Class .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#Tournament
+inclass2:Tournament rdf:type owl:Class ;
+                    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                      owl:onProperty inclass2:hostedBy ;
+                                      owl:someValuesFrom inclass2:Country
+                                    ] .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#Venue
+inclass2:Venue rdf:type owl:Class ;
+               rdfs:subClassOf event:SpatioTemporalExtent .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.iiitd.ac.in/sweb/inclass2#ball
+inclass2:ball rdf:type owl:NamedIndividual ,
+                       inclass2:Equipment .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#bat
+inclass2:bat rdf:type owl:NamedIndividual ,
+                      inclass2:Equipment .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#chess
+inclass2:chess rdf:type owl:NamedIndividual ,
+                        inclass2:Sport ;
+               inclass2:numberOfPlayers "2"^^xsd:nonNegativeInteger .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#chessWorldChampionship
+inclass2:chessWorldChampionship rdf:type owl:NamedIndividual ,
+                                         inclass2:Tournament .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#cricket
+inclass2:cricket rdf:type owl:NamedIndividual ,
+                          inclass2:Sport ;
+                 inclass2:numberOfPlayers "22"^^xsd:nonNegativeInteger .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#cristianoRonaldo
+inclass2:cristianoRonaldo rdf:type owl:NamedIndividual ,
+                                   inclass2:Player .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#england
+inclass2:england rdf:type owl:NamedIndividual ,
+                          inclass2:Country .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#fifaWorldCup2023
+inclass2:fifaWorldCup2023 rdf:type owl:NamedIndividual ,
+                                   inclass2:Tournament ;
+                          inclass2:hostedBy inclass2:england .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#football
+inclass2:football rdf:type owl:NamedIndividual ,
+                           inclass2:Sport ;
+                  inclass2:hasDuration "1"^^xsd:nonNegativeInteger ;
+                  inclass2:numberOfPlayers "22"^^xsd:nonNegativeInteger .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#india
+inclass2:india rdf:type owl:NamedIndividual ,
+                        inclass2:Country .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#magnusCarlsen
+inclass2:magnusCarlsen rdf:type owl:NamedIndividual ,
+                                inclass2:Player ;
+                       inclass2:isRecordHolder inclass2:quickestChessWin ;
+                       inclass2:wonTournament inclass2:chessWorldChampionship .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#manchesterUnited
+inclass2:manchesterUnited rdf:type owl:NamedIndividual ,
+                                   inclass2:Team ;
+                          inclass2:hasPlayer inclass2:cristianoRonaldo .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#mumbaiIndians
+inclass2:mumbaiIndians rdf:type owl:NamedIndividual ,
+                                inclass2:Team .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#odi
+inclass2:odi rdf:type owl:NamedIndividual ,
+                      inclass2:Format .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#oldTrafford
+inclass2:oldTrafford rdf:type owl:NamedIndividual ,
+                              inclass2:Venue .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#quickestChessWin
+inclass2:quickestChessWin rdf:type owl:NamedIndividual ,
+                                   inclass2:Record .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#record1
+inclass2:record1 rdf:type owl:NamedIndividual ,
+                          inclass2:Record .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#record2
+inclass2:record2 rdf:type owl:NamedIndividual ,
+                          inclass2:Record .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#sachinTendulkar
+inclass2:sachinTendulkar rdf:type owl:NamedIndividual ,
+                                  inclass2:Player ;
+                         inclass2:belongsToTeam inclass2:mumbaiIndians .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#soccerBall
+inclass2:soccerBall rdf:type owl:NamedIndividual ,
+                             inclass2:Equipment ;
+                    inclass2:usedInSport inclass2:football .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#speedChessChampionship
+inclass2:speedChessChampionship rdf:type owl:NamedIndividual ,
+                                         inclass2:Tournament .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#t20
+inclass2:t20 rdf:type owl:NamedIndividual ,
+                      inclass2:Format .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#tournament1
+inclass2:tournament1 rdf:type owl:NamedIndividual ,
+                              inclass2:Tournament .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#tournament2
+inclass2:tournament2 rdf:type owl:NamedIndividual ,
+                              inclass2:Tournament .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#viratKohli
+inclass2:viratKohli rdf:type owl:NamedIndividual ,
+                             inclass2:Player .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#vishvanathamAnand
+inclass2:vishvanathamAnand rdf:type owl:NamedIndividual ,
+                                    inclass2:Player ;
+                           inclass2:playsAgainst inclass2:magnusCarlsen .
+
+
+###  http://www.iiitd.ac.in/sweb/inclass2#wankhede
+inclass2:wankhede rdf:type owl:NamedIndividual ,
+                           inclass2:Venue ;
+                  inclass2:hasCapacity "50000"^^xsd:nonNegativeInteger .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
